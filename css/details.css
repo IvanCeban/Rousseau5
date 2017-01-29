@@ -195,6 +195,12 @@ section {
   margin: 0;
   min-width: 1200px; }
 
+#details_commercial .object_info_section .object_info_container ul.properties {
+  width: auto;
+  min-width: 400px; }
+  #details_commercial .object_info_section .object_info_container ul.properties li {
+    width: 33.3333%; }
+
 footer section {
   margin: 0; }
 

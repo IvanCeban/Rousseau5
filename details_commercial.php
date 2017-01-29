@@ -24,7 +24,7 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBy3z5ZYvr8P0eXpKg8QhcqZU6yYg4Nl6k&libraries=drawing,places&language=en"></script>
 </head>
 
-<body>
+<body id="details_commercial">
 
 <?php $current_page = 'details_commercial' ?>
 
@@ -112,9 +112,7 @@
                     <li><i class="icn icon-living_area"></i><span class="prop_val">(Habitable) <span>61m<sup>2</sup></span></span></li>
                 </ul>
 
-                <div class="details_block_title">
-                    <span>Description du commerce/industrie</span>
-                </div>
+                <h1>Description du commerce/industrie</h1>
 
                 <div class="object_description">
                     <p>Opportunité ! </p>
@@ -127,6 +125,95 @@
                     <br>
                     <p>Proche de toutes les commodités, banques, études de notaire, fiduciaires, bureau d'architecte, à seulement quelques mètres du Rhône et de l'hyper centre de Genève.</p>
                 </div>
+
+                <ul class="nav nav-tabs">
+                    <li class="nav-item active">
+                        <a data-toggle="tab" class="nav-link" href=".object_specification">Spécifique</a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-toggle="tab" class="nav-link" href=".object_equipment">Dimensions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-toggle="tab" class="nav-link" href=".object_price">Prix</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane fade in active object_specification">
+                        <ul class="object_prop_list">
+                            <li>Etage <span>: 5</span></li>
+                            <li class="empty">Piéces</li>
+                            <li class="empty">Ensoleillemant</li>
+                            <li class="empty">Type de chauffage</li>
+                            <li class="empty">Etage supérieur</li>
+                            <li class="empty">Capacité garage</li>
+                            <li class="empty">Vue</li>
+                            <li class="empty">Energie</li>
+                            <li class="empty">Etages</li>
+                            <li class="empty">Construction</li>
+                            <li class="empty">Style</li>
+                            <li class="empty">Eau chaude</li>
+                            <li class="empty">WS</li>
+                            <li class="empty">Rénovation</li>
+                            <li class="empty">Position</li>
+                            <li class="empty">Garage</li>
+                            <li>Chambres <span>: 5</span></li>
+                            <li class="empty">Etat</li>
+                            <li class="empty">Ameublement</li>
+                            <li class="empty">Sonorité</li>
+                            <li class="empty">SDB</li>
+                            <li class="empty">Orientation</li>
+                            <li class="empty">Minergie</li>
+                            <li>Vis-à-vis<span>: non</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade in object_equipment">
+                        <ul class="object_prop_list">
+                            <li class="empty">Combles (m2)</li>
+                            <li class="empty">Rez-de-chaussée inférieur (m2)</li>
+                            <li class="empty">Véranda (m2)</li>
+                            <li class="empty">Garage (m2)</li>
+                            <li class="empty">Balcon (m2)</li>
+                            <li class="empty">Cours anglaise (m2)</li>
+                            <li class="empty">Pondérée (m2)</li>
+                            <li class="empty">Utile (m2)</li>
+                            <li class="empty">Sous-sol (m2)</li>
+                            <li class="empty">Terrasse solarium (m2)</li>
+                            <li class="empty">Volume (m2)</li>
+                            <li class="empty">Hauteur plafond (m)</li>
+                            <li class="empty">Jardin (m2)</li>
+                            <li class="empty">Abri toiture (m2)</li>
+                            <li class="empty">Emprise (m2)</li>
+                            <li class="empty">Acres</li>
+                            <li>Habitable (m2) <span>: 250</span></li>
+                            <li class="empty">Terrasse (m2)</li>
+                            <li class="empty">Terrain (m2)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade in object_price">
+                        <ul class="object_prop_list">
+                            <li class="empty">Prix</li>
+                            <li class="empty">Régime</li>
+                            <li class="empty">Charges annuelles</li>
+                            <li class="empty">Ford de rénovation</li>
+                            <li class="empty">Prix original</li>
+                            <li class="empty">Fonds de commerce</li>
+                            <li class="empty">Fréquence</li>
+                            <li class="empty">Revenus</li>
+                            <li class="empty">Devise (CHF)</li>
+                            <li class="empty">Estimé</li>
+                            <li class="empty">Charges mensuelles PPE</li>
+                            <li class="empty">Billag</li>
+                            <li class="empty">Prix / m2</li>
+                            <li class="empty">Recommandé</li>
+                            <li class="empty">Charges mensuelles chauffage</li>
+                            <li class="empty">Eau / Energie</li>
+                            <li class="empty">Parking</li>
+                            <li class="empty">Charges mensuelles</li>
+                            <li class="empty">Imports</li>
+                            <li class="empty">Caution locative</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -134,7 +221,139 @@
     <section class="location_section">
         <div class="container-fluid">
             <h1>Emplacement du commerce/industrie</h1>
-            <div id="object_map"></div>
+            <div class="map_container">
+                <div id="object_map"></div>
+                <div class="map_sidebar">
+                    <ul>
+                        <li class="map_banks">
+                            <div class="my_checkbox">
+                                <label>
+                                    <input required="" type="checkbox" name="" value="">
+                                    <span class="fake_checkbox"></span>
+                                    <span class="my_checkbox_text"><i class="icn icon-floors"></i><span>Banques</span></span>
+                                </label>
+                            </div>
+                        </li>
+                        <li class="map_bakeries">
+                            <div class="my_checkbox">
+                                <label>
+                                    <input required="" type="checkbox" name="" value="">
+                                    <span class="fake_checkbox"></span>
+                                    <span class="my_checkbox_text"><i class="icn icon-status"></i><span>Boulangeries</span></span>
+                                </label>
+                            </div>
+                        </li>
+                        <li class="map_cafes">
+                            <div class="my_checkbox">
+                                <label>
+                                    <input required="" type="checkbox" name="" value="">
+                                    <span class="fake_checkbox"></span>
+                                    <span class="my_checkbox_text"><i class="icn icon-floors"></i><span>Cafés/Pubs</span></span>
+                                </label>
+                            </div>
+                        </li>
+                        <li class="map_dentists">
+                            <div class="my_checkbox">
+                                <label>
+                                    <input required="" type="checkbox" name="" value="">
+                                    <span class="fake_checkbox"></span>
+                                    <span class="my_checkbox_text"><i class="icn icon-floors"></i><span>Dentistes</span></span>
+                                </label>
+                            </div>
+                        </li>
+                        <li class="map_schools">
+                            <div class="my_checkbox">
+                                <label>
+                                    <input required="" type="checkbox" name="" value="">
+                                    <span class="fake_checkbox"></span>
+                                    <span class="my_checkbox_text"><i class="icn icon-floors"></i><span>Ecoles</span></span>
+                                </label>
+                            </div>
+                        </li>
+                        <li class="map_hospitals">
+                            <div class="my_checkbox">
+                                <label>
+                                    <input required="" type="checkbox" name="" value="">
+                                    <span class="fake_checkbox"></span>
+                                    <span class="my_checkbox_text"><i class="icn icon-floors"></i><span>Hôpitaux</span></span>
+                                </label>
+                            </div>
+                        </li>
+                        <li class="map_dostors">
+                            <div class="my_checkbox">
+                                <label>
+                                    <input required="" type="checkbox" name="" value="">
+                                    <span class="fake_checkbox"></span>
+                                    <span class="my_checkbox_text"><i class="icn icon-floors"></i><span>Médecins</span></span>
+                                </label>
+                            </div>
+                        </li>
+                        <li class="map_parkings">
+                            <div class="my_checkbox">
+                                <label>
+                                    <input required="" type="checkbox" name="" value="">
+                                    <span class="fake_checkbox"></span>
+                                    <span class="my_checkbox_text"><i class="icn icon-floors"></i><span>Parkings</span></span>
+                                </label>
+                            </div>
+                        </li>
+                        <li class="map_pharmacies">
+                            <div class="my_checkbox">
+                                <label>
+                                    <input required="" type="checkbox" name="" value="">
+                                    <span class="fake_checkbox"></span>
+                                    <span class="my_checkbox_text"><i class="icn icon-floors"></i><span>Pharmacies</span></span>
+                                </label>
+                            </div>
+                        </li>
+                        <li class="map_police">
+                            <div class="my_checkbox">
+                                <label>
+                                    <input required="" type="checkbox" name="" value="">
+                                    <span class="fake_checkbox"></span>
+                                    <span class="my_checkbox_text"><i class="icn icon-floors"></i><span>Police</span></span>
+                                </label>
+                            </div>
+                        </li>
+                        <li class="map_post_offices">
+                            <div class="my_checkbox">
+                                <label>
+                                    <input required="" type="checkbox" name="" value="">
+                                    <span class="fake_checkbox"></span>
+                                    <span class="my_checkbox_text"><i class="icn icon-floors"></i><span>Postes</span></span>
+                                </label>
+                            </div>
+                        </li>
+                        <li class="map_restaurants">
+                            <div class="my_checkbox">
+                                <label>
+                                    <input required="" type="checkbox" name="" value="">
+                                    <span class="fake_checkbox"></span>
+                                    <span class="my_checkbox_text"><i class="icn icon-floors"></i><span>Restaurants</span></span>
+                                </label>
+                            </div>
+                        </li>
+                        <li class="map_gas_stations">
+                            <div class="my_checkbox">
+                                <label>
+                                    <input required="" type="checkbox" name="" value="">
+                                    <span class="fake_checkbox"></span>
+                                    <span class="my_checkbox_text"><i class="icn icon-floors"></i><span>Stations service</span></span>
+                                </label>
+                            </div>
+                        </li>
+                        <li class="map_universities">
+                            <div class="my_checkbox">
+                                <label>
+                                    <input required="" type="checkbox" name="" value="">
+                                    <span class="fake_checkbox"></span>
+                                    <span class="my_checkbox_text"><i class="icn icon-floors"></i><span>Universités</span></span>
+                                </label>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
 
