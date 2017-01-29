@@ -1,0 +1,642 @@
+@import "variables";
+
+/*Buttons style START*/
+  .btn:not(.dropdown-toggle) {
+    height: 40px;
+    padding: 0 45px;
+    font: 20px lato_regular;
+    line-height: 40px;
+    border-radius: 0;
+    background: transparent;
+    position: relative;
+    overflow: hidden;
+    border-width: 1px;
+    border-style: solid;
+    z-index: 1;
+    text-transform: uppercase;
+    @include my_transition(0.3s);
+  }
+  .btn.light {
+    color: #ffffff;
+    border-color: #ffffff;
+  }
+  .btn.dark_inverse {
+    color: $main_blue;
+    border-color: $main_blue;
+  }
+  .btn.dark {
+    color: white;
+    border-color: $main_blue;
+    background-color: $main_blue;
+  }
+  .btn:not(.dropdown-toggle):before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: -100%;
+    top: -100%;
+    z-index: -1;
+    @include my_transition(0.3s);
+  }
+  .btn.light:before,
+  .btn.dark:before {
+    background-color: white;
+  }
+  .btn.dark_inverse:before {
+    background-color: $main_blue;
+  }
+  .btn.light:hover,
+  .btn.dark:hover {
+    color: $main_blue;
+  }
+  .btn.dark_inverse:hover {
+    color: white;
+  }
+  .btn:not(.dropdown-toggle):hover:before {
+    top: 0;
+    left: 0;
+  }
+  .btn.disabled {
+    opacity: 0.5;
+  }
+/*Buttons style END*/
+
+.input_container {
+  position: relative;
+  background-color: white;
+
+  input {
+    color: $main_blue;
+  }
+  button {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    height: 38px;
+    width: 38px;
+    border: none;
+    background-color: white;
+  }
+  .input_label {
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    width: 60px;
+    line-height: 38px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+.input_container.dark {
+  button {
+    color: white;
+    background-color: $main_blue;
+  }
+  .input_label {
+    color: white;
+    background-color: $main_blue;
+  }
+}
+.input_container.light {
+  button {
+    color: $main_blue;
+    background-color: #ffffff;
+    border-left: 1px solid #cccccc;
+  }
+  .input_label {
+    color: $main_blue;
+    background-color: white;
+    border-left: 1px solid #cccccc;
+  }
+}
+
+input,
+textarea {
+  border: 1px solid $border_color;
+  padding: 0 12px;
+  width: 100%;
+  background-color: transparent;
+  color: $text_main_gray;
+}
+input {
+  height: 40px;
+}
+textarea {
+  height: 150px;
+  padding: 12px;
+  resize: none;
+}
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: $border_color !important;
+}
+
+sup {
+  font-size: 0.750em;
+}
+
+label.form_el_label {
+  font: 14px lato_regular;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  i.icn {
+    font-size: 18px;
+    margin-right: 5px;
+    float: left;
+  }
+  span {
+    line-height: 18px;
+  }
+}
+label.form_el_label.dark {
+  color: $main_blue;
+  i.icn {
+    color: $main_blue;
+  }
+}
+label.form_el_label.light {
+  color: white;
+  i.icn {
+    color: white;
+  }
+}
+
+/*Checkboxes styles START*/
+.my_checkbox {
+  float: left;
+  min-height: 0;
+  label {
+    display: block;
+    padding: 0 !important;
+    position: relative;
+    margin: 0;
+    input[type=checkbox] {
+      display: none;
+    }
+    input[type="checkbox"] + span.fake_checkbox {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 20px;
+      height: 20px;
+      text-align: center;
+      border: 1px solid $border_color;
+      background: white;
+      cursor: pointer;
+    }
+    input[type="checkbox"]:checked + span.fake_checkbox {
+      background-position: 0 0;
+      border-color: $main_blue;
+      &:before {
+        content: "\e922";
+        font-family: icomoon;
+        color: $main_blue;
+        font-size: 10px;
+      }
+    }
+    .my_checkbox_text {
+      font-size: 16px;
+      margin: 0 0 0 25px;
+      line-height: 20px;
+      display: inline-block;
+      color: $text_light_gray;
+    }
+    .my_checkbox_text a {
+      color: #f94c3f;
+    }
+    .my_checkbox_text a:hover {
+      color: #f94c3f;
+    }
+  }
+}
+/*Checkboxes styles END*/
+
+ul.nav.nav-tabs {
+  border: 2px solid $main_blue;
+  li.nav-item {
+    width: 50%;
+    margin: 0!important;
+    text-align: center;
+    a.nav-link {
+      line-height: 46px;
+      padding: 0;
+      font-size: 1.250rem;
+      text-transform: uppercase;
+      border: none;
+      color: $main_blue;
+      font-family: lato_regular, Raleway, sans-serif;
+
+    }
+  }
+  .nav-item.active {
+    background-color: $main_blue;
+    a.nav-link {
+      color: #ffffff;
+      font-family: lato_light, Raleway, sans-serif;
+    }
+  }
+}
+
+
+
+/*Select2 styles START*/
+.select2 {
+  width: 100% !important;
+  background-color: #ffffff;
+}
+.select2-container--default {
+  .select2-selection--single {
+    background-color: transparent;
+    height: 40px;
+    border-color: $border_color;
+    border-radius: 0;
+    outline: none;
+    .select2-selection__placeholder,
+    .select_template_placeholder {
+      color: $text_main_gray;
+      opacity: 0.4;
+    }
+    .select2-selection__rendered {
+      color: $text_main_gray;
+      line-height: 40px;
+      padding-right: 20px;
+      padding-left: 15px;
+      font-size: 16px;
+    }
+    .select2-selection__arrow {
+      height: 40px;
+      width: 11px;
+      top: 0;
+      right: 10px;
+      b {
+        border: none;
+        margin-left: 0;
+        margin-top: -2px;
+      }
+      b:before,
+      b:after {
+        top: 100%;
+        left: 50%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+      }
+      b:before {
+        border-color: rgba(194, 225, 245, 0);
+        border-top-color: $border_color;
+        border-width: 5px;
+        margin-left: -5px;
+      }
+      b:after {
+        border-color: rgba(136, 183, 213, 0);
+        border-top-color: $border_color;
+        border-width: 4px;
+        margin-left: -4px;
+      }
+    }
+  }
+  .select2-dropdown{
+    background-color: #ffffff;
+    border: 1px solid $main_blue;
+    border-radius: 0;
+    .select2-search {
+      display: none;
+    }
+    .select2-results {
+      max-height: 223px;
+      .select2-results__options {
+        padding: 10px 0;
+        max-height: 100% !important;
+        .select2-results__option {
+          color: $text_main_gray;
+          padding: 7px 15px 6px;
+          display: table;
+          width: 100%;
+          font-size: 16px;
+          span {
+            vertical-align: middle;
+            padding-left: 10px;
+            padding-top: 5px;
+            line-height: 20px;
+            display: block;
+            float: left;
+          }
+        }
+        .select2-results__option[aria-selected=true],
+        .select2-results__option--highlighted[aria-selected] {
+          background-color: transparent;
+          color: $main_blue;
+          img {
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+  .select2-dropdown.select2-dropdown--below {
+    top: -1px;
+  }
+  .select2-dropdown.select2-dropdown--above {
+    top: 1px;
+  }
+}
+.select2-container--default.select2-container--open {
+  .select2-selection--single {
+    border-color: $main_blue;
+    .select2-selection__arrow b {
+      border: none;
+      margin-left: 0;
+      margin-top: 2px;
+    }
+    .select2-selection__arrow b:before,
+    .select2-selection__arrow b:after {
+      top: initial;
+      bottom: 100%;
+    }
+    .select2-selection__arrow b:before {
+      border-bottom-color: $main_blue;
+      border-top-color: transparent;
+    }
+    .select2-selection__arrow b:after {
+      border-bottom-color: $main_blue;
+      border-top-color: transparent;
+    }
+  }
+}
+/*Select2 styles END*/
+
+/*Bootstrap select START*/
+
+.multiselect-native-select {
+  .btn-group {
+    width: 100%;
+    .multiselect.dropdown-toggle {
+      padding: 0 30px 0 10px;
+      font-size: 1rem;
+      text-transform: initial;
+      color: $text_main_gray;
+      border: 1px solid $border_color;
+      @include my_border_radius(0);
+      line-height: 38px;
+      background-color: white;
+      outline-offset: 0;
+      width: 100%;
+      text-align: left;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      &::after {
+        position: absolute;
+        top: 18px;
+        right: 15px;
+        left: initial;
+        pointer-events: none;
+        border-top-color: $border_color;
+        border-width: 5px;
+        margin: 0;
+      }
+    }
+    .multiselect-container.dropdown-menu {
+      border: 1px solid $main_blue;
+      @include my_border_radius(0);
+      margin: 0;
+      border-top: none;
+      padding: 5px;
+      color: $text_main_gray;
+      background-color: white;
+      width: 100%;
+      li {
+        padding: 5px;
+        a {
+          display: block;
+          width: 100%;
+          outline: none;
+          color: $text_main_gray;
+          &:hover {
+            color: $main_blue;
+          }
+          label {
+            width: 100%;
+            position: relative;
+            padding: 0;
+            input {
+              display: none;
+            }
+            &.checkbox {
+              padding-left: 20px;
+              &:before {
+                position: absolute;
+                left: 0;
+                top: 0;
+                display: block;
+                font-family: 'icomoon' !important;
+                content: "\e92a";
+                speak: none;
+                font-style: normal;
+                font-weight: normal;
+                font-variant: normal;
+                text-transform: none;
+                line-height: 1;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                font-size: 1rem;
+              }
+            }
+          }
+        }
+        &.active {
+          a {
+            color: $main_blue;
+            label.checkbox:before {
+              content: "\e92b";
+            }
+          }
+        }
+        &.multiselect-item {
+          border-bottom: 1px solid $border_color;
+          a {
+            label {
+              font-weight: normal;
+            }
+          }
+        }
+      }
+    }
+    &.open {
+      .multiselect.dropdown-toggle {
+        border-color: $main_blue !important;
+        &::after {
+          top: 17px;
+          border-top-color: $main_blue;
+          @include my_transform(rotate(180deg));
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn) {
+  width: 100%;
+}
+.btn-group.bootstrap-select {
+  width: 100%;
+  font-size: 1rem;
+  outline: none;
+  .dropdown-toggle {
+    padding: 0 30px 0 10px;
+    font-size: 1rem;
+    text-transform: initial;
+    color: $text_main_gray;
+    border: 1px solid $border_color;
+    @include my_border_radius(0);
+    line-height: 38px;
+    background-color: white;
+    outline-offset: 0;
+    &::after {
+      top: 20px;
+      right: 15px;
+      left: initial;
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      width: 0;
+      position: absolute;
+      pointer-events: none;
+      border-top-color: $border_color;
+      border-width: 5px;
+      margin: 0;
+    }
+    span.filter-option {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .bs-caret {
+      display: none;
+    }
+    &:focus,
+    &:active {
+      outline: none !important;
+    }
+  }
+  .dropdown-menu.open {
+    border: 1px solid $main_blue;
+    @include my_border_radius(0);
+    margin: 0;
+    border-top: none;
+    padding: 5px;
+    color: $text_main_gray;
+    background-color: white;
+    ul.dropdown-menu.inner {
+      display: table;
+      li {
+        padding: 5px;
+        a {
+          display: block;
+          width: 100%;
+          outline: none;
+          &:hover {
+            color: $main_blue;
+          }
+        }
+        &.selected {
+          a {
+            color: $main_blue;
+          }
+        }
+      }
+    }
+  }
+  &.dropup {
+    .dropdown-menu.open {
+      border-bottom: none;
+      border-top: 1px solid $main_blue;
+    }
+  }
+  &.open {
+    .dropdown-toggle {
+      border: 1px solid $main_blue !important;
+      &::after {
+        top: 13px;
+        border-top-color: $main_blue;
+        @include my_transform(rotate(180deg));
+      }
+    }
+    .dropdown-menu.open {
+      display: table;
+      .bs-actionsbox {
+        button {
+          font-size: 10px;
+          padding: 0;
+        }
+      }
+    }
+  }
+  &.show-tick {
+    .dropdown-menu.open {
+      ul.dropdown-menu.inner {
+        li {
+          &:first-child {
+            border-bottom: 1px solid $text_light_gray;
+          }
+          a {
+            display: block;
+            width: 100%;
+            outline: none;
+            padding-left: 20px;
+            position: relative;
+            &:hover {
+              color: $main_blue;
+            }
+            span.check {
+              margin: 0;
+            }
+            span.check-mark {
+              position: absolute;
+              left: 0;
+              top: 0;
+              display: block;
+              margin: 0 10px 0 0;
+              font-family: 'icomoon' !important;
+              speak: none;
+              font-style: normal;
+              font-weight: normal;
+              font-variant: normal;
+              text-transform: none;
+              line-height: 1;
+              -webkit-font-smoothing: antialiased;
+              -moz-osx-font-smoothing: grayscale;
+              font-size: 1rem;
+              float: left;
+              &:before {
+                content: "\e92a";
+              }
+            }
+          }
+          &.selected {
+            a {
+              span.check-mark {
+                &:before {
+                  content: "\e92b";
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/*Bootstrap select END*/

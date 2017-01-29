@@ -1,0 +1,164 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?k2xce');
+  src:  url('fonts/icomoon.eot?k2xce#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?k2xce') format('truetype'),
+    url('fonts/icomoon.woff?k2xce') format('woff'),
+    url('fonts/icomoon.svg?k2xce#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-checkbox_arrow:before {
+  content: "\e922";
+}
+.icon-address:before {
+  content: "\e900";
+}
+.icon-arrow_big_left:before {
+  content: "\e901";
+}
+.icon-arrow_big_right:before {
+  content: "\e902";
+}
+.icon-arrow_down:before {
+  content: "\e903";
+}
+.icon-arrow_dropdown_down:before {
+  content: "\e904";
+}
+.icon-arrow_dropdown_left:before {
+  content: "\e905";
+}
+.icon-arrow_dropdown_right:before {
+  content: "\e906";
+}
+.icon-arrow_left:before {
+  content: "\e907";
+}
+.icon-arrow_right:before {
+  content: "\e908";
+}
+.icon-bathrooms:before {
+  content: "\e909";
+}
+.icon-bedrooms:before {
+  content: "\e90a";
+}
+.icon-building:before {
+  content: "\e90b";
+}
+.icon-building2:before {
+  content: "\e923";
+}
+.icon-email:before {
+  content: "\e90c";
+}
+.icon-fb:before {
+  content: "\e90d";
+}
+.icon-floors:before {
+  content: "\e90e";
+}
+.icon-linked_in:before {
+  content: "\e90f";
+}
+.icon-living_area:before {
+  content: "\e910";
+}
+.icon-mobile:before {
+  content: "\e911";
+}
+.icon-orientation:before {
+  content: "\e912";
+}
+.icon-outdoor_area:before {
+  content: "\e913";
+}
+.icon-phone:before {
+  content: "\e914";
+}
+.icon-pin_map .path1:before {
+  content: "\e915";
+  color: rgb(255, 255, 255);
+}
+.icon-pin_map .path2:before {
+  content: "\e916";
+  margin-left: -1em;
+  color: rgb(44, 49, 79);
+}
+.icon-pin_map .path3:before {
+  content: "\e917";
+  margin-left: -1em;
+  color: rgb(44, 49, 79);
+}
+.icon-price:before {
+  content: "\e918";
+}
+.icon-rooms:before {
+  content: "\e919";
+}
+.icon-search:before {
+  content: "\e91a";
+}
+.icon-send_icon:before {
+  content: "\e91b";
+}
+.icon-status:before {
+  content: "\e91c";
+}
+.icon-tw:before {
+  content: "\e91d";
+}
+.icon-up_page:before {
+  content: "\e91e";
+}
+.icon-usable_area:before {
+  content: "\e91f";
+}
+.icon-wc:before {
+  content: "\e920";
+}
+.icon-year:before {
+  content: "\e921";
+}
+.icon-projects_neufs:before {
+  content: "\e924";
+}
+.icon-prix:before {
+  content: "\e925";
+}
+.icon-country:before {
+  content: "\e926";
+}
+.icon-list_icn:before {
+  content: "\e927";
+}
+.icon-image_icn:before {
+  content: "\e928";
+}
+.icon-map_icn:before {
+  content: "\e929";
+}
+.icon-checkbox:before {
+  content: "\e92a";
+}
+.icon-checkbox_act:before {
+  content: "\e92b";
+}
+

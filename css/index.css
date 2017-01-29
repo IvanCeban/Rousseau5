@@ -1,0 +1,154 @@
+@charset "UTF-8";
+.navbar {
+  border: none; }
+
+.top_image_section {
+  background: url(../img/homepage_top_img.jpg) center center;
+  background-size: cover;
+  height: 700px;
+  text-align: center;
+  padding-top: 267px; }
+  .top_image_section .title, .top_image_section .sub_title {
+    color: #ffffff;
+    text-transform: uppercase; }
+  .top_image_section .title {
+    font-size: 50px; }
+  .top_image_section .sub_title {
+    font-size: 25px;
+    margin-top: 25px; }
+  .top_image_section button {
+    margin-top: 40px; }
+
+.homepage_search_section {
+  margin-top: 60px; }
+  .homepage_search_section .info_block {
+    background-color: #2c314f;
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 20px;
+    text-align: center; }
+  .homepage_search_section .info_block:first-child {
+    margin: 0;
+    font-size: 25px;
+    padding: 12px 15px 13px; }
+
+.carousel_section {
+  background-color: #2c314f;
+  margin-top: 60px;
+  padding: 40px 0 70px; }
+  .carousel_section h1 {
+    color: #ffffff; }
+  .carousel_section .carousel {
+    margin-top: 50px; }
+    .carousel_section .carousel .carousel-cell {
+      width: 33%; }
+      .carousel_section .carousel .carousel-cell .cell_content {
+        background-color: #ffffff; }
+        .carousel_section .carousel .carousel-cell .cell_content h2 {
+          font-size: 26px;
+          color: #2c314f;
+          padding: 20px 25px;
+          text-transform: uppercase; }
+        .carousel_section .carousel .carousel-cell .cell_content img {
+          width: 100%; }
+        .carousel_section .carousel .carousel-cell .cell_content .info_container {
+          padding: 20px 40px; }
+          .carousel_section .carousel .carousel-cell .cell_content .info_container ul li {
+            margin-bottom: 10px; }
+            .carousel_section .carousel .carousel-cell .cell_content .info_container ul li sup {
+              font-size: 0.625rem; }
+          .carousel_section .carousel .carousel-cell .cell_content .info_container ul li:before {
+            content: "• ";
+            color: #2c314f;
+            /* or whatever color you prefer */ }
+          .carousel_section .carousel .carousel-cell .cell_content .info_container .object_price {
+            padding: 10px 20px;
+            background-color: #2c314f;
+            font-size: 20px;
+            display: table;
+            color: #ffffff; }
+        .carousel_section .carousel .carousel-cell .cell_content a {
+          font: 18px lato_regular;
+          text-align: center;
+          width: 100%;
+          border-top: 1px solid #2c314f;
+          padding: 15px;
+          display: block;
+          color: #2c314f;
+          text-transform: uppercase; }
+    .carousel_section .carousel .flickity-prev-next-button {
+      background: transparent; }
+      .carousel_section .carousel .flickity-prev-next-button .arrow {
+        fill: #ffffff; }
+    .carousel_section .carousel .flickity-prev-next-button.previous {
+      left: -30px; }
+    .carousel_section .carousel .flickity-prev-next-button.next {
+      right: -30px; }
+
+.articles_section .article_block {
+  margin-top: 40px; }
+  .articles_section .article_block img {
+    width: 100%; }
+  .articles_section .article_block h1 {
+    margin: 40px 0 40px; }
+  .articles_section .article_block h2 {
+    color: #2c314f;
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-top: 30px; }
+  .articles_section .article_block p {
+    line-height: 22px; }
+.articles_section .article_block:last-child {
+  text-align: right; }
+
+.categories_section {
+  margin-top: 40px; }
+  .categories_section a {
+    display: block;
+    position: relative;
+    height: 185px; }
+    .categories_section a img {
+      width: 100%; }
+    .categories_section a .gradient_bottom {
+      background: -webkit-linear-gradient(transparent, rgba(44, 49, 79, 0.8));
+      background: -moz-linear-gradient(transparent, rgba(44, 49, 79, 0.8));
+      background: -o-linear-gradient(transparent, rgba(44, 49, 79, 0.8));
+      background: linear-gradient(transparent, rgba(44, 49, 79, 0.8));
+      -webkit-transition: 0.5s;
+      -moz-transition: 0.5s;
+      -o-transition: 0.5s;
+      transition: 0.5s; }
+    .categories_section a .category_title {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 185px;
+      text-align: center;
+      display: table;
+      z-index: 1; }
+      .categories_section a .category_title span {
+        font: 35px lato_bold;
+        color: #ffffff;
+        text-transform: uppercase;
+        display: table-cell;
+        vertical-align: middle; }
+  .categories_section a:hover .gradient_bottom {
+    height: 80%; }
+  .categories_section a.sell_category {
+    background-image: url("../img/category1.jpg"); }
+  .categories_section a.rent_category {
+    background-image: url("../img/category2.jpg"); }
+  .categories_section a.agency_category {
+    background-image: url("../img/category5.jpg");
+    height: 400px; }
+    .categories_section a.agency_category .category_title {
+      height: 400px; }
+  .categories_section a.commercial_category {
+    background-image: url("../img/category3.jpg"); }
+  .categories_section a.promo_category {
+    background-image: url("../img/category4.jpg"); }
+
+/*# sourceMappingURL=index.css.map */
