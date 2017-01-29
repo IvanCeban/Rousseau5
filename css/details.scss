@@ -17,8 +17,61 @@
     ul {
       li {
         margin-bottom: 20px;
+        display: table;
+        width: 100%;
         &:last-of-type {
           margin-bottom: 0;
+        }
+        &.map_banks .my_checkbox label .my_checkbox_text {
+          color: #424f89;
+        }
+        &.map_bakeries .my_checkbox label .my_checkbox_text {
+          color: #2989a5;
+        }
+        &.map_cafes .my_checkbox label .my_checkbox_text {
+          color: #0295c4;
+        }
+        &.map_dentists .my_checkbox label .my_checkbox_text {
+          color: #475c56;
+        }
+        &.map_schools .my_checkbox label .my_checkbox_text {
+          color: #477664;
+        }
+        &.map_hospitals .my_checkbox label .my_checkbox_text {
+          color: #1ba570;
+        }
+        &.map_dostors .my_checkbox label .my_checkbox_text {
+          color: #1ba570;
+        }
+        &.map_parkings .my_checkbox label .my_checkbox_text {
+          color: #fcba26;
+        }
+        &.map_pharmacies .my_checkbox label .my_checkbox_text {
+          color: #f36326;
+        }
+        &.map_police .my_checkbox label .my_checkbox_text {
+          color: #f36326;
+        }
+        &.map_post_offices .my_checkbox label .my_checkbox_text {
+          color: #e5232b;
+        }
+        &.map_restaurants .my_checkbox label .my_checkbox_text {
+          color: #f25c8e;
+        }
+        &.map_gas_stations .my_checkbox label .my_checkbox_text {
+          color: #ff78ce;
+        }
+        &.map_universities .my_checkbox label .my_checkbox_text {
+          color: #d462fa;
+        }
+        .my_checkbox label .my_checkbox_text {
+          font-family: lato_bold;
+          .icn {
+            display: block;
+            width: 30px;
+            text-align: center;
+            float: left;
+          }
         }
       }
     }

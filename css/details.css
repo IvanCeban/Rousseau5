@@ -12,9 +12,46 @@
     background: rgba(255, 255, 255, 0.9);
     padding: 30px 60px 30px 30px; }
     .map_container .map_sidebar ul li {
-      margin-bottom: 20px; }
+      margin-bottom: 20px;
+      display: table;
+      width: 100%; }
       .map_container .map_sidebar ul li:last-of-type {
         margin-bottom: 0; }
+      .map_container .map_sidebar ul li.map_banks .my_checkbox label .my_checkbox_text {
+        color: #424f89; }
+      .map_container .map_sidebar ul li.map_bakeries .my_checkbox label .my_checkbox_text {
+        color: #2989a5; }
+      .map_container .map_sidebar ul li.map_cafes .my_checkbox label .my_checkbox_text {
+        color: #0295c4; }
+      .map_container .map_sidebar ul li.map_dentists .my_checkbox label .my_checkbox_text {
+        color: #475c56; }
+      .map_container .map_sidebar ul li.map_schools .my_checkbox label .my_checkbox_text {
+        color: #477664; }
+      .map_container .map_sidebar ul li.map_hospitals .my_checkbox label .my_checkbox_text {
+        color: #1ba570; }
+      .map_container .map_sidebar ul li.map_dostors .my_checkbox label .my_checkbox_text {
+        color: #1ba570; }
+      .map_container .map_sidebar ul li.map_parkings .my_checkbox label .my_checkbox_text {
+        color: #fcba26; }
+      .map_container .map_sidebar ul li.map_pharmacies .my_checkbox label .my_checkbox_text {
+        color: #f36326; }
+      .map_container .map_sidebar ul li.map_police .my_checkbox label .my_checkbox_text {
+        color: #f36326; }
+      .map_container .map_sidebar ul li.map_post_offices .my_checkbox label .my_checkbox_text {
+        color: #e5232b; }
+      .map_container .map_sidebar ul li.map_restaurants .my_checkbox label .my_checkbox_text {
+        color: #f25c8e; }
+      .map_container .map_sidebar ul li.map_gas_stations .my_checkbox label .my_checkbox_text {
+        color: #ff78ce; }
+      .map_container .map_sidebar ul li.map_universities .my_checkbox label .my_checkbox_text {
+        color: #d462fa; }
+      .map_container .map_sidebar ul li .my_checkbox label .my_checkbox_text {
+        font-family: lato_bold; }
+        .map_container .map_sidebar ul li .my_checkbox label .my_checkbox_text .icn {
+          display: block;
+          width: 30px;
+          text-align: center;
+          float: left; }
 
 nav.navbar {
   border-bottom: none; }
