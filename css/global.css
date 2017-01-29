@@ -718,9 +718,10 @@ header {
       .navbar ul.nav li.nav-item .dropdown-menu .dropdown-item:hover, .navbar ul.nav li.nav-item .dropdown-menu .dropdown-item.active {
         color: #2c314f;
         background-color: #ffffff; }
-  .navbar ul.nav li.nav-item.dropdown:hover .nav-link {
-    background-color: #2c314f; }
-  .navbar ul.nav li.nav-item.dropdown:hover .nav-link:visited {
+  .navbar ul.nav li.nav-item.dropdown:hover a.nav-link {
+    background-color: #2c314f;
+    color: white; }
+  .navbar ul.nav li.nav-item.dropdown:hover a.nav-link:visited {
     color: #ffffff; }
   .navbar ul.nav li.nav-item.dropdown:hover .dropdown-menu {
     display: block; }

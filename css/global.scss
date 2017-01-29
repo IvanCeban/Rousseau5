@@ -151,10 +151,11 @@ header {
         }
       }
       &.dropdown:hover {
-        .nav-link {
+        a.nav-link {
           background-color: $main_blue;
+          color: white;
         }
-        .nav-link:visited {
+        a.nav-link:visited {
           color: #ffffff;
         }
         .dropdown-menu {
