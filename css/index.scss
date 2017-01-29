@@ -33,7 +33,7 @@
     color: #ffffff;
     font-size: 16px;
     line-height: 25px;
-    padding: 20px;
+    padding: 15px 20px;
     text-align: center;
   }
   .info_block:first-child {
@@ -141,10 +141,13 @@
 
 .categories_section {
   margin-top: 40px;
-  a {
+  a.category {
     display: block;
     position: relative;
     height: 185px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
     img {
       width: 100%;
     }
@@ -180,6 +183,7 @@
   }
   a.rent_category {
     background-image: url("../img/category2.jpg");
+    margin-top: 30px;
   }
   a.agency_category {
     background-image: url("../img/category5.jpg");
@@ -193,5 +197,6 @@
   }
   a.promo_category {
     background-image: url("../img/category4.jpg");
+    margin-top: 30px;
   }
 }

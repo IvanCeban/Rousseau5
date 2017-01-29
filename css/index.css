@@ -27,7 +27,7 @@
     color: #ffffff;
     font-size: 16px;
     line-height: 25px;
-    padding: 20px;
+    padding: 15px 20px;
     text-align: center; }
   .homepage_search_section .info_block:first-child {
     margin: 0;
@@ -105,13 +105,16 @@
 
 .categories_section {
   margin-top: 40px; }
-  .categories_section a {
+  .categories_section a.category {
     display: block;
     position: relative;
-    height: 185px; }
-    .categories_section a img {
+    height: 185px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom; }
+    .categories_section a.category img {
       width: 100%; }
-    .categories_section a .gradient_bottom {
+    .categories_section a.category .gradient_bottom {
       background: -webkit-linear-gradient(transparent, rgba(44, 49, 79, 0.8));
       background: -moz-linear-gradient(transparent, rgba(44, 49, 79, 0.8));
       background: -o-linear-gradient(transparent, rgba(44, 49, 79, 0.8));
@@ -120,7 +123,7 @@
       -moz-transition: 0.5s;
       -o-transition: 0.5s;
       transition: 0.5s; }
-    .categories_section a .category_title {
+    .categories_section a.category .category_title {
       position: absolute;
       top: 0;
       left: 0;
@@ -129,7 +132,7 @@
       text-align: center;
       display: table;
       z-index: 1; }
-      .categories_section a .category_title span {
+      .categories_section a.category .category_title span {
         font: 35px lato_bold;
         color: #ffffff;
         text-transform: uppercase;
@@ -140,7 +143,8 @@
   .categories_section a.sell_category {
     background-image: url("../img/category1.jpg"); }
   .categories_section a.rent_category {
-    background-image: url("../img/category2.jpg"); }
+    background-image: url("../img/category2.jpg");
+    margin-top: 30px; }
   .categories_section a.agency_category {
     background-image: url("../img/category5.jpg");
     height: 400px; }
@@ -149,6 +153,7 @@
   .categories_section a.commercial_category {
     background-image: url("../img/category3.jpg"); }
   .categories_section a.promo_category {
-    background-image: url("../img/category4.jpg"); }
+    background-image: url("../img/category4.jpg");
+    margin-top: 30px; }
 
 /*# sourceMappingURL=index.css.map */

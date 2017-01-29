@@ -11,9 +11,6 @@ main {
   padding-bottom: 60px;
 }
 
-.container-fluid {
-  min-width: 1200px;
-}
 a {
   color: $text_main_gray;
 }
@@ -57,7 +54,6 @@ h1 {
 header {
   background-color: $main_blue;
   padding: 32px 0;
-  min-width: 1200px;
   .multiselect-native-select {
     .btn-group {
       width: auto;
@@ -107,7 +103,6 @@ header {
   background: #fff;
   padding: 0;
   border-bottom: 1px solid #cccccc;
-  min-width: 1200px;
   ul.nav {
     li.nav-item {
       a.nav-link {
@@ -241,7 +236,7 @@ header {
     background-color: white;
     border: 1px solid $border_color;
     border-top: none;
-    z-index: 1;
+    z-index: 9;
     li.nav-item {
       border-top: 1px solid $border_color;
       a.nav-link {
@@ -639,7 +634,6 @@ header {
 //pages END
 
 footer {
-  min-width: 1200px;
   .footer_links_list {
     li {
       margin-bottom: 15px;

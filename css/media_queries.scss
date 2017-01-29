@@ -13,6 +13,37 @@
 }
 
 @media screen and ( max-width: 768px ) {
+  .navbar ul.nav.hidden-links li.nav-item .dropdown-menu,
+  .navbar ul.nav li.nav-item .dropdown-menu {
+    padding: 25px 30px;
+  }
+  main {
+    .top_image_section {
+      height: 500px;
+      padding-top: 180px;
+      .title {
+        font-size: 2.188rem;
+      }
+    }
+    .homepage_search_section {
+      .nav.nav-tabs {
+        margin-top: 10px;
+      }
+    }
+    .carousel_section .carousel .carousel-cell {
+      width: 50%;
+    }
+    .categories_section {
+      a.commercial_category {
+        margin-top: 30px;
+      }
+    }
+  }
+  footer {
+    .footer_bottom_section .address_block {
+      margin-top: 25px;
+    }
+  }
   .results_section {
     .results_container.list_view {
       .object_block_container {
@@ -64,6 +95,66 @@
 }
 
 @media screen and ( max-width: 544px ) {
+  header {
+    padding: 15px 0;
+    .contact_info_container {
+      display: table;
+      width: 100%;
+      margin-top: 10px;
+      a {
+        display: initial;
+        font-size: 0.875rem;
+        &:first-child {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+  .navbar ul.nav.hidden-links li.nav-item .dropdown-menu,
+  .navbar ul.nav li.nav-item .dropdown-menu {
+    right: 30px;
+    top: 100%;
+    padding: 15px 15px;
+  }
+
+  main {
+    .top_image_section {
+      height: 300px;
+      padding-top: 90px;
+      .title {
+        font-size: 1.563rem;
+      }
+      .sub_title {
+        font-size: 1.250rem;
+      }
+    }
+    .carousel_section .carousel .carousel-cell {
+      width: 100%;
+    }
+    .articles_section .article_block {
+      p {
+        margin-bottom: 10px;
+      }
+      h2 {
+        margin-bottom: 10px;
+        margin-top: 10px;
+      }
+      &:last-child {
+        text-align: left;
+      }
+    }
+    .categories_section {
+      a.category:not(.sell_category) {
+        margin-top: 30px;
+      }
+      a.agency_category {
+        height: 185px;
+        .category_title {
+          height: 185px;
+        }
+      }
+    }
+  }
   .results_section {
     .results_container.list_view {
       .object_block_container {
@@ -91,8 +182,9 @@
   }
 }
 
-
-
 @media screen and ( min-width: 768px ) and ( max-width: 991px ) {
-
+  .navbar ul.nav li.nav-item .dropdown-menu {
+    right: 0;
+    left: initial;
+  }
 }

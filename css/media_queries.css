@@ -14,6 +14,25 @@
   .results_section .view_type_container .view_type li {
     font-size: 1.125rem; } }
 @media screen and (max-width: 768px) {
+  .navbar ul.nav.hidden-links li.nav-item .dropdown-menu,
+  .navbar ul.nav li.nav-item .dropdown-menu {
+    padding: 25px 30px; }
+
+  main .top_image_section {
+    height: 500px;
+    padding-top: 180px; }
+    main .top_image_section .title {
+      font-size: 2.188rem; }
+  main .homepage_search_section .nav.nav-tabs {
+    margin-top: 10px; }
+  main .carousel_section .carousel .carousel-cell {
+    width: 50%; }
+  main .categories_section a.commercial_category {
+    margin-top: 30px; }
+
+  footer .footer_bottom_section .address_block {
+    margin-top: 25px; }
+
   .results_section .results_container.list_view .object_block_container {
     width: 100%; }
     .results_section .results_container.list_view .object_block_container .object_block .img_block {
@@ -42,6 +61,47 @@
       .results_section .results_container.list_view .object_block_container .object_block .info_block .properties_containner ul.properties ul.sublist:last-child {
         width: 60%; } }
 @media screen and (max-width: 544px) {
+  header {
+    padding: 15px 0; }
+    header .contact_info_container {
+      display: table;
+      width: 100%;
+      margin-top: 10px; }
+      header .contact_info_container a {
+        display: initial;
+        font-size: 0.875rem; }
+        header .contact_info_container a:first-child {
+          margin-right: 10px; }
+
+  .navbar ul.nav.hidden-links li.nav-item .dropdown-menu,
+  .navbar ul.nav li.nav-item .dropdown-menu {
+    right: 30px;
+    top: 100%;
+    padding: 15px 15px; }
+
+  main .top_image_section {
+    height: 300px;
+    padding-top: 90px; }
+    main .top_image_section .title {
+      font-size: 1.563rem; }
+    main .top_image_section .sub_title {
+      font-size: 1.250rem; }
+  main .carousel_section .carousel .carousel-cell {
+    width: 100%; }
+  main .articles_section .article_block p {
+    margin-bottom: 10px; }
+  main .articles_section .article_block h2 {
+    margin-bottom: 10px;
+    margin-top: 10px; }
+  main .articles_section .article_block:last-child {
+    text-align: left; }
+  main .categories_section a.category:not(.sell_category) {
+    margin-top: 30px; }
+  main .categories_section a.agency_category {
+    height: 185px; }
+    main .categories_section a.agency_category .category_title {
+      height: 185px; }
+
   .results_section .results_container.list_view .object_block_container .object_block .info_block .properties_containner ul.properties ul.sublist:first-child,
   .results_section .results_container.list_view .object_block_container .object_block .info_block .properties_containner ul.properties ul.sublist:last-child {
     width: 100%;
@@ -52,5 +112,9 @@
     .results_section .results_container.list_view .object_block_container .object_block .info_block .properties_containner ul.properties ul.sublist:first-child:last-child,
     .results_section .results_container.list_view .object_block_container .object_block .info_block .properties_containner ul.properties ul.sublist:last-child:last-child {
       margin-top: 10px; } }
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .navbar ul.nav li.nav-item .dropdown-menu {
+    right: 0;
+    left: initial; } }
 
 /*# sourceMappingURL=media_queries.css.map */

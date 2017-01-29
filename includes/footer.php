@@ -3,7 +3,7 @@
         <div class="container-fluid">
             <h1>ROUSSEAU N°5 L'AGENCE IMMOBILIERE</h1>
             <div class="row">
-                <div class="col-xs-2">
+                <div class="col-xs-6 col-sm-4 col-md-2">
                     <ul class="footer_links_list">
                         <li><a href="#">Gent immobilier de luxe Genève</a></li>
                         <li><a href="#">Immobilier de luxe Genève</a></li>
@@ -12,7 +12,7 @@
                         <li><a href="#">Villa à vendre Cologny</a></li>
                     </ul>
                 </div>
-                <div class="col-xs-2">
+                <div class="col-xs-6 col-sm-4 col-md-2">
                     <ul class="footer_links_list">
                         <li><a href="#">Villa à vendre Colonge Bellerive</a></li>
                         <li><a href="#">Villa à vendre Corsier</a></li>
@@ -21,7 +21,7 @@
                         <li><a href="#">Propriété à vendre Colonge Bellerive</a></li>
                     </ul>
                 </div>
-                <div class="col-xs-2">
+                <div class="col-xs-6 col-sm-4 col-md-2">
                     <ul class="footer_links_list">
                         <li><a href="#">Propriété à vendre Cologny</a></li>
                         <li><a href="#">Propriété à vendre Corsier</a></li>
@@ -30,7 +30,7 @@
                         <li><a href="#">Maison à vendre Genève</a></li>
                     </ul>
                 </div>
-                <div class="col-xs-2">
+                <div class="col-xs-6 col-sm-4 col-md-2">
                     <ul class="footer_links_list">
                         <li><a href="#">Villa de luxe à vendre Genève</a></li>
                         <li><a href="#">Appartements à vendre à Genève</a></li>
@@ -39,7 +39,7 @@
                         <li><a href="#">Appartement à louer Vaud</a></li>
                     </ul>
                 </div>
-                <div class="col-xs-2">
+                <div class="col-xs-6 col-sm-4 col-md-2">
                     <ul class="footer_links_list">
                         <li><a href="#">Appartement à louer Valais</a></li>
                         <li><a href="#">Appartement à vendre Vaud</a></li>
@@ -48,7 +48,7 @@
                         <li><a href="#">Maison à vendre Vaud</a></li>
                     </ul>
                 </div>
-                <div class="col-xs-2">
+                <div class="col-xs-6 col-sm-4 col-md-2">
                     <ul class="footer_links_list">
                         <li><a href="#">Chalet terrain Genève Valais</a></li>
                         <li><a href="#">Immobilier de prestige Genève</a></li>
@@ -63,7 +63,7 @@
     <section class="footer_bottom_section">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-xs-2">
+                <div class="col-xs-6 col-sm-3 col-md-2">
                     <ul class="footer_links_list">
                         <li><a href="#">Arcade à transmettre</a></li>
                         <li><a href="#">Bontique à transmettre</a></li>
@@ -74,7 +74,7 @@
                         <li><a href="#">Wellness à transmettre</a></li>
                     </ul>
                 </div>
-                <div class="col-xs-2">
+                <div class="col-xs-6 col-sm-3 col-md-2">
                     <ul class="footer_links_list">
                         <li><a href="#">Bureau à vendre</a></li>
                         <li><a href="#">Garage à vendre</a></li>
@@ -85,7 +85,7 @@
                         <li><a href="#">Entreprise à transmettre</a></li>
                     </ul>
                 </div>
-                <div class="col-xs-2">
+                <div class="col-xs-6 col-sm-3 col-md-2">
                     <ul class="footer_links_list">
                         <li><a href="#">Arcade à transmettre</a></li>
                         <li><a href="#">Bontique à transmettre</a></li>
@@ -96,7 +96,7 @@
                         <li><a href="#">Wellness à transmettre</a></li>
                     </ul>
                 </div>
-                <div class="col-xs-2">
+                <div class="col-xs-6 col-sm-3 col-md-2">
                     <ul class="footer_links_list">
                         <li><a href="#">Bureau à vendre</a></li>
                         <li><a href="#">Garage à vendre</a></li>
@@ -107,7 +107,7 @@
                         <li><a href="#">Entreprise à transmettre</a></li>
                     </ul>
                 </div>
-                <div class="col-xs-4">
+                <div class="col-xs-12 col-sm-8 col-md-4">
                     <ul class="address_block">
                         <li><a href="tel:+41 00 732 80 00"><i class="fa fa-phone" aria-hidden="true"></i><span>+41 00 732 80 00</span></a></li>
                         <li><a href="tel:+41 76 386 61 85"><i class="fa fa-mobile" aria-hidden="true"></i><span>+41 76 386 61 85</span></a></li>
