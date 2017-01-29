@@ -1,10 +1,30 @@
 @import "variables";
 
-#object_map {
-  visibility: visible;
-  height: 385px;
-  width: 100%;
+.map_container {
+  position: relative;
+  #object_map {
+    visibility: visible;
+    height: 600px;
+    width: 100%;
+  }
+  .map_sidebar {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    background: rgba(#ffffff, 0.9);
+    padding: 30px 60px 30px 30px;
+    ul {
+      li {
+        margin-bottom: 20px;
+        &:last-of-type {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
 }
+
 
 nav.navbar {
   border-bottom: none;
@@ -20,8 +40,8 @@ section {
 }
 
 .contact_section {
-  a {
-    font-size: 1.125rem;
+  a.back_link {
+    font-size: 1rem;
     i {
       font-size: 0.750rem;
     }
@@ -29,39 +49,56 @@ section {
       color: $main_blue;
     }
   }
-  .btn {
-    height: 60px;
-    line-height: 60px;
-    margin: 10px 0;
-  }
-  .object_id {
-    font: 0.938rem lato_regular;
-    color: $main_blue;
-  }
-  .agent_info {
+  .agent_info_container {
     border: 1px solid $border_color;
-    padding: 30px;
-    p {
-      font-size: 18px;
+    margin-top: 15px;
+    .agent_img {
+      img {
+        display: block;
+        width: 100%;
+      }
     }
-    ul {
-      margin-top: 20px;
-      display: table;
-      width: 100%;
-      li {
-        font: 22px lato_regular;
-        color: $main_blue;
-        float: left;
+    .agent_info {
+      padding: 30px 0 0;
+      p {
+        font-size: 18px;
+      }
+      .agent_name {
+        margin: 15px 0 5px;
+        font: 30px lato_bold;
         text-transform: uppercase;
-        &:nth-child(2) {
-          margin: 0 30px;
-          padding: 0 30px;
-          border-left: 2px solid $main_blue;
-          border-right: 2px solid $main_blue;
-        }
-        a {
+        color: $main_blue;
+      }
+      ul {
+        display: table;
+        width: 100%;
+        li {
+          font: 22px lato_regular;
           color: $main_blue;
+          float: left;
+          text-transform: uppercase;
+          &:nth-child(2) {
+            margin-left: 30px;
+            padding-left: 30px;
+            border-left: 2px solid $main_blue;
+          }
+          a {
+            color: $main_blue;
+          }
         }
+      }
+    }
+    .object_info {
+      padding-right: 30px;
+      text-align: right;
+      .object_id {
+        font: 0.938rem lato_regular;
+        color: $main_blue;
+        margin: 30px 0 20px;
+      }
+      .btn {
+        height: 60px;
+        line-height: 60px;
       }
     }
   }
@@ -73,24 +110,26 @@ section {
     padding: 30px;
     ul.properties {
       display: table;
-      margin: 0 auto;
+      margin: 0 auto 30px;
+      width: 100%;
       li {
         float: left;
-        margin-right: 50px;
+        width: 12.5%;
+        //margin-right: 20px;
         text-align: center;
         &:last-child {
           margin: 0;
         }
         i {
-          font-size: 4.125rem;
+          font-size: 2.5rem;
           display: block;
           color: $main_blue;
           margin-bottom: 20px;
         }
         .prop_val {
-          font-size: 1.125rem;
+          font-size: 1rem;
           span {
-            font: 1.375rem lato_regular;
+            font-family: lato_regular;
             color: $main_blue;
           }
         }
@@ -99,10 +138,41 @@ section {
     ul.nav {
       max-width: 700px;
       margin: 40px auto 40px;
+      border: none;
       li.nav-item {
+        border: 2px solid #2c314f;
+        width: 33.33333%;
+        &:nth-child(2) {
+          border-left: none;
+          border-right: none;
+        }
         a.nav-link {
           max-width: 350px;
           font-size: 1.250rem;
+        }
+      }
+    }
+    ul.object_prop_list {
+      display: table;
+      width: 100%;
+      li {
+        width: 25%;
+        float: left;
+        font-size: 1rem;
+        margin-bottom: 30px;
+        color: $main_blue;
+        span {
+          color: $text_main_gray;
+        }
+        &:before {
+          content: '';
+          display: inline-block;
+          border: 3px solid $main_blue;
+          @include my_border_radius(50%);
+          margin: 4px 5px 4px 0;
+        }
+        &.empty {
+          opacity: 0.5;
         }
       }
     }
