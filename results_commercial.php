@@ -40,7 +40,7 @@
             </div>
             <div class="col-xs-6">
                 <div class="logo_container">
-                    <a href="index.html">
+                    <a href="index.php">
                         <img src="img/logo_transparent.svg" alt="Rousseau5 logo">
                     </a>
                 </div>
@@ -59,17 +59,17 @@
     <div class="container-fluid">
         <button><span class="hamburger"></span></button>
         <ul class='nav visible-links'>
-            <li class="nav-item"><a class="nav-link" href='index.html'>Accueil</a></li>
-            <li class="nav-item active"><a class="nav-link" href='#'>Achat résidentiel</a></li>
+            <li class="nav-item"><a class="nav-link" href='index.php'>Accueil</a></li>
+            <li class="nav-item"><a class="nav-link" href='results_for_sale.php'>Achat résidentiel</a></li>
             <li class="nav-item"><a class="nav-link" href='#'>Location résidentiel</a></li>
-            <li class="nav-item"><a class="nav-link" href='results_promotions.html'>Projets neufs</a></li>
-            <li class="nav-item"><a class="nav-link" href='commercial.html'>Locaux commerciaux</a></li>
+            <li class="nav-item"><a class="nav-link" href='results_promotions.php'>Projets neufs</a></li>
+            <li class="nav-item active"><a class="nav-link" href='commercial.php'>Locaux commerciaux</a></li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">L’agence</a>
                 <div class="dropdown-menu" aria-labelledby="Preview">
                     <a class="dropdown-item" href="#">Philisophie & competence</a>
-                    <a class="dropdown-item" href="press_list.html">Revue de presse</a>
-                    <a class="dropdown-item" href="team.html">L’equipe</a>
+                    <a class="dropdown-item" href="press_list.php">Revue de presse</a>
+                    <a class="dropdown-item" href="team.php">L’equipe</a>
                 </div>
             </li>
             <li class="nav-item"><a class="nav-link" href='#'>Nous contacter</a></li>
@@ -78,7 +78,7 @@
     </div>
 </nav>
 
-<main id="results_for_sale">
+<main id="results_comercial">
     <section class="search_section">
         <div class="container-fluid">
             <div class="search_block">
@@ -211,7 +211,6 @@
                 </div>
             </div>
         </div>
-
         <div class="results_container list_view">
             <div id="results_map"></div>
             <div class="container-fluid">
@@ -225,7 +224,7 @@
                             </div>
                             <div class="info_block">
                                 <div class="title_container">
-                                    <a href="details_for_sale.html"><h2>Amazing apartment</h2></a>
+                                    <a href="details_commercial.php"><h2>La Residence du lac - Saint Prex</h2></a>
                                     <ul class="social_networks">
                                         <li><a href="#"><i class="icn icon-tw"></i></a></li>
                                         <li><a href="#"><i class="icn icon-linked_in"></i></a></li>
@@ -233,135 +232,17 @@
                                     </ul>
                                 </div>
                                 <div class="description_container">
-                                    <h3>Maison à vendre / <span>cologny</span></h3>
+                                    <h3>Local commercial / <span>Vandoevres</span></h3>
                                     <p class="object_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                     <a href="#" class="btn dark">Contactez l'agent</a>
                                     <div class="object_price">CHF 2'990'000</div>
                                 </div>
                                 <div class="properties_containner">
                                     <ul class="properties">
-                                        <li><i class="icn icon-bedrooms"></i><span class="prop_title">Nombre de chambres</span><span class="prop_val">5</span></li>
-                                        <li><i class="icn icon-bathrooms"></i><span class="prop_title">Nombre de salles de bain</span><span class="prop_val">4</span></li>
-                                        <li><i class="icn icon-wc"></i><span class="prop_title">Nombre de WC</span><span class="prop_val">3</span></li>
+                                        <li class="hidden"><i class="icn icon-bedrooms"></i><span class="prop_title">Etat</span><span class="prop_val">Neuf</span></li>
                                         <li><i class="icn icon-living_area"></i><span class="prop_title">Surface habitable</span><span class="prop_val">200m<sup>2</sup></span></li>
-                                        <li><i class="icn icon-usable_area"></i><span class="prop_title">Surface du terrain</span><span class="prop_val">300m<sup>2</sup></span></li>
-                                        <li><i class="icn icon-outdoor_area"></i><span class="prop_title">Etage</span><span class="prop_val">400m<sup>2</sup></span></li>
-                                        <li class="hidden_list"><i class="icn icon-outdoor_area"></i><span class="prop_title">Balcon</span><span class="prop_val">4</span></li>
-                                        <li class="empty hidden_list"><i class="icn icon-outdoor_area"></i><span class="prop_title">Terrasse</span><span class="prop_val"></span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="gradient_bg"></div>
-                        </div>
-                    </div>
-                    <div class="carousel-cell col-xs-12 col-sm-6 col-lg-4 object_block_container">
-                        <div class="object_block">
-                            <div class="img_block">
-                                <div class="activity_label">Loué</div>
-                                <div class="exclusive_label">Exclusif</div>
-                                <img src="img/object1.jpg" alt="object name">
-                            </div>
-                            <div class="info_block">
-                                <div class="title_container">
-                                    <a href="details_for_sale.html"><h2>Amazing apartment</h2></a>
-                                    <ul class="social_networks">
-                                        <li><a href="#"><i class="icn icon-tw"></i></a></li>
-                                        <li><a href="#"><i class="icn icon-linked_in"></i></a></li>
-                                        <li><a href="#"><i class="icn icon-fb"></i></a></li>
-                                    </ul>
-                                </div>
-                                <div class="description_container">
-                                    <h3>Maison à vendre / <span>cologny</span></h3>
-                                    <p class="object_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                    <a href="#" class="btn dark">Contactez l'agent</a>
-                                    <div class="object_price">CHF 2'990'000</div>
-                                </div>
-                                <div class="properties_containner">
-                                    <ul class="properties">
-                                        <li><i class="icn icon-bedrooms"></i><span class="prop_title">Nombre de chambres</span><span class="prop_val">5</span></li>
-                                        <li><i class="icn icon-bathrooms"></i><span class="prop_title">Nombre de salles de bain</span><span class="prop_val">4</span></li>
-                                        <li><i class="icn icon-wc"></i><span class="prop_title">Nombre de WC</span><span class="prop_val">3</span></li>
-                                        <li><i class="icn icon-living_area"></i><span class="prop_title">Surface habitable</span><span class="prop_val">200m<sup>2</sup></span></li>
-                                        <li><i class="icn icon-usable_area"></i><span class="prop_title">Surface du terrain</span><span class="prop_val">300m<sup>2</sup></span></li>
-                                        <li><i class="icn icon-outdoor_area"></i><span class="prop_title">Etage</span><span class="prop_val">400m<sup>2</sup></span></li>
-                                        <li class="hidden_list"><i class="icn icon-outdoor_area"></i><span class="prop_title">Balcon</span><span class="prop_val">4</span></li>
-                                        <li class="empty hidden_list"><i class="icn icon-outdoor_area"></i><span class="prop_title">Terrasse</span><span class="prop_val"></span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="gradient_bg"></div>
-                        </div>
-                    </div>
-                    <div class="carousel-cell col-xs-12 col-sm-6 col-lg-4 object_block_container">
-                        <div class="object_block">
-                            <div class="img_block">
-                                <div class="activity_label">Loué</div>
-                                <div class="exclusive_label">Exclusif</div>
-                                <img src="img/object1.jpg" alt="object name">
-                            </div>
-                            <div class="info_block">
-                                <div class="title_container">
-                                    <a href="details_for_sale.html"><h2>Amazing apartment</h2></a>
-                                    <ul class="social_networks">
-                                        <li><a href="#"><i class="icn icon-tw"></i></a></li>
-                                        <li><a href="#"><i class="icn icon-linked_in"></i></a></li>
-                                        <li><a href="#"><i class="icn icon-fb"></i></a></li>
-                                    </ul>
-                                </div>
-                                <div class="description_container">
-                                    <h3>Maison à vendre / <span>cologny</span></h3>
-                                    <p class="object_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                    <a href="#" class="btn dark">Contactez l'agent</a>
-                                    <div class="object_price">CHF 2'990'000</div>
-                                </div>
-                                <div class="properties_containner">
-                                    <ul class="properties">
-                                        <li><i class="icn icon-bedrooms"></i><span class="prop_title">Nombre de chambres</span><span class="prop_val">5</span></li>
-                                        <li><i class="icn icon-bathrooms"></i><span class="prop_title">Nombre de salles de bain</span><span class="prop_val">4</span></li>
-                                        <li><i class="icn icon-wc"></i><span class="prop_title">Nombre de WC</span><span class="prop_val">3</span></li>
-                                        <li><i class="icn icon-living_area"></i><span class="prop_title">Surface habitable</span><span class="prop_val">200m<sup>2</sup></span></li>
-                                        <li><i class="icn icon-usable_area"></i><span class="prop_title">Surface du terrain</span><span class="prop_val">300m<sup>2</sup></span></li>
-                                        <li><i class="icn icon-outdoor_area"></i><span class="prop_title">Etage</span><span class="prop_val">400m<sup>2</sup></span></li>
-                                        <li class="hidden_list"><i class="icn icon-outdoor_area"></i><span class="prop_title">Balcon</span><span class="prop_val">4</span></li>
-                                        <li class="empty hidden_list"><i class="icn icon-outdoor_area"></i><span class="prop_title">Terrasse</span><span class="prop_val"></span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="gradient_bg"></div>
-                        </div>
-                    </div>
-                    <div class="carousel-cell col-xs-12 col-sm-6 col-lg-4 object_block_container">
-                        <div class="object_block">
-                            <div class="img_block">
-                                <div class="activity_label">Loué</div>
-                                <div class="exclusive_label">Exclusif</div>
-                                <img src="img/object1.jpg" alt="object name">
-                            </div>
-                            <div class="info_block">
-                                <div class="title_container">
-                                    <a href="details_for_sale.html"><h2>Amazing apartment</h2></a>
-                                    <ul class="social_networks">
-                                        <li><a href="#"><i class="icn icon-tw"></i></a></li>
-                                        <li><a href="#"><i class="icn icon-linked_in"></i></a></li>
-                                        <li><a href="#"><i class="icn icon-fb"></i></a></li>
-                                    </ul>
-                                </div>
-                                <div class="description_container">
-                                    <h3>Maison à vendre / <span>cologny</span></h3>
-                                    <p class="object_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                    <a href="#" class="btn dark">Contactez l'agent</a>
-                                    <div class="object_price">CHF 2'990'000</div>
-                                </div>
-                                <div class="properties_containner">
-                                    <ul class="properties">
-                                        <li><i class="icn icon-bedrooms"></i><span class="prop_title">Nombre de chambres</span><span class="prop_val">5</span></li>
-                                        <li><i class="icn icon-bathrooms"></i><span class="prop_title">Nombre de salles de bain</span><span class="prop_val">4</span></li>
-                                        <li><i class="icn icon-wc"></i><span class="prop_title">Nombre de WC</span><span class="prop_val">3</span></li>
-                                        <li><i class="icn icon-living_area"></i><span class="prop_title">Surface habitable</span><span class="prop_val">200m<sup>2</sup></span></li>
-                                        <li><i class="icn icon-usable_area"></i><span class="prop_title">Surface du terrain</span><span class="prop_val">300m<sup>2</sup></span></li>
-                                        <li><i class="icn icon-outdoor_area"></i><span class="prop_title">Etage</span><span class="prop_val">400m<sup>2</sup></span></li>
-                                        <li class="hidden_list"><i class="icn icon-outdoor_area"></i><span class="prop_title">Balcon</span><span class="prop_val">4</span></li>
-                                        <li class="empty hidden_list"><i class="icn icon-outdoor_area"></i><span class="prop_title">Terrasse</span><span class="prop_val"></span></li>
+                                        <li><i class="icn icon-bathrooms"></i><span class="prop_title">Terrase</span><span class="prop_val">120m<sup>2</sup></span></li>
+                                        <li><i class="icn icon-prix"></i><span class="prop_title">Loyer</span><span class="prop_val">1200 CHF</span></li>
                                     </ul>
                                 </div>
                             </div>
