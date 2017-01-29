@@ -180,7 +180,7 @@
                             </div>
                             <div class="info_block">
                                 <div class="title_container">
-                                    <a href="details_for_sale.html"><h2>Amazing apartment</h2></a>
+                                    <a href="details_for_sale.php"><h2>Amazing apartment</h2></a>
                                     <ul class="social_networks">
                                         <li><a href="#"><i class="icn icon-tw"></i></a></li>
                                         <li><a href="#"><i class="icn icon-linked_in"></i></a></li>
@@ -218,7 +218,7 @@
                             </div>
                             <div class="info_block">
                                 <div class="title_container">
-                                    <a href="details_for_sale.html"><h2>Amazing apartment</h2></a>
+                                    <a href="details_for_sale.php"><h2>Amazing apartment</h2></a>
                                     <ul class="social_networks">
                                         <li><a href="#"><i class="icn icon-tw"></i></a></li>
                                         <li><a href="#"><i class="icn icon-linked_in"></i></a></li>
@@ -256,7 +256,7 @@
                             </div>
                             <div class="info_block">
                                 <div class="title_container">
-                                    <a href="details_for_sale.html"><h2>Amazing apartment</h2></a>
+                                    <a href="details_for_sale.php"><h2>Amazing apartment</h2></a>
                                     <ul class="social_networks">
                                         <li><a href="#"><i class="icn icon-tw"></i></a></li>
                                         <li><a href="#"><i class="icn icon-linked_in"></i></a></li>
@@ -294,7 +294,7 @@
                             </div>
                             <div class="info_block">
                                 <div class="title_container">
-                                    <a href="details_for_sale.html"><h2>Amazing apartment</h2></a>
+                                    <a href="details_for_sale.php"><h2>Amazing apartment</h2></a>
                                     <ul class="social_networks">
                                         <li><a href="#"><i class="icn icon-tw"></i></a></li>
                                         <li><a href="#"><i class="icn icon-linked_in"></i></a></li>

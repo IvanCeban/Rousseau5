@@ -26,7 +26,7 @@
 
 <body>
 
-<?php $current_page = 'commercial' ?>
+<?php $current_page = 'details_commercial' ?>
 
 <?php include 'includes/header.php'?>
 <?php include 'includes/main_nav.php'?>
