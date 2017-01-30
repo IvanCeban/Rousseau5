@@ -192,8 +192,7 @@ section {
     width: 100%; }
 
 .gallery_section {
-  margin: 0;
-  min-width: 1200px; }
+  margin: 0; }
 
 #details_commercial .object_info_section .object_info_container ul.properties {
   width: auto;
