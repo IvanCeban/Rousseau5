@@ -26,14 +26,14 @@
 
 </head>
 
-<body>
+<body id="results_promotions">
 
 <?php $current_page = 'results_promotions'?>
 
 <?php include 'includes/header.php'?>
 <?php include 'includes/main_nav.php'?>
 
-<main id="results_promotions">
+<main>
     <section class="search_section">
         <div class="container-fluid">
             <div class="search_block">

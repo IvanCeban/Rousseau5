@@ -33,37 +33,43 @@
         <div class="container-fluid">
             <div class="search_block">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-2 margin_bottom_10">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 margin_bottom_10">
                         <label for="object_type_select" class="form_el_label light"><i class="icn icon-building"></i><span>Type de bien</span></label>
-                        <select class="selectpicker" name="object_type" id="object_type_select">
-                            <option value="">Tout</option>
-                            <option value="">House</option>
-                            <option value="">Apartment</option>
-                            <option value="">Building plot</option>
-                            <option value="">Building</option>
-                            <option value="">Parking space</option>
-                        </select>
+                        <div class="min_select_container margin_bottom_10">
+                            <select class="selectpicker" name="object_type" id="object_type_select">
+                                <option value="">Tout</option>
+                                <option value="">House</option>
+                                <option value="">Apartment</option>
+                                <option value="">Building plot</option>
+                                <option value="">Building</option>
+                                <option value="">Parking space</option>
+                            </select>
+                        </div>
                     </div>
-                    <div class="col-xs-12 col-sm-2 margin_bottom_10">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 margin_bottom_10">
                         <label class="form_el_label light"><i class="icn icon-building2"></i><span>Sous-categorie</span></label>
-                        <select class="selectpicker" name="object_subtype">
-                            <option value="">Tout</option>
-                            <option value="">Bastide</option>
-                            <option value="">Bungalow</option>
-                            <option value="">Chalet</option>
-                        </select>
+                        <div class="min_select_container margin_bottom_10">
+                            <select class="selectpicker" name="object_subtype">
+                                <option value="">Tout</option>
+                                <option value="">Bastide</option>
+                                <option value="">Bungalow</option>
+                                <option value="">Chalet</option>
+                            </select>
+                        </div>
                     </div>
-                    <div class="col-xs-12 col-sm-2 margin_bottom_10">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 margin_bottom_10">
                         <label class="form_el_label light"><i class="icn icon-country"></i><span>Lieu</span></label>
-                        <select class="selectpicker" name="object_place">
-                            <option value="">Tout</option>
-                            <option value="">Geneva</option>
-                            <option value="">Bern</option>
-                            <option value="">Zurich</option>
-                            <option value="">Paris</option>
-                        </select>
+                        <div class="min_select_container margin_bottom_10">
+                            <select class="selectpicker" name="object_place">
+                                <option value="">Tout</option>
+                                <option value="">Geneva</option>
+                                <option value="">Bern</option>
+                                <option value="">Zurich</option>
+                                <option value="">Paris</option>
+                            </select>
+                        </div>
                     </div>
-                    <div class="col-xs-12 col-sm-2 margin_bottom_10">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 margin_bottom_10">
                         <label class="form_el_label light"><i class="icn icon-projects_neufs"></i><span>Projects neufs</span></label>
                         <div class="min_select_container margin_bottom_10">
                             <select class="selectpicker" name="object_rooms_number">
@@ -75,7 +81,7 @@
                             </select>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-2 margin_bottom_10">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 margin_bottom_10">
                         <label class="form_el_label light"><i class="icn icon-rooms"></i><span>Pieces</span></label>
                         <div class="min_select_container margin_bottom_10">
                             <select class="selectpicker" name="object_surface">
@@ -87,7 +93,7 @@
                             </select>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-2 margin_bottom_10">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 margin_bottom_10">
                         <label class="form_el_label light"><i class="icn icon-bedrooms"></i><span>Chambres</span></label>
                         <div class="min_select_container margin_bottom_10">
                             <select class="selectpicker" name="object_price">
@@ -101,7 +107,21 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-12 col-sm-2 margin_bottom_10">
+                    <div class="col-xs-12 col-sm-6 col-md-4 push-md-4 col-lg-3 push-lg-2 margin_bottom_10">
+                        <label class="form_el_label light"><i class="icn icon-prix"></i><span>Prix min</span></label>
+                        <div class="input_container light margin_bottom_10">
+                            <input type="text" placeholder="Min">
+                            <div class="input_label">CHF</div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 push-md-4 col-lg-3 push-lg-2 margin_bottom_10">
+                        <label class="form_el_label light"><i class="icn icon-prix"></i><span>Prix max</span></label>
+                        <div class="input_container light margin_bottom_10">
+                            <input type="text" placeholder="Max">
+                            <div class="input_label">CHF</div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 pull-md-8 col-lg-2 pull-lg-6 margin_bottom_10">
                         <label class="form_el_label light"><i class="icn icon-living_area"></i><span>Surface habit.</span></label>
                         <div class="min_select_container margin_bottom_10">
                             <select class="selectpicker" name="object_rooms_number">
@@ -113,21 +133,7 @@
                             </select>
                         </div>
                     </div>
-                    <div class="col-xs-6 col-sm-3 margin_bottom_10">
-                        <label class="form_el_label light"><i class="icn icon-prix"></i><span>Prix min</span></label>
-                        <div class="input_container light">
-                            <input type="text" placeholder="Min">
-                            <div class="input_label">CHF</div>
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-sm-3 margin_bottom_10">
-                        <label class="form_el_label light"><i class="icn icon-prix"></i><span>Prix max</span></label>
-                        <div class="input_container light">
-                            <input type="text" placeholder="Max">
-                            <div class="input_label">CHF</div>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-4 margin_bottom_10 margin_top_30">
+                    <div class="col-xs-12 col-sm-6 col-md-12 col-lg-4 margin_bottom_10 margin_top_30">
                         <div class="input_container light">
                             <input type="text" placeholder="Rechercher votre bien">
                             <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
@@ -142,7 +148,7 @@
         <div class="container-fluid">
             <h1>Fonds de commerce et murs</h1>
             <div class="row">
-                <div class="col-xs-6 object_block_container">
+                <div class="col-xs-12 col-sm-6 object_block_container">
                     <a href="results_commercial.php" class="object_block">
                         <div class="img_block">
                             <img src="img/comercial1.jpg" alt="">
@@ -157,7 +163,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-xs-6 object_block_container">
+                <div class="col-xs-12 col-sm-6 object_block_container">
                     <a href="results_commercial.php" class="object_block">
                         <div class="img_block">
                             <img src="img/comercial2.jpg" alt="">
@@ -247,7 +253,7 @@
                     <div id="comercial_rule_4_info" class="collapse" role="tabcard" aria-labelledby="comercial_rule_4_title">
                         <div class="card-block">
                             <div class="row">
-                                <div class="col-xs-6">
+                                <div class="col-xs-12 col-md-6">
                                     <h6>1. MONTAGE DU DOSSIER DE VENTE</h6>
                                     <p>Nos spécialistes réunissent toutes les pièces nécessaires à l’élaboration d’un dossier de vente constitué des aspects financiers, marketing et juridiques du fonds de commerce.</p>
                                     <h6>2. MONTAGE DU DOSSIER ACHETEUR</h6>
@@ -255,7 +261,7 @@
                                     <h6>3. SUPPORT À LA NÉGOCIATION AVEC L’ACHETEUR</h6>
                                     <p>Il est parfois difficile de trouver un terrain d’entente lors de la phase de négociation. Nous vous accompagnons lors de cette étape importante en valorisant votre bien auprès de l’acheteur mais dans un respect déontologique des deux parties.</p>
                                 </div>
-                                <div class="col-xs-6">
+                                <div class="col-xs-12 col-md-6">
                                     <h6>4. RÉDACTION DE LA CONVENTION DE VENTE</h6>
                                     <p>Dès la négociation achevée, Rousseau N°5 rédige une convention de vente respectant les droits et obligations des deux parties. Ce document est en quelque sorte une promesse de vente subordonnée à la décision des propriétaires d’accorder le transfert de bail au repreneur.</p>
                                     <h6>5. CONSTITUTION DOSSIER ET DÉMARCHES AUPRÈS DE LA RÉGIE</h6>

@@ -390,21 +390,17 @@ header {
         }
       }
     }
-
   }
   .collapse,
   .collapsing {
     .card-block {
-      padding: 15px 0;
+      padding: 15px 0 0;
       p {
         margin-bottom: 20px;
-        &:last-child {
-          margin: 0;
-        }
       }
       h6 {
         color: $main_blue;
-        margin-bottom: 25px;
+        margin-bottom: 15px;
         font: 1rem lato_regular;
       }
     }
@@ -445,13 +441,12 @@ header {
 #commercial,
 #press_list {
   h1 {
-    margin: 30px 0 0;
+    margin: 30px 0 20px;
   }
   .object_block_container {
     .object_block {
       display: block;
       position: relative;
-      margin-top: 30px;
       .img_block {
         img {
           width: 100%;

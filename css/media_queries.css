@@ -38,7 +38,12 @@
       font-size: 1rem; }
     .results_section .results_container.grid_view .container-fluid .object_block_container .object_block .gradient_bg,
     .results_section .results_container.map_view .container-fluid .object_block_container .object_block .gradient_bg {
-      bottom: 63px; } }
+      bottom: 63px; }
+
+  #commercial .comercial_funds_section .object_block_container .object_block .info_block .properties_container h2 {
+    font-size: 1.75rem; }
+  #commercial .comercial_funds_section .object_block_container .object_block .info_block .properties_container p {
+    margin: 10px 30px 60px; } }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   .search_block .row label.form_el_label {
     font-size: 0.813rem; } }
@@ -55,7 +60,15 @@
     font-size: 1rem; }
 
   .btn:not(.dropdown-toggle) {
-    font-size: 1rem; } }
+    font-size: 1rem; }
+
+  #commercial .comercial_funds_section .object_block_container .object_block .info_block .properties_container {
+    padding-top: 25%; }
+    #commercial .comercial_funds_section .object_block_container .object_block .info_block .properties_container h2 {
+      font-size: 1.5rem; }
+    #commercial .comercial_funds_section .object_block_container .object_block .info_block .properties_container p {
+      margin: 10px 15px 20px;
+      font-size: 1rem; } }
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .navbar ul.nav li.nav-item .dropdown-menu {
     right: 0;
@@ -113,20 +126,31 @@
     main .results_section .results_container.map_view #results_map {
       height: 400px; }
 
-  main#results_promotions .results_section .results_container.grid_view .container-fluid > .row .object_block_container .object_block .info_block .title_container a h2,
-  main#results_promotions .results_section .results_container.map_view .container-fluid > .row .object_block_container .object_block .info_block .title_container a h2 {
+  #results_promotions main .results_section .results_container.grid_view .container-fluid > .row .object_block_container .object_block .info_block .title_container a h2,
+  #results_promotions main .results_section .results_container.map_view .container-fluid > .row .object_block_container .object_block .info_block .title_container a h2 {
     font-size: 1rem; }
-  main#results_promotions .results_section .results_container.grid_view .container-fluid > .row .object_block_container .object_block .info_block .description_container h3,
-  main#results_promotions .results_section .results_container.map_view .container-fluid > .row .object_block_container .object_block .info_block .description_container h3 {
+  #results_promotions main .results_section .results_container.grid_view .container-fluid > .row .object_block_container .object_block .info_block .description_container h3,
+  #results_promotions main .results_section .results_container.map_view .container-fluid > .row .object_block_container .object_block .info_block .description_container h3 {
     font-size: 0.875rem; }
-  main#results_promotions .results_section .results_container.grid_view .container-fluid > .row .object_block_container .object_block:hover .title_container a h2,
-  main#results_promotions .results_section .results_container.map_view .container-fluid > .row .object_block_container .object_block:hover .title_container a h2 {
+  #results_promotions main .results_section .results_container.grid_view .container-fluid > .row .object_block_container .object_block:hover .title_container a h2,
+  #results_promotions main .results_section .results_container.map_view .container-fluid > .row .object_block_container .object_block:hover .title_container a h2 {
     font-size: 1.25rem; }
-  main#results_promotions .results_section .results_container.grid_view .container-fluid > .row .object_block_container .object_block:hover .description_container,
-  main#results_promotions .results_section .results_container.map_view .container-fluid > .row .object_block_container .object_block:hover .description_container {
+  #results_promotions main .results_section .results_container.grid_view .container-fluid > .row .object_block_container .object_block:hover .description_container,
+  #results_promotions main .results_section .results_container.map_view .container-fluid > .row .object_block_container .object_block:hover .description_container {
     opacity: 1;
     bottom: 40%;
     text-align: center; }
+
+  #commercial .comercial_funds_section .object_block_container .object_block .info_block .properties_container {
+    padding-top: 15px;
+    top: 60%; }
+    #commercial .comercial_funds_section .object_block_container .object_block .info_block .properties_container h2 {
+      font-size: 1.25rem; }
+    #commercial .comercial_funds_section .object_block_container .object_block .info_block .properties_container p {
+      margin: 10px 15px 10px;
+      font-size: 0.875rem; }
+    #commercial .comercial_funds_section .object_block_container .object_block .info_block .properties_container span {
+      font-size: 1rem; }
 
   footer .footer_bottom_section .address_block {
     margin-top: 25px; } }

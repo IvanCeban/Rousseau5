@@ -891,17 +891,14 @@ header {
             content: "\e906"; }
   .card .collapse .card-block,
   .card .collapsing .card-block {
-    padding: 15px 0; }
+    padding: 15px 0 0; }
     .card .collapse .card-block p,
     .card .collapsing .card-block p {
       margin-bottom: 20px; }
-      .card .collapse .card-block p:last-child,
-      .card .collapsing .card-block p:last-child {
-        margin: 0; }
     .card .collapse .card-block h6,
     .card .collapsing .card-block h6 {
       color: #2c314f;
-      margin-bottom: 25px;
+      margin-bottom: 15px;
       font: 1rem lato_regular; }
 
 .gradient_bottom,
@@ -940,12 +937,11 @@ header {
 
 #commercial h1,
 #press_list h1 {
-  margin: 30px 0 0; }
+  margin: 30px 0 20px; }
 #commercial .object_block_container .object_block,
 #press_list .object_block_container .object_block {
   display: block;
-  position: relative;
-  margin-top: 30px; }
+  position: relative; }
   #commercial .object_block_container .object_block .img_block img,
   #press_list .object_block_container .object_block .img_block img {
     width: 100%;
