@@ -186,7 +186,7 @@
                             </div>
                             <div class="info_block">
                                 <div class="title_container">
-                                    <a href="details_for_sale.php"><h2>La Residence du lac - Saint Prex</h2></a>
+                                    <a href="#"><h2>La Residence du lac - Saint Prex</h2></a>
                                     <ul class="social_networks">
                                         <li><a href="#"><i class="icn icon-tw"></i></a></li>
                                         <li><a href="#"><i class="icn icon-linked_in"></i></a></li>
@@ -218,7 +218,7 @@
                             </div>
                             <div class="info_block">
                                 <div class="title_container">
-                                    <a href="details_for_sale.php"><h2>La Residence du lac - Saint Prex</h2></a>
+                                    <a href="#"><h2>La Residence du lac - Saint Prex</h2></a>
                                     <ul class="social_networks">
                                         <li><a href="#"><i class="icn icon-tw"></i></a></li>
                                         <li><a href="#"><i class="icn icon-linked_in"></i></a></li>
@@ -250,7 +250,7 @@
                             </div>
                             <div class="info_block">
                                 <div class="title_container">
-                                    <a href="details_for_sale.php"><h2>La Residence du lac - Saint Prex</h2></a>
+                                    <a href="#"><h2>La Residence du lac - Saint Prex</h2></a>
                                     <ul class="social_networks">
                                         <li><a href="#"><i class="icn icon-tw"></i></a></li>
                                         <li><a href="#"><i class="icn icon-linked_in"></i></a></li>
@@ -282,7 +282,7 @@
                             </div>
                             <div class="info_block">
                                 <div class="title_container">
-                                    <a href="details_for_sale.php"><h2>La Residence du lac - Saint Prex</h2></a>
+                                    <a href="#"><h2>La Residence du lac - Saint Prex</h2></a>
                                     <ul class="social_networks">
                                         <li><a href="#"><i class="icn icon-tw"></i></a></li>
                                         <li><a href="#"><i class="icn icon-linked_in"></i></a></li>

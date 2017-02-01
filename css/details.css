@@ -59,7 +59,7 @@ nav.navbar {
 section {
   margin-top: 25px; }
   section h1 {
-    font: 22px lato_regular;
+    font: 1.375rem lato_regular;
     text-align: left;
     margin-bottom: 15px; }
 
@@ -72,11 +72,14 @@ section {
 .contact_section .agent_info_container {
   border: 1px solid #cccccc;
   margin-top: 15px; }
-  .contact_section .agent_info_container .agent_img img {
-    display: block;
-    width: 100%; }
+  .contact_section .agent_info_container .agent_img {
+    overflow: hidden; }
+    .contact_section .agent_info_container .agent_img img {
+      display: block;
+      height: 100%;
+      float: right; }
   .contact_section .agent_info_container .agent_info {
-    padding: 30px 0 0; }
+    padding: 30px 0 30px; }
     .contact_section .agent_info_container .agent_info p {
       font-size: 18px; }
     .contact_section .agent_info_container .agent_info .agent_name {
@@ -107,7 +110,9 @@ section {
       margin: 30px 0 20px; }
     .contact_section .agent_info_container .object_info .btn {
       height: 60px;
-      line-height: 60px; }
+      line-height: 60px;
+      padding: 0 15px;
+      width: 100%; }
 
 .object_info_section .object_info_container {
   border: 1px solid #cccccc;
@@ -179,7 +184,7 @@ section {
       color: white; }
 
 .contact_form_section form {
-  padding: 30px;
+  padding: 30px 30px 10px 30px;
   border: 1px solid #cccccc; }
   .contact_form_section form .my_checkbox {
     position: absolute;

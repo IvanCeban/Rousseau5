@@ -118,6 +118,40 @@
       }
     }
   }
+
+  .gallery_section {
+    .gallery_container {
+      .gallery_view .object_title {
+        h2 {
+          font-size: 2.25rem;
+        }
+        h3 {
+          font-size: 1.125rem;
+        }
+      }
+    }
+  }
+
+  .contact_section {
+    .agent_info_container {
+      .agent_info {
+        .agent_name {
+          font-size: 1.5rem;
+        }
+        ul {
+          li {
+            width: 100%;
+            font-size: 1rem;
+            &:nth-child(2) {
+              margin: 0;
+              padding: 0;
+              border: none;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 @media screen and ( min-width: 768px ) and ( max-width: 991px ) {
@@ -308,6 +342,86 @@
     font-size: 0.875rem;
   }
 
+  .gallery_section {
+    .gallery_container {
+      .gallery_view .object_title {
+        h2 {
+          font-size: 2rem;
+        }
+        h3 {
+          font-size: 1rem;
+        }
+        .object_price {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+
+  .contact_section {
+    .agent_info_container {
+      .agent_img {
+        img {
+          width: 100%;
+          float: none;
+          height: auto;
+        }
+      }
+      .agent_info {
+        padding-left: 15px;
+        .agent_name {
+          font-size: 1.5rem;
+        }
+      }
+      .object_info {
+        padding-right: 15px;
+      }
+    }
+  }
+
+  .object_info_section {
+    .object_info_container {
+      padding: 15px;
+      ul.properties {
+        margin-bottom: 10px;
+        li {
+          width: 25%;
+          margin-bottom: 20px;
+          i {
+            margin-bottom: 10px;
+          }
+        }
+      }
+      ul.nav li.nav-item a.nav-link {
+        font-size: 1rem;
+      }
+      ul.object_prop_list li {
+        width: 33.333%;
+      }
+    }
+  }
+
+  .location_section .map_container {
+    #object_map {
+      height: 480px;
+    }
+    .map_sidebar {
+      padding: 15px;
+      ul li {
+        margin-bottom: 15px;
+        .my_checkbox label .my_checkbox_text {
+          span {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  .contact_form_section form {
+    padding: 20px 15px 0 15px;
+  }
+
   footer {
     .footer_bottom_section .address_block {
       margin-top: 25px;
@@ -386,9 +500,11 @@
         font-size: 1.250rem;
       }
     }
+
     .carousel_section .carousel .carousel-cell {
       width: 100%;
     }
+
     .articles_section .article_block {
       p {
         margin-bottom: 10px;
@@ -401,6 +517,7 @@
         text-align: left;
       }
     }
+
     .categories_section {
       a.category:not(.sell_category) {
         margin-top: 30px;
@@ -412,6 +529,107 @@
         }
       }
     }
+
+    .gallery_section {
+      .gallery_container {
+        .gallery_nav .gallery_thumbnails.slick-slider .slick-list .slick-track .slick-slide {
+          padding: 0 3px;
+        }
+        .gallery_view .gallery.slick-slider .slick-arrow {
+          top: 30%;
+          font-size: 1.5rem;
+          &.slick-prev {
+            left: initial;
+            right: 60px;
+          }
+          &.slick-next  {
+            right: 15px;
+          }
+        }
+        .gallery_view .object_title {
+          h2 {
+            font-size: 1rem;
+          }
+          h3 {
+            font-size: 0.75rem;
+            margin-bottom: 15px;
+          }
+          .object_price {
+            display: table;
+            padding: 5px 15px;
+            float: right;
+            font-size: 0.75rem;
+          }
+        }
+      }
+    }
+
+    .contact_section {
+      .agent_info_container {
+        .agent_info {
+          padding: 15px;
+          p {
+            font-size: 1rem;
+          }
+          .agent_name {
+            font-size: 1.125rem;
+          }
+          ul li {
+            font-size: 0.875rem;
+          }
+        }
+        .object_info {
+          padding: 0 15px 15px 15px;
+          .object_id {
+            margin: 0 0 15px;
+          }
+        }
+      }
+    }
+
+    .object_info_section {
+      .object_info_container {
+        ul.properties {
+          margin-bottom: 10px;
+          li {
+            width: 50%;
+            margin-bottom: 20px;
+            i {
+              margin-bottom: 10px;
+              font-size: 2rem;
+            }
+          }
+        }
+        ul.nav li.nav-item a.nav-link {
+          font-size: 0.75rem;
+        }
+        ul.object_prop_list li {
+          width: 50%;
+          margin-bottom: 10px;
+          font-size: 0.875rem;
+        }
+      }
+    }
+
+    .object_info_section,
+    .location_section,
+    .contact_form_section {
+      h1 {
+        font-size: 1rem;
+      }
+    }
+
+    .contact_form_section form {
+      .my_checkbox {
+        position: relative;
+        margin-top: 10px;
+        bottom: 0;
+      }
+      span.required_fields {
+        margin: 0;
+      }
+    }
+
   }
   .results_section {
     .results_container.list_view {

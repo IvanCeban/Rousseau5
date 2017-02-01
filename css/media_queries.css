@@ -73,7 +73,22 @@
     #commercial .object_block_container .object_block .info_block .properties_container p,
     #press_list .object_block_container .object_block .info_block .properties_container p {
       margin: 10px 15px 20px;
-      font-size: 1rem; } }
+      font-size: 1rem; }
+
+  .gallery_section .gallery_container .gallery_view .object_title h2 {
+    font-size: 2.25rem; }
+  .gallery_section .gallery_container .gallery_view .object_title h3 {
+    font-size: 1.125rem; }
+
+  .contact_section .agent_info_container .agent_info .agent_name {
+    font-size: 1.5rem; }
+  .contact_section .agent_info_container .agent_info ul li {
+    width: 100%;
+    font-size: 1rem; }
+    .contact_section .agent_info_container .agent_info ul li:nth-child(2) {
+      margin: 0;
+      padding: 0;
+      border: none; } }
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .navbar ul.nav li.nav-item .dropdown-menu {
     right: 0;
@@ -170,6 +185,50 @@
     padding: 15px;
     font-size: 0.875rem; }
 
+  .gallery_section .gallery_container .gallery_view .object_title h2 {
+    font-size: 2rem; }
+  .gallery_section .gallery_container .gallery_view .object_title h3 {
+    font-size: 1rem; }
+  .gallery_section .gallery_container .gallery_view .object_title .object_price {
+    font-size: 1rem; }
+
+  .contact_section .agent_info_container .agent_img img {
+    width: 100%;
+    float: none;
+    height: auto; }
+  .contact_section .agent_info_container .agent_info {
+    padding-left: 15px; }
+    .contact_section .agent_info_container .agent_info .agent_name {
+      font-size: 1.5rem; }
+  .contact_section .agent_info_container .object_info {
+    padding-right: 15px; }
+
+  .object_info_section .object_info_container {
+    padding: 15px; }
+    .object_info_section .object_info_container ul.properties {
+      margin-bottom: 10px; }
+      .object_info_section .object_info_container ul.properties li {
+        width: 25%;
+        margin-bottom: 20px; }
+        .object_info_section .object_info_container ul.properties li i {
+          margin-bottom: 10px; }
+    .object_info_section .object_info_container ul.nav li.nav-item a.nav-link {
+      font-size: 1rem; }
+    .object_info_section .object_info_container ul.object_prop_list li {
+      width: 33.333%; }
+
+  .location_section .map_container #object_map {
+    height: 480px; }
+  .location_section .map_container .map_sidebar {
+    padding: 15px; }
+    .location_section .map_container .map_sidebar ul li {
+      margin-bottom: 15px; }
+      .location_section .map_container .map_sidebar ul li .my_checkbox label .my_checkbox_text span {
+        display: none; }
+
+  .contact_form_section form {
+    padding: 20px 15px 0 15px; }
+
   footer .footer_bottom_section .address_block {
     margin-top: 25px; } }
 @media screen and (min-width: 544px) and (max-width: 767px) {
@@ -238,6 +297,62 @@
     height: 185px; }
     main .categories_section a.agency_category .category_title {
       height: 185px; }
+  main .gallery_section .gallery_container .gallery_nav .gallery_thumbnails.slick-slider .slick-list .slick-track .slick-slide {
+    padding: 0 3px; }
+  main .gallery_section .gallery_container .gallery_view .gallery.slick-slider .slick-arrow {
+    top: 30%;
+    font-size: 1.5rem; }
+    main .gallery_section .gallery_container .gallery_view .gallery.slick-slider .slick-arrow.slick-prev {
+      left: initial;
+      right: 60px; }
+    main .gallery_section .gallery_container .gallery_view .gallery.slick-slider .slick-arrow.slick-next {
+      right: 15px; }
+  main .gallery_section .gallery_container .gallery_view .object_title h2 {
+    font-size: 1rem; }
+  main .gallery_section .gallery_container .gallery_view .object_title h3 {
+    font-size: 0.75rem;
+    margin-bottom: 15px; }
+  main .gallery_section .gallery_container .gallery_view .object_title .object_price {
+    display: table;
+    padding: 5px 15px;
+    float: right;
+    font-size: 0.75rem; }
+  main .contact_section .agent_info_container .agent_info {
+    padding: 15px; }
+    main .contact_section .agent_info_container .agent_info p {
+      font-size: 1rem; }
+    main .contact_section .agent_info_container .agent_info .agent_name {
+      font-size: 1.125rem; }
+    main .contact_section .agent_info_container .agent_info ul li {
+      font-size: 0.875rem; }
+  main .contact_section .agent_info_container .object_info {
+    padding: 0 15px 15px 15px; }
+    main .contact_section .agent_info_container .object_info .object_id {
+      margin: 0 0 15px; }
+  main .object_info_section .object_info_container ul.properties {
+    margin-bottom: 10px; }
+    main .object_info_section .object_info_container ul.properties li {
+      width: 50%;
+      margin-bottom: 20px; }
+      main .object_info_section .object_info_container ul.properties li i {
+        margin-bottom: 10px;
+        font-size: 2rem; }
+  main .object_info_section .object_info_container ul.nav li.nav-item a.nav-link {
+    font-size: 0.75rem; }
+  main .object_info_section .object_info_container ul.object_prop_list li {
+    width: 50%;
+    margin-bottom: 10px;
+    font-size: 0.875rem; }
+  main .object_info_section h1,
+  main .location_section h1,
+  main .contact_form_section h1 {
+    font-size: 1rem; }
+  main .contact_form_section form .my_checkbox {
+    position: relative;
+    margin-top: 10px;
+    bottom: 0; }
+  main .contact_form_section form span.required_fields {
+    margin: 0; }
 
   .results_section .results_container.list_view .object_block_container .object_block .info_block .properties_containner ul.properties ul.sublist:first-child,
   .results_section .results_container.list_view .object_block_container .object_block .info_block .properties_containner ul.properties ul.sublist:last-child {

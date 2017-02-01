@@ -86,7 +86,7 @@ nav.navbar {
 section {
   margin-top: 25px;
   h1 {
-    font: 22px lato_regular;
+    font: 1.375rem lato_regular;
     text-align: left;
     margin-bottom: 15px;
   }
@@ -106,13 +106,15 @@ section {
     border: 1px solid $border_color;
     margin-top: 15px;
     .agent_img {
+      overflow: hidden;
       img {
         display: block;
-        width: 100%;
+        height: 100%;
+        float: right;
       }
     }
     .agent_info {
-      padding: 30px 0 0;
+      padding: 30px 0 30px;
       p {
         font-size: 18px;
       }
@@ -152,6 +154,8 @@ section {
       .btn {
         height: 60px;
         line-height: 60px;
+        padding: 0 15px;
+        width: 100%;
       }
     }
   }
@@ -247,7 +251,7 @@ section {
 
 .contact_form_section {
   form {
-    padding: 30px;
+    padding: 30px 30px 10px 30px;
     border: 1px solid $border_color;
     .my_checkbox {
       position: absolute;

@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?k2xce');
-  src:  url('fonts/icomoon.eot?k2xce#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?k2xce') format('truetype'),
-    url('fonts/icomoon.woff?k2xce') format('woff'),
-    url('fonts/icomoon.svg?k2xce#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?jn1sqs');
+  src:  url('fonts/icomoon.eot?jn1sqs#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?jn1sqs') format('truetype'),
+    url('fonts/icomoon.woff?jn1sqs') format('woff'),
+    url('fonts/icomoon.svg?jn1sqs#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -160,5 +160,44 @@
 }
 .icon-checkbox_act:before {
   content: "\e92b";
+}
+.icon-terrace:before {
+  content: "\e92c";
+}
+.icon-cafe:before {
+  content: "\e92d";
+}
+.icon-Dentist:before {
+  content: "\e92e";
+}
+.icon-Doctor:before {
+  content: "\e92f";
+}
+.icon-hospital:before {
+  content: "\e930";
+}
+.icon-Parking:before {
+  content: "\e931";
+}
+.icon-Petrol:before {
+  content: "\e932";
+}
+.icon-Pharmacy:before {
+  content: "\e933";
+}
+.icon-Police:before {
+  content: "\e934";
+}
+.icon-Posts:before {
+  content: "\e935";
+}
+.icon-Restaurant:before {
+  content: "\e936";
+}
+.icon-School:before {
+  content: "\e937";
+}
+.icon-university:before {
+  content: "\e938";
 }
 
