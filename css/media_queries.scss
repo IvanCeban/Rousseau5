@@ -119,54 +119,106 @@
         margin-top: 30px;
       }
     }
-    .results_section .view_type_container .view_type li {
-      width: 50%;
-    }
-  }
-  footer {
-    .footer_bottom_section .address_block {
-      margin-top: 25px;
-    }
-  }
-  .results_section {
-    .results_container.list_view {
-      .object_block_container {
-        width: 100%;
-        .object_block {
-          .img_block {
-            position: relative;
-            height: 100%;
-            max-height: 300px;
-            float: none;
+    .results_section {
+      .view_type_container .view_type li {
+        width: 50%;
+      }
+      .results_container {
+        &.list_view {
+          .object_block_container {
             width: 100%;
-            img {
-              height: auto;
-              width: 100%;
+            .object_block {
+              .img_block {
+                position: relative;
+                height: 100%;
+                max-height: 300px;
+                float: none;
+                width: 100%;
+                img {
+                  height: auto;
+                  width: 100%;
+                }
+              }
+              .info_block {
+                float: none;
+                width: 100%;
+                margin-left: 0;
+                border: 1px solid $border_color;
+                border-left: 1px solid $border_color;
+                border-top: none;
+                padding: 30px;
+                .object_price {
+                  margin-top: 15px;
+                }
+
+                .properties_containner {
+                  ul.properties {
+                    ul.sublist {
+                      li {
+                        display: table-cell;
+                      }
+                      &:first-child {
+                        width: 40%;
+                      }
+                      &:last-child {
+                        width: 60%;
+                      }
+                    }
+                  }
+                }
+              }
             }
           }
-          .info_block {
-            float: none;
-            width: 100%;
-            margin-left: 0;
-            border: 1px solid $border_color;
-            border-left: 1px solid $border_color;
-            border-top: none;
-            padding: 30px;
-            .object_price {
-              margin-top: 15px;
-            }
-
-            .properties_containner {
-              ul.properties {
-                ul.sublist {
-                  li {
-                    display: table-cell;
+        }
+        .container-fluid > .row .object_block_container .object_block .img_block {
+          .activity_label,
+          .exclusive_label {
+            font-size: 0.875rem;
+          }
+        }
+      }
+      .results_container.map_view {
+        height: 400px;
+        #results_map {
+          height: 400px;
+        }
+      }
+    }
+  }
+  main#results_promotions {
+    .results_section {
+      .results_container.grid_view,
+      .results_container.map_view {
+        .container-fluid {
+          > .row {
+            .object_block_container {
+              .object_block {
+                .info_block {
+                  .title_container {
+                    a {
+                      h2 {
+                        font-size: 1rem;
+                      }
+                    }
                   }
-                  &:first-child {
-                    width: 40%;
+                  .description_container {
+                    h3 {
+                      font-size: 0.875rem;
+                    }
                   }
-                  &:last-child {
-                    width: 60%;
+                }
+                &:hover {
+                  .title_container {
+                    a {
+                      h2 {
+                        font-size: 1.25rem;
+                      }
+                    }
+                  }
+                  .description_container {
+                    opacity: 1;
+                    bottom: 40%;
+                    text-align: center;
                   }
                 }
               }
@@ -174,6 +226,11 @@
           }
         }
       }
+    }
+  }
+  footer {
+    .footer_bottom_section .address_block {
+      margin-top: 25px;
     }
   }
 }

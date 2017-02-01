@@ -38,37 +38,43 @@
         <div class="container-fluid">
             <div class="search_block">
                 <div class="row">
-                    <div class="col-xs-12 col-sm-2 margin_bottom_10">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 margin_bottom_10">
                         <label for="object_type_select" class="form_el_label light"><i class="icn icon-building"></i><span>Type de bien</span></label>
-                        <select class="selectpicker" name="object_type" id="object_type_select">
-                            <option value="">Tout</option>
-                            <option value="">House</option>
-                            <option value="">Apartment</option>
-                            <option value="">Building plot</option>
-                            <option value="">Building</option>
-                            <option value="">Parking space</option>
-                        </select>
+                        <div class="min_select_container margin_bottom_10">
+                            <select class="selectpicker" name="object_type" id="object_type_select">
+                                <option value="">Tout</option>
+                                <option value="">House</option>
+                                <option value="">Apartment</option>
+                                <option value="">Building plot</option>
+                                <option value="">Building</option>
+                                <option value="">Parking space</option>
+                            </select>
+                        </div>
                     </div>
-                    <div class="col-xs-12 col-sm-2 margin_bottom_10">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 margin_bottom_10">
                         <label class="form_el_label light"><i class="icn icon-building2"></i><span>Sous-categorie</span></label>
-                        <select class="selectpicker" name="object_subtype">
-                            <option value="">Tout</option>
-                            <option value="">Bastide</option>
-                            <option value="">Bungalow</option>
-                            <option value="">Chalet</option>
-                        </select>
+                        <div class="min_select_container margin_bottom_10">
+                            <select class="selectpicker" name="object_subtype">
+                                <option value="">Tout</option>
+                                <option value="">Bastide</option>
+                                <option value="">Bungalow</option>
+                                <option value="">Chalet</option>
+                            </select>
+                        </div>
                     </div>
-                    <div class="col-xs-12 col-sm-2 margin_bottom_10">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 margin_bottom_10">
                         <label class="form_el_label light"><i class="icn icon-country"></i><span>Lieu</span></label>
-                        <select class="selectpicker" name="object_place">
-                            <option value="">Tout</option>
-                            <option value="">Geneva</option>
-                            <option value="">Bern</option>
-                            <option value="">Zurich</option>
-                            <option value="">Paris</option>
-                        </select>
+                        <div class="min_select_container margin_bottom_10">
+                            <select class="selectpicker" name="object_place">
+                                <option value="">Tout</option>
+                                <option value="">Geneva</option>
+                                <option value="">Bern</option>
+                                <option value="">Zurich</option>
+                                <option value="">Paris</option>
+                            </select>
+                        </div>
                     </div>
-                    <div class="col-xs-12 col-sm-2 margin_bottom_10">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 margin_bottom_10">
                         <label class="form_el_label light"><i class="icn icon-projects_neufs"></i><span>Projects neufs</span></label>
                         <div class="min_select_container margin_bottom_10">
                             <select class="selectpicker" name="object_rooms_number">
@@ -80,7 +86,7 @@
                             </select>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-2 margin_bottom_10">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 margin_bottom_10">
                         <label class="form_el_label light"><i class="icn icon-rooms"></i><span>Pieces</span></label>
                         <div class="min_select_container margin_bottom_10">
                             <select class="selectpicker" name="object_surface">
@@ -92,7 +98,7 @@
                             </select>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-2 margin_bottom_10">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 margin_bottom_10">
                         <label class="form_el_label light"><i class="icn icon-bedrooms"></i><span>Chambres</span></label>
                         <div class="min_select_container margin_bottom_10">
                             <select class="selectpicker" name="object_price">
@@ -106,7 +112,21 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-xs-12 col-sm-2 margin_bottom_10">
+                    <div class="col-xs-12 col-sm-6 col-md-4 push-md-4 col-lg-3 push-lg-2 margin_bottom_10">
+                        <label class="form_el_label light"><i class="icn icon-prix"></i><span>Prix min</span></label>
+                        <div class="input_container light margin_bottom_10">
+                            <input type="text" placeholder="Min">
+                            <div class="input_label">CHF</div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 push-md-4 col-lg-3 push-lg-2 margin_bottom_10">
+                        <label class="form_el_label light"><i class="icn icon-prix"></i><span>Prix max</span></label>
+                        <div class="input_container light margin_bottom_10">
+                            <input type="text" placeholder="Max">
+                            <div class="input_label">CHF</div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 pull-md-8 col-lg-2 pull-lg-6 margin_bottom_10">
                         <label class="form_el_label light"><i class="icn icon-living_area"></i><span>Surface habit.</span></label>
                         <div class="min_select_container margin_bottom_10">
                             <select class="selectpicker" name="object_rooms_number">
@@ -118,21 +138,7 @@
                             </select>
                         </div>
                     </div>
-                    <div class="col-xs-6 col-sm-3 margin_bottom_10">
-                        <label class="form_el_label light"><i class="icn icon-prix"></i><span>Prix min</span></label>
-                        <div class="input_container light">
-                            <input type="text" placeholder="Min">
-                            <div class="input_label">CHF</div>
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-sm-3 margin_bottom_10">
-                        <label class="form_el_label light"><i class="icn icon-prix"></i><span>Prix max</span></label>
-                        <div class="input_container light">
-                            <input type="text" placeholder="Max">
-                            <div class="input_label">CHF</div>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-4 margin_bottom_10 margin_top_30">
+                    <div class="col-xs-12 col-sm-6 col-md-12 col-lg-4 margin_bottom_10 margin_top_30">
                         <div class="input_container light">
                             <input type="text" placeholder="Rechercher votre bien">
                             <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
@@ -147,16 +153,16 @@
         <div class="container-fluid">
             <h1 class="margin_bottom_30">Votre recherche immobiliére</h1>
             <div class="row">
-                <div class="col-xs-6">
+                <div class="col-xs-12 col-md-8 col-lg-6 margin_bottom_10">
                     <div class="view_type_container">
                         <ul class="view_type">
-                            <li class="list_view_btn active"><i class="icn icon-list_icn"></i>Liste (371)</li>
-                            <li class="grid_view_btn"><i class="icn icon-image_icn"></i>Grille (371)</li>
+                            <li class="hidden-sm-down list_view_btn"><i class="icn icon-list_icn"></i>Liste (371)</li>
+                            <li class="grid_view_btn active"><i class="icn icon-image_icn"></i>Grille (371)</li>
                             <li class="map_view_btn"><i class="icn icon-map_icn"></i>Carte (152)</li>
                         </ul>
                     </div>
                 </div>
-                <div class="col-xs-3 offset-xs-3">
+                <div class="col-xs-12 offset-sm-6 col-sm-6 col-md-4 offset-md-0 col-lg-3 offset-lg-3 margin_bottom_10">
                     <select class="selectpicker" name="sorting_type">
                         <option value="">Tout</option>
                         <option value="">10 résultats par page</option>
@@ -167,11 +173,11 @@
             </div>
         </div>
 
-        <div class="results_container list_view">
+        <div class="results_container grid_view">
             <div id="results_map"></div>
             <div class="container-fluid">
                 <div class="carousel row">
-                    <div class="carousel-cell col-xs-12 col-sm-6 col-lg-4 object_block_container">
+                    <div class="carousel-cell col-xs-12 col-sm-6 object_block_container">
                         <div class="object_block">
                             <div class="img_block">
                                 <div class="activity_label">Loué</div>
@@ -203,7 +209,7 @@
                             <div class="gradient_bg"></div>
                         </div>
                     </div>
-                    <div class="carousel-cell col-xs-12 col-sm-6 col-lg-4 object_block_container">
+                    <div class="carousel-cell col-xs-12 col-sm-6 object_block_container">
                         <div class="object_block">
                             <div class="img_block">
                                 <div class="activity_label">Loué</div>
@@ -235,7 +241,7 @@
                             <div class="gradient_bg"></div>
                         </div>
                     </div>
-                    <div class="carousel-cell col-xs-12 col-sm-6 col-lg-4 object_block_container">
+                    <div class="carousel-cell col-xs-12 col-sm-6 object_block_container">
                         <div class="object_block">
                             <div class="img_block">
                                 <div class="activity_label">Loué</div>
@@ -267,7 +273,7 @@
                             <div class="gradient_bg"></div>
                         </div>
                     </div>
-                    <div class="carousel-cell col-xs-12 col-sm-6 col-lg-4 object_block_container">
+                    <div class="carousel-cell col-xs-12 col-sm-6 object_block_container">
                         <div class="object_block">
                             <div class="img_block">
                                 <div class="activity_label">Loué</div>
@@ -310,11 +316,9 @@
                     </li>
                     <li class="page-item"><a href="#" class="page-link">1</a></li>
                     <li class="page-item"><a href="#" class="page-link">2</a></li>
-                    <li class="page-item"><a href="#" class="page-link">3</a></li>
-                    <li class="page-item active"><a href="#" class="page-link">4</a></li>
+                    <li class="page-item active"><a href="#" class="page-link">3</a></li>
+                    <li class="page-item"><a href="#" class="page-link">4</a></li>
                     <li class="page-item"><a href="#" class="page-link">5</a></li>
-                    <li class="page-item"><a href="#" class="page-link">6</a></li>
-                    <li class="page-item"><a href="#" class="page-link">7</a></li>
                     <li class="page-item">
                         <a href="#" class="page-link" aria-label="Next">
                             <span aria-hidden="true">»</span>

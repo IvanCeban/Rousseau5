@@ -276,10 +276,10 @@
       .results_section .results_container.map_view .container-fluid .object_block_container .object_block:hover .info_block .properties_containner .btn {
         opacity: 1; }
   .results_section .results_container.map_view {
-    height: 644px; }
+    height: 600px; }
     .results_section .results_container.map_view #results_map {
       visibility: visible;
-      height: 644px;
+      height: 600px;
       margin-bottom: 30px; }
     .results_section .results_container.map_view nav {
       display: none; }
@@ -335,8 +335,7 @@
   #results_promotions .results_container.grid_view .container-fluid > .row .object_block_container,
   #results_promotions .results_container.map_view .container-fluid > .row .object_block_container {
     padding-left: 15px;
-    padding-right: 15px;
-    width: 50%; }
+    padding-right: 15px; }
     #results_promotions .results_container.grid_view .container-fluid > .row .object_block_container .object_block,
     #results_promotions .results_container.map_view .container-fluid > .row .object_block_container .object_block {
       margin-bottom: 30px;

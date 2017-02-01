@@ -357,10 +357,10 @@
     }
   }
   .results_container.map_view {
-    height: 644px;
+    height: 600px;
     #results_map {
       visibility: visible;
-      height: 644px;
+      height: 600px;
       margin-bottom: 30px;
       //width: calc( 100% - 600px );
       //float: left;
@@ -437,10 +437,6 @@
 
 }
 
-#results_comercial {
-
-}
-
 #results_promotions {
   .results_container.list_view {
     .container-fluid {
@@ -480,7 +476,6 @@
         .object_block_container {
           padding-left: 15px;
           padding-right: 15px;
-          width: 50%;
           .object_block {
             margin-bottom: 30px;
             padding: 0;
