@@ -106,11 +106,17 @@
         fill: #ffffff;
       }
     }
-    .flickity-prev-next-button.previous {
-      left: -30px;
-    }
-    .flickity-prev-next-button.next {
-      right: -30px;
+    .flickity-prev-next-button {
+      bottom: -78px;
+      margin-right: -22px;
+      top: initial;
+      &.previous {
+        right: 60%;
+        left: initial;
+      }
+      &.next {
+        right: 40%;
+      }
     }
   }
 }

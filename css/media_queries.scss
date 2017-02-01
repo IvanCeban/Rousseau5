@@ -188,3 +188,15 @@
     left: initial;
   }
 }
+
+@media screen and ( min-width: 1300px ) {
+  .carousel_section .carousel .flickity-prev-next-button {
+    top: 50%;
+    &.previous {
+      left: -30px;
+    }
+    &.next {
+      right: -30px;
+    }
+  }
+}

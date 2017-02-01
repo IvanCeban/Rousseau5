@@ -82,10 +82,15 @@
       background: transparent; }
       .carousel_section .carousel .flickity-prev-next-button .arrow {
         fill: #ffffff; }
-    .carousel_section .carousel .flickity-prev-next-button.previous {
-      left: -30px; }
-    .carousel_section .carousel .flickity-prev-next-button.next {
-      right: -30px; }
+    .carousel_section .carousel .flickity-prev-next-button {
+      bottom: -78px;
+      margin-right: -22px;
+      top: initial; }
+      .carousel_section .carousel .flickity-prev-next-button.previous {
+        right: 60%;
+        left: initial; }
+      .carousel_section .carousel .flickity-prev-next-button.next {
+        right: 40%; }
 
 .articles_section .article_block {
   margin-top: 40px; }
