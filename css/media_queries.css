@@ -39,6 +39,9 @@
     .results_section .results_container.grid_view .container-fluid .object_block_container .object_block .gradient_bg,
     .results_section .results_container.map_view .container-fluid .object_block_container .object_block .gradient_bg {
       bottom: 63px; } }
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .search_block .row label.form_el_label {
+    font-size: 0.813rem; } }
 @media screen and (max-width: 991px) {
   .results_section .results_container.list_view .container-fluid .object_block_container .object_block .info_block .title_container a h2 {
     font-size: 1.5rem; }

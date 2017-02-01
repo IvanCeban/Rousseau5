@@ -55,6 +55,12 @@
   }
 }
 
+@media screen and ( min-width: 992px) and (max-width: 1199px) {
+  .search_block .row label.form_el_label {
+    font-size: 0.813rem;
+  }
+}
+
 @media screen and ( max-width: 991px ) {
   .results_section {
     .results_container.list_view .container-fluid {
