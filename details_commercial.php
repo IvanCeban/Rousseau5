@@ -43,13 +43,12 @@
                 <div class="object_title">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-xs-9">
-                                <h2>Superbe bureaux au centre ville</h2>
-                                <h3>Rues basses - Cité / <span class="gold">GENÈVE</span></h3>
+                            <div class="col-xs-12 col-sm-4 push-sm-8 col-lg-3 push-lg-9">
+                                <div class="object_price">CHF 2'990'000</div>
                             </div>
-                            <div class="col-xs-3">
-                                <div class="object_price">CHF 3'000
-                                </div>
+                            <div class="col-xs-12 col-sm-8 pull-sm-4 col-lg-9 pull-lg-3">
+                                <h2>Amazing apartment</h2>
+                                <h3>MAISON À VENDRE / <span class="gold">VÉSENAZ</span></h3>
                             </div>
                         </div>
                     </div>
@@ -68,35 +67,37 @@
                 </div>
             </div>
         </div>
-
     </section>
 
     <section class="contact_section">
         <div class="container-fluid">
-            <a class="back_link" href="results_commercial.php"><i class="icn icon-arrow_left"></i>Back to your search</a>
+            <a class="back_link" href="results_for_sale.php"><i class="icn icon-arrow_left"></i>Back to your search</a>
             <div class="agent_info_container">
                 <div class="row">
-                    <div class="col-xs-3">
+                    <div class="col-xs-12 col-md-4 col-lg-3">
                         <div class="agent_img">
                             <img src="img/agents/agent.jpg" alt="">
                         </div>
                     </div>
-                    <div class="col-xs-6">
-                        <div class="agent_info">
-                            <p>Contact agent to visit</p>
-                            <p class="agent_name">Tordjman Gary</p>
-                            <ul>
-                                <li>022 732 80 00</li>
-                                <li><a href="mailto:Info@rousseau5.ch">Info@rousseau5.ch</a></li>
-                            </ul>
+                    <div class="col-xs-12 col-md-8 col-lg-9">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-7 col-md-6 col-lg-8">
+                                <div class="agent_info">
+                                    <p>Contact agent to visit</p>
+                                    <p class="agent_name">Tordjman Gary</p>
+                                    <ul>
+                                        <li>022 732 80 00</li>
+                                        <li><a href="mailto:Info@rousseau5.ch">Info@rousseau5.ch</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-5 col-md-6 col-lg-4">
+                                <div class="object_info">
+                                    <p class="object_id">ID : GEGTVES2016</p>
+                                    <button class="btn dark">I'm interested</button>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-xs-3">
-                        <div class="object_info">
-                            <p class="object_id">ID : GEGTVES2016</p>
-                            <button class="btn dark">I'm interested</button>
-                        </div>
-
                     </div>
                 </div>
             </div>
@@ -230,7 +231,7 @@
                                 <label>
                                     <input required="" type="checkbox" name="" value="">
                                     <span class="fake_checkbox"></span>
-                                    <span class="my_checkbox_text"><i class="icn icon-floors"></i><span>Banques</span></span>
+                                    <span class="my_checkbox_text"><i class="icn icon-prix"></i><span>Banques</span></span>
                                 </label>
                             </div>
                         </li>
@@ -239,7 +240,7 @@
                                 <label>
                                     <input required="" type="checkbox" name="" value="">
                                     <span class="fake_checkbox"></span>
-                                    <span class="my_checkbox_text"><i class="icn icon-status"></i><span>Boulangeries</span></span>
+                                    <span class="my_checkbox_text"><i class="icn icon-cafe"></i><span>Boulangeries</span></span>
                                 </label>
                             </div>
                         </li>
@@ -248,7 +249,7 @@
                                 <label>
                                     <input required="" type="checkbox" name="" value="">
                                     <span class="fake_checkbox"></span>
-                                    <span class="my_checkbox_text"><i class="icn icon-floors"></i><span>Cafés/Pubs</span></span>
+                                    <span class="my_checkbox_text"><i class="icn icon-cafe"></i><span>Cafés/Pubs</span></span>
                                 </label>
                             </div>
                         </li>
@@ -257,7 +258,7 @@
                                 <label>
                                     <input required="" type="checkbox" name="" value="">
                                     <span class="fake_checkbox"></span>
-                                    <span class="my_checkbox_text"><i class="icn icon-floors"></i><span>Dentistes</span></span>
+                                    <span class="my_checkbox_text"><i class="icn icon-Dentist"></i><span>Dentistes</span></span>
                                 </label>
                             </div>
                         </li>
@@ -266,7 +267,7 @@
                                 <label>
                                     <input required="" type="checkbox" name="" value="">
                                     <span class="fake_checkbox"></span>
-                                    <span class="my_checkbox_text"><i class="icn icon-floors"></i><span>Ecoles</span></span>
+                                    <span class="my_checkbox_text"><i class="icn icon-School"></i><span>Ecoles</span></span>
                                 </label>
                             </div>
                         </li>
@@ -275,7 +276,7 @@
                                 <label>
                                     <input required="" type="checkbox" name="" value="">
                                     <span class="fake_checkbox"></span>
-                                    <span class="my_checkbox_text"><i class="icn icon-floors"></i><span>Hôpitaux</span></span>
+                                    <span class="my_checkbox_text"><i class="icn icon-hospital"></i><span>Hôpitaux</span></span>
                                 </label>
                             </div>
                         </li>
@@ -284,7 +285,7 @@
                                 <label>
                                     <input required="" type="checkbox" name="" value="">
                                     <span class="fake_checkbox"></span>
-                                    <span class="my_checkbox_text"><i class="icn icon-floors"></i><span>Médecins</span></span>
+                                    <span class="my_checkbox_text"><i class="icn icon-Doctor"></i><span>Médecins</span></span>
                                 </label>
                             </div>
                         </li>
@@ -293,7 +294,7 @@
                                 <label>
                                     <input required="" type="checkbox" name="" value="">
                                     <span class="fake_checkbox"></span>
-                                    <span class="my_checkbox_text"><i class="icn icon-floors"></i><span>Parkings</span></span>
+                                    <span class="my_checkbox_text"><i class="icn icon-Parking"></i><span>Parkings</span></span>
                                 </label>
                             </div>
                         </li>
@@ -302,7 +303,7 @@
                                 <label>
                                     <input required="" type="checkbox" name="" value="">
                                     <span class="fake_checkbox"></span>
-                                    <span class="my_checkbox_text"><i class="icn icon-floors"></i><span>Pharmacies</span></span>
+                                    <span class="my_checkbox_text"><i class="icn icon-Pharmacy"></i><span>Pharmacies</span></span>
                                 </label>
                             </div>
                         </li>
@@ -311,7 +312,7 @@
                                 <label>
                                     <input required="" type="checkbox" name="" value="">
                                     <span class="fake_checkbox"></span>
-                                    <span class="my_checkbox_text"><i class="icn icon-floors"></i><span>Police</span></span>
+                                    <span class="my_checkbox_text"><i class="icn icon-Police"></i><span>Police</span></span>
                                 </label>
                             </div>
                         </li>
@@ -320,7 +321,7 @@
                                 <label>
                                     <input required="" type="checkbox" name="" value="">
                                     <span class="fake_checkbox"></span>
-                                    <span class="my_checkbox_text"><i class="icn icon-floors"></i><span>Postes</span></span>
+                                    <span class="my_checkbox_text"><i class="icn icon-Posts"></i><span>Postes</span></span>
                                 </label>
                             </div>
                         </li>
@@ -329,7 +330,7 @@
                                 <label>
                                     <input required="" type="checkbox" name="" value="">
                                     <span class="fake_checkbox"></span>
-                                    <span class="my_checkbox_text"><i class="icn icon-floors"></i><span>Restaurants</span></span>
+                                    <span class="my_checkbox_text"><i class="icn icon-Restaurant"></i><span>Restaurants</span></span>
                                 </label>
                             </div>
                         </li>
@@ -338,7 +339,7 @@
                                 <label>
                                     <input required="" type="checkbox" name="" value="">
                                     <span class="fake_checkbox"></span>
-                                    <span class="my_checkbox_text"><i class="icn icon-floors"></i><span>Stations service</span></span>
+                                    <span class="my_checkbox_text"><i class="icn icon-Petrol"></i><span>Stations service</span></span>
                                 </label>
                             </div>
                         </li>
@@ -347,7 +348,7 @@
                                 <label>
                                     <input required="" type="checkbox" name="" value="">
                                     <span class="fake_checkbox"></span>
-                                    <span class="my_checkbox_text"><i class="icn icon-floors"></i><span>Universités</span></span>
+                                    <span class="my_checkbox_text"><i class="icn icon-university"></i><span>Universités</span></span>
                                 </label>
                             </div>
                         </li>
@@ -362,22 +363,22 @@
             <h1>Request an appointment</h1>
             <form action="">
                 <div class="row">
-                    <div class="col-xs-6">
+                    <div class="col-xs-12 col-md-8 col-lg-6">
                         <div class="row">
-                            <div class="col-xs-6">
-                                <label class="form_el_label">First Name *</label>
+                            <div class="col-xs-12 col-sm-6 margin_bottom_20">
+                                <label class="form_el_label dark">First Name *</label>
                                 <input type="text">
                             </div>
-                            <div class="col-xs-6">
-                                <label class="form_el_label">Name *</label>
+                            <div class="col-xs-12 col-sm-6 margin_bottom_20">
+                                <label class="form_el_label dark">Name *</label>
                                 <input type="text">
                             </div>
-                            <div class="col-xs-6 margin_top_20">
-                                <label class="form_el_label">Phone *</label>
+                            <div class="col-xs-12 col-sm-6 margin_bottom_20">
+                                <label class="form_el_label dark">Phone *</label>
                                 <input type="text">
                             </div>
-                            <div class="col-xs-6 margin_top_20">
-                                <label class="form_el_label">Email *</label>
+                            <div class="col-xs-12 col-sm-6 margin_bottom_20">
+                                <label class="form_el_label dark">Email *</label>
                                 <input type="text">
                                 <div class="my_checkbox">
                                     <label>
@@ -387,17 +388,17 @@
                                     </label>
                                 </div>
                             </div>
-                            <div class="col-xs-6 margin_top_20">
-                                <label class="form_el_label">Postal code *</label>
+                            <div class="col-xs-12 col-sm-6 margin_bottom_20">
+                                <label class="form_el_label dark">Postal code *</label>
                                 <input type="text">
                             </div>
-                            <div class="col-xs-6 margin_top_20">
+                            <div class="col-xs-12 col-sm-6 margin_bottom_20">
                                 <span class="required_fields">*Required fields</span>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-6">
-                        <label class="form_el_label">Message *</label>
+                    <div class="col-xs-12 col-md-4 col-lg-6 margin_bottom_20">
+                        <label class="form_el_label dark">Message *</label>
                         <textarea name="" id=""></textarea>
                         <button type="submit" class="btn dark_inverse margin_top_20">Envoyer</button>
                     </div>

@@ -308,15 +308,15 @@
     main .gallery_section .gallery_container .gallery_view .gallery.slick-slider .slick-arrow.slick-next {
       right: 15px; }
   main .gallery_section .gallery_container .gallery_view .object_title h2 {
-    font-size: 1rem; }
+    font-size: 1rem;
+    margin-top: 15px; }
   main .gallery_section .gallery_container .gallery_view .object_title h3 {
-    font-size: 0.75rem;
-    margin-bottom: 15px; }
+    font-size: 0.75rem; }
   main .gallery_section .gallery_container .gallery_view .object_title .object_price {
     display: table;
     padding: 5px 15px;
-    float: right;
-    font-size: 0.75rem; }
+    font-size: 0.75rem;
+    margin: 0 auto; }
   main .contact_section .agent_info_container .agent_info {
     padding: 15px; }
     main .contact_section .agent_info_container .agent_info p {
@@ -363,6 +363,10 @@
       width: 33.3333%; }
     .results_section .results_container.list_view .object_block_container .object_block .info_block .properties_containner ul.properties ul.sublist:first-child:last-child,
     .results_section .results_container.list_view .object_block_container .object_block .info_block .properties_containner ul.properties ul.sublist:last-child:last-child {
-      margin-top: 10px; } }
+      margin-top: 10px; }
+
+  #details_commercial .object_info_section .object_info_container ul.properties {
+    width: 100%;
+    min-width: 100%; } }
 
 /*# sourceMappingURL=media_queries.css.map */

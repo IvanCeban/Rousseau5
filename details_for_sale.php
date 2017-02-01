@@ -52,14 +52,12 @@
                 <div class="object_title">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-xs-12 col-sm-8 col-lg-9">
+                            <div class="col-xs-12 col-sm-4 push-sm-8 col-lg-3 push-lg-9">
+                                <div class="object_price">CHF 2'990'000</div>
+                            </div>
+                            <div class="col-xs-12 col-sm-8 pull-sm-4 col-lg-9 pull-lg-3">
                                 <h2>Amazing apartment</h2>
                                 <h3>MAISON À VENDRE / <span class="gold">VÉSENAZ</span></h3>
-                            </div>
-                            <div class="col-xs-12 col-sm-4 col-lg-3">
-                                <div class="object_price">
-                                    CHF 2'990'000
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -120,7 +118,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>

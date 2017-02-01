@@ -549,16 +549,16 @@
         .gallery_view .object_title {
           h2 {
             font-size: 1rem;
+            margin-top: 15px;
           }
           h3 {
             font-size: 0.75rem;
-            margin-bottom: 15px;
           }
           .object_price {
             display: table;
             padding: 5px 15px;
-            float: right;
             font-size: 0.75rem;
+            margin: 0 auto;
           }
         }
       }
@@ -655,6 +655,11 @@
         }
       }
     }
+  }
+
+  #details_commercial .object_info_section .object_info_container ul.properties {
+    width: 100%;
+    min-width: 100%;
   }
 }
 
