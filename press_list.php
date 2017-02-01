@@ -34,7 +34,7 @@
         <div class="container-fluid">
             <h1>Notre agence en actualités</h1>
             <div class="row">
-                <div class="col-xs-6 object_block_container">
+                <div class="col-xs-12 col-sm-6 object_block_container">
                     <a href="#" class="object_block">
                         <div class="img_block">
                             <img src="img/comercial1.jpg" alt="">
@@ -49,7 +49,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-xs-6 object_block_container">
+                <div class="col-xs-12 col-sm-6 object_block_container">
                     <a href="#" class="object_block">
                         <div class="img_block">
                             <img src="img/comercial2.jpg" alt="">
@@ -64,7 +64,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-xs-6 object_block_container">
+                <div class="col-xs-12 col-sm-6 object_block_container">
                     <a href="#" class="object_block">
                         <div class="img_block">
                             <img src="img/comercial1.jpg" alt="">
@@ -79,7 +79,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-xs-6 object_block_container">
+                <div class="col-xs-12 col-sm-6 object_block_container">
                     <a href="#" class="object_block">
                         <div class="img_block">
                             <img src="img/comercial2.jpg" alt="">
@@ -94,7 +94,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-xs-6 object_block_container">
+                <div class="col-xs-12 col-sm-6 object_block_container">
                     <a href="#" class="object_block">
                         <div class="img_block">
                             <img src="img/comercial2.jpg" alt="">

@@ -40,9 +40,11 @@
     .results_section .results_container.map_view .container-fluid .object_block_container .object_block .gradient_bg {
       bottom: 63px; }
 
-  #commercial .comercial_funds_section .object_block_container .object_block .info_block .properties_container h2 {
+  #commercial .object_block_container .object_block .info_block .properties_container h2,
+  #press_list .object_block_container .object_block .info_block .properties_container h2 {
     font-size: 1.75rem; }
-  #commercial .comercial_funds_section .object_block_container .object_block .info_block .properties_container p {
+  #commercial .object_block_container .object_block .info_block .properties_container p,
+  #press_list .object_block_container .object_block .info_block .properties_container p {
     margin: 10px 30px 60px; } }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   .search_block .row label.form_el_label {
@@ -62,11 +64,14 @@
   .btn:not(.dropdown-toggle) {
     font-size: 1rem; }
 
-  #commercial .comercial_funds_section .object_block_container .object_block .info_block .properties_container {
+  #commercial .object_block_container .object_block .info_block .properties_container,
+  #press_list .object_block_container .object_block .info_block .properties_container {
     padding-top: 25%; }
-    #commercial .comercial_funds_section .object_block_container .object_block .info_block .properties_container h2 {
+    #commercial .object_block_container .object_block .info_block .properties_container h2,
+    #press_list .object_block_container .object_block .info_block .properties_container h2 {
       font-size: 1.5rem; }
-    #commercial .comercial_funds_section .object_block_container .object_block .info_block .properties_container p {
+    #commercial .object_block_container .object_block .info_block .properties_container p,
+    #press_list .object_block_container .object_block .info_block .properties_container p {
       margin: 10px 15px 20px;
       font-size: 1rem; } }
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -141,16 +146,29 @@
     bottom: 40%;
     text-align: center; }
 
-  #commercial .comercial_funds_section .object_block_container .object_block .info_block .properties_container {
+  #commercial .object_block_container .object_block .info_block .properties_container,
+  #press_list .object_block_container .object_block .info_block .properties_container {
     padding-top: 15px;
-    top: 60%; }
-    #commercial .comercial_funds_section .object_block_container .object_block .info_block .properties_container h2 {
+    top: 55%; }
+    #commercial .object_block_container .object_block .info_block .properties_container h2,
+    #press_list .object_block_container .object_block .info_block .properties_container h2 {
       font-size: 1.25rem; }
-    #commercial .comercial_funds_section .object_block_container .object_block .info_block .properties_container p {
+    #commercial .object_block_container .object_block .info_block .properties_container p,
+    #press_list .object_block_container .object_block .info_block .properties_container p {
       margin: 10px 15px 10px;
       font-size: 0.875rem; }
-    #commercial .comercial_funds_section .object_block_container .object_block .info_block .properties_container span {
+    #commercial .object_block_container .object_block .info_block .properties_container span,
+    #press_list .object_block_container .object_block .info_block .properties_container span {
       font-size: 1rem; }
+
+  #press_list .object_block_container .object_block .info_block .properties_container p {
+    opacity: 0; }
+  #press_list .object_block_container .object_block:hover .info_block .properties_container p {
+    opacity: 0.5; }
+
+  #team .object_block_container .object_block .info_block {
+    padding: 15px;
+    font-size: 0.875rem; }
 
   footer .footer_bottom_section .address_block {
     margin-top: 25px; } }

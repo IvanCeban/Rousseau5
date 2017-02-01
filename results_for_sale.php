@@ -156,8 +156,8 @@
                 <div class="col-xs-12 col-md-8 col-lg-6 margin_bottom_10">
                     <div class="view_type_container">
                         <ul class="view_type">
-                            <li class="list_view_btn active hidden-sm-down"><i class="icn icon-list_icn"></i>Liste (371)</li>
-                            <li class="grid_view_btn"><i class="icn icon-image_icn"></i>Grille (371)</li>
+                            <li class="list_view_btn hidden-sm-down"><i class="icn icon-list_icn"></i>Liste (371)</li>
+                            <li class="grid_view_btn active"><i class="icn icon-image_icn"></i>Grille (371)</li>
                             <li class="map_view_btn"><i class="icn icon-map_icn"></i>Carte (152)</li>
                         </ul>
                     </div>
@@ -173,7 +173,7 @@
             </div>
         </div>
 
-        <div class="results_container list_view">
+        <div class="results_container grid_view">
             <div id="results_map"></div>
             <div class="container-fluid">
                 <div class="carousel row">

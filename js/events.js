@@ -78,8 +78,9 @@ $(document).ready(function(){
 
     $('#team .object_block').on('click', function(){
         var info_max_height = 0;
+        var this_height = $(this).find('.info_block').outerHeight();
         $('#team .object_block').each(function () {
-            var this_info_max_height = $(this).find('.info_block').outerHeight();
+            var this_info_max_height = this_height;
             if (this_info_max_height > info_max_height)
             {
                  info_max_height = this_info_max_height;
@@ -89,7 +90,12 @@ $(document).ready(function(){
         $(this).toggleClass('opened');
         var img_link = $(this).find('.img_block img').attr('src');
         if($(this).hasClass('opened')){
-            $(this).css('margin-bottom', info_max_height);
+            if ($(window).width() > 543) {
+                $(this).css('margin-bottom', info_max_height);
+            }
+            else {
+                $(this).css('margin-bottom', this_height);
+            }
             $(this).find('.img_block img').attr('src', img_link.replace('team', 'team_opened'))
         }
         else {

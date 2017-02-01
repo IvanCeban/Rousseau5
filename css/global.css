@@ -938,94 +938,95 @@ header {
 #commercial h1,
 #press_list h1 {
   margin: 30px 0 20px; }
-#commercial .object_block_container .object_block,
-#press_list .object_block_container .object_block {
-  display: block;
-  position: relative; }
-  #commercial .object_block_container .object_block .img_block img,
-  #press_list .object_block_container .object_block .img_block img {
-    width: 100%;
-    display: block; }
-  #commercial .object_block_container .object_block .info_block,
-  #press_list .object_block_container .object_block .info_block {
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    z-index: 2;
-    overflow: hidden;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -o-transition: 0.5s;
-    transition: 0.5s; }
-    #commercial .object_block_container .object_block .info_block .properties_container,
-    #press_list .object_block_container .object_block .info_block .properties_container {
+#commercial .object_block_container,
+#press_list .object_block_container {
+  margin-bottom: 30px; }
+  #commercial .object_block_container .object_block,
+  #press_list .object_block_container .object_block {
+    display: block;
+    position: relative; }
+    #commercial .object_block_container .object_block .img_block img,
+    #press_list .object_block_container .object_block .img_block img {
+      width: 100%;
+      display: block; }
+    #commercial .object_block_container .object_block .info_block,
+    #press_list .object_block_container .object_block .info_block {
+      position: absolute;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      z-index: 2;
+      overflow: hidden;
       -webkit-transition: 0.5s;
       -moz-transition: 0.5s;
       -o-transition: 0.5s;
-      transition: 0.5s;
+      transition: 0.5s; }
+      #commercial .object_block_container .object_block .info_block .properties_container,
+      #press_list .object_block_container .object_block .info_block .properties_container {
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s;
+        position: absolute;
+        top: 30%;
+        text-align: center;
+        height: 100%;
+        width: 100%;
+        padding: 35% 15px 15px;
+        color: white; }
+        #commercial .object_block_container .object_block .info_block .properties_container h2,
+        #press_list .object_block_container .object_block .info_block .properties_container h2 {
+          font-size: 1.5625rem; }
+        #commercial .object_block_container .object_block .info_block .properties_container p,
+        #press_list .object_block_container .object_block .info_block .properties_container p {
+          font-size: 1.125rem;
+          margin: 10px 45px 100px;
+          opacity: 0.5;
+          -webkit-transition: 0.5s;
+          -moz-transition: 0.5s;
+          -o-transition: 0.5s;
+          transition: 0.5s; }
+        #commercial .object_block_container .object_block .info_block .properties_container span,
+        #press_list .object_block_container .object_block .info_block .properties_container span {
+          font-size: 1.375em;
+          opacity: 0;
+          -webkit-transition: 0.5s;
+          -moz-transition: 0.5s;
+          -o-transition: 0.5s;
+          transition: 0.5s; }
+    #commercial .object_block_container .object_block .gradient_bg,
+    #press_list .object_block_container .object_block .gradient_bg {
       position: absolute;
-      top: 30%;
-      text-align: center;
-      height: 100%;
+      height: 40%;
       width: 100%;
-      padding: 35% 15px 15px;
-      color: white; }
-      #commercial .object_block_container .object_block .info_block .properties_container h2,
-      #press_list .object_block_container .object_block .info_block .properties_container h2 {
-        font-size: 1.5625rem; }
-      #commercial .object_block_container .object_block .info_block .properties_container p,
-      #press_list .object_block_container .object_block .info_block .properties_container p {
-        font-size: 1.125rem;
-        margin: 10px 45px 100px;
-        opacity: 0.5;
-        -webkit-transition: 0.5s;
-        -moz-transition: 0.5s;
-        -o-transition: 0.5s;
-        transition: 0.5s; }
-      #commercial .object_block_container .object_block .info_block .properties_container span,
-      #press_list .object_block_container .object_block .info_block .properties_container span {
-        font-size: 1.375em;
-        opacity: 0;
-        -webkit-transition: 0.5s;
-        -moz-transition: 0.5s;
-        -o-transition: 0.5s;
-        transition: 0.5s; }
-  #commercial .object_block_container .object_block .gradient_bg,
-  #press_list .object_block_container .object_block .gradient_bg {
-    position: absolute;
-    height: 40%;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    z-index: 1;
-    background: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.7));
-    background: -moz-linear-gradient(transparent, rgba(0, 0, 0, 0.7));
-    background: -o-linear-gradient(transparent, rgba(0, 0, 0, 0.7));
-    background: linear-gradient(transparent, rgba(0, 0, 0, 0.7)); }
-  #commercial .object_block_container .object_block:hover .info_block,
-  #press_list .object_block_container .object_block:hover .info_block {
-    background: rgba(44, 49, 79, 0.8); }
-    #commercial .object_block_container .object_block:hover .info_block .properties_container,
-    #press_list .object_block_container .object_block:hover .info_block .properties_container {
-      top: 0; }
-      #commercial .object_block_container .object_block:hover .info_block .properties_container span,
-      #press_list .object_block_container .object_block:hover .info_block .properties_container span {
-        opacity: 1; }
+      bottom: 0;
+      left: 0;
+      z-index: 1;
+      background: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+      background: -moz-linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+      background: -o-linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+      background: linear-gradient(transparent, rgba(0, 0, 0, 0.7)); }
+    #commercial .object_block_container .object_block:hover .info_block,
+    #press_list .object_block_container .object_block:hover .info_block {
+      background: rgba(44, 49, 79, 0.8); }
+      #commercial .object_block_container .object_block:hover .info_block .properties_container,
+      #press_list .object_block_container .object_block:hover .info_block .properties_container {
+        top: 0; }
+        #commercial .object_block_container .object_block:hover .info_block .properties_container span,
+        #press_list .object_block_container .object_block:hover .info_block .properties_container span {
+          opacity: 1; }
 
-#commercial .comercial_funds_section .object_block_container {
-  margin-bottom: 30px; }
-  #commercial .comercial_funds_section .object_block_container .object_block .info_block .properties_container {
-    top: 40%; }
-    #commercial .comercial_funds_section .object_block_container .object_block .info_block .properties_container h2 {
-      text-transform: uppercase;
-      font-size: 1.875rem; }
-    #commercial .comercial_funds_section .object_block_container .object_block .info_block .properties_container p {
-      opacity: 0; }
-  #commercial .comercial_funds_section .object_block_container .object_block:hover .info_block .properties_container {
-    top: 0; }
-    #commercial .comercial_funds_section .object_block_container .object_block:hover .info_block .properties_container p {
-      opacity: 0.5; }
+#commercial .comercial_funds_section .object_block_container .object_block .info_block .properties_container {
+  top: 40%; }
+  #commercial .comercial_funds_section .object_block_container .object_block .info_block .properties_container h2 {
+    text-transform: uppercase;
+    font-size: 1.875rem; }
+  #commercial .comercial_funds_section .object_block_container .object_block .info_block .properties_container p {
+    opacity: 0; }
+#commercial .comercial_funds_section .object_block_container .object_block:hover .info_block .properties_container {
+  top: 0; }
+  #commercial .comercial_funds_section .object_block_container .object_block:hover .info_block .properties_container p {
+    opacity: 0.5; }
 #commercial .comercial_info_section .comercial_info_block {
   padding: 30px;
   border: 1px solid #cccccc; }
@@ -1045,6 +1046,8 @@ header {
   transition: 0.5s; }
   #team .object_block_container .object_block .img_block {
     z-index: 2; }
+    #team .object_block_container .object_block .img_block img {
+      width: 100%; }
     #team .object_block_container .object_block .img_block h2, #team .object_block_container .object_block .img_block h3 {
       position: absolute;
       width: 100%;
@@ -1071,6 +1074,9 @@ header {
     background-color: #2c314f;
     color: white;
     padding: 15px 35px 65px;
+    opacity: 0;
+    line-height: 1rem;
+    font-size: 1rem;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
     -o-transition: 0.5s;
@@ -1094,7 +1100,8 @@ header {
       opacity: 0;
       margin: 20px 0; }
   #team .object_block_container .object_block.opened .info_block {
-    top: 100%; }
+    top: 100%;
+    opacity: 1; }
     #team .object_block_container .object_block.opened .info_block ul {
       opacity: 1; }
     #team .object_block_container .object_block.opened .info_block p {
