@@ -121,16 +121,22 @@
 
   .gallery_section {
     .gallery_container {
-      .gallery_view .object_title {
-        h2 {
-          font-size: 2.25rem;
+      .gallery_view {
+        .gallery.slick-slider .slick-arrow {
+          top: 20%;
         }
-        h3 {
-          font-size: 1.125rem;
+        .object_title {
+          h2 {
+            font-size: 2.25rem;
+          }
+          h3 {
+            font-size: 1.125rem;
+          }
         }
       }
     }
   }
+
 
   .contact_section {
     .agent_info_container {
@@ -650,6 +656,28 @@
                   }
                 }
               }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #details_commercial {
+    .gallery_section {
+      .gallery_container {
+        .gallery_view {
+          .object_title {
+            h2 {
+              margin-top: 10px;
+            }
+            .object_price_label {
+              text-align: center;
+              display: block;
+              margin-bottom: 2px;
+              margin-top: 7px;
+              text-transform: none;
+              font-size: 0.75rem;
             }
           }
         }

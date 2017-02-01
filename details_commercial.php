@@ -44,6 +44,9 @@
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-xs-12 col-sm-4 push-sm-8 col-lg-3 push-lg-9">
+                                <span class="object_price_label">Loyer</span>
+                                <div class="object_price rental_price">CHF 2'990'000</div>
+                                <span class="object_price_label">Fond de commerce</span>
                                 <div class="object_price">CHF 2'990'000</div>
                             </div>
                             <div class="col-xs-12 col-sm-8 pull-sm-4 col-lg-9 pull-lg-3">

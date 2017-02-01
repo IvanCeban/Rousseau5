@@ -290,11 +290,11 @@ header {
           position: absolute;
           top: 50%;
           margin-top: -27px;
-          z-index: 1;
           color: white;
           font-size: 55px;
           background: transparent;
           border: none;
+          z-index: 99;
           &.slick-prev {
             left: 50px;
           }
@@ -323,9 +323,18 @@ header {
         z-index: 1;
         h2 {
           font: 3.125rem lato_regular;
+          margin-top: 50px;
         }
         h3 {
           font: 1.375rem lato_regular;
+        }
+        .object_price_label {
+          text-align: center;
+          display: block;
+          margin-bottom: 10px;
+          margin-top: 15px;
+          text-transform: none;
+          font-size: 1.125rem;
         }
         .object_price {
           border: 2px solid white;
@@ -356,6 +365,19 @@ header {
   }
 }
 
+#details_commercial {
+  .gallery_section {
+    .gallery_container {
+      .gallery_view {
+        .object_title {
+          h2 {
+            margin-top: 50px;
+          }
+        }
+      }
+    }
+  }
+}
 
 .card {
   border: none;
