@@ -81,7 +81,7 @@
                                     </select>
                                 </div>
                                 <div class="col-xs-12 col-sm-4 col-md-12 col-lg-4 margin_top_15">
-                                    <label class="form_el_label dark"><i class="icn icon-bedrooms"></i><span>Projects Neufs</span></label>
+                                    <label class="form_el_label dark"><i class="icn icon-bedroom"></i><span>Projects Neufs</span></label>
                                     <select name="object_subtype">
                                         <option value="Bastide">Bastide</option>
                                         <option value="Bungalow">Bungalow</option>
@@ -103,7 +103,7 @@
                                     </div>
                                 </div>
                                 <div class="col-xs-12 col-sm-4 col-md-6 col-lg-4 margin_top_15">
-                                    <label class="form_el_label dark"><i class="icn icon-bedrooms"></i><span>Chambres</span></label>
+                                    <label class="form_el_label dark"><i class="icn icon-bedroom"></i><span>Chambres</span></label>
                                     <div class="min_select_container">
                                         <select  class="selectpicker" name="object_price">
                                             <option value="1">1</option>
@@ -131,14 +131,14 @@
 
                             <div class="row margin_top_10">
                                 <div class="col-xs-12 col-sm-6 margin_top_15">
-                                    <label class="form_el_label dark"><i class="icn icon-prix"></i><span>Prix min</span></label>
+                                    <label class="form_el_label dark"><i class="icn icon-price"></i><span>Prix min</span></label>
                                     <div class="input_container dark">
                                         <input type="text" placeholder="Min">
                                         <div class="input_label">CHF</div>
                                     </div>
                                 </div>
                                 <div class="col-xs-12 col-sm-6 margin_top_15">
-                                    <label class="form_el_label dark"><i class="icn icon-prix"></i><span>Prix max</span></label>
+                                    <label class="form_el_label dark"><i class="icn icon-price"></i><span>Prix max</span></label>
                                     <div class="input_container dark">
                                         <input type="text" placeholder="Max">
                                         <div class="input_label">CHF</div>

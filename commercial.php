@@ -94,7 +94,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 margin_bottom_10">
-                        <label class="form_el_label light"><i class="icn icon-bedrooms"></i><span>Chambres</span></label>
+                        <label class="form_el_label light"><i class="icn icon-bedroom"></i><span>Chambres</span></label>
                         <div class="min_select_container margin_bottom_10">
                             <select class="selectpicker" name="object_price">
                                 <option value="">1</option>
@@ -108,14 +108,14 @@
                 </div>
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-md-4 push-md-4 col-lg-3 push-lg-2 margin_bottom_10">
-                        <label class="form_el_label light"><i class="icn icon-prix"></i><span>Prix min</span></label>
+                        <label class="form_el_label light"><i class="icn icon-price"></i><span>Prix min</span></label>
                         <div class="input_container light margin_bottom_10">
                             <input type="text" placeholder="Min">
                             <div class="input_label">CHF</div>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-4 push-md-4 col-lg-3 push-lg-2 margin_bottom_10">
-                        <label class="form_el_label light"><i class="icn icon-prix"></i><span>Prix max</span></label>
+                        <label class="form_el_label light"><i class="icn icon-price"></i><span>Prix max</span></label>
                         <div class="input_container light margin_bottom_10">
                             <input type="text" placeholder="Max">
                             <div class="input_label">CHF</div>

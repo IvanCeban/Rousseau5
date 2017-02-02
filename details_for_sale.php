@@ -121,14 +121,14 @@
         <div class="container-fluid">
             <div class="object_info_container">
                 <ul class="properties">
-                    <li><i class="icn icon-floors"></i><span class="prop_val">(Floors) <span>4</span></span></li>
-                    <li><i class="icn icon-bedrooms"></i><span class="prop_val">(Bedrooms) <span>4</span></span></li>
-                    <li><i class="icn icon-bathrooms"></i><span class="prop_val">(Bains) <span>4</span></span></li>
+                    <li><i class="icn icon-floor"></i><span class="prop_val">(Floors) <span>4</span></span></li>
+                    <li><i class="icn icon-bedroom"></i><span class="prop_val">(Bedrooms) <span>4</span></span></li>
+                    <li><i class="icn icon-bathroom"></i><span class="prop_val">(Bains) <span>4</span></span></li>
                     <li><i class="icn icon-wc"></i><span class="prop_val">(W.C.) <span>4</span></span></li>
                     <li><i class="icn icon-living_area"></i><span class="prop_val">(living) <span>200m<sup>2</sup></span></span></li>
                     <li><i class="icn icon-usable_area"></i><span class="prop_val">(usable) <span>300m<sup>2</sup></span></span></li>
                     <li><i class="icn icon-outdoor_area"></i><span class="prop_val">(Jardin) <span>400m<sup>2</sup></span></span></li>
-                    <li><i class="icn icon-outdoor_area"></i><span class="prop_val">(Jardin) <span>400m<sup>2</sup></span></span></li>
+                    <li><i class="icn icon-terrace"></i><span class="prop_val">(Terrace) <span>400m<sup>2</sup></span></span></li>
                 </ul>
 
                 <h1>Description of the House</h1>
@@ -246,7 +246,7 @@
                                 <label>
                                     <input required="" type="checkbox" name="" value="">
                                     <span class="fake_checkbox"></span>
-                                    <span class="my_checkbox_text"><i class="icn icon-prix"></i><span>Banques</span></span>
+                                    <span class="my_checkbox_text"><i class="icn icon-price"></i><span>Banques</span></span>
                                 </label>
                             </div>
                         </li>
@@ -273,7 +273,7 @@
                                 <label>
                                     <input required="" type="checkbox" name="" value="">
                                     <span class="fake_checkbox"></span>
-                                    <span class="my_checkbox_text"><i class="icn icon-Dentist"></i><span>Dentistes</span></span>
+                                    <span class="my_checkbox_text"><i class="icn icon-dentist"></i><span>Dentistes</span></span>
                                 </label>
                             </div>
                         </li>
@@ -282,7 +282,7 @@
                                 <label>
                                     <input required="" type="checkbox" name="" value="">
                                     <span class="fake_checkbox"></span>
-                                    <span class="my_checkbox_text"><i class="icn icon-School"></i><span>Ecoles</span></span>
+                                    <span class="my_checkbox_text"><i class="icn icon-school"></i><span>Ecoles</span></span>
                                 </label>
                             </div>
                         </li>
@@ -300,7 +300,7 @@
                                 <label>
                                     <input required="" type="checkbox" name="" value="">
                                     <span class="fake_checkbox"></span>
-                                    <span class="my_checkbox_text"><i class="icn icon-Doctor"></i><span>Médecins</span></span>
+                                    <span class="my_checkbox_text"><i class="icn icon-doctor"></i><span>Médecins</span></span>
                                 </label>
                             </div>
                         </li>
@@ -309,7 +309,7 @@
                                 <label>
                                     <input required="" type="checkbox" name="" value="">
                                     <span class="fake_checkbox"></span>
-                                    <span class="my_checkbox_text"><i class="icn icon-Parking"></i><span>Parkings</span></span>
+                                    <span class="my_checkbox_text"><i class="icn icon-parking"></i><span>Parkings</span></span>
                                 </label>
                             </div>
                         </li>
@@ -318,7 +318,7 @@
                                 <label>
                                     <input required="" type="checkbox" name="" value="">
                                     <span class="fake_checkbox"></span>
-                                    <span class="my_checkbox_text"><i class="icn icon-Pharmacy"></i><span>Pharmacies</span></span>
+                                    <span class="my_checkbox_text"><i class="icn icon-pharmacy"></i><span>Pharmacies</span></span>
                                 </label>
                             </div>
                         </li>
@@ -327,7 +327,7 @@
                                 <label>
                                     <input required="" type="checkbox" name="" value="">
                                     <span class="fake_checkbox"></span>
-                                    <span class="my_checkbox_text"><i class="icn icon-Police"></i><span>Police</span></span>
+                                    <span class="my_checkbox_text"><i class="icn icon-police"></i><span>Police</span></span>
                                 </label>
                             </div>
                         </li>
@@ -336,7 +336,7 @@
                                 <label>
                                     <input required="" type="checkbox" name="" value="">
                                     <span class="fake_checkbox"></span>
-                                    <span class="my_checkbox_text"><i class="icn icon-Posts"></i><span>Postes</span></span>
+                                    <span class="my_checkbox_text"><i class="icn icon-post_office"></i><span>Postes</span></span>
                                 </label>
                             </div>
                         </li>
@@ -345,7 +345,7 @@
                                 <label>
                                     <input required="" type="checkbox" name="" value="">
                                     <span class="fake_checkbox"></span>
-                                    <span class="my_checkbox_text"><i class="icn icon-Restaurant"></i><span>Restaurants</span></span>
+                                    <span class="my_checkbox_text"><i class="icn icon-restaurant"></i><span>Restaurants</span></span>
                                 </label>
                             </div>
                         </li>
@@ -354,7 +354,7 @@
                                 <label>
                                     <input required="" type="checkbox" name="" value="">
                                     <span class="fake_checkbox"></span>
-                                    <span class="my_checkbox_text"><i class="icn icon-Petrol"></i><span>Stations service</span></span>
+                                    <span class="my_checkbox_text"><i class="icn icon-petrol"></i><span>Stations service</span></span>
                                 </label>
                             </div>
                         </li>

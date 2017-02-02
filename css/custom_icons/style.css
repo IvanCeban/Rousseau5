@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?5c3kil');
-  src:  url('fonts/icomoon.eot?5c3kil#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?5c3kil') format('truetype'),
-    url('fonts/icomoon.woff?5c3kil') format('woff'),
-    url('fonts/icomoon.svg?5c3kil#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?hrwsqx');
+  src:  url('fonts/icomoon.eot?hrwsqx#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?hrwsqx') format('truetype'),
+    url('fonts/icomoon.woff?hrwsqx') format('woff'),
+    url('fonts/icomoon.svg?hrwsqx#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -26,9 +26,6 @@
 
 .icon-checkbox_arrow:before {
   content: "\e922";
-}
-.icon-address:before {
-  content: "\e900";
 }
 .icon-arrow_big_left:before {
   content: "\e901";
@@ -54,25 +51,25 @@
 .icon-arrow_right:before {
   content: "\e908";
 }
-.icon-bathrooms:before {
+.icon-bathroom:before {
   content: "\e909";
 }
-.icon-bedrooms:before {
+.icon-bedroom:before {
   content: "\e90a";
 }
-.icon-building:before {
+.icon-building_o:before {
   content: "\e90b";
 }
-.icon-building2:before {
+.icon-building:before {
   content: "\e923";
 }
 .icon-email:before {
   content: "\e90c";
 }
-.icon-fb:before {
+.icon-facebook:before {
   content: "\e90d";
 }
-.icon-floors:before {
+.icon-floor:before {
   content: "\e90e";
 }
 .icon-linked_in:before {
@@ -81,7 +78,7 @@
 .icon-living_area:before {
   content: "\e910";
 }
-.icon-mobile:before {
+.icon-cellphone:before {
   content: "\e911";
 }
 .icon-orientation:before {
@@ -107,7 +104,7 @@
   margin-left: -1em;
   color: rgb(44, 49, 79);
 }
-.icon-price:before {
+.icon-object_price:before {
   content: "\e918";
 }
 .icon-rooms:before {
@@ -116,13 +113,13 @@
 .icon-search:before {
   content: "\e91a";
 }
-.icon-send_icon:before {
+.icon-send_message:before {
   content: "\e91b";
 }
-.icon-status:before {
+.icon-sale:before {
   content: "\e91c";
 }
-.icon-tw:before {
+.icon-twitter:before {
   content: "\e91d";
 }
 .icon-up_page:before {
@@ -137,11 +134,11 @@
 .icon-year:before {
   content: "\e921";
 }
-.icon-projects_neufs:before {
+.icon-new_projects:before {
   content: "\e924";
 }
-.icon-prix:before {
-  content: "\e925";
+.icon-price:before {
+  content: "\1f5f6";
 }
 .icon-country:before {
   content: "\e926";
@@ -149,10 +146,10 @@
 .icon-list_icn:before {
   content: "\e927";
 }
-.icon-image_icn:before {
+.icon-grid_icn:before {
   content: "\e928";
 }
-.icon-map_icn:before {
+.icon-map_pin:before {
   content: "\e929";
 }
 .icon-checkbox:before {
@@ -167,34 +164,34 @@
 .icon-cafe:before {
   content: "\e92d";
 }
-.icon-Dentist:before {
+.icon-dentist:before {
   content: "\e92e";
 }
-.icon-Doctor:before {
+.icon-doctor:before {
   content: "\e92f";
 }
 .icon-hospital:before {
   content: "\e930";
 }
-.icon-Parking:before {
+.icon-parking:before {
   content: "\e931";
 }
-.icon-Petrol:before {
+.icon-petrol:before {
   content: "\e932";
 }
-.icon-Pharmacy:before {
+.icon-pharmacy:before {
   content: "\e933";
 }
-.icon-Police:before {
+.icon-police:before {
   content: "\e934";
 }
-.icon-Posts:before {
+.icon-post_office:before {
   content: "\e935";
 }
-.icon-Restaurant:before {
+.icon-restaurant:before {
   content: "\e936";
 }
-.icon-School:before {
+.icon-school:before {
   content: "\e937";
 }
 .icon-university:before {

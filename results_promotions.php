@@ -99,7 +99,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 margin_bottom_10">
-                        <label class="form_el_label light"><i class="icn icon-bedrooms"></i><span>Chambres</span></label>
+                        <label class="form_el_label light"><i class="icn icon-bedroom"></i><span>Chambres</span></label>
                         <div class="min_select_container margin_bottom_10">
                             <select class="selectpicker" name="object_price">
                                 <option value="">1</option>
@@ -113,14 +113,14 @@
                 </div>
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-md-4 push-md-4 col-lg-3 push-lg-2 margin_bottom_10">
-                        <label class="form_el_label light"><i class="icn icon-prix"></i><span>Prix min</span></label>
+                        <label class="form_el_label light"><i class="icn icon-price"></i><span>Prix min</span></label>
                         <div class="input_container light margin_bottom_10">
                             <input type="text" placeholder="Min">
                             <div class="input_label">CHF</div>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-4 push-md-4 col-lg-3 push-lg-2 margin_bottom_10">
-                        <label class="form_el_label light"><i class="icn icon-prix"></i><span>Prix max</span></label>
+                        <label class="form_el_label light"><i class="icn icon-price"></i><span>Prix max</span></label>
                         <div class="input_container light margin_bottom_10">
                             <input type="text" placeholder="Max">
                             <div class="input_label">CHF</div>
@@ -157,8 +157,8 @@
                     <div class="view_type_container">
                         <ul class="view_type">
                             <li class="hidden-sm-down list_view_btn"><i class="icn icon-list_icn"></i>Liste (371)</li>
-                            <li class="grid_view_btn active"><i class="icn icon-image_icn"></i>Grille (371)</li>
-                            <li class="map_view_btn"><i class="icn icon-map_icn"></i>Carte (152)</li>
+                            <li class="grid_view_btn active"><i class="icn icon-grid_icn"></i>Grille (371)</li>
+                            <li class="map_view_btn"><i class="icn icon-map_pin"></i>Carte (152)</li>
                         </ul>
                     </div>
                 </div>
@@ -189,9 +189,9 @@
                                     <a href="#"><h2>La Residence du lac - Saint Prex</h2></a>
                                     <span class="properties_amount">1 propriétés</span>
                                     <ul class="social_networks">
-                                        <li><a href="#"><i class="icn icon-tw"></i></a></li>
+                                        <li><a href="#"><i class="icn icon-twitter"></i></a></li>
                                         <li><a href="#"><i class="icn icon-linked_in"></i></a></li>
-                                        <li><a href="#"><i class="icn icon-fb"></i></a></li>
+                                        <li><a href="#"><i class="icn icon-facebook"></i></a></li>
                                     </ul>
                                 </div>
                                 <div class="description_container">
@@ -203,7 +203,7 @@
                                     <ul class="properties">
                                         <li><i class="icn icon-rooms"></i><span class="prop_title">Unités disponibles</span><span class="prop_val">3/5</span></li>
                                         <li><i class="icn icon-living_area"></i><span class="prop_title">Surface</span><span class="prop_val">50 à 200m<sup>2</sup></span></li>
-                                        <li><i class="icn icon-prix"></i><span class="prop_title">Prix</span><span class="prop_val">300'000 à 1'400'000 CHF</span></li>
+                                        <li><i class="icn icon-price"></i><span class="prop_title">Prix</span><span class="prop_val">300'000 à 1'400'000 CHF</span></li>
                                     </ul>
                                 </div>
                             </div>
@@ -222,9 +222,9 @@
                                     <a href="#"><h2>1 Gevray</h2></a>
                                     <span class="properties_amount">1 propriétés</span>
                                     <ul class="social_networks">
-                                        <li><a href="#"><i class="icn icon-tw"></i></a></li>
+                                        <li><a href="#"><i class="icn icon-twitter"></i></a></li>
                                         <li><a href="#"><i class="icn icon-linked_in"></i></a></li>
-                                        <li><a href="#"><i class="icn icon-fb"></i></a></li>
+                                        <li><a href="#"><i class="icn icon-facebook"></i></a></li>
                                     </ul>
                                 </div>
                                 <div class="description_container">
@@ -236,7 +236,7 @@
                                     <ul class="properties">
                                         <li><i class="icn icon-rooms"></i><span class="prop_title">Unités disponibles</span><span class="prop_val">3/5</span></li>
                                         <li><i class="icn icon-living_area"></i><span class="prop_title">Surface</span><span class="prop_val">50 à 200m<sup>2</sup></span></li>
-                                        <li><i class="icn icon-prix"></i><span class="prop_title">Prix</span><span class="prop_val">300'000 à 1'400'000 CHF</span></li>
+                                        <li><i class="icn icon-price"></i><span class="prop_title">Prix</span><span class="prop_val">300'000 à 1'400'000 CHF</span></li>
                                     </ul>
                                 </div>
                             </div>
@@ -255,9 +255,9 @@
                                     <a href="#"><h2>LE SPORT CLUB RÉSIDENCES : CRANS-MONTANA</h2></a>
                                     <span class="properties_amount">1 propriétés</span>
                                     <ul class="social_networks">
-                                        <li><a href="#"><i class="icn icon-tw"></i></a></li>
+                                        <li><a href="#"><i class="icn icon-twitter"></i></a></li>
                                         <li><a href="#"><i class="icn icon-linked_in"></i></a></li>
-                                        <li><a href="#"><i class="icn icon-fb"></i></a></li>
+                                        <li><a href="#"><i class="icn icon-facebook"></i></a></li>
                                     </ul>
                                 </div>
                                 <div class="description_container">
@@ -269,7 +269,7 @@
                                     <ul class="properties">
                                         <li><i class="icn icon-rooms"></i><span class="prop_title">Unités disponibles</span><span class="prop_val">3/5</span></li>
                                         <li><i class="icn icon-living_area"></i><span class="prop_title">Surface</span><span class="prop_val">50 à 200m<sup>2</sup></span></li>
-                                        <li><i class="icn icon-prix"></i><span class="prop_title">Prix</span><span class="prop_val">300'000 à 1'400'000 CHF</span></li>
+                                        <li><i class="icn icon-price"></i><span class="prop_title">Prix</span><span class="prop_val">300'000 à 1'400'000 CHF</span></li>
                                     </ul>
                                 </div>
                             </div>
@@ -288,9 +288,9 @@
                                     <a href="#"><h2>'BELLES DRIZE' À TROINEX</h2></a>
                                     <span class="properties_amount">1 propriétés</span>
                                     <ul class="social_networks">
-                                        <li><a href="#"><i class="icn icon-tw"></i></a></li>
+                                        <li><a href="#"><i class="icn icon-twitter"></i></a></li>
                                         <li><a href="#"><i class="icn icon-linked_in"></i></a></li>
-                                        <li><a href="#"><i class="icn icon-fb"></i></a></li>
+                                        <li><a href="#"><i class="icn icon-facebook"></i></a></li>
                                     </ul>
                                 </div>
                                 <div class="description_container">
@@ -302,7 +302,7 @@
                                     <ul class="properties">
                                         <li><i class="icn icon-rooms"></i><span class="prop_title">Unités disponibles</span><span class="prop_val">3/5</span></li>
                                         <li><i class="icn icon-living_area"></i><span class="prop_title">Surface</span><span class="prop_val">50 à 200m<sup>2</sup></span></li>
-                                        <li><i class="icn icon-prix"></i><span class="prop_title">Prix</span><span class="prop_val">300'000 à 1'400'000 CHF</span></li>
+                                        <li><i class="icn icon-price"></i><span class="prop_title">Prix</span><span class="prop_val">300'000 à 1'400'000 CHF</span></li>
                                     </ul>
                                 </div>
                             </div>
@@ -321,9 +321,9 @@
                                     <a href="#"><h2>LES VILLAS DE LA GENÉVRIÈRE</h2></a>
                                     <span class="properties_amount">1 propriétés</span>
                                     <ul class="social_networks">
-                                        <li><a href="#"><i class="icn icon-tw"></i></a></li>
+                                        <li><a href="#"><i class="icn icon-twitter"></i></a></li>
                                         <li><a href="#"><i class="icn icon-linked_in"></i></a></li>
-                                        <li><a href="#"><i class="icn icon-fb"></i></a></li>
+                                        <li><a href="#"><i class="icn icon-facebook"></i></a></li>
                                     </ul>
                                 </div>
                                 <div class="description_container">
@@ -335,7 +335,7 @@
                                     <ul class="properties">
                                         <li><i class="icn icon-rooms"></i><span class="prop_title">Unités disponibles</span><span class="prop_val">3/5</span></li>
                                         <li><i class="icn icon-living_area"></i><span class="prop_title">Surface</span><span class="prop_val">50 à 200m<sup>2</sup></span></li>
-                                        <li><i class="icn icon-prix"></i><span class="prop_title">Prix</span><span class="prop_val">300'000 à 1'400'000 CHF</span></li>
+                                        <li><i class="icn icon-price"></i><span class="prop_title">Prix</span><span class="prop_val">300'000 à 1'400'000 CHF</span></li>
                                     </ul>
                                 </div>
                             </div>
@@ -354,9 +354,9 @@
                                     <a href="#"><h2>COEUR ANIÈRES</h2></a>
                                     <span class="properties_amount">1 propriétés</span>
                                     <ul class="social_networks">
-                                        <li><a href="#"><i class="icn icon-tw"></i></a></li>
+                                        <li><a href="#"><i class="icn icon-twitter"></i></a></li>
                                         <li><a href="#"><i class="icn icon-linked_in"></i></a></li>
-                                        <li><a href="#"><i class="icn icon-fb"></i></a></li>
+                                        <li><a href="#"><i class="icn icon-facebook"></i></a></li>
                                     </ul>
                                 </div>
                                 <div class="description_container">
@@ -368,7 +368,7 @@
                                     <ul class="properties">
                                         <li><i class="icn icon-rooms"></i><span class="prop_title">Unités disponibles</span><span class="prop_val">3/5</span></li>
                                         <li><i class="icn icon-living_area"></i><span class="prop_title">Surface</span><span class="prop_val">50 à 200m<sup>2</sup></span></li>
-                                        <li><i class="icn icon-prix"></i><span class="prop_title">Prix</span><span class="prop_val">300'000 à 1'400'000 CHF</span></li>
+                                        <li><i class="icn icon-price"></i><span class="prop_title">Prix</span><span class="prop_val">300'000 à 1'400'000 CHF</span></li>
                                     </ul>
                                 </div>
                             </div>
