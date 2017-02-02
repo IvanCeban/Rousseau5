@@ -255,7 +255,7 @@
                                 <label>
                                     <input required="" type="checkbox" name="" value="">
                                     <span class="fake_checkbox"></span>
-                                    <span class="my_checkbox_text"><i class="icn icon-cafe"></i><span>Boulangeries</span></span>
+                                    <span class="my_checkbox_text"><i class="icn icon-bakery"></i><span>Boulangeries</span></span>
                                 </label>
                             </div>
                         </li>

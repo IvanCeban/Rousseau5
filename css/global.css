@@ -1126,10 +1126,8 @@ footer .footer_links_list li {
   footer .footer_links_list li a {
     font-size: 12px;
     color: #e5e5e5; }
-  footer .footer_links_list li:last-child {
-    margin-bottom: 0; }
 footer .footer_top_section {
-  padding: 30px 0;
+  padding: 30px 0 15px;
   background-color: rgba(44, 49, 79, 0.9); }
   footer .footer_top_section h1 {
     text-align: left;

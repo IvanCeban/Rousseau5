@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?jn1sqs');
-  src:  url('fonts/icomoon.eot?jn1sqs#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?jn1sqs') format('truetype'),
-    url('fonts/icomoon.woff?jn1sqs') format('woff'),
-    url('fonts/icomoon.svg?jn1sqs#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?5c3kil');
+  src:  url('fonts/icomoon.eot?5c3kil#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?5c3kil') format('truetype'),
+    url('fonts/icomoon.woff?5c3kil') format('woff'),
+    url('fonts/icomoon.svg?5c3kil#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -199,5 +199,8 @@
 }
 .icon-university:before {
   content: "\e938";
+}
+.icon-bakery:before {
+  content: "\e939";
 }
 

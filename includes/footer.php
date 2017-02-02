@@ -122,7 +122,7 @@
             </div>
             <div class="row">
                 <div class="col-xs-12">
-                    <p class="margin_top_30">Achat/vente immobilier de prestige suisse : genève, vaud, lac léman, genève centre, valais, genève centre rive droite, genève centre rive gauche, genève rive droite, crans-montana, saint-prex, rhône-arve, vaud la côte.</p>
+                    <p class="margin_top_15">Achat/vente immobilier de prestige suisse : genève, vaud, lac léman, genève centre, valais, genève centre rive droite, genève centre rive gauche, genève rive droite, crans-montana, saint-prex, rhône-arve, vaud la côte.</p>
                     <p class="margin_top_15">Achat/location de biens immobiliers de prestige à vendre en suisse : vente appartements de lux suisse, maison en vente de luxe suisse, vente chalets de luxe suisse, vente propriété suisse, vente villas de luxe suisse, vente terrain suisse, vente derniers étages suisse, vente attique suisse. Location biens immobiliers de prestige à louer en Suisse, location appartement, location villas, location maison, relocation, Family service.</p>
                     <p class="margin_top_15">Agence immobilière de prestige en Suisse, agence immobilière Genève GE, agence immobilière Morges, agence immobilière Crans-Montana, Agence immoiblière Vaud. Service immobiliers en suisse, service immoiblier sur mesure, service immoibliers de prestige en suisse, achat/vente immobilier de luxe en Suisse, location immobilier en Suisse, location immobilier Genève, relocation immobilier Genève, Family service Genève.</p>
                 </div>
