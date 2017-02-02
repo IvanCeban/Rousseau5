@@ -182,11 +182,12 @@
                             <div class="img_block">
                                 <div class="activity_label">Loué</div>
                                 <div class="exclusive_label">Exclusif</div>
-                                <img src="img/object1.jpg" alt="object name">
+                                <img src="img/promotions/promotion_1.jpg" alt="object name">
                             </div>
                             <div class="info_block">
                                 <div class="title_container">
                                     <a href="#"><h2>La Residence du lac - Saint Prex</h2></a>
+                                    <span class="properties_amount">1 propriétés</span>
                                     <ul class="social_networks">
                                         <li><a href="#"><i class="icn icon-tw"></i></a></li>
                                         <li><a href="#"><i class="icn icon-linked_in"></i></a></li>
@@ -214,11 +215,12 @@
                             <div class="img_block">
                                 <div class="activity_label">Loué</div>
                                 <div class="exclusive_label">Exclusif</div>
-                                <img src="img/object1.jpg" alt="object name">
+                                <img src="img/promotions/promotion_2.jpg" alt="object name">
                             </div>
                             <div class="info_block">
                                 <div class="title_container">
-                                    <a href="#"><h2>La Residence du lac - Saint Prex</h2></a>
+                                    <a href="#"><h2>1 Gevray</h2></a>
+                                    <span class="properties_amount">1 propriétés</span>
                                     <ul class="social_networks">
                                         <li><a href="#"><i class="icn icon-tw"></i></a></li>
                                         <li><a href="#"><i class="icn icon-linked_in"></i></a></li>
@@ -246,11 +248,12 @@
                             <div class="img_block">
                                 <div class="activity_label">Loué</div>
                                 <div class="exclusive_label">Exclusif</div>
-                                <img src="img/object1.jpg" alt="object name">
+                                <img src="img/promotions/promotion_3.jpg" alt="object name">
                             </div>
                             <div class="info_block">
                                 <div class="title_container">
-                                    <a href="#"><h2>La Residence du lac - Saint Prex</h2></a>
+                                    <a href="#"><h2>LE SPORT CLUB RÉSIDENCES : CRANS-MONTANA</h2></a>
+                                    <span class="properties_amount">1 propriétés</span>
                                     <ul class="social_networks">
                                         <li><a href="#"><i class="icn icon-tw"></i></a></li>
                                         <li><a href="#"><i class="icn icon-linked_in"></i></a></li>
@@ -278,11 +281,78 @@
                             <div class="img_block">
                                 <div class="activity_label">Loué</div>
                                 <div class="exclusive_label">Exclusif</div>
-                                <img src="img/object1.jpg" alt="object name">
+                                <img src="img/promotions/promotion_4.jpg" alt="object name">
                             </div>
                             <div class="info_block">
                                 <div class="title_container">
-                                    <a href="#"><h2>La Residence du lac - Saint Prex</h2></a>
+                                    <a href="#"><h2>'BELLES DRIZE' À TROINEX</h2></a>
+                                    <span class="properties_amount">1 propriétés</span>
+                                    <ul class="social_networks">
+                                        <li><a href="#"><i class="icn icon-tw"></i></a></li>
+                                        <li><a href="#"><i class="icn icon-linked_in"></i></a></li>
+                                        <li><a href="#"><i class="icn icon-fb"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="description_container">
+                                    <h3>Type / <span>Ville</span></h3>
+                                    <p class="object_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                    <a href="#" class="btn dark">Contactez l'agent</a>
+                                </div>
+                                <div class="properties_containner">
+                                    <ul class="properties">
+                                        <li><i class="icn icon-rooms"></i><span class="prop_title">Unités disponibles</span><span class="prop_val">3/5</span></li>
+                                        <li><i class="icn icon-living_area"></i><span class="prop_title">Surface</span><span class="prop_val">50 à 200m<sup>2</sup></span></li>
+                                        <li><i class="icn icon-prix"></i><span class="prop_title">Prix</span><span class="prop_val">300'000 à 1'400'000 CHF</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="gradient_bg"></div>
+                        </div>
+                    </div>
+                    <div class="carousel-cell col-xs-12 col-sm-6 object_block_container">
+                        <div class="object_block">
+                            <div class="img_block">
+                                <div class="activity_label">Loué</div>
+                                <div class="exclusive_label">Exclusif</div>
+                                <img src="img/promotions/promotion_5.jpg" alt="object name">
+                            </div>
+                            <div class="info_block">
+                                <div class="title_container">
+                                    <a href="#"><h2>LES VILLAS DE LA GENÉVRIÈRE</h2></a>
+                                    <span class="properties_amount">1 propriétés</span>
+                                    <ul class="social_networks">
+                                        <li><a href="#"><i class="icn icon-tw"></i></a></li>
+                                        <li><a href="#"><i class="icn icon-linked_in"></i></a></li>
+                                        <li><a href="#"><i class="icn icon-fb"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="description_container">
+                                    <h3>Type / <span>Ville</span></h3>
+                                    <p class="object_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                    <a href="#" class="btn dark">Contactez l'agent</a>
+                                </div>
+                                <div class="properties_containner">
+                                    <ul class="properties">
+                                        <li><i class="icn icon-rooms"></i><span class="prop_title">Unités disponibles</span><span class="prop_val">3/5</span></li>
+                                        <li><i class="icn icon-living_area"></i><span class="prop_title">Surface</span><span class="prop_val">50 à 200m<sup>2</sup></span></li>
+                                        <li><i class="icn icon-prix"></i><span class="prop_title">Prix</span><span class="prop_val">300'000 à 1'400'000 CHF</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="gradient_bg"></div>
+                        </div>
+                    </div>
+                    <div class="carousel-cell col-xs-12 col-sm-6 object_block_container">
+                        <div class="object_block">
+                            <div class="img_block">
+                                <div class="activity_label">Loué</div>
+                                <div class="exclusive_label">Exclusif</div>
+                                <img src="img/promotions/promotion_6.jpg" alt="object name">
+                            </div>
+                            <div class="info_block">
+                                <div class="title_container">
+                                    <a href="#"><h2>COEUR ANIÈRES</h2></a>
+                                    <span class="properties_amount">1 propriétés</span>
                                     <ul class="social_networks">
                                         <li><a href="#"><i class="icn icon-tw"></i></a></li>
                                         <li><a href="#"><i class="icn icon-linked_in"></i></a></li>

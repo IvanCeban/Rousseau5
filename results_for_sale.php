@@ -156,7 +156,7 @@
                 <div class="col-xs-12 col-md-8 col-lg-6 margin_bottom_10">
                     <div class="view_type_container">
                         <ul class="view_type">
-                            <li class="list_view_btn hidden-sm-down"><i class="icn icon-list_icn"></i>Liste (371)</li>
+                            <li class="hidden-sm-down list_view_btn"><i class="icn icon-list_icn"></i>Liste (371)</li>
                             <li class="grid_view_btn active"><i class="icn icon-image_icn"></i>Grille (371)</li>
                             <li class="map_view_btn"><i class="icn icon-map_icn"></i>Carte (152)</li>
                         </ul>
@@ -182,7 +182,7 @@
                             <div class="img_block">
                                 <div class="activity_label">Loué</div>
                                 <div class="exclusive_label">Exclusif</div>
-                                <img src="img/object1.jpg" alt="object name">
+                                <img src="img/for_sale/for_sale1.jpg" alt="object name">
                             </div>
                             <div class="info_block">
                                 <div class="title_container">
@@ -220,7 +220,7 @@
                             <div class="img_block">
                                 <div class="activity_label">Loué</div>
                                 <div class="exclusive_label">Exclusif</div>
-                                <img src="img/object1.jpg" alt="object name">
+                                <img src="img/for_sale/for_sale2.jpg" alt="object name">
                             </div>
                             <div class="info_block">
                                 <div class="title_container">
@@ -258,7 +258,7 @@
                             <div class="img_block">
                                 <div class="activity_label">Loué</div>
                                 <div class="exclusive_label">Exclusif</div>
-                                <img src="img/object1.jpg" alt="object name">
+                                <img src="img/for_sale/for_sale3.jpg" alt="object name">
                             </div>
                             <div class="info_block">
                                 <div class="title_container">
@@ -296,7 +296,83 @@
                             <div class="img_block">
                                 <div class="activity_label">Loué</div>
                                 <div class="exclusive_label">Exclusif</div>
-                                <img src="img/object1.jpg" alt="object name">
+                                <img src="img/for_sale/for_sale1.jpg" alt="object name">
+                            </div>
+                            <div class="info_block">
+                                <div class="title_container">
+                                    <a href="details_for_sale.php"><h2>Amazing apartment</h2></a>
+                                    <ul class="social_networks">
+                                        <li><a href="#"><i class="icn icon-tw"></i></a></li>
+                                        <li><a href="#"><i class="icn icon-linked_in"></i></a></li>
+                                        <li><a href="#"><i class="icn icon-fb"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="description_container">
+                                    <h3>Maison à vendre / <span>cologny</span></h3>
+                                    <p class="object_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                    <a href="#" class="btn dark">Contactez l'agent</a>
+                                    <div class="object_price">CHF 2'990'000</div>
+                                </div>
+                                <div class="properties_containner">
+                                    <ul class="properties">
+                                        <li><i class="icn icon-bedrooms"></i><span class="prop_title">Nombre de chambres</span><span class="prop_val">5</span></li>
+                                        <li><i class="icn icon-bathrooms"></i><span class="prop_title">Nombre de salles de bain</span><span class="prop_val">4</span></li>
+                                        <li><i class="icn icon-wc"></i><span class="prop_title">Nombre de WC</span><span class="prop_val">3</span></li>
+                                        <li><i class="icn icon-living_area"></i><span class="prop_title">Surface habitable</span><span class="prop_val">200m<sup>2</sup></span></li>
+                                        <li><i class="icn icon-usable_area"></i><span class="prop_title">Surface du terrain</span><span class="prop_val">300m<sup>2</sup></span></li>
+                                        <li><i class="icn icon-outdoor_area"></i><span class="prop_title">Etage</span><span class="prop_val">400m<sup>2</sup></span></li>
+                                        <li class="hidden_list"><i class="icn icon-outdoor_area"></i><span class="prop_title">Balcon</span><span class="prop_val">4</span></li>
+                                        <li class="empty hidden_list"><i class="icn icon-outdoor_area"></i><span class="prop_title">Terrasse</span><span class="prop_val"></span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="gradient_bg"></div>
+                        </div>
+                    </div>
+                    <div class="carousel-cell col-xs-12 col-sm-6 col-lg-4 object_block_container">
+                        <div class="object_block">
+                            <div class="img_block">
+                                <div class="activity_label">Loué</div>
+                                <div class="exclusive_label">Exclusif</div>
+                                <img src="img/for_sale/for_sale2.jpg" alt="object name">
+                            </div>
+                            <div class="info_block">
+                                <div class="title_container">
+                                    <a href="details_for_sale.php"><h2>Amazing apartment</h2></a>
+                                    <ul class="social_networks">
+                                        <li><a href="#"><i class="icn icon-tw"></i></a></li>
+                                        <li><a href="#"><i class="icn icon-linked_in"></i></a></li>
+                                        <li><a href="#"><i class="icn icon-fb"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="description_container">
+                                    <h3>Maison à vendre / <span>cologny</span></h3>
+                                    <p class="object_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                    <a href="#" class="btn dark">Contactez l'agent</a>
+                                    <div class="object_price">CHF 2'990'000</div>
+                                </div>
+                                <div class="properties_containner">
+                                    <ul class="properties">
+                                        <li><i class="icn icon-bedrooms"></i><span class="prop_title">Nombre de chambres</span><span class="prop_val">5</span></li>
+                                        <li><i class="icn icon-bathrooms"></i><span class="prop_title">Nombre de salles de bain</span><span class="prop_val">4</span></li>
+                                        <li><i class="icn icon-wc"></i><span class="prop_title">Nombre de WC</span><span class="prop_val">3</span></li>
+                                        <li><i class="icn icon-living_area"></i><span class="prop_title">Surface habitable</span><span class="prop_val">200m<sup>2</sup></span></li>
+                                        <li><i class="icn icon-usable_area"></i><span class="prop_title">Surface du terrain</span><span class="prop_val">300m<sup>2</sup></span></li>
+                                        <li><i class="icn icon-outdoor_area"></i><span class="prop_title">Etage</span><span class="prop_val">400m<sup>2</sup></span></li>
+                                        <li class="hidden_list"><i class="icn icon-outdoor_area"></i><span class="prop_title">Balcon</span><span class="prop_val">4</span></li>
+                                        <li class="empty hidden_list"><i class="icn icon-outdoor_area"></i><span class="prop_title">Terrasse</span><span class="prop_val"></span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="gradient_bg"></div>
+                        </div>
+                    </div>
+                    <div class="carousel-cell col-xs-12 col-sm-6 col-lg-4 object_block_container">
+                        <div class="object_block">
+                            <div class="img_block">
+                                <div class="activity_label">Loué</div>
+                                <div class="exclusive_label">Exclusif</div>
+                                <img src="img/for_sale/for_sale3.jpg" alt="object name">
                             </div>
                             <div class="info_block">
                                 <div class="title_container">
@@ -363,8 +439,8 @@
 <script src="js/libraries/flickity_carousel.min.js"></script>
 <script src="js/libraries/simplebar.js"></script>
 
-<script src="js/functions.js"></script>
 <script src="js/events.js"></script>
 <script src="js/results.js"></script>
+<script src="js/functions.js"></script>
 </body>
 </html>

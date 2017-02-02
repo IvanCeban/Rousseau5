@@ -36,18 +36,15 @@
         <div class="gallery_container">
             <div class="gallery_view">
                 <ul class="gallery">
-                    <li><img src="img/details1.jpg" alt=""></li>
-                    <li><img src="img/carousel2.jpg" alt=""></li>
-                    <li><img src="img/carousel3.jpg" alt=""></li>
-                    <li><img src="img/carousel1.jpg" alt=""></li>
-                    <li><img src="img/carousel2.jpg" alt=""></li>
-                    <li><img src="img/carousel3.jpg" alt=""></li>
-                    <li><img src="img/carousel1.jpg" alt=""></li>
-                    <li><img src="img/carousel2.jpg" alt=""></li>
-                    <li><img src="img/carousel3.jpg" alt=""></li>
-                    <li><img src="img/carousel1.jpg" alt=""></li>
-                    <li><img src="img/carousel2.jpg" alt=""></li>
-                    <li><img src="img/carousel3.jpg" alt=""></li>
+                    <li><img src="img/for_sale/details/details1.jpg" alt=""></li>
+                    <li><img src="img/for_sale/details/details2.jpg" alt=""></li>
+                    <li><img src="img/for_sale/details/details3.jpg" alt=""></li>
+                    <li><img src="img/for_sale/details/details4.jpg" alt=""></li>
+                    <li><img src="img/for_sale/details/details5.jpg" alt=""></li>
+                    <li><img src="img/for_sale/details/details6.jpg" alt=""></li>
+                    <li><img src="img/for_sale/details/details7.jpg" alt=""></li>
+                    <li><img src="img/for_sale/details/details8.jpg" alt=""></li>
+                    <li><img src="img/for_sale/details/details9.jpg" alt=""></li>
                 </ul>
                 <div class="object_title">
                     <div class="container-fluid">
@@ -69,18 +66,15 @@
             <div class="gallery_nav">
                 <div class="container-fluid">
                     <ul class="gallery_thumbnails">
-                        <li><img src="img/details1_thumbnail.png" alt=""></li>
-                        <li><img src="img/details2_thumbnail.png" alt=""></li>
-                        <li><img src="img/details3_thumbnail.png" alt=""></li>
-                        <li><img src="img/details4_thumbnail.png" alt=""></li>
-                        <li><img src="img/details5_thumbnail.png" alt=""></li>
-                        <li><img src="img/details6_thumbnail.png" alt=""></li>
-                        <li><img src="img/details1_thumbnail.png" alt=""></li>
-                        <li><img src="img/details2_thumbnail.png" alt=""></li>
-                        <li><img src="img/details3_thumbnail.png" alt=""></li>
-                        <li><img src="img/details4_thumbnail.png" alt=""></li>
-                        <li><img src="img/details5_thumbnail.png" alt=""></li>
-                        <li><img src="img/details6_thumbnail.png" alt=""></li>
+                        <li><img src="img/for_sale/details/details1.jpg" alt=""></li>
+                        <li><img src="img/for_sale/details/details2.jpg" alt=""></li>
+                        <li><img src="img/for_sale/details/details3.jpg" alt=""></li>
+                        <li><img src="img/for_sale/details/details4.jpg" alt=""></li>
+                        <li><img src="img/for_sale/details/details5.jpg" alt=""></li>
+                        <li><img src="img/for_sale/details/details6.jpg" alt=""></li>
+                        <li><img src="img/for_sale/details/details7.jpg" alt=""></li>
+                        <li><img src="img/for_sale/details/details8.jpg" alt=""></li>
+                        <li><img src="img/for_sale/details/details9.jpg" alt=""></li>
                     </ul>
                 </div>
             </div>

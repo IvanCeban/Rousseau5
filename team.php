@@ -38,7 +38,7 @@
                 <div class="col-xs-12 col-sm-6 object_block_container">
                     <div class="object_block">
                         <div class="img_block">
-                            <img src="img/team1.jpg" alt="">
+                            <img src="img/team/team_img1.jpg" alt="">
                             <div class="gradient_bottom"></div>
                             <h2>Anna</h2>
                             <h3>Marketing Manager</h3>
@@ -59,7 +59,7 @@
                 <div class="col-xs-12 col-sm-6 object_block_container">
                     <div class="object_block">
                         <div class="img_block">
-                            <img src="img/team2.jpg" alt="">
+                            <img src="img/team/team_img2.jpg" alt="">
                             <div class="gradient_bottom"></div>
                             <h2>Jason</h2>
                             <h3>Managing director</h3>

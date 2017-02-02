@@ -69,6 +69,7 @@ $(document).ready(function(){
     // Window listeners
     $(window).resize(function() {
         updateNav();
+        hideListView();
     });
     $btn.on('click', function() {
         $hlinks.toggleClass('hidden');
@@ -96,11 +97,11 @@ $(document).ready(function(){
             else {
                 $(this).css('margin-bottom', this_height);
             }
-            $(this).find('.img_block img').attr('src', img_link.replace('team', 'team_opened'))
+            $(this).find('.img_block img').attr('src', img_link.replace('team_img', 'team_img_opened'))
         }
         else {
             $(this).css('margin-bottom', '0');
-            $(this).find('.img_block img').attr('src', img_link.replace('team_opened', 'team'))
+            $(this).find('.img_block img').attr('src', img_link.replace('team_img_opened', 'team_img'))
         }
     });
 
@@ -111,6 +112,13 @@ $(document).ready(function(){
         selectAllText: 'Tout'
     });
 
+    function hideListView() {
+        if ($(window).width() < 768) {
+            if($('.results_section ul.view_type li.list_view_btn').hasClass('active')){
+                $('.results_section ul.view_type li.grid_view_btn').trigger('click');
+            }
+        }
+    }
 
     // $('.dropdown-menu li:first-child:not(.selected) a').on('click', function () {
     //     $('.selectpicker').selectpicker('selectAll');

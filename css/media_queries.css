@@ -90,7 +90,11 @@
     .contact_section .agent_info_container .agent_info ul li:nth-child(2) {
       margin: 0;
       padding: 0;
-      border: none; } }
+      border: none; }
+
+  #results_promotions .results_container.grid_view .container-fluid > .row .object_block_container .object_block .info_block .title_container span.properties_amount,
+  #results_promotions .results_container.map_view .container-fluid > .row .object_block_container .object_block .info_block .title_container span.properties_amount {
+    font-size: 1.125rem; } }
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .navbar ul.nav li.nav-item .dropdown-menu {
     right: 0;
@@ -151,12 +155,18 @@
   #results_promotions main .results_section .results_container.grid_view .container-fluid > .row .object_block_container .object_block .info_block .title_container a h2,
   #results_promotions main .results_section .results_container.map_view .container-fluid > .row .object_block_container .object_block .info_block .title_container a h2 {
     font-size: 1rem; }
+  #results_promotions main .results_section .results_container.grid_view .container-fluid > .row .object_block_container .object_block .info_block .title_container span.properties_amount,
+  #results_promotions main .results_section .results_container.map_view .container-fluid > .row .object_block_container .object_block .info_block .title_container span.properties_amount {
+    font-size: 1rem; }
   #results_promotions main .results_section .results_container.grid_view .container-fluid > .row .object_block_container .object_block .info_block .description_container h3,
   #results_promotions main .results_section .results_container.map_view .container-fluid > .row .object_block_container .object_block .info_block .description_container h3 {
     font-size: 0.875rem; }
-  #results_promotions main .results_section .results_container.grid_view .container-fluid > .row .object_block_container .object_block:hover .title_container a h2,
-  #results_promotions main .results_section .results_container.map_view .container-fluid > .row .object_block_container .object_block:hover .title_container a h2 {
-    font-size: 1.25rem; }
+  #results_promotions main .results_section .results_container.grid_view .container-fluid > .row .object_block_container .object_block:hover .title_container,
+  #results_promotions main .results_section .results_container.map_view .container-fluid > .row .object_block_container .object_block:hover .title_container {
+    bottom: 40%; }
+    #results_promotions main .results_section .results_container.grid_view .container-fluid > .row .object_block_container .object_block:hover .title_container a h2,
+    #results_promotions main .results_section .results_container.map_view .container-fluid > .row .object_block_container .object_block:hover .title_container a h2 {
+      font-size: 1.125rem; }
   #results_promotions main .results_section .results_container.grid_view .container-fluid > .row .object_block_container .object_block:hover .description_container,
   #results_promotions main .results_section .results_container.map_view .container-fluid > .row .object_block_container .object_block:hover .description_container {
     opacity: 1;
@@ -233,6 +243,12 @@
 
   footer .footer_bottom_section .address_block {
     margin-top: 25px; } }
+@media screen and (min-width: 544px) and (max-width: 767px) {
+  #results_promotions .results_container.grid_view .container-fluid > .row .object_block_container .object_block .info_block .title_container a,
+  #results_promotions .results_container.map_view .container-fluid > .row .object_block_container .object_block .info_block .title_container a {
+    float: none;
+    width: 100%;
+    margin-bottom: 10px; } }
 @media screen and (min-width: 544px) and (max-width: 767px) {
   .results_section .results_container.grid_view .container-fluid .object_block_container .object_block,
   .results_section .results_container.map_view .container-fluid .object_block_container .object_block {

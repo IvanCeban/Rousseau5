@@ -36,9 +36,10 @@
         <div class="gallery_container">
             <div class="gallery_view">
                 <ul class="gallery">
-                    <li><img src="img/details_comercial.jpg" alt=""></li>
-                    <li><img src="img/carousel2.jpg" alt=""></li>
-                    <li><img src="img/carousel3.jpg" alt=""></li>
+                    <li><img src="img/commercial/details/details1.jpg" alt=""></li>
+                    <li><img src="img/commercial/details/details2.jpg" alt=""></li>
+                    <li><img src="img/commercial/details/details3.jpg" alt=""></li>
+                    <li><img src="img/commercial/details/details4.jpg" alt=""></li>
                 </ul>
                 <div class="object_title">
                     <div class="container-fluid">
@@ -63,9 +64,10 @@
             <div class="gallery_nav">
                 <div class="container-fluid">
                     <ul class="gallery_thumbnails">
-                        <li><img src="img/details_comercial_thumbnail1.png" alt=""></li>
-                        <li><img src="img/details_comercial_thumbnail2.png" alt=""></li>
-                        <li><img src="img/details_comercial_thumbnail1.png" alt=""></li>
+                        <li><img src="img/commercial/details/details1.jpg" alt=""></li>
+                        <li><img src="img/commercial/details/details2.jpg" alt=""></li>
+                        <li><img src="img/commercial/details/details3.jpg" alt=""></li>
+                        <li><img src="img/commercial/details/details4.jpg" alt=""></li>
                     </ul>
                 </div>
             </div>

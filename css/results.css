@@ -115,8 +115,10 @@
       float: left;
       width: 33%; }
       .results_section .results_container.list_view .container-fluid .object_block_container .object_block .img_block img {
+        display: block;
+        float: left;
         height: 100%;
-        width: 100%; }
+        min-width: 100%; }
     .results_section .results_container.list_view .container-fluid .object_block_container .object_block .info_block {
       float: left;
       width: 67%;
@@ -317,9 +319,8 @@
 #results_for_sale .results_container.list_view .container-fluid .object_block_container .object_block .info_block .properties_containner ul.properties li.hidden_list {
   display: none; }
 
-#results_promotions .results_container.list_view .container-fluid > .row .object_block_container .object_block .img_block img {
-  height: auto;
-  width: 100%; }
+#results_promotions .results_container.list_view .container-fluid > .row .object_block_container .object_block .info_block .title_container span.properties_amount {
+  display: none; }
 #results_promotions .results_container.list_view .container-fluid > .row .object_block_container .object_block .info_block .object_description {
   margin-bottom: 15px; }
 #results_promotions .results_container.list_view .container-fluid > .row .object_block_container .object_block .info_block .object_price {
@@ -350,16 +351,27 @@
         -o-transition: 0.5s;
         transition: 0.5s;
         z-index: 1; }
-        #results_promotions .results_container.grid_view .container-fluid > .row .object_block_container .object_block .info_block .title_container a h2,
-        #results_promotions .results_container.map_view .container-fluid > .row .object_block_container .object_block .info_block .title_container a h2 {
+        #results_promotions .results_container.grid_view .container-fluid > .row .object_block_container .object_block .info_block .title_container a,
+        #results_promotions .results_container.map_view .container-fluid > .row .object_block_container .object_block .info_block .title_container a {
+          display: table;
           width: 70%;
-          font-size: 18px;
-          text-transform: uppercase;
-          -webkit-transition: 0.5s;
-          -moz-transition: 0.5s;
-          -o-transition: 0.5s;
-          transition: 0.5s;
-          font-family: lato_regular, Raleway, sans-serif; }
+          float: left; }
+          #results_promotions .results_container.grid_view .container-fluid > .row .object_block_container .object_block .info_block .title_container a h2,
+          #results_promotions .results_container.map_view .container-fluid > .row .object_block_container .object_block .info_block .title_container a h2 {
+            width: 100%;
+            font-size: 18px;
+            text-transform: uppercase;
+            -webkit-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -o-transition: 0.5s;
+            transition: 0.5s;
+            font-family: lato_regular, Raleway, sans-serif; }
+        #results_promotions .results_container.grid_view .container-fluid > .row .object_block_container .object_block .info_block .title_container span.properties_amount,
+        #results_promotions .results_container.map_view .container-fluid > .row .object_block_container .object_block .info_block .title_container span.properties_amount {
+          float: right;
+          font-size: 1.375rem;
+          color: white;
+          opacity: 1; }
         #results_promotions .results_container.grid_view .container-fluid > .row .object_block_container .object_block .info_block .title_container .social_networks,
         #results_promotions .results_container.map_view .container-fluid > .row .object_block_container .object_block .info_block .title_container .social_networks {
           display: none; }
@@ -427,10 +439,16 @@
       #results_promotions .results_container.map_view .container-fluid > .row .object_block_container .object_block:hover .title_container {
         bottom: 50%;
         text-align: center; }
-        #results_promotions .results_container.grid_view .container-fluid > .row .object_block_container .object_block:hover .title_container a h2,
-        #results_promotions .results_container.map_view .container-fluid > .row .object_block_container .object_block:hover .title_container a h2 {
-          width: 100%;
-          font-size: 25px; }
+        #results_promotions .results_container.grid_view .container-fluid > .row .object_block_container .object_block:hover .title_container a,
+        #results_promotions .results_container.map_view .container-fluid > .row .object_block_container .object_block:hover .title_container a {
+          width: 100%; }
+          #results_promotions .results_container.grid_view .container-fluid > .row .object_block_container .object_block:hover .title_container a h2,
+          #results_promotions .results_container.map_view .container-fluid > .row .object_block_container .object_block:hover .title_container a h2 {
+            width: 100%;
+            font-size: 25px; }
+        #results_promotions .results_container.grid_view .container-fluid > .row .object_block_container .object_block:hover .title_container span.properties_amount,
+        #results_promotions .results_container.map_view .container-fluid > .row .object_block_container .object_block:hover .title_container span.properties_amount {
+          opacity: 0; }
       #results_promotions .results_container.grid_view .container-fluid > .row .object_block_container .object_block:hover .description_container,
       #results_promotions .results_container.map_view .container-fluid > .row .object_block_container .object_block:hover .description_container {
         opacity: 1;

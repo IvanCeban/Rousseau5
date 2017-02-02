@@ -137,7 +137,6 @@
     }
   }
 
-
   .contact_section {
     .agent_info_container {
       .agent_info {
@@ -157,6 +156,11 @@
         }
       }
     }
+  }
+
+  #results_promotions .results_container.grid_view .container-fluid > .row .object_block_container .object_block .info_block .title_container span.properties_amount,
+  #results_promotions .results_container.map_view .container-fluid > .row .object_block_container .object_block .info_block .title_container span.properties_amount {
+    font-size: 1.125rem;
   }
 }
 
@@ -275,6 +279,9 @@
                           font-size: 1rem;
                         }
                       }
+                      span.properties_amount {
+                        font-size: 1rem;
+                      }
                     }
                     .description_container {
                       h3 {
@@ -284,9 +291,10 @@
                   }
                   &:hover {
                     .title_container {
+                      bottom: 40%;
                       a {
                         h2 {
-                          font-size: 1.25rem;
+                          font-size: 1.125rem;
                         }
                       }
                     }
@@ -432,6 +440,15 @@
     .footer_bottom_section .address_block {
       margin-top: 25px;
     }
+  }
+}
+
+@media screen and ( min-width: 544px) and (max-width: 767px) {
+  #results_promotions .results_container.grid_view .container-fluid > .row .object_block_container .object_block .info_block .title_container a,
+  #results_promotions .results_container.map_view .container-fluid > .row .object_block_container .object_block .info_block .title_container a {
+    float: none;
+    width: 100%;
+    margin-bottom: 10px;
   }
 }
 
