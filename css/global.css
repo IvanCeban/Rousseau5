@@ -1062,13 +1062,13 @@ header {
     z-index: 2; }
     #team .object_block_container .object_block .img_block img {
       width: 100%; }
-    #team .object_block_container .object_block .img_block h2, #team .object_block_container .object_block .img_block h3 {
+    #team .object_block_container .object_block .img_block h2 {
       position: absolute;
       width: 100%;
       text-align: center;
       color: white; }
     #team .object_block_container .object_block .img_block h2 {
-      bottom: 50px;
+      bottom: 30px;
       font-size: 1.875rem; }
     #team .object_block_container .object_block .img_block h3 {
       bottom: 15px;

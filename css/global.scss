@@ -596,20 +596,15 @@ header {
         img {
           width: 100%;
         }
-        h2, h3 {
+        h2 {
           position: absolute;
           width: 100%;
           text-align: center;
           color: white;
         }
         h2 {
-          bottom: 50px;
+          bottom: 30px;
           font-size: 1.875rem;
-        }
-        h3 {
-          bottom: 15px;
-          opacity: 0.5;
-          font-size: 1.375rem;
         }
         .gradient_bottom {
           @include my_gradient_bg($main_blue)
