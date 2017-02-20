@@ -15,7 +15,7 @@
                     <a class="dropdown-item <?php if($current_page == 'team') {echo 'active';} ?>" href="/team.php">L’equipe</a>
                 </div>
             </li>
-            <li class="nav-item <?php if($current_page == 'contact') {echo 'active';} ?>"><a class="nav-link" href='#'>Nous contacter</a></li>
+            <li class="nav-item <?php if($current_page == 'contact') {echo 'active';} ?>"><a class="nav-link" href='/contact.php'>Nous contacter</a></li>
         </ul>
         <ul class='nav hidden-links hidden'></ul>
     </div>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
 
-    <title>Rousseau 5</title>
+    <title>Rousseau 5 - Details</title>
     <meta name="description" content="The HTML5 Herald">
     <meta name="author" content="SitePoint">
 

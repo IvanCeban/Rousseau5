@@ -19,7 +19,11 @@
     .carousel_section .carousel .flickity-prev-next-button.previous {
       left: -30px; }
     .carousel_section .carousel .flickity-prev-next-button.next {
-      right: -30px; } }
+      right: -30px; }
+
+  #contact .representatives_section .representatives_block .close_btn {
+    right: -70px;
+    top: 0; } }
 @media screen and (max-width: 1199px) {
   .results_section .results_container.grid_view .container-fluid .object_block_container .object_block,
   .results_section .results_container.map_view .container-fluid .object_block_container .object_block {
@@ -49,6 +53,18 @@
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   .search_block .row label.form_el_label {
     font-size: 0.813rem; } }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  #contact .representatives_section .representatives_block .representative_container {
+    margin-bottom: 0; }
+  #contact .representatives_section .representatives_block.double .representative_container.opened {
+    width: 100%; }
+    #contact .representatives_section .representatives_block.double .representative_container.opened .representative_info {
+      width: 50%;
+      float: left; }
+    #contact .representatives_section .representatives_block.double .representative_container.opened form.contact_form {
+      width: 50%;
+      float: left;
+      padding-left: 10px; } }
 @media screen and (max-width: 991px) {
   .results_section .results_container.list_view .container-fluid .object_block_container .object_block .info_block .title_container a h2 {
     font-size: 1.5rem; }
@@ -395,6 +411,12 @@
 
   #details_commercial .object_info_section .object_info_container ul.properties {
     width: 100%;
-    min-width: 100%; } }
+    min-width: 100%; }
+
+  #contact .representatives_section .representatives_block .representative_container .representative .img_block,
+  #contact .representatives_section .representatives_block .representative_container .representative .contact_block {
+    float: none;
+    width: 100%;
+    padding: 0; } }
 
 /*# sourceMappingURL=media_queries.css.map */

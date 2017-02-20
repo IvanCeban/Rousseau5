@@ -183,19 +183,6 @@ section {
     .object_info_section .object_info_container .details_block_title span {
       color: white; }
 
-.contact_form_section form {
-  padding: 30px 30px 10px 30px;
-  border: 1px solid #cccccc; }
-  .contact_form_section form .my_checkbox {
-    position: absolute;
-    bottom: -30px;
-    z-index: 1; }
-  .contact_form_section form span.required_fields {
-    display: block;
-    margin-top: 40px; }
-  .contact_form_section form button.btn[type="submit"] {
-    width: 100%; }
-
 .gallery_section {
   margin: 0; }
 

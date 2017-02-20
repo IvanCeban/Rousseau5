@@ -22,6 +22,13 @@
       right: -30px;
     }
   }
+
+  #contact .representatives_section .representatives_block {
+    .close_btn {
+      right: -70px;
+      top: 0;
+    }
+  }
 }
 
 
@@ -72,6 +79,31 @@
   .search_block .row label.form_el_label {
     font-size: 0.813rem;
   }
+}
+
+@media screen and ( min-width: 768px) and (max-width: 1199px) {
+  #contact .representatives_section .representatives_block {
+    .representative_container {
+      margin-bottom: 0;
+    }
+    &.double {
+      .representative_container {
+        &.opened {
+          width: 100%;
+          .representative_info {
+            width: 50%;
+            float: left;
+          }
+          form.contact_form {
+            width: 50%;
+            float: left;
+            padding-left: 10px;
+          }
+        }
+      }
+    }
+  }
+
 }
 
 @media screen and ( max-width: 991px ) {
@@ -705,6 +737,23 @@
   #details_commercial .object_info_section .object_info_container ul.properties {
     width: 100%;
     min-width: 100%;
+  }
+
+  #contact {
+    .representatives_section {
+      .representatives_block {
+        .representative_container {
+          .representative {
+            .img_block,
+            .contact_block {
+              float: none;
+              width: 100%;
+              padding: 0;
+            }
+          }
+        }
+      }
+    }
   }
 }
 

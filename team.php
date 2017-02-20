@@ -97,6 +97,63 @@
                         <div class="img_block">
                             <img src="img/team/team_img4.jpg" alt="">
                             <div class="gradient_bottom"></div>
+                            <h2>Agnès Berdugo</h2>
+                        </div>
+                        <div class="info_block">
+                            <div class="properties_container">
+                                <p class="position">Courtière ventes résidentielles et promotions</p>
+                                <ul>
+                                    <li>+079 587 35 06</li>
+                                    <li><a href="mailto:agnes@rousseau5.ch">agnes@rousseau5.ch</a></li>
+                                </ul>
+                                <button type="button" class="btn light">Fermer</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 object_block_container">
+                    <div class="object_block">
+                        <div class="img_block">
+                            <img src="img/team/team_img5.jpg" alt="">
+                            <div class="gradient_bottom"></div>
+                            <h2>David Coen</h2>
+                        </div>
+                        <div class="info_block">
+                            <div class="properties_container">
+                                <p class="position">Courtier ventes résidentielles et promotions</p>
+                                <ul>
+                                    <li>+079 587 35 06</li>
+                                    <li><a href="mailto:dc@rousseau5.ch">dc@rousseau5.ch</a></li>
+                                </ul>
+                                <button type="button" class="btn light">Fermer</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 object_block_container">
+                    <div class="object_block">
+                        <div class="img_block">
+                            <img src="img/team/team_img6.jpg" alt="">
+                            <div class="gradient_bottom"></div>
+                            <h2>David Abergel</h2>
+                        </div>
+                        <div class="info_block">
+                            <div class="properties_container">
+                                <p class="position">Courtier location résidentielles</p>
+                                <ul>
+                                    <li>+079 268 43 73</li>
+                                    <li><a href="mailto:da@rousseau5.ch">da@rousseau5.ch</a></li>
+                                </ul>
+                                <button type="button" class="btn light">Fermer</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 object_block_container">
+                    <div class="object_block">
+                        <div class="img_block">
+                            <img src="img/team/team_img7.jpg" alt="">
+                            <div class="gradient_bottom"></div>
                             <h2>Kim-kay Ymar</h2>
                         </div>
                         <div class="info_block">
@@ -114,7 +171,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-4 object_block_container">
                     <div class="object_block">
                         <div class="img_block">
-                            <img src="img/team/team_img5.jpg" alt="">
+                            <img src="img/team/team_img8.jpg" alt="">
                             <div class="gradient_bottom"></div>
                             <h2>Lamia Benmoussa</h2>
                         </div>
