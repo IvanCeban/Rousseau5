@@ -202,10 +202,10 @@
                                 </div>
                                 <div class="properties_containner">
                                     <ul class="properties">
-                                        <li class="hidden"><i class="icn icon-bedroom"></i><span class="prop_title">Etat</span><span class="prop_val">Neuf</span></li>
-                                        <li><i class="icn icon-living_area"></i><span class="prop_title">Surface habitable</span><span class="prop_val">200m<sup>2</sup></span></li>
-                                        <li><i class="icn icon-bathroom"></i><span class="prop_title">Terrase</span><span class="prop_val">120m<sup>2</sup></span></li>
-                                        <li><i class="icn icon-price"></i><span class="prop_title">Loyer</span><span class="prop_val">1200 CHF</span></li>
+                                        <li class="hidden"><span class="icn_container tooltip" title="Etat"><i class="icn icon-bedroom"></i></span><span class="prop_title">Etat</span><span class="prop_val">Neuf</span></li>
+                                        <li><span class="icn_container tooltip" title="Surface habitable"><i class="icn icon-living_area"></i></span><span class="prop_title">Surface habitable</span><span class="prop_val">200m<sup>2</sup></span></li>
+                                        <li><span class="icn_container tooltip" title="Terrase"><i class="icn icon-bathroom"></i></span><span class="prop_title">Terrase</span><span class="prop_val">120m<sup>2</sup></span></li>
+                                        <li><span class="icn_container tooltip" title="Loyer"><i class="icn icon-price"></i></span><span class="prop_title">Loyer</span><span class="prop_val">1200 CHF</span></li>
                                     </ul>
                                 </div>
                             </div>
@@ -236,10 +236,10 @@
                                 </div>
                                 <div class="properties_containner">
                                     <ul class="properties">
-                                        <li class="hidden"><i class="icn icon-bedroom"></i><span class="prop_title">Etat</span><span class="prop_val">Neuf</span></li>
-                                        <li><i class="icn icon-living_area"></i><span class="prop_title">Surface habitable</span><span class="prop_val">200m<sup>2</sup></span></li>
-                                        <li><i class="icn icon-bathroom"></i><span class="prop_title">Terrase</span><span class="prop_val">120m<sup>2</sup></span></li>
-                                        <li><i class="icn icon-price"></i><span class="prop_title">Loyer</span><span class="prop_val">1200 CHF</span></li>
+                                        <li class="hidden"><span class="icn_container tooltip" title="Etat"><i class="icn icon-bedroom"></i></span><span class="prop_title">Etat</span><span class="prop_val">Neuf</span></li>
+                                        <li><span class="icn_container tooltip" title="Surface habitable"><i class="icn icon-living_area"></i></span><span class="prop_title">Surface habitable</span><span class="prop_val">200m<sup>2</sup></span></li>
+                                        <li><span class="icn_container tooltip" title="Terrase"><i class="icn icon-bathroom"></i></span><span class="prop_title">Terrase</span><span class="prop_val">120m<sup>2</sup></span></li>
+                                        <li><span class="icn_container tooltip" title="Loyer"><i class="icn icon-price"></i></span><span class="prop_title">Loyer</span><span class="prop_val">1200 CHF</span></li>
                                     </ul>
                                 </div>
                             </div>
@@ -270,10 +270,10 @@
                                 </div>
                                 <div class="properties_containner">
                                     <ul class="properties">
-                                        <li class="hidden"><i class="icn icon-bedroom"></i><span class="prop_title">Etat</span><span class="prop_val">Neuf</span></li>
-                                        <li><i class="icn icon-living_area"></i><span class="prop_title">Surface habitable</span><span class="prop_val">200m<sup>2</sup></span></li>
-                                        <li><i class="icn icon-bathroom"></i><span class="prop_title">Terrase</span><span class="prop_val">120m<sup>2</sup></span></li>
-                                        <li><i class="icn icon-price"></i><span class="prop_title">Loyer</span><span class="prop_val">1200 CHF</span></li>
+                                        <li class="hidden"><span class="icn_container tooltip" title="Etat"><i class="icn icon-bedroom"></i></span><span class="prop_title">Etat</span><span class="prop_val">Neuf</span></li>
+                                        <li><span class="icn_container tooltip" title="Surface habitable"><i class="icn icon-living_area"></i></span><span class="prop_title">Surface habitable</span><span class="prop_val">200m<sup>2</sup></span></li>
+                                        <li><span class="icn_container tooltip" title="Terrase"><i class="icn icon-bathroom"></i></span><span class="prop_title">Terrase</span><span class="prop_val">120m<sup>2</sup></span></li>
+                                        <li><span class="icn_container tooltip" title="Loyer"><i class="icn icon-price"></i></span><span class="prop_title">Loyer</span><span class="prop_val">1200 CHF</span></li>
                                     </ul>
                                 </div>
                             </div>
@@ -304,10 +304,10 @@
                                 </div>
                                 <div class="properties_containner">
                                     <ul class="properties">
-                                        <li class="hidden"><i class="icn icon-bedroom"></i><span class="prop_title">Etat</span><span class="prop_val">Neuf</span></li>
-                                        <li><i class="icn icon-living_area"></i><span class="prop_title">Surface habitable</span><span class="prop_val">200m<sup>2</sup></span></li>
-                                        <li><i class="icn icon-bathroom"></i><span class="prop_title">Terrase</span><span class="prop_val">120m<sup>2</sup></span></li>
-                                        <li><i class="icn icon-price"></i><span class="prop_title">Loyer</span><span class="prop_val">1200 CHF</span></li>
+                                        <li class="hidden"><span class="icn_container tooltip" title="Etat"><i class="icn icon-bedroom"></i></span><span class="prop_title">Etat</span><span class="prop_val">Neuf</span></li>
+                                        <li><span class="icn_container tooltip" title="Surface habitable"><i class="icn icon-living_area"></i></span><span class="prop_title">Surface habitable</span><span class="prop_val">200m<sup>2</sup></span></li>
+                                        <li><span class="icn_container tooltip" title="Terrase"><i class="icn icon-bathroom"></i></span><span class="prop_title">Terrase</span><span class="prop_val">120m<sup>2</sup></span></li>
+                                        <li><span class="icn_container tooltip" title="Loyer"><i class="icn icon-price"></i></span><span class="prop_title">Loyer</span><span class="prop_val">1200 CHF</span></li>
                                     </ul>
                                 </div>
                             </div>
@@ -338,10 +338,10 @@
                                 </div>
                                 <div class="properties_containner">
                                     <ul class="properties">
-                                        <li class="hidden"><i class="icn icon-bedroom"></i><span class="prop_title">Etat</span><span class="prop_val">Neuf</span></li>
-                                        <li><i class="icn icon-living_area"></i><span class="prop_title">Surface habitable</span><span class="prop_val">200m<sup>2</sup></span></li>
-                                        <li><i class="icn icon-bathroom"></i><span class="prop_title">Terrase</span><span class="prop_val">120m<sup>2</sup></span></li>
-                                        <li><i class="icn icon-price"></i><span class="prop_title">Loyer</span><span class="prop_val">1200 CHF</span></li>
+                                        <li class="hidden"><span class="icn_container tooltip" title="Etat"><i class="icn icon-bedroom"></i></span><span class="prop_title">Etat</span><span class="prop_val">Neuf</span></li>
+                                        <li><span class="icn_container tooltip" title="Surface habitable"><i class="icn icon-living_area"></i></span><span class="prop_title">Surface habitable</span><span class="prop_val">200m<sup>2</sup></span></li>
+                                        <li><span class="icn_container tooltip" title="Terrase"><i class="icn icon-bathroom"></i></span><span class="prop_title">Terrase</span><span class="prop_val">120m<sup>2</sup></span></li>
+                                        <li><span class="icn_container tooltip" title="Loyer"><i class="icn icon-price"></i></span><span class="prop_title">Loyer</span><span class="prop_val">1200 CHF</span></li>
                                     </ul>
                                 </div>
                             </div>
@@ -372,10 +372,10 @@
                                 </div>
                                 <div class="properties_containner">
                                     <ul class="properties">
-                                        <li class="hidden"><i class="icn icon-bedroom"></i><span class="prop_title">Etat</span><span class="prop_val">Neuf</span></li>
-                                        <li><i class="icn icon-living_area"></i><span class="prop_title">Surface habitable</span><span class="prop_val">200m<sup>2</sup></span></li>
-                                        <li><i class="icn icon-bathroom"></i><span class="prop_title">Terrase</span><span class="prop_val">120m<sup>2</sup></span></li>
-                                        <li><i class="icn icon-price"></i><span class="prop_title">Loyer</span><span class="prop_val">1200 CHF</span></li>
+                                        <li class="hidden"><span class="icn_container tooltip" title="Etat"><i class="icn icon-bedroom"></i></span><span class="prop_title">Etat</span><span class="prop_val">Neuf</span></li>
+                                        <li><span class="icn_container tooltip" title="Surface habitable"><i class="icn icon-living_area"></i></span><span class="prop_title">Surface habitable</span><span class="prop_val">200m<sup>2</sup></span></li>
+                                        <li><span class="icn_container tooltip" title="Terrase"><i class="icn icon-bathroom"></i></span><span class="prop_title">Terrase</span><span class="prop_val">120m<sup>2</sup></span></li>
+                                        <li><span class="icn_container tooltip" title="Loyer"><i class="icn icon-price"></i></span><span class="prop_title">Loyer</span><span class="prop_val">1200 CHF</span></li>
                                     </ul>
                                 </div>
                             </div>
