@@ -5,6 +5,12 @@ $(document).ready(function(){
         return false;
     });
 
+    $('.tooltip').tooltipster({
+        animation: 'fade',
+        delay: 100,
+        theme: 'tooltipster-punk',
+        // distance: '10'
+    });
 
 /*Navigation responsiveness START*/
     var $nav = $('.navbar');

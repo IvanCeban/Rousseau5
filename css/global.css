@@ -1375,4 +1375,21 @@ footer .footer_bottom_section {
     footer .footer_bottom_section ul.social_networks li.scroll_to_top {
       background-color: #424661; }
 
+.tooltipster-sidetip .tooltipster-box {
+  background: #2c314f;
+  border: none;
+  border-radius: 0; }
+  .tooltipster-sidetip .tooltipster-box .tooltipster-content {
+    padding: 8px 20px 10px;
+    font-size: 0.875rem;
+    line-height: 0.875rem; }
+.tooltipster-sidetip.tooltipster-top .tooltipster-arrow-border {
+  border-top-color: #2c314f; }
+.tooltipster-sidetip.tooltipster-top .tooltipster-arrow-background {
+  border-top-color: #2c314f; }
+.tooltipster-sidetip.tooltipster-bottom .tooltipster-arrow-border {
+  border-bottom-color: #2c314f; }
+.tooltipster-sidetip.tooltipster-bottom .tooltipster-arrow-background {
+  border-bottom-color: #2c314f; }
+
 /*# sourceMappingURL=global.css.map */

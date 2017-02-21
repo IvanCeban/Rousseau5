@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/custom_icons/style.css">
     <link rel="stylesheet" href="css/libraries/flickity_carousel.css">
     <link rel="stylesheet" href="css/libraries/simplebar.css">
+    <link rel="stylesheet" href="css/libraries/tooltipster.bundle.min.css">
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/results.css">
     <link rel="stylesheet" href="css/media_queries.css">
@@ -201,12 +202,30 @@
                                 </div>
                                 <div class="properties_containner">
                                     <ul class="properties">
-                                        <li><i class="icn icon-bedroom"></i><span class="prop_title">Nombre de chambres</span><span class="prop_val">5</span></li>
-                                        <li><i class="icn icon-bathroom"></i><span class="prop_title">Nombre de salles de bain</span><span class="prop_val">4</span></li>
-                                        <li><i class="icn icon-wc"></i><span class="prop_title">Nombre de WC</span><span class="prop_val">3</span></li>
-                                        <li><i class="icn icon-living_area"></i><span class="prop_title">Surface habitable</span><span class="prop_val">200m<sup>2</sup></span></li>
-                                        <li><i class="icn icon-usable_area"></i><span class="prop_title">Surface du terrain</span><span class="prop_val">300m<sup>2</sup></span></li>
-                                        <li><i class="icn icon-outdoor_area"></i><span class="prop_title">Etage</span><span class="prop_val">400m<sup>2</sup></span></li>
+                                        <li>
+                                            <span class="icn_container tooltip" title="Nombre de chambres"><i class="icn icon-bedroom"></i></span>
+                                            <span class="prop_title">Nombre de chambres</span><span class="prop_val">5</span>
+                                        </li>
+                                        <li>
+                                            <span class="icn_container tooltip" title="Nombre de salles de bain"><i class="icn icon-bathroom"></i></span>
+                                            <span class="prop_title">Nombre de salles de bain</span><span class="prop_val">4</span>
+                                        </li>
+                                        <li>
+                                            <span class="icn_container tooltip" title="Nombre de WC"><i class="icn icon-wc"></i></span>
+                                            <span class="prop_title">Nombre de WC</span><span class="prop_val">3</span>
+                                        </li>
+                                        <li>
+                                            <span class="icn_container tooltip" title="Surface habitable"><i class="icn icon-living_area"></i></span>
+                                            <span class="prop_title">Surface habitable</span><span class="prop_val">200m<sup>2</sup></span>
+                                        </li>
+                                        <li>
+                                            <span class="icn_container tooltip" title="Surface du terrain"><i class="icn icon-usable_area"></i></span>
+                                            <span class="prop_title">Surface du terrain</span><span class="prop_val">300m<sup>2</sup></span>
+                                        </li>
+                                        <li>
+                                            <span class="icn_container tooltip" title="Etage"><i class="icn icon-outdoor_area"></i></span>
+                                            <span class="prop_title">Etage</span><span class="prop_val">400m<sup>2</sup></span>
+                                        </li>
                                         <li class="hidden_list"><i class="icn icon-outdoor_area"></i><span class="prop_title">Balcon</span><span class="prop_val">4</span></li>
                                         <li class="empty hidden_list"><i class="icn icon-outdoor_area"></i><span class="prop_title">Terrasse</span><span class="prop_val"></span></li>
                                     </ul>
@@ -239,12 +258,30 @@
                                 </div>
                                 <div class="properties_containner">
                                     <ul class="properties">
-                                        <li><i class="icn icon-bedroom"></i><span class="prop_title">Nombre de chambres</span><span class="prop_val">5</span></li>
-                                        <li><i class="icn icon-bathroom"></i><span class="prop_title">Nombre de salles de bain</span><span class="prop_val">4</span></li>
-                                        <li><i class="icn icon-wc"></i><span class="prop_title">Nombre de WC</span><span class="prop_val">3</span></li>
-                                        <li><i class="icn icon-living_area"></i><span class="prop_title">Surface habitable</span><span class="prop_val">200m<sup>2</sup></span></li>
-                                        <li><i class="icn icon-usable_area"></i><span class="prop_title">Surface du terrain</span><span class="prop_val">300m<sup>2</sup></span></li>
-                                        <li><i class="icn icon-outdoor_area"></i><span class="prop_title">Etage</span><span class="prop_val">400m<sup>2</sup></span></li>
+                                        <li>
+                                            <span class="icn_container tooltip" title="Nombre de chambres"><i class="icn icon-bedroom"></i></span>
+                                            <span class="prop_title">Nombre de chambres</span><span class="prop_val">5</span>
+                                        </li>
+                                        <li>
+                                            <span class="icn_container tooltip" title="Nombre de salles de bain"><i class="icn icon-bathroom"></i></span>
+                                            <span class="prop_title">Nombre de salles de bain</span><span class="prop_val">4</span>
+                                        </li>
+                                        <li>
+                                            <span class="icn_container tooltip" title="Nombre de WC"><i class="icn icon-wc"></i></span>
+                                            <span class="prop_title">Nombre de WC</span><span class="prop_val">3</span>
+                                        </li>
+                                        <li>
+                                            <span class="icn_container tooltip" title="Surface habitable"><i class="icn icon-living_area"></i></span>
+                                            <span class="prop_title">Surface habitable</span><span class="prop_val">200m<sup>2</sup></span>
+                                        </li>
+                                        <li>
+                                            <span class="icn_container tooltip" title="Surface du terrain"><i class="icn icon-usable_area"></i></span>
+                                            <span class="prop_title">Surface du terrain</span><span class="prop_val">300m<sup>2</sup></span>
+                                        </li>
+                                        <li>
+                                            <span class="icn_container tooltip" title="Etage"><i class="icn icon-outdoor_area"></i></span>
+                                            <span class="prop_title">Etage</span><span class="prop_val">400m<sup>2</sup></span>
+                                        </li>
                                         <li class="hidden_list"><i class="icn icon-outdoor_area"></i><span class="prop_title">Balcon</span><span class="prop_val">4</span></li>
                                         <li class="empty hidden_list"><i class="icn icon-outdoor_area"></i><span class="prop_title">Terrasse</span><span class="prop_val"></span></li>
                                     </ul>
@@ -277,12 +314,30 @@
                                 </div>
                                 <div class="properties_containner">
                                     <ul class="properties">
-                                        <li><i class="icn icon-bedroom"></i><span class="prop_title">Nombre de chambres</span><span class="prop_val">5</span></li>
-                                        <li><i class="icn icon-bathroom"></i><span class="prop_title">Nombre de salles de bain</span><span class="prop_val">4</span></li>
-                                        <li><i class="icn icon-wc"></i><span class="prop_title">Nombre de WC</span><span class="prop_val">3</span></li>
-                                        <li><i class="icn icon-living_area"></i><span class="prop_title">Surface habitable</span><span class="prop_val">200m<sup>2</sup></span></li>
-                                        <li><i class="icn icon-usable_area"></i><span class="prop_title">Surface du terrain</span><span class="prop_val">300m<sup>2</sup></span></li>
-                                        <li><i class="icn icon-outdoor_area"></i><span class="prop_title">Etage</span><span class="prop_val">400m<sup>2</sup></span></li>
+                                        <li>
+                                            <span class="icn_container tooltip" title="Nombre de chambres"><i class="icn icon-bedroom"></i></span>
+                                            <span class="prop_title">Nombre de chambres</span><span class="prop_val">5</span>
+                                        </li>
+                                        <li>
+                                            <span class="icn_container tooltip" title="Nombre de salles de bain"><i class="icn icon-bathroom"></i></span>
+                                            <span class="prop_title">Nombre de salles de bain</span><span class="prop_val">4</span>
+                                        </li>
+                                        <li>
+                                            <span class="icn_container tooltip" title="Nombre de WC"><i class="icn icon-wc"></i></span>
+                                            <span class="prop_title">Nombre de WC</span><span class="prop_val">3</span>
+                                        </li>
+                                        <li>
+                                            <span class="icn_container tooltip" title="Surface habitable"><i class="icn icon-living_area"></i></span>
+                                            <span class="prop_title">Surface habitable</span><span class="prop_val">200m<sup>2</sup></span>
+                                        </li>
+                                        <li>
+                                            <span class="icn_container tooltip" title="Surface du terrain"><i class="icn icon-usable_area"></i></span>
+                                            <span class="prop_title">Surface du terrain</span><span class="prop_val">300m<sup>2</sup></span>
+                                        </li>
+                                        <li>
+                                            <span class="icn_container tooltip" title="Etage"><i class="icn icon-outdoor_area"></i></span>
+                                            <span class="prop_title">Etage</span><span class="prop_val">400m<sup>2</sup></span>
+                                        </li>
                                         <li class="hidden_list"><i class="icn icon-outdoor_area"></i><span class="prop_title">Balcon</span><span class="prop_val">4</span></li>
                                         <li class="empty hidden_list"><i class="icn icon-outdoor_area"></i><span class="prop_title">Terrasse</span><span class="prop_val"></span></li>
                                     </ul>
@@ -315,12 +370,30 @@
                                 </div>
                                 <div class="properties_containner">
                                     <ul class="properties">
-                                        <li><i class="icn icon-bedroom"></i><span class="prop_title">Nombre de chambres</span><span class="prop_val">5</span></li>
-                                        <li><i class="icn icon-bathroom"></i><span class="prop_title">Nombre de salles de bain</span><span class="prop_val">4</span></li>
-                                        <li><i class="icn icon-wc"></i><span class="prop_title">Nombre de WC</span><span class="prop_val">3</span></li>
-                                        <li><i class="icn icon-living_area"></i><span class="prop_title">Surface habitable</span><span class="prop_val">200m<sup>2</sup></span></li>
-                                        <li><i class="icn icon-usable_area"></i><span class="prop_title">Surface du terrain</span><span class="prop_val">300m<sup>2</sup></span></li>
-                                        <li><i class="icn icon-outdoor_area"></i><span class="prop_title">Etage</span><span class="prop_val">400m<sup>2</sup></span></li>
+                                        <li>
+                                            <span class="icn_container tooltip" title="Nombre de chambres"><i class="icn icon-bedroom"></i></span>
+                                            <span class="prop_title">Nombre de chambres</span><span class="prop_val">5</span>
+                                        </li>
+                                        <li>
+                                            <span class="icn_container tooltip" title="Nombre de salles de bain"><i class="icn icon-bathroom"></i></span>
+                                            <span class="prop_title">Nombre de salles de bain</span><span class="prop_val">4</span>
+                                        </li>
+                                        <li>
+                                            <span class="icn_container tooltip" title="Nombre de WC"><i class="icn icon-wc"></i></span>
+                                            <span class="prop_title">Nombre de WC</span><span class="prop_val">3</span>
+                                        </li>
+                                        <li>
+                                            <span class="icn_container tooltip" title="Surface habitable"><i class="icn icon-living_area"></i></span>
+                                            <span class="prop_title">Surface habitable</span><span class="prop_val">200m<sup>2</sup></span>
+                                        </li>
+                                        <li>
+                                            <span class="icn_container tooltip" title="Surface du terrain"><i class="icn icon-usable_area"></i></span>
+                                            <span class="prop_title">Surface du terrain</span><span class="prop_val">300m<sup>2</sup></span>
+                                        </li>
+                                        <li>
+                                            <span class="icn_container tooltip" title="Etage"><i class="icn icon-outdoor_area"></i></span>
+                                            <span class="prop_title">Etage</span><span class="prop_val">400m<sup>2</sup></span>
+                                        </li>
                                         <li class="hidden_list"><i class="icn icon-outdoor_area"></i><span class="prop_title">Balcon</span><span class="prop_val">4</span></li>
                                         <li class="empty hidden_list"><i class="icn icon-outdoor_area"></i><span class="prop_title">Terrasse</span><span class="prop_val"></span></li>
                                     </ul>
@@ -353,12 +426,30 @@
                                 </div>
                                 <div class="properties_containner">
                                     <ul class="properties">
-                                        <li><i class="icn icon-bedroom"></i><span class="prop_title">Nombre de chambres</span><span class="prop_val">5</span></li>
-                                        <li><i class="icn icon-bathroom"></i><span class="prop_title">Nombre de salles de bain</span><span class="prop_val">4</span></li>
-                                        <li><i class="icn icon-wc"></i><span class="prop_title">Nombre de WC</span><span class="prop_val">3</span></li>
-                                        <li><i class="icn icon-living_area"></i><span class="prop_title">Surface habitable</span><span class="prop_val">200m<sup>2</sup></span></li>
-                                        <li><i class="icn icon-usable_area"></i><span class="prop_title">Surface du terrain</span><span class="prop_val">300m<sup>2</sup></span></li>
-                                        <li><i class="icn icon-outdoor_area"></i><span class="prop_title">Etage</span><span class="prop_val">400m<sup>2</sup></span></li>
+                                        <li>
+                                            <span class="icn_container tooltip" title="Nombre de chambres"><i class="icn icon-bedroom"></i></span>
+                                            <span class="prop_title">Nombre de chambres</span><span class="prop_val">5</span>
+                                        </li>
+                                        <li>
+                                            <span class="icn_container tooltip" title="Nombre de salles de bain"><i class="icn icon-bathroom"></i></span>
+                                            <span class="prop_title">Nombre de salles de bain</span><span class="prop_val">4</span>
+                                        </li>
+                                        <li>
+                                            <span class="icn_container tooltip" title="Nombre de WC"><i class="icn icon-wc"></i></span>
+                                            <span class="prop_title">Nombre de WC</span><span class="prop_val">3</span>
+                                        </li>
+                                        <li>
+                                            <span class="icn_container tooltip" title="Surface habitable"><i class="icn icon-living_area"></i></span>
+                                            <span class="prop_title">Surface habitable</span><span class="prop_val">200m<sup>2</sup></span>
+                                        </li>
+                                        <li>
+                                            <span class="icn_container tooltip" title="Surface du terrain"><i class="icn icon-usable_area"></i></span>
+                                            <span class="prop_title">Surface du terrain</span><span class="prop_val">300m<sup>2</sup></span>
+                                        </li>
+                                        <li>
+                                            <span class="icn_container tooltip" title="Etage"><i class="icn icon-outdoor_area"></i></span>
+                                            <span class="prop_title">Etage</span><span class="prop_val">400m<sup>2</sup></span>
+                                        </li>
                                         <li class="hidden_list"><i class="icn icon-outdoor_area"></i><span class="prop_title">Balcon</span><span class="prop_val">4</span></li>
                                         <li class="empty hidden_list"><i class="icn icon-outdoor_area"></i><span class="prop_title">Terrasse</span><span class="prop_val"></span></li>
                                     </ul>
@@ -391,12 +482,30 @@
                                 </div>
                                 <div class="properties_containner">
                                     <ul class="properties">
-                                        <li><i class="icn icon-bedroom"></i><span class="prop_title">Nombre de chambres</span><span class="prop_val">5</span></li>
-                                        <li><i class="icn icon-bathroom"></i><span class="prop_title">Nombre de salles de bain</span><span class="prop_val">4</span></li>
-                                        <li><i class="icn icon-wc"></i><span class="prop_title">Nombre de WC</span><span class="prop_val">3</span></li>
-                                        <li><i class="icn icon-living_area"></i><span class="prop_title">Surface habitable</span><span class="prop_val">200m<sup>2</sup></span></li>
-                                        <li><i class="icn icon-usable_area"></i><span class="prop_title">Surface du terrain</span><span class="prop_val">300m<sup>2</sup></span></li>
-                                        <li><i class="icn icon-outdoor_area"></i><span class="prop_title">Etage</span><span class="prop_val">400m<sup>2</sup></span></li>
+                                        <li>
+                                            <span class="icn_container tooltip" title="Nombre de chambres"><i class="icn icon-bedroom"></i></span>
+                                            <span class="prop_title">Nombre de chambres</span><span class="prop_val">5</span>
+                                        </li>
+                                        <li>
+                                            <span class="icn_container tooltip" title="Nombre de salles de bain"><i class="icn icon-bathroom"></i></span>
+                                            <span class="prop_title">Nombre de salles de bain</span><span class="prop_val">4</span>
+                                        </li>
+                                        <li>
+                                            <span class="icn_container tooltip" title="Nombre de WC"><i class="icn icon-wc"></i></span>
+                                            <span class="prop_title">Nombre de WC</span><span class="prop_val">3</span>
+                                        </li>
+                                        <li>
+                                            <span class="icn_container tooltip" title="Surface habitable"><i class="icn icon-living_area"></i></span>
+                                            <span class="prop_title">Surface habitable</span><span class="prop_val">200m<sup>2</sup></span>
+                                        </li>
+                                        <li>
+                                            <span class="icn_container tooltip" title="Surface du terrain"><i class="icn icon-usable_area"></i></span>
+                                            <span class="prop_title">Surface du terrain</span><span class="prop_val">300m<sup>2</sup></span>
+                                        </li>
+                                        <li>
+                                            <span class="icn_container tooltip" title="Etage"><i class="icn icon-outdoor_area"></i></span>
+                                            <span class="prop_title">Etage</span><span class="prop_val">400m<sup>2</sup></span>
+                                        </li>
                                         <li class="hidden_list"><i class="icn icon-outdoor_area"></i><span class="prop_title">Balcon</span><span class="prop_val">4</span></li>
                                         <li class="empty hidden_list"><i class="icn icon-outdoor_area"></i><span class="prop_title">Terrasse</span><span class="prop_val"></span></li>
                                     </ul>
@@ -438,6 +547,7 @@
 <script src="js/libraries/bootstrap-multiselect.js"></script>
 <script src="js/libraries/flickity_carousel.min.js"></script>
 <script src="js/libraries/simplebar.js"></script>
+<script src="js/libraries/tooltipster.bundle.min.js"></script>
 
 <script src="js/events.js"></script>
 <script src="js/results.js"></script>

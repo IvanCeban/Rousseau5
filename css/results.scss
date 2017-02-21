@@ -111,12 +111,20 @@
                   width: 100%;
                     li {
                       line-height: 30px;
-                      .icn {
-                        margin-right: 5px;
-                        color: $main_blue;
-                        font-size: 30px;
+                      .icn_container {
+                        display: table;
                         float: left;
+                        opacity: 1;
+                        position: relative;
+                        cursor: default;
+                        .icn {
+                          margin-right: 5px;
+                          color: $main_blue;
+                          font-size: 30px;
+                          float: left;
+                        }
                       }
+
                       .prop_val {
                         margin-top: 2px;
                       }

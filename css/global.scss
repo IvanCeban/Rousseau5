@@ -992,3 +992,35 @@ footer {
   }
 
 }
+
+
+//Toooltipster START
+.tooltipster-sidetip {
+  .tooltipster-box {
+    background: $main_blue;
+    border: none;
+    border-radius: 0;
+    .tooltipster-content {
+      padding: 8px 20px 10px;
+      font-size: 0.875rem;
+      line-height: 0.875rem;
+    }
+  }
+  &.tooltipster-top {
+    .tooltipster-arrow-border {
+      border-top-color: $main_blue;
+    }
+    .tooltipster-arrow-background {
+      border-top-color: $main_blue;
+    }
+  }
+  &.tooltipster-bottom {
+    .tooltipster-arrow-border {
+      border-bottom-color: $main_blue;
+    }
+    .tooltipster-arrow-background {
+      border-bottom-color: $main_blue;
+    }
+  }
+}
+//Toooltipster END

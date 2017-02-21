@@ -83,11 +83,17 @@
             width: 100%; }
             .results_section .results_container .container-fluid > .row .object_block_container .object_block .info_block .properties_containner ul.properties li {
               line-height: 30px; }
-              .results_section .results_container .container-fluid > .row .object_block_container .object_block .info_block .properties_containner ul.properties li .icn {
-                margin-right: 5px;
-                color: #2c314f;
-                font-size: 30px;
-                float: left; }
+              .results_section .results_container .container-fluid > .row .object_block_container .object_block .info_block .properties_containner ul.properties li .icn_container {
+                display: table;
+                float: left;
+                opacity: 1;
+                position: relative;
+                cursor: default; }
+                .results_section .results_container .container-fluid > .row .object_block_container .object_block .info_block .properties_containner ul.properties li .icn_container .icn {
+                  margin-right: 5px;
+                  color: #2c314f;
+                  font-size: 30px;
+                  float: left; }
               .results_section .results_container .container-fluid > .row .object_block_container .object_block .info_block .properties_containner ul.properties li .prop_val {
                 margin-top: 2px; }
           .results_section .results_container .container-fluid > .row .object_block_container .object_block .info_block .description_container {
