@@ -43,8 +43,8 @@ $(document).ready(function(){
         });
     }
 
-    $(document).on('click', '.results_container.grid_view .properties_containner', function() {
-       var this_block = $(this).closest('.results_container');
+    $(document).on('click', '.results_container.grid_view .properties_containner, .results_container.list_view .img_block', function() {
+       var this_block = $(this).closest('.object_block');
         var this_link = this_block.find('.title_container a').attr('href');
 
         console.log(this_link);

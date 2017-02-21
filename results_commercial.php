@@ -41,9 +41,9 @@
             <div class="search_block">
                 <div class="row">
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 margin_bottom_10">
-                        <label for="object_type_select" class="form_el_label light"><i class="icn icon-building"></i><span>Type de bien</span></label>
+                        <label class="form_el_label light"><i class="icn icon-building"></i><span>Type de bien</span></label>
                         <div class="min_select_container margin_bottom_10">
-                            <select class="selectpicker" name="object_type" id="object_type_select">
+                            <select multiple="multiple" name="object_type">
                                 <option value="">Tout</option>
                                 <option value="">House</option>
                                 <option value="">Apartment</option>
@@ -56,7 +56,7 @@
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 margin_bottom_10">
                         <label class="form_el_label light"><i class="icn icon-building2"></i><span>Sous-categorie</span></label>
                         <div class="min_select_container margin_bottom_10">
-                            <select class="selectpicker" name="object_subtype">
+                            <select multiple="multiple" name="object_subtype">
                                 <option value="">Tout</option>
                                 <option value="">Bastide</option>
                                 <option value="">Bungalow</option>
@@ -67,7 +67,7 @@
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 margin_bottom_10">
                         <label class="form_el_label light"><i class="icn icon-country"></i><span>Lieu</span></label>
                         <div class="min_select_container margin_bottom_10">
-                            <select class="selectpicker" name="object_place">
+                            <select multiple="multiple" name="object_place">
                                 <option value="">Tout</option>
                                 <option value="">Geneva</option>
                                 <option value="">Bern</option>
@@ -79,7 +79,7 @@
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 margin_bottom_10">
                         <label class="form_el_label light"><i class="icn icon-projects_neufs"></i><span>Projects neufs</span></label>
                         <div class="min_select_container margin_bottom_10">
-                            <select class="selectpicker" name="object_rooms_number">
+                            <select multiple="multiple" name="object_rooms_number">
                                 <option value="">1</option>
                                 <option value="">2</option>
                                 <option value="">3</option>
@@ -91,7 +91,7 @@
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 margin_bottom_10">
                         <label class="form_el_label light"><i class="icn icon-rooms"></i><span>Pieces</span></label>
                         <div class="min_select_container margin_bottom_10">
-                            <select class="selectpicker" name="object_surface">
+                            <select multiple="multiple" name="object_surface">
                                 <option value="">1</option>
                                 <option value="">2</option>
                                 <option value="">3</option>
@@ -103,7 +103,7 @@
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 margin_bottom_10">
                         <label class="form_el_label light"><i class="icn icon-bedroom"></i><span>Chambres</span></label>
                         <div class="min_select_container margin_bottom_10">
-                            <select class="selectpicker" name="object_price">
+                            <select multiple="multiple" name="object_price">
                                 <option value="">1</option>
                                 <option value="">2</option>
                                 <option value="">3</option>
@@ -131,7 +131,7 @@
                     <div class="col-xs-12 col-sm-6 col-md-4 pull-md-8 col-lg-2 pull-lg-6 margin_bottom_10">
                         <label class="form_el_label light"><i class="icn icon-living_area"></i><span>Surface habit.</span></label>
                         <div class="min_select_container margin_bottom_10">
-                            <select class="selectpicker" name="object_rooms_number">
+                            <select multiple="multiple" name="object_rooms_number">
                                 <option value="">100</option>
                                 <option value="">200</option>
                                 <option value="">300</option>
