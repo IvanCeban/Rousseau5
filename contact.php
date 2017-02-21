@@ -111,14 +111,13 @@
                                             </div>
                                         </div>
                                     </div>
-
                                     <form action="" class="contact_form">
-                                        <div class="row margin_top_10">
-                                            <div class="col-xs-12 col-sm-6 margin_bottom_20">
+                                        <div class="row margin_top_15">
+                                            <div class="col-xs-12 col-sm-6 margin_bottom_15">
                                                 <label class="form_el_label dark">Nom *</label>
                                                 <input type="text">
                                             </div>
-                                            <div class="col-xs-12 col-sm-6 margin_bottom_20">
+                                            <div class="col-xs-12 col-sm-6 margin_bottom_15">
                                                 <label class="form_el_label dark">Courriel *</label>
                                                 <input type="email">
                                             </div>
@@ -134,29 +133,29 @@
                                 <div class="representative">
                                     <div class="representative_info">
                                         <div class="row">
-                                        <div class="col-xs-12">
-                                            <div class="img_block">
-                                                <img src="img/team/team_img2.jpg" alt="">
-                                                <div class="gradient_bottom"></div>
-                                            </div>
-                                            <div class="contact_block">
-                                                <div class="contact_info">
-                                                    <h3>Jonathan Harari</h3>
-                                                    <span>+079 787 37 74</span>
-                                                    <span>jharari@rousseau5.ch</span>
+                                            <div class="col-xs-12">
+                                                <div class="img_block">
+                                                    <img src="img/team/team_img2.jpg" alt="">
+                                                    <div class="gradient_bottom"></div>
                                                 </div>
-                                                <button type="button" class="btn dark_inverse">Contacter</button>
+                                                <div class="contact_block">
+                                                    <div class="contact_info">
+                                                        <h3>Jonathan Harari</h3>
+                                                        <span>+079 787 37 74</span>
+                                                        <span>jharari@rousseau5.ch</span>
+                                                    </div>
+                                                    <button type="button" class="btn dark_inverse">Contacter</button>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                    </div>
                                     <form action="" class="contact_form">
-                                        <div class="row margin_top_10">
-                                            <div class="col-xs-12 col-sm-6 margin_bottom_20">
+                                        <div class="row margin_top_15">
+                                            <div class="col-xs-12 col-sm-6 margin_bottom_15">
                                                 <label class="form_el_label dark">Nom *</label>
                                                 <input type="text">
                                             </div>
-                                            <div class="col-xs-12 col-sm-6 margin_bottom_20">
+                                            <div class="col-xs-12 col-sm-6 margin_bottom_15">
                                                 <label class="form_el_label dark">Courriel *</label>
                                                 <input type="email">
                                             </div>
@@ -195,12 +194,12 @@
                                     </div>
                                 </div>
                                 <form action="" class="contact_form">
-                                    <div class="row margin_top_10">
-                                        <div class="col-xs-12 col-sm-6 margin_bottom_20">
+                                    <div class="row margin_top_15">
+                                        <div class="col-xs-12 col-sm-6 margin_bottom_15">
                                             <label class="form_el_label dark">Nom *</label>
                                             <input type="text">
                                         </div>
-                                        <div class="col-xs-12 col-sm-6 margin_bottom_20">
+                                        <div class="col-xs-12 col-sm-6 margin_bottom_15">
                                             <label class="form_el_label dark">Courriel *</label>
                                             <input type="email">
                                         </div>
@@ -239,12 +238,12 @@
                                         </div>
                                     </div>
                                     <form action="" class="contact_form">
-                                        <div class="row margin_top_10">
-                                            <div class="col-xs-12 col-sm-6 margin_bottom_20">
+                                        <div class="row margin_top_15">
+                                            <div class="col-xs-12 col-sm-6 margin_bottom_15">
                                                 <label class="form_el_label dark">Nom *</label>
                                                 <input type="text">
                                             </div>
-                                            <div class="col-xs-12 col-sm-6 margin_bottom_20">
+                                            <div class="col-xs-12 col-sm-6 margin_bottom_15">
                                                 <label class="form_el_label dark">Courriel *</label>
                                                 <input type="email">
                                             </div>

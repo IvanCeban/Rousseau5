@@ -851,9 +851,9 @@ header {
       text-transform: none;
       font-size: 1.125rem; }
     .gallery_section .gallery_container .gallery_view .object_title .object_price {
-      border: 2px solid white;
+      background: #d3c070;
       color: white;
-      font: 1.563rem lato_bold;
+      font: 1.563rem lato_regular;
       text-align: center;
       padding: 13px 5px 12px; }
 .gallery_section .gallery_container .gallery_nav .gallery_thumbnails.slick-slider {
@@ -1295,7 +1295,8 @@ footer .footer_top_section {
     margin-bottom: 15px; }
 footer .footer_bottom_section {
   padding: 60px 0 50px;
-  background-color: #2c314f;
+  background: #2c314f url(../img/logo_footer_transparent.svg) center bottom no-repeat;
+  background-size: 90%;
   color: #e5e5e5;
   position: relative; }
   footer .footer_bottom_section img {

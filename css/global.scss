@@ -337,9 +337,10 @@ header {
           font-size: 1.125rem;
         }
         .object_price {
-          border: 2px solid white;
+          //border: 2px solid white;
+          background: $main_yellow;
           color: white;
-          font: 1.563rem lato_bold;
+          font: 1.563rem lato_regular;
           text-align: center;
           padding: 13px 5px 12px;
         }
@@ -883,7 +884,8 @@ footer {
   }
   .footer_bottom_section {
     padding: 60px 0 50px;
-    background-color: $main_blue;
+    background: $main_blue url(../img/logo_footer_transparent.svg) center bottom no-repeat;
+    background-size: 90%;
     color: $text_light_gray;
     position: relative;
     img {

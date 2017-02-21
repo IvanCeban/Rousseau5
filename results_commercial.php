@@ -196,7 +196,7 @@
                                 <div class="description_container">
                                     <h3>Local commercial / <span>Vandoevres</span></h3>
                                     <p class="object_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                    <a href="#" class="btn dark">Contactez l'agent</a>
+                                    <a href="#" class="btn dark_inverse">Contactez l'agent</a>
                                     <div class="object_price">CHF 2'990'000</div>
                                 </div>
                                 <div class="properties_containner">
@@ -230,7 +230,7 @@
                                 <div class="description_container">
                                     <h3>Local commercial / <span>Vandoevres</span></h3>
                                     <p class="object_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                    <a href="#" class="btn dark">Contactez l'agent</a>
+                                    <a href="#" class="btn dark_inverse">Contactez l'agent</a>
                                     <div class="object_price">CHF 2'990'000</div>
                                 </div>
                                 <div class="properties_containner">
@@ -264,7 +264,7 @@
                                 <div class="description_container">
                                     <h3>Local commercial / <span>Vandoevres</span></h3>
                                     <p class="object_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                    <a href="#" class="btn dark">Contactez l'agent</a>
+                                    <a href="#" class="btn dark_inverse">Contactez l'agent</a>
                                     <div class="object_price">CHF 2'990'000</div>
                                 </div>
                                 <div class="properties_containner">
@@ -298,7 +298,7 @@
                                 <div class="description_container">
                                     <h3>Local commercial / <span>Vandoevres</span></h3>
                                     <p class="object_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                    <a href="#" class="btn dark">Contactez l'agent</a>
+                                    <a href="#" class="btn dark_inverse">Contactez l'agent</a>
                                     <div class="object_price">CHF 2'990'000</div>
                                 </div>
                                 <div class="properties_containner">
@@ -332,7 +332,7 @@
                                 <div class="description_container">
                                     <h3>Local commercial / <span>Vandoevres</span></h3>
                                     <p class="object_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                    <a href="#" class="btn dark">Contactez l'agent</a>
+                                    <a href="#" class="btn dark_inverse">Contactez l'agent</a>
                                     <div class="object_price">CHF 2'990'000</div>
                                 </div>
                                 <div class="properties_containner">
@@ -366,7 +366,7 @@
                                 <div class="description_container">
                                     <h3>Local commercial / <span>Vandoevres</span></h3>
                                     <p class="object_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                    <a href="#" class="btn dark">Contactez l'agent</a>
+                                    <a href="#" class="btn dark_inverse">Contactez l'agent</a>
                                     <div class="object_price">CHF 2'990'000</div>
                                 </div>
                                 <div class="properties_containner">

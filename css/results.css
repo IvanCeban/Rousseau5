@@ -98,9 +98,9 @@
               float: left; }
             .results_section .results_container .container-fluid > .row .object_block_container .object_block .info_block .description_container .object_price {
               display: table;
-              border: 2px solid #2c314f;
-              color: #2c314f;
-              font: 20px lato_bold;
+              color: white;
+              background: #d3c070;
+              font: 20px lato_regular;
               text-align: center;
               float: right;
               padding: 10px 5px 9px; }
@@ -200,9 +200,7 @@
           color: #2c314f; }
         .results_section .results_container.grid_view .container-fluid .object_block_container .object_block .info_block .description_container .object_price,
         .results_section .results_container.map_view .container-fluid .object_block_container .object_block .info_block .description_container .object_price {
-          width: 50%;
-          background: #2c314f;
-          color: white; }
+          width: 50%; }
         .results_section .results_container.grid_view .container-fluid .object_block_container .object_block .info_block .description_container p.object_description,
         .results_section .results_container.grid_view .container-fluid .object_block_container .object_block .info_block .description_container a.btn,
         .results_section .results_container.map_view .container-fluid .object_block_container .object_block .info_block .description_container p.object_description,

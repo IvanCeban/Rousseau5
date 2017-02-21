@@ -30,12 +30,8 @@ $(document).ready(function(){
         if ($(window).width() < 1300) {
             $('html, body').animate({
                 scrollTop: $(this_representatives_block).offset().top - 80
-            }, 500);
-            // $(this_representative).css('width', '100%');
+            }, 250);
         }
-        // else if ($(window).width() < 768) {
-        //     $(this_representative).css('width', 'initial');
-        // }
     });
 
     $('.representatives_section .representatives_block .close_btn').on('click', function () {

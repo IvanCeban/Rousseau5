@@ -133,9 +133,10 @@
                 }
                 .object_price {
                   display: table;
-                  border: 2px solid $main_blue;
-                  color: $main_blue;
-                  font: 20px lato_bold;
+                  //border: 2px solid $main_blue;
+                  color: white;
+                  background: $main_yellow;
+                  font: 20px lato_regular;
                   text-align: center;
                   float: right;
                   padding: 10px 5px 9px;
@@ -278,8 +279,6 @@
               }
               .object_price {
                 width: 50%;
-                background: $main_blue;
-                color: white;
               }
               p.object_description,
               a.btn {
