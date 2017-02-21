@@ -168,7 +168,7 @@
                                 </div>
                             </div>
                         </div>
-                        <button class="close_btn"><i class="fa fa-times" aria-hidden="true"></i></button>
+                        <button class="close_btn"><i class="icn icon-cancel"></i></button>
                     </div>
                 </div>
                 <div class="col-xs-12 col-md-6 col-xl-4 object_block_container">
@@ -212,7 +212,7 @@
                             </div>
                             </div>
                         </div>
-                        <button class="close_btn"><i class="fa fa-times" aria-hidden="true"></i></button>
+                        <button class="close_btn"><i class="icn icon-cancel"></i></button>
                     </div>
                 </div>
                 <div class="col-xs-12 col-md-6 col-xl-4 object_block_container">
@@ -256,7 +256,7 @@
                                 </div>
                             </div>
                         </div>
-                        <button class="close_btn"><i class="fa fa-times" aria-hidden="true"></i></button>
+                        <button class="close_btn"><i class="icn icon-cancel"></i></button>
                     </div>
                 </div>
             </div>

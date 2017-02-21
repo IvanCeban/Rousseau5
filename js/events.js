@@ -1,14 +1,5 @@
 $(document).ready(function(){
 
-    // select2Init();
-    //$('select.my_select2').select2();
-
-    // $('select.selectpicker').selectpicker({
-    //     style: 'btn-info',
-    //     size: 2
-    // });
-
-
     $('.scroll_to_top a').click(function(){
         $('html, body').animate({scrollTop : 0},800);
         return false;
@@ -77,34 +68,8 @@ $(document).ready(function(){
     updateNav();
 /*Navigation responsiveness END*/
 
-    $('#team .object_block').on('click', function(){
-        var info_max_height = 0;
-        var this_height = $(this).find('.info_block').outerHeight();
-        $('#team .object_block').each(function () {
-            var this_info_max_height = this_height;
-            if (this_info_max_height > info_max_height)
-            {
-                 info_max_height = this_info_max_height;
-            }
-        });
-
-        $(this).toggleClass('opened');
-        var img_link = $(this).find('.img_block img').attr('src');
-        if($(this).hasClass('opened')){
-            if ($(window).width() > 543) {
-                $(this).css('margin-bottom', info_max_height);
-            }
-            else {
-                $(this).css('margin-bottom', this_height);
-            }
-            $(this).find('.img_block img').attr('src', img_link.replace('team_img', 'team_img_opened'))
-        }
-        else {
-            $(this).css('margin-bottom', '0');
-            $(this).find('.img_block img').attr('src', img_link.replace('team_img_opened', 'team_img'))
-        }
-    });
-
+  
+    
 
     $('select').multiselect({
         includeSelectAllOption: true,
