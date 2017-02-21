@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/libraries/bootstrap.css">
     <link rel="stylesheet" href="css/libraries/bootstrap-multiselect.css">
     <link rel="stylesheet" href="css/libraries/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/libraries/tooltipster.bundle.min.css">
     <link rel="stylesheet" href="css/custom_icons/style.css">
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/media_queries.css">
@@ -320,6 +321,7 @@
 <script src="js/libraries/jquery-ui.min.js"></script>
 <script src="js/libraries/bootstrap.min.js"></script>
 <script src="js/libraries/bootstrap-multiselect.js"></script>
+<script src="js/libraries/tooltipster.bundle.min.js"></script>
 <!--<script src="js/libraries/select2.min.js"></script>-->
 <!--<script src="js/libraries/simplebar.js"></script>-->
 

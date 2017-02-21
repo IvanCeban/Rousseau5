@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/libraries/bootstrap.css">
     <link rel="stylesheet" href="css/libraries/bootstrap-multiselect.css">
     <link rel="stylesheet" href="css/libraries/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/libraries/tooltipster.bundle.min.css">
     <link rel="stylesheet" href="css/custom_icons/style.css">
     <link rel="stylesheet" href="css/libraries/flickity_carousel.css">
     <link rel="stylesheet" href="css/global.css">
@@ -360,6 +361,7 @@
 <script src="js/libraries/bootstrap.min.js"></script>
 <script src="js/libraries/bootstrap-multiselect.js"></script>
 <script src="js/libraries/flickity_carousel.min.js"></script>
+<script src="js/libraries/tooltipster.bundle.min.js"></script>
 
 <script src="js/functions.js"></script>
 <script src="js/events.js"></script>

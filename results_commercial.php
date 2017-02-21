@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/custom_icons/style.css">
     <link rel="stylesheet" href="css/libraries/flickity_carousel.css">
     <link rel="stylesheet" href="css/libraries/simplebar.css">
+    <link rel="stylesheet" href="css/libraries/tooltipster.bundle.min.css">
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/results.css">
     <link rel="stylesheet" href="css/media_queries.css">
@@ -414,6 +415,7 @@
 <script src="js/libraries/bootstrap-multiselect.js"></script>
 <script src="js/libraries/flickity_carousel.min.js"></script>
 <script src="js/libraries/simplebar.js"></script>
+<script src="js/libraries/tooltipster.bundle.min.js"></script>
 
 <script src="js/functions.js"></script>
 <script src="js/events.js"></script>

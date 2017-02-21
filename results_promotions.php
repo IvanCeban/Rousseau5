@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/custom_icons/style.css">
     <link rel="stylesheet" href="css/libraries/flickity_carousel.css">
     <link rel="stylesheet" href="css/libraries/simplebar.css">
+    <link rel="stylesheet" href="css/libraries/tooltipster.bundle.min.css">
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/results.css">
     <link rel="stylesheet" href="css/media_queries.css">
@@ -201,9 +202,9 @@
                                 </div>
                                 <div class="properties_containner">
                                     <ul class="properties">
-                                        <li><i class="icn icon-rooms"></i><span class="prop_title">Unités disponibles</span><span class="prop_val">3/5</span></li>
-                                        <li><i class="icn icon-living_area"></i><span class="prop_title">Surface</span><span class="prop_val">50 à 200m<sup>2</sup></span></li>
-                                        <li><i class="icn icon-price"></i><span class="prop_title">Prix</span><span class="prop_val">300'000 à 1'400'000 CHF</span></li>
+                                        <li><span class="icn_container tooltip" title="Unités disponibles"><i class="icn icon-rooms"></i></span><span class="prop_title">Unités disponibles</span><span class="prop_val">3/5</span></li>
+                                        <li><span class="icn_container tooltip" title="Surface"><i class="icn icon-living_area"></i></span><span class="prop_title">Surface</span><span class="prop_val">50 à 200m<sup>2</sup></span></li>
+                                        <li><span class="icn_container tooltip" title="Prix"><i class="icn icon-price"></i></span><span class="prop_title">Prix</span><span class="prop_val">300'000 à 1'400'000 CHF</span></li>
                                     </ul>
                                 </div>
                             </div>
@@ -234,9 +235,9 @@
                                 </div>
                                 <div class="properties_containner">
                                     <ul class="properties">
-                                        <li><i class="icn icon-rooms"></i><span class="prop_title">Unités disponibles</span><span class="prop_val">3/5</span></li>
-                                        <li><i class="icn icon-living_area"></i><span class="prop_title">Surface</span><span class="prop_val">50 à 200m<sup>2</sup></span></li>
-                                        <li><i class="icn icon-price"></i><span class="prop_title">Prix</span><span class="prop_val">300'000 à 1'400'000 CHF</span></li>
+                                        <li><span class="icn_container tooltip" title="Unités disponibles"><i class="icn icon-rooms"></i></span><span class="prop_title">Unités disponibles</span><span class="prop_val">3/5</span></li>
+                                        <li><span class="icn_container tooltip" title="Surface"><i class="icn icon-living_area"></i></span><span class="prop_title">Surface</span><span class="prop_val">50 à 200m<sup>2</sup></span></li>
+                                        <li><span class="icn_container tooltip" title="Prix"><i class="icn icon-price"></i></span><span class="prop_title">Prix</span><span class="prop_val">300'000 à 1'400'000 CHF</span></li>
                                     </ul>
                                 </div>
                             </div>
@@ -267,9 +268,9 @@
                                 </div>
                                 <div class="properties_containner">
                                     <ul class="properties">
-                                        <li><i class="icn icon-rooms"></i><span class="prop_title">Unités disponibles</span><span class="prop_val">3/5</span></li>
-                                        <li><i class="icn icon-living_area"></i><span class="prop_title">Surface</span><span class="prop_val">50 à 200m<sup>2</sup></span></li>
-                                        <li><i class="icn icon-price"></i><span class="prop_title">Prix</span><span class="prop_val">300'000 à 1'400'000 CHF</span></li>
+                                        <li><span class="icn_container tooltip" title="Unités disponibles"><i class="icn icon-rooms"></i></span><span class="prop_title">Unités disponibles</span><span class="prop_val">3/5</span></li>
+                                        <li><span class="icn_container tooltip" title="Surface"><i class="icn icon-living_area"></i></span><span class="prop_title">Surface</span><span class="prop_val">50 à 200m<sup>2</sup></span></li>
+                                        <li><span class="icn_container tooltip" title="Prix"><i class="icn icon-price"></i></span><span class="prop_title">Prix</span><span class="prop_val">300'000 à 1'400'000 CHF</span></li>
                                     </ul>
                                 </div>
                             </div>
@@ -300,9 +301,9 @@
                                 </div>
                                 <div class="properties_containner">
                                     <ul class="properties">
-                                        <li><i class="icn icon-rooms"></i><span class="prop_title">Unités disponibles</span><span class="prop_val">3/5</span></li>
-                                        <li><i class="icn icon-living_area"></i><span class="prop_title">Surface</span><span class="prop_val">50 à 200m<sup>2</sup></span></li>
-                                        <li><i class="icn icon-price"></i><span class="prop_title">Prix</span><span class="prop_val">300'000 à 1'400'000 CHF</span></li>
+                                        <li><span class="icn_container tooltip" title="Unités disponibles"><i class="icn icon-rooms"></i></span><span class="prop_title">Unités disponibles</span><span class="prop_val">3/5</span></li>
+                                        <li><span class="icn_container tooltip" title="Surface"><i class="icn icon-living_area"></i></span><span class="prop_title">Surface</span><span class="prop_val">50 à 200m<sup>2</sup></span></li>
+                                        <li><span class="icn_container tooltip" title="Prix"><i class="icn icon-price"></i></span><span class="prop_title">Prix</span><span class="prop_val">300'000 à 1'400'000 CHF</span></li>
                                     </ul>
                                 </div>
                             </div>
@@ -333,9 +334,9 @@
                                 </div>
                                 <div class="properties_containner">
                                     <ul class="properties">
-                                        <li><i class="icn icon-rooms"></i><span class="prop_title">Unités disponibles</span><span class="prop_val">3/5</span></li>
-                                        <li><i class="icn icon-living_area"></i><span class="prop_title">Surface</span><span class="prop_val">50 à 200m<sup>2</sup></span></li>
-                                        <li><i class="icn icon-price"></i><span class="prop_title">Prix</span><span class="prop_val">300'000 à 1'400'000 CHF</span></li>
+                                        <li><span class="icn_container tooltip" title="Unités disponibles"><i class="icn icon-rooms"></i></span><span class="prop_title">Unités disponibles</span><span class="prop_val">3/5</span></li>
+                                        <li><span class="icn_container tooltip" title="Surface"><i class="icn icon-living_area"></i></span><span class="prop_title">Surface</span><span class="prop_val">50 à 200m<sup>2</sup></span></li>
+                                        <li><span class="icn_container tooltip" title="Prix"><i class="icn icon-price"></i></span><span class="prop_title">Prix</span><span class="prop_val">300'000 à 1'400'000 CHF</span></li>
                                     </ul>
                                 </div>
                             </div>
@@ -366,9 +367,9 @@
                                 </div>
                                 <div class="properties_containner">
                                     <ul class="properties">
-                                        <li><i class="icn icon-rooms"></i><span class="prop_title">Unités disponibles</span><span class="prop_val">3/5</span></li>
-                                        <li><i class="icn icon-living_area"></i><span class="prop_title">Surface</span><span class="prop_val">50 à 200m<sup>2</sup></span></li>
-                                        <li><i class="icn icon-price"></i><span class="prop_title">Prix</span><span class="prop_val">300'000 à 1'400'000 CHF</span></li>
+                                        <li><span class="icn_container tooltip" title="Unités disponibles"><i class="icn icon-rooms"></i></span><span class="prop_title">Unités disponibles</span><span class="prop_val">3/5</span></li>
+                                        <li><span class="icn_container tooltip" title="Surface"><i class="icn icon-living_area"></i></span><span class="prop_title">Surface</span><span class="prop_val">50 à 200m<sup>2</sup></span></li>
+                                        <li><span class="icn_container tooltip" title="Prix"><i class="icn icon-price"></i></span><span class="prop_title">Prix</span><span class="prop_val">300'000 à 1'400'000 CHF</span></li>
                                     </ul>
                                 </div>
                             </div>
@@ -408,6 +409,7 @@
 <script src="js/libraries/bootstrap-multiselect.js"></script>
 <script src="js/libraries/flickity_carousel.min.js"></script>
 <script src="js/libraries/simplebar.js"></script>
+<script src="js/libraries/tooltipster.bundle.min.js"></script>
 
 <script src="js/functions.js"></script>
 <script src="js/events.js"></script>

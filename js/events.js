@@ -8,8 +8,7 @@ $(document).ready(function(){
     $('.tooltip').tooltipster({
         animation: 'fade',
         delay: 100,
-        theme: 'tooltipster-punk',
-        // distance: '10'
+        theme: 'tooltipster-punk'
     });
 
 /*Navigation responsiveness START*/
