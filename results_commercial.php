@@ -200,7 +200,7 @@
                                     <a href="#" class="btn dark_inverse">Contactez l'agent</a>
                                     <div class="object_price">CHF 2'990'000</div>
                                 </div>
-                                <div class="properties_containner">
+                                <div class="properties_container">
                                     <ul class="properties">
                                         <li class="hidden"><span class="icn_container tooltip" title="Etat"><i class="icn icon-bedroom"></i></span><span class="prop_title">Etat</span><span class="prop_val">Neuf</span></li>
                                         <li><span class="icn_container tooltip" title="Surface habitable"><i class="icn icon-living_area"></i></span><span class="prop_title">Surface habitable</span><span class="prop_val">200m<sup>2</sup></span></li>
@@ -234,7 +234,7 @@
                                     <a href="#" class="btn dark_inverse">Contactez l'agent</a>
                                     <div class="object_price">CHF 2'990'000</div>
                                 </div>
-                                <div class="properties_containner">
+                                <div class="properties_container">
                                     <ul class="properties">
                                         <li class="hidden"><span class="icn_container tooltip" title="Etat"><i class="icn icon-bedroom"></i></span><span class="prop_title">Etat</span><span class="prop_val">Neuf</span></li>
                                         <li><span class="icn_container tooltip" title="Surface habitable"><i class="icn icon-living_area"></i></span><span class="prop_title">Surface habitable</span><span class="prop_val">200m<sup>2</sup></span></li>
@@ -268,7 +268,7 @@
                                     <a href="#" class="btn dark_inverse">Contactez l'agent</a>
                                     <div class="object_price">CHF 2'990'000</div>
                                 </div>
-                                <div class="properties_containner">
+                                <div class="properties_container">
                                     <ul class="properties">
                                         <li class="hidden"><span class="icn_container tooltip" title="Etat"><i class="icn icon-bedroom"></i></span><span class="prop_title">Etat</span><span class="prop_val">Neuf</span></li>
                                         <li><span class="icn_container tooltip" title="Surface habitable"><i class="icn icon-living_area"></i></span><span class="prop_title">Surface habitable</span><span class="prop_val">200m<sup>2</sup></span></li>
@@ -302,7 +302,7 @@
                                     <a href="#" class="btn dark_inverse">Contactez l'agent</a>
                                     <div class="object_price">CHF 2'990'000</div>
                                 </div>
-                                <div class="properties_containner">
+                                <div class="properties_container">
                                     <ul class="properties">
                                         <li class="hidden"><span class="icn_container tooltip" title="Etat"><i class="icn icon-bedroom"></i></span><span class="prop_title">Etat</span><span class="prop_val">Neuf</span></li>
                                         <li><span class="icn_container tooltip" title="Surface habitable"><i class="icn icon-living_area"></i></span><span class="prop_title">Surface habitable</span><span class="prop_val">200m<sup>2</sup></span></li>
@@ -336,7 +336,7 @@
                                     <a href="#" class="btn dark_inverse">Contactez l'agent</a>
                                     <div class="object_price">CHF 2'990'000</div>
                                 </div>
-                                <div class="properties_containner">
+                                <div class="properties_container">
                                     <ul class="properties">
                                         <li class="hidden"><span class="icn_container tooltip" title="Etat"><i class="icn icon-bedroom"></i></span><span class="prop_title">Etat</span><span class="prop_val">Neuf</span></li>
                                         <li><span class="icn_container tooltip" title="Surface habitable"><i class="icn icon-living_area"></i></span><span class="prop_title">Surface habitable</span><span class="prop_val">200m<sup>2</sup></span></li>
@@ -370,7 +370,7 @@
                                     <a href="#" class="btn dark_inverse">Contactez l'agent</a>
                                     <div class="object_price">CHF 2'990'000</div>
                                 </div>
-                                <div class="properties_containner">
+                                <div class="properties_container">
                                     <ul class="properties">
                                         <li class="hidden"><span class="icn_container tooltip" title="Etat"><i class="icn icon-bedroom"></i></span><span class="prop_title">Etat</span><span class="prop_val">Neuf</span></li>
                                         <li><span class="icn_container tooltip" title="Surface habitable"><i class="icn icon-living_area"></i></span><span class="prop_title">Surface habitable</span><span class="prop_val">200m<sup>2</sup></span></li>

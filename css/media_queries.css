@@ -31,11 +31,11 @@
     .results_section .results_container.grid_view .container-fluid .object_block_container .object_block .info_block .title_container,
     .results_section .results_container.map_view .container-fluid .object_block_container .object_block .info_block .title_container {
       bottom: 63px; }
-    .results_section .results_container.grid_view .container-fluid .object_block_container .object_block .info_block .properties_containner,
-    .results_section .results_container.map_view .container-fluid .object_block_container .object_block .info_block .properties_containner {
+    .results_section .results_container.grid_view .container-fluid .object_block_container .object_block .info_block .properties_container,
+    .results_section .results_container.map_view .container-fluid .object_block_container .object_block .info_block .properties_container {
       height: calc(100% - 63px); }
-      .results_section .results_container.grid_view .container-fluid .object_block_container .object_block .info_block .properties_containner ul.properties li,
-      .results_section .results_container.map_view .container-fluid .object_block_container .object_block .info_block .properties_containner ul.properties li {
+      .results_section .results_container.grid_view .container-fluid .object_block_container .object_block .info_block .properties_container ul.properties li,
+      .results_section .results_container.map_view .container-fluid .object_block_container .object_block .info_block .properties_container ul.properties li {
         margin-bottom: 7px; }
     .results_section .results_container.grid_view .container-fluid .object_block_container .object_block .info_block .description_container .object_price,
     .results_section .results_container.map_view .container-fluid .object_block_container .object_block .info_block .description_container .object_price {
@@ -154,11 +154,11 @@
       padding: 30px; }
       main .results_section .results_container.list_view .object_block_container .object_block .info_block .object_price {
         margin-top: 15px; }
-      main .results_section .results_container.list_view .object_block_container .object_block .info_block .properties_containner ul.properties ul.sublist li {
+      main .results_section .results_container.list_view .object_block_container .object_block .info_block .properties_container ul.properties ul.sublist li {
         display: table-cell; }
-      main .results_section .results_container.list_view .object_block_container .object_block .info_block .properties_containner ul.properties ul.sublist:first-child {
+      main .results_section .results_container.list_view .object_block_container .object_block .info_block .properties_container ul.properties ul.sublist:first-child {
         width: 40%; }
-      main .results_section .results_container.list_view .object_block_container .object_block .info_block .properties_containner ul.properties ul.sublist:last-child {
+      main .results_section .results_container.list_view .object_block_container .object_block .info_block .properties_container ul.properties ul.sublist:last-child {
         width: 60%; }
   main .results_section .results_container .container-fluid > .row .object_block_container .object_block .img_block .activity_label,
   main .results_section .results_container .container-fluid > .row .object_block_container .object_block .img_block .exclusive_label {
@@ -272,11 +272,11 @@
     .results_section .results_container.grid_view .container-fluid .object_block_container .object_block .info_block .title_container,
     .results_section .results_container.map_view .container-fluid .object_block_container .object_block .info_block .title_container {
       bottom: 63px; }
-    .results_section .results_container.grid_view .container-fluid .object_block_container .object_block .info_block .properties_containner,
-    .results_section .results_container.map_view .container-fluid .object_block_container .object_block .info_block .properties_containner {
+    .results_section .results_container.grid_view .container-fluid .object_block_container .object_block .info_block .properties_container,
+    .results_section .results_container.map_view .container-fluid .object_block_container .object_block .info_block .properties_container {
       height: calc(100% - 63px); }
-      .results_section .results_container.grid_view .container-fluid .object_block_container .object_block .info_block .properties_containner ul.properties li,
-      .results_section .results_container.map_view .container-fluid .object_block_container .object_block .info_block .properties_containner ul.properties li {
+      .results_section .results_container.grid_view .container-fluid .object_block_container .object_block .info_block .properties_container ul.properties li,
+      .results_section .results_container.map_view .container-fluid .object_block_container .object_block .info_block .properties_container ul.properties li {
         margin-bottom: 0;
         font-size: 0.875rem; }
     .results_section .results_container.grid_view .container-fluid .object_block_container .object_block .info_block .description_container h3,
@@ -388,15 +388,15 @@
   main .contact_form_section form span.required_fields {
     margin: 0; }
 
-  .results_section .results_container.list_view .object_block_container .object_block .info_block .properties_containner ul.properties ul.sublist:first-child,
-  .results_section .results_container.list_view .object_block_container .object_block .info_block .properties_containner ul.properties ul.sublist:last-child {
+  .results_section .results_container.list_view .object_block_container .object_block .info_block .properties_container ul.properties ul.sublist:first-child,
+  .results_section .results_container.list_view .object_block_container .object_block .info_block .properties_container ul.properties ul.sublist:last-child {
     width: 100%;
     float: none; }
-    .results_section .results_container.list_view .object_block_container .object_block .info_block .properties_containner ul.properties ul.sublist:first-child li,
-    .results_section .results_container.list_view .object_block_container .object_block .info_block .properties_containner ul.properties ul.sublist:last-child li {
+    .results_section .results_container.list_view .object_block_container .object_block .info_block .properties_container ul.properties ul.sublist:first-child li,
+    .results_section .results_container.list_view .object_block_container .object_block .info_block .properties_container ul.properties ul.sublist:last-child li {
       width: 33.3333%; }
-    .results_section .results_container.list_view .object_block_container .object_block .info_block .properties_containner ul.properties ul.sublist:first-child:last-child,
-    .results_section .results_container.list_view .object_block_container .object_block .info_block .properties_containner ul.properties ul.sublist:last-child:last-child {
+    .results_section .results_container.list_view .object_block_container .object_block .info_block .properties_container ul.properties ul.sublist:first-child:last-child,
+    .results_section .results_container.list_view .object_block_container .object_block .info_block .properties_container ul.properties ul.sublist:last-child:last-child {
       margin-top: 10px; }
 
   #details_commercial .gallery_section .gallery_container .gallery_view .object_title h2 {

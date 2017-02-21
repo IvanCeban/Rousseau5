@@ -78,23 +78,23 @@
                   color: #2c314f; }
                   .results_section .results_container .container-fluid > .row .object_block_container .object_block .info_block .title_container ul.social_networks li a i.icn {
                     font-size: 14px; }
-          .results_section .results_container .container-fluid > .row .object_block_container .object_block .info_block .properties_containner ul.properties {
+          .results_section .results_container .container-fluid > .row .object_block_container .object_block .info_block .properties_container ul.properties {
             display: table;
             width: 100%; }
-            .results_section .results_container .container-fluid > .row .object_block_container .object_block .info_block .properties_containner ul.properties li {
+            .results_section .results_container .container-fluid > .row .object_block_container .object_block .info_block .properties_container ul.properties li {
               line-height: 30px; }
-              .results_section .results_container .container-fluid > .row .object_block_container .object_block .info_block .properties_containner ul.properties li .icn_container {
+              .results_section .results_container .container-fluid > .row .object_block_container .object_block .info_block .properties_container ul.properties li .icn_container {
                 display: table;
                 float: left;
                 opacity: 1;
                 position: relative;
                 cursor: default; }
-                .results_section .results_container .container-fluid > .row .object_block_container .object_block .info_block .properties_containner ul.properties li .icn_container .icn {
+                .results_section .results_container .container-fluid > .row .object_block_container .object_block .info_block .properties_container ul.properties li .icn_container .icn {
                   margin-right: 5px;
                   color: #2c314f;
                   font-size: 30px;
                   float: left; }
-              .results_section .results_container .container-fluid > .row .object_block_container .object_block .info_block .properties_containner ul.properties li .prop_val {
+              .results_section .results_container .container-fluid > .row .object_block_container .object_block .info_block .properties_container ul.properties li .prop_val {
                 margin-top: 2px; }
           .results_section .results_container .container-fluid > .row .object_block_container .object_block .info_block .description_container {
             display: table;
@@ -155,13 +155,13 @@
       .results_section .results_container.list_view .container-fluid .object_block_container .object_block .info_block .description_container .object_price {
         margin-top: 15px;
         padding: 10px 15px 9px; }
-      .results_section .results_container.list_view .container-fluid .object_block_container .object_block .info_block .properties_containner {
+      .results_section .results_container.list_view .container-fluid .object_block_container .object_block .info_block .properties_container {
         border-top: 1px solid #2c314f;
         margin-top: 10px;
         padding-top: 20px; }
-        .results_section .results_container.list_view .container-fluid .object_block_container .object_block .info_block .properties_containner ul.properties li {
+        .results_section .results_container.list_view .container-fluid .object_block_container .object_block .info_block .properties_container ul.properties li {
           display: table-cell; }
-          .results_section .results_container.list_view .container-fluid .object_block_container .object_block .info_block .properties_containner ul.properties li .prop_title {
+          .results_section .results_container.list_view .container-fluid .object_block_container .object_block .info_block .properties_container ul.properties li .prop_title {
             display: none; }
   .results_section .results_container.grid_view .container-fluid .object_block_container .object_block,
   .results_section .results_container.map_view .container-fluid .object_block_container .object_block {
@@ -213,8 +213,8 @@
         .results_section .results_container.map_view .container-fluid .object_block_container .object_block .info_block .description_container p.object_description,
         .results_section .results_container.map_view .container-fluid .object_block_container .object_block .info_block .description_container a.btn {
           display: none; }
-      .results_section .results_container.grid_view .container-fluid .object_block_container .object_block .info_block .properties_containner,
-      .results_section .results_container.map_view .container-fluid .object_block_container .object_block .info_block .properties_containner {
+      .results_section .results_container.grid_view .container-fluid .object_block_container .object_block .info_block .properties_container,
+      .results_section .results_container.map_view .container-fluid .object_block_container .object_block .info_block .properties_container {
         position: absolute;
         top: -1px;
         left: -1px;
@@ -225,41 +225,41 @@
         -moz-transition: 0.5s;
         -o-transition: 0.5s;
         transition: 0.5s; }
-        .results_section .results_container.grid_view .container-fluid .object_block_container .object_block .info_block .properties_containner ul.properties,
-        .results_section .results_container.map_view .container-fluid .object_block_container .object_block .info_block .properties_containner ul.properties {
+        .results_section .results_container.grid_view .container-fluid .object_block_container .object_block .info_block .properties_container ul.properties,
+        .results_section .results_container.map_view .container-fluid .object_block_container .object_block .info_block .properties_container ul.properties {
           opacity: 0;
           padding: 15px 15px 15px 25px;
           -webkit-transition: 0.5s;
           -moz-transition: 0.5s;
           -o-transition: 0.5s;
           transition: 0.5s; }
-          .results_section .results_container.grid_view .container-fluid .object_block_container .object_block .info_block .properties_containner ul.properties li,
-          .results_section .results_container.map_view .container-fluid .object_block_container .object_block .info_block .properties_containner ul.properties li {
+          .results_section .results_container.grid_view .container-fluid .object_block_container .object_block .info_block .properties_container ul.properties li,
+          .results_section .results_container.map_view .container-fluid .object_block_container .object_block .info_block .properties_container ul.properties li {
             color: white;
             margin-bottom: 10px;
             display: table;
             width: 100%;
             font-size: 1rem;
             line-height: 1rem; }
-            .results_section .results_container.grid_view .container-fluid .object_block_container .object_block .info_block .properties_containner ul.properties li .icn,
-            .results_section .results_container.map_view .container-fluid .object_block_container .object_block .info_block .properties_containner ul.properties li .icn {
+            .results_section .results_container.grid_view .container-fluid .object_block_container .object_block .info_block .properties_container ul.properties li .icn,
+            .results_section .results_container.map_view .container-fluid .object_block_container .object_block .info_block .properties_container ul.properties li .icn {
               display: none; }
-            .results_section .results_container.grid_view .container-fluid .object_block_container .object_block .info_block .properties_containner ul.properties li .prop_title,
-            .results_section .results_container.map_view .container-fluid .object_block_container .object_block .info_block .properties_containner ul.properties li .prop_title {
+            .results_section .results_container.grid_view .container-fluid .object_block_container .object_block .info_block .properties_container ul.properties li .prop_title,
+            .results_section .results_container.map_view .container-fluid .object_block_container .object_block .info_block .properties_container ul.properties li .prop_title {
               float: left;
               position: relative; }
-              .results_section .results_container.grid_view .container-fluid .object_block_container .object_block .info_block .properties_containner ul.properties li .prop_title:before,
-              .results_section .results_container.map_view .container-fluid .object_block_container .object_block .info_block .properties_containner ul.properties li .prop_title:before {
+              .results_section .results_container.grid_view .container-fluid .object_block_container .object_block .info_block .properties_container ul.properties li .prop_title:before,
+              .results_section .results_container.map_view .container-fluid .object_block_container .object_block .info_block .properties_container ul.properties li .prop_title:before {
                 content: '\2022';
                 position: absolute;
                 left: -12px;
                 top: 0;
                 color: white; }
-            .results_section .results_container.grid_view .container-fluid .object_block_container .object_block .info_block .properties_containner ul.properties li .prop_val,
-            .results_section .results_container.map_view .container-fluid .object_block_container .object_block .info_block .properties_containner ul.properties li .prop_val {
+            .results_section .results_container.grid_view .container-fluid .object_block_container .object_block .info_block .properties_container ul.properties li .prop_val,
+            .results_section .results_container.map_view .container-fluid .object_block_container .object_block .info_block .properties_container ul.properties li .prop_val {
               float: right; }
-            .results_section .results_container.grid_view .container-fluid .object_block_container .object_block .info_block .properties_containner ul.properties li.empty,
-            .results_section .results_container.map_view .container-fluid .object_block_container .object_block .info_block .properties_containner ul.properties li.empty {
+            .results_section .results_container.grid_view .container-fluid .object_block_container .object_block .info_block .properties_container ul.properties li.empty,
+            .results_section .results_container.map_view .container-fluid .object_block_container .object_block .info_block .properties_container ul.properties li.empty {
               opacity: 0.3; }
     .results_section .results_container.grid_view .container-fluid .object_block_container .object_block .gradient_bg,
     .results_section .results_container.map_view .container-fluid .object_block_container .object_block .gradient_bg {
@@ -273,14 +273,14 @@
       background: -moz-linear-gradient(transparent, rgba(0, 0, 0, 0.7));
       background: -o-linear-gradient(transparent, rgba(0, 0, 0, 0.7));
       background: linear-gradient(transparent, rgba(0, 0, 0, 0.7)); }
-    .results_section .results_container.grid_view .container-fluid .object_block_container .object_block:hover .info_block .properties_containner,
-    .results_section .results_container.map_view .container-fluid .object_block_container .object_block:hover .info_block .properties_containner {
+    .results_section .results_container.grid_view .container-fluid .object_block_container .object_block:hover .info_block .properties_container,
+    .results_section .results_container.map_view .container-fluid .object_block_container .object_block:hover .info_block .properties_container {
       background: rgba(44, 49, 79, 0.8); }
-      .results_section .results_container.grid_view .container-fluid .object_block_container .object_block:hover .info_block .properties_containner ul.properties,
-      .results_section .results_container.map_view .container-fluid .object_block_container .object_block:hover .info_block .properties_containner ul.properties {
+      .results_section .results_container.grid_view .container-fluid .object_block_container .object_block:hover .info_block .properties_container ul.properties,
+      .results_section .results_container.map_view .container-fluid .object_block_container .object_block:hover .info_block .properties_container ul.properties {
         opacity: 1; }
-      .results_section .results_container.grid_view .container-fluid .object_block_container .object_block:hover .info_block .properties_containner .btn,
-      .results_section .results_container.map_view .container-fluid .object_block_container .object_block:hover .info_block .properties_containner .btn {
+      .results_section .results_container.grid_view .container-fluid .object_block_container .object_block:hover .info_block .properties_container .btn,
+      .results_section .results_container.map_view .container-fluid .object_block_container .object_block:hover .info_block .properties_container .btn {
         opacity: 1; }
   .results_section .results_container.map_view {
     height: 600px; }
@@ -321,7 +321,7 @@
         font-family: lato_bold;
         color: #2c314f; }
 
-#results_for_sale .results_container.list_view .container-fluid .object_block_container .object_block .info_block .properties_containner ul.properties li.hidden_list {
+#results_for_sale .results_container.list_view .container-fluid .object_block_container .object_block .info_block .properties_container ul.properties li.hidden_list {
   display: none; }
 
 #results_promotions .results_container.list_view .container-fluid > .row .object_block_container .object_block .info_block .title_container span.properties_amount {
@@ -405,11 +405,11 @@
           #results_promotions .results_container.grid_view .container-fluid > .row .object_block_container .object_block .info_block .description_container h3 span,
           #results_promotions .results_container.map_view .container-fluid > .row .object_block_container .object_block .info_block .description_container h3 span {
             color: #d3c070; }
-      #results_promotions .results_container.grid_view .container-fluid > .row .object_block_container .object_block .info_block .properties_containner,
-      #results_promotions .results_container.map_view .container-fluid > .row .object_block_container .object_block .info_block .properties_containner {
+      #results_promotions .results_container.grid_view .container-fluid > .row .object_block_container .object_block .info_block .properties_container,
+      #results_promotions .results_container.map_view .container-fluid > .row .object_block_container .object_block .info_block .properties_container {
         height: 100%; }
-        #results_promotions .results_container.grid_view .container-fluid > .row .object_block_container .object_block .info_block .properties_containner ul.properties,
-        #results_promotions .results_container.map_view .container-fluid > .row .object_block_container .object_block .info_block .properties_containner ul.properties {
+        #results_promotions .results_container.grid_view .container-fluid > .row .object_block_container .object_block .info_block .properties_container ul.properties,
+        #results_promotions .results_container.map_view .container-fluid > .row .object_block_container .object_block .info_block .properties_container ul.properties {
           position: absolute;
           bottom: 0;
           left: 0; }

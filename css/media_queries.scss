@@ -42,7 +42,7 @@
           .title_container {
             bottom: 63px;
           }
-          .properties_containner {
+          .properties_container {
             height: calc(100% - 63px);
             ul.properties li {
               margin-bottom: 7px;
@@ -261,7 +261,7 @@
                   margin-top: 15px;
                 }
 
-                .properties_containner {
+                .properties_container {
                   ul.properties {
                     ul.sublist {
                       li {
@@ -494,7 +494,7 @@
           .title_container {
             bottom: 63px;
           }
-          .properties_containner {
+          .properties_container {
             height: calc(100% - 63px);
             ul.properties li {
               margin-bottom: 0;
@@ -691,7 +691,7 @@
       .object_block_container {
         .object_block {
           .info_block {
-            .properties_containner {
+            .properties_container {
               ul.properties {
                 ul.sublist:first-child,
                 ul.sublist:last-child {

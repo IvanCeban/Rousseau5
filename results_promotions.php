@@ -200,7 +200,7 @@
                                     <p class="object_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                     <a href="#" class="btn dark_inverse">Contactez l'agent</a>
                                 </div>
-                                <div class="properties_containner">
+                                <div class="properties_container">
                                     <ul class="properties">
                                         <li><span class="icn_container tooltip" title="Unités disponibles"><i class="icn icon-rooms"></i></span><span class="prop_title">Unités disponibles</span><span class="prop_val">3/5</span></li>
                                         <li><span class="icn_container tooltip" title="Surface"><i class="icn icon-living_area"></i></span><span class="prop_title">Surface</span><span class="prop_val">50 à 200m<sup>2</sup></span></li>
@@ -233,7 +233,7 @@
                                     <p class="object_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                     <a href="#" class="btn dark_inverse">Contactez l'agent</a>
                                 </div>
-                                <div class="properties_containner">
+                                <div class="properties_container">
                                     <ul class="properties">
                                         <li><span class="icn_container tooltip" title="Unités disponibles"><i class="icn icon-rooms"></i></span><span class="prop_title">Unités disponibles</span><span class="prop_val">3/5</span></li>
                                         <li><span class="icn_container tooltip" title="Surface"><i class="icn icon-living_area"></i></span><span class="prop_title">Surface</span><span class="prop_val">50 à 200m<sup>2</sup></span></li>
@@ -266,7 +266,7 @@
                                     <p class="object_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                     <a href="#" class="btn dark_inverse">Contactez l'agent</a>
                                 </div>
-                                <div class="properties_containner">
+                                <div class="properties_container">
                                     <ul class="properties">
                                         <li><span class="icn_container tooltip" title="Unités disponibles"><i class="icn icon-rooms"></i></span><span class="prop_title">Unités disponibles</span><span class="prop_val">3/5</span></li>
                                         <li><span class="icn_container tooltip" title="Surface"><i class="icn icon-living_area"></i></span><span class="prop_title">Surface</span><span class="prop_val">50 à 200m<sup>2</sup></span></li>
@@ -299,7 +299,7 @@
                                     <p class="object_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                     <a href="#" class="btn dark_inverse">Contactez l'agent</a>
                                 </div>
-                                <div class="properties_containner">
+                                <div class="properties_container">
                                     <ul class="properties">
                                         <li><span class="icn_container tooltip" title="Unités disponibles"><i class="icn icon-rooms"></i></span><span class="prop_title">Unités disponibles</span><span class="prop_val">3/5</span></li>
                                         <li><span class="icn_container tooltip" title="Surface"><i class="icn icon-living_area"></i></span><span class="prop_title">Surface</span><span class="prop_val">50 à 200m<sup>2</sup></span></li>
@@ -332,7 +332,7 @@
                                     <p class="object_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                     <a href="#" class="btn dark_inverse">Contactez l'agent</a>
                                 </div>
-                                <div class="properties_containner">
+                                <div class="properties_container">
                                     <ul class="properties">
                                         <li><span class="icn_container tooltip" title="Unités disponibles"><i class="icn icon-rooms"></i></span><span class="prop_title">Unités disponibles</span><span class="prop_val">3/5</span></li>
                                         <li><span class="icn_container tooltip" title="Surface"><i class="icn icon-living_area"></i></span><span class="prop_title">Surface</span><span class="prop_val">50 à 200m<sup>2</sup></span></li>
@@ -365,7 +365,7 @@
                                     <p class="object_description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                     <a href="#" class="btn dark_inverse">Contactez l'agent</a>
                                 </div>
-                                <div class="properties_containner">
+                                <div class="properties_container">
                                     <ul class="properties">
                                         <li><span class="icn_container tooltip" title="Unités disponibles"><i class="icn icon-rooms"></i></span><span class="prop_title">Unités disponibles</span><span class="prop_val">3/5</span></li>
                                         <li><span class="icn_container tooltip" title="Surface"><i class="icn icon-living_area"></i></span><span class="prop_title">Surface</span><span class="prop_val">50 à 200m<sup>2</sup></span></li>

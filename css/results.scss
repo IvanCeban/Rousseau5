@@ -105,7 +105,7 @@
                   }
                 }
               }
-              .properties_containner {
+              .properties_container {
                 ul.properties {
                   display: table;
                   width: 100%;
@@ -220,7 +220,7 @@
               }
             }
 
-            .properties_containner {
+            .properties_container {
               border-top: 1px solid $main_blue;
               margin-top: 10px;
               padding-top: 20px;
@@ -295,7 +295,7 @@
               }
             }
 
-            .properties_containner {
+            .properties_container {
               position: absolute;
               top: -1px;
               left: -1px;
@@ -351,7 +351,7 @@
           }
           &:hover {
             .info_block {
-              .properties_containner {
+              .properties_container {
                 background: rgba($main_blue, 0.8);
                 ul.properties {
                   opacity: 1;
@@ -430,7 +430,7 @@
       .object_block_container {
         .object_block {
           .info_block {
-            .properties_containner {
+            .properties_container {
               ul.properties {
                 li {
                   &.hidden_list {
@@ -536,7 +536,7 @@
                   }
                 }
               }
-              .properties_containner {
+              .properties_container {
                 height: 100%;
                 ul.properties {
                   position: absolute;

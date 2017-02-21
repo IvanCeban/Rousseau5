@@ -200,7 +200,7 @@
                                     <a href="#" class="btn dark_inverse">Contactez l'agent</a>
                                     <div class="object_price">CHF 2'990'000</div>
                                 </div>
-                                <div class="properties_containner">
+                                <div class="properties_container">
                                     <ul class="properties">
                                         <li>
                                             <span class="icn_container tooltip" title="Nombre de chambres"><i class="icn icon-bedroom"></i></span>
@@ -256,7 +256,7 @@
                                     <a href="#" class="btn dark_inverse">Contactez l'agent</a>
                                     <div class="object_price">CHF 2'990'000</div>
                                 </div>
-                                <div class="properties_containner">
+                                <div class="properties_container">
                                     <ul class="properties">
                                         <li>
                                             <span class="icn_container tooltip" title="Nombre de chambres"><i class="icn icon-bedroom"></i></span>
@@ -312,7 +312,7 @@
                                     <a href="#" class="btn dark_inverse">Contactez l'agent</a>
                                     <div class="object_price">CHF 2'990'000</div>
                                 </div>
-                                <div class="properties_containner">
+                                <div class="properties_container">
                                     <ul class="properties">
                                         <li>
                                             <span class="icn_container tooltip" title="Nombre de chambres"><i class="icn icon-bedroom"></i></span>
@@ -368,7 +368,7 @@
                                     <a href="#" class="btn dark_inverse">Contactez l'agent</a>
                                     <div class="object_price">CHF 2'990'000</div>
                                 </div>
-                                <div class="properties_containner">
+                                <div class="properties_container">
                                     <ul class="properties">
                                         <li>
                                             <span class="icn_container tooltip" title="Nombre de chambres"><i class="icn icon-bedroom"></i></span>
@@ -424,7 +424,7 @@
                                     <a href="#" class="btn dark_inverse">Contactez l'agent</a>
                                     <div class="object_price">CHF 2'990'000</div>
                                 </div>
-                                <div class="properties_containner">
+                                <div class="properties_container">
                                     <ul class="properties">
                                         <li>
                                             <span class="icn_container tooltip" title="Nombre de chambres"><i class="icn icon-bedroom"></i></span>
@@ -480,7 +480,7 @@
                                     <a href="#" class="btn dark_inverse">Contactez l'agent</a>
                                     <div class="object_price">CHF 2'990'000</div>
                                 </div>
-                                <div class="properties_containner">
+                                <div class="properties_container">
                                     <ul class="properties">
                                         <li>
                                             <span class="icn_container tooltip" title="Nombre de chambres"><i class="icn icon-bedroom"></i></span>
