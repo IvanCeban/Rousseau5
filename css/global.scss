@@ -403,8 +403,10 @@ header {
         display: table;
         width: 100%;
         margin: 0 auto;
-        &:visited {
+        &:visited,
+        &:focus {
           text-decoration: none;
+          border-color: $main_blue !important;
         }
         i {
           font-size: 8px;

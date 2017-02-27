@@ -368,29 +368,42 @@
         <div class="container-fluid">
             <div class="article_block">
                 <!--<h1>Nos derniers biens</h1>-->
+<!--                <div class="row">-->
+<!--                    <div class="col-xs-12 col-sm-6 push-sm-6">-->
+<!--                        <h2>Le premier site d’annonces immobilières qui associe la recherche et la vie de quartier</h2>-->
+<!--                        <p>Issue de la synergie d’une société de promotion immobilière et d’un bureau d’architecte, l’agence immobilière ROUSSEAU N°5 vous offre une large palette de services allant de la conception à la vente d’un bien en passant par sa réalisation.</p>-->
+<!--                        <p>Le savoir faire de l’agence immobilière ROUSSEAU N°5 la positionne comme un acteur incontournable de l’immobilier de prestige depuis deux générations, principalement en Suisse et autour de l’arc lémanique.</p>-->
+<!--                        <p>Les biens d’exception confiés ou recherchés par une clientèle exigeante requièrent une discrétion et un professionnalisme exemplaire, « pierre angulaire » de l’agence immobilière ROUSSEAU N°5.</p>-->
+<!--                        <p>Que vous soyez à la recherche d’un bien à acquérir, d’un appartement à louer ou que vous souhaitiez une expertise de votre patrimoine, n’hésitez pas à prendre contact directement avec l’un de nos courtiers qui se fera un plaisir de vous recevoir.</p>-->
+<!--                    </div>-->
+<!--                    <div class="col-xs-12 col-sm-6 pull-sm-6">-->
+<!--                        <img src="img/article1.jpg" alt="article image">-->
+<!--                    </div>-->
+<!--                </div>-->
                 <div class="row">
-                    <div class="col-xs-12 col-sm-6 push-sm-6 col-md-5 push-md-7">
-                        <h2>Le premier site d’annonces immobilières qui associe la recherche et la vie de quartier</h2>
-                        <p>Pour acheter une maison, pour louer un appartement ou investir, nous nous sommes dit que la recherche immobilière était souvent compliquée. Après tout, dénicher un logement, ce n’est pas juste trouver quatre murs : c’est aussi trouver la réponse à ses besoins et à son style de vie. C’est pour cette raison que nous avons décidé de créer Rousseau5, le premier moteur de recherche d'annonces immobilières qui prend en compte le logement en lui-même mais aussi ses alentours, avec la vie de quartier et les points d’intérêt à proximité.</p>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 pull-sm-6 col-md-7 pull-md-5">
+                    <div class="col-xs-12">
                         <img src="img/article1.jpg" alt="article image">
+<!--                        <h2>Le premier site d’annonces immobilières qui associe la recherche et la vie de quartier</h2>-->
+                        <p>Issue de la synergie d’une société de promotion immobilière et d’un bureau d’architecte, l’agence immobilière ROUSSEAU N°5 vous offre une large palette de services allant de la conception à la vente d’un bien en passant par sa réalisation.</p>
+                        <p>Le savoir faire de l’agence immobilière ROUSSEAU N°5 la positionne comme un acteur incontournable de l’immobilier de prestige depuis deux générations, principalement en Suisse et autour de l’arc lémanique.</p>
+                        <p>Les biens d’exception confiés ou recherchés par une clientèle exigeante requièrent une discrétion et un professionnalisme exemplaire, « pierre angulaire » de l’agence immobilière ROUSSEAU N°5.</p>
+                        <p>Que vous soyez à la recherche d’un bien à acquérir, d’un appartement à louer ou que vous souhaitiez une expertise de votre patrimoine, n’hésitez pas à prendre contact directement avec l’un de nos courtiers qui se fera un plaisir de vous recevoir.</p>
                     </div>
                 </div>
             </div>
 
-            <div class="article_block">
-                <!--<h1>Nos derniers biens</h1>-->
-                <div class="row">
-                    <div class="col-xs-12 col-sm-6 col-md-5">
-                        <h2>Une expérience de recherche unique pour trouver le bon logemen</h2>
-                        <p>Plongez en immersion dans votre futur quartier grâce à nos nombreuses fonctionnalités de recherche : carte 3D en temps réel, localisation des commerces et des services à proximité, multiples critères de recherche adaptés à vos besoins. Bien’ici est également le premier site à vous proposer des annonces immobilières à la fois dans le neuf et dans l’ancien, pour faciliter votre recherche et vous offrir plus de choix. Que ce soit sur votre ordinateur, votre tablette ou en mobilité sur votre Smartphone, nous vous accompagnons partout. Bien’ici est à la fois innovant, complet, pratique et facile d’utilisation : avec nous, trouver le logement idéal n’a jamais été aussi simple</p>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-7">
-                        <img src="img/article2.jpg" alt="article image">
-                    </div>
-                </div>
-            </div>
+<!--            <div class="article_block">-->
+<!--                <!--<h1>Nos derniers biens</h1>--
+<!--                <div class="row">-->
+<!--                    <div class="col-xs-12 col-sm-6 col-md-5">-->
+<!--                        <h2>Une expérience de recherche unique pour trouver le bon logemen</h2>-->
+<!--                        <p>Plongez en immersion dans votre futur quartier grâce à nos nombreuses fonctionnalités de recherche : carte 3D en temps réel, localisation des commerces et des services à proximité, multiples critères de recherche adaptés à vos besoins. Bien’ici est également le premier site à vous proposer des annonces immobilières à la fois dans le neuf et dans l’ancien, pour faciliter votre recherche et vous offrir plus de choix. Que ce soit sur votre ordinateur, votre tablette ou en mobilité sur votre Smartphone, nous vous accompagnons partout. Bien’ici est à la fois innovant, complet, pratique et facile d’utilisation : avec nous, trouver le logement idéal n’a jamais été aussi simple</p>-->
+<!--                    </div>-->
+<!--                    <div class="col-xs-12 col-sm-6 col-md-7">-->
+<!--                        <img src="img/article2.jpg" alt="article image">-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
         </div>
     </section>
     <section class="categories_section">

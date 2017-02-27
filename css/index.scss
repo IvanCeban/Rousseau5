@@ -125,7 +125,9 @@
   .article_block {
     margin-top: 40px;
     img {
-      width: 100%;
+      max-width: 50%;
+      float: left;
+      margin-right: 15px;
     }
     h1 {
       margin: 40px 0 40px;
@@ -138,6 +140,11 @@
     }
     p {
       line-height: 22px;
+      margin-bottom: 20px;
+      text-align: justify;
+      &:last-of-type {
+        margin: 0;
+      }
     }
   }
   .article_block:last-child {

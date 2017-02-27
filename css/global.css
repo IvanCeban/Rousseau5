@@ -893,8 +893,9 @@ header {
         display: table;
         width: 100%;
         margin: 0 auto; }
-        .card .card-header .card-title a:visited {
-          text-decoration: none; }
+        .card .card-header .card-title a:visited, .card .card-header .card-title a:focus {
+          text-decoration: none;
+          border-color: #2c314f !important; }
         .card .card-header .card-title a i {
           font-size: 8px;
           margin-left: 5px;
