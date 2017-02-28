@@ -23,7 +23,10 @@
 
   #contact .representatives_section .representatives_block .close_btn {
     right: -70px;
-    top: 0; } }
+    top: 0; }
+
+  footer .footer_bottom_section::after {
+    background-size: 90%; } }
 @media screen and (max-width: 1199px) {
   .results_section .results_container.grid_view .container-fluid .object_block_container .object_block,
   .results_section .results_container.map_view .container-fluid .object_block_container .object_block {

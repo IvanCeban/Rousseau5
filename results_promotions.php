@@ -187,7 +187,7 @@
                             </div>
                             <div class="info_block">
                                 <div class="title_container">
-                                    <a href="#"><h2>La Residence du lac - Saint Prex</h2></a>
+                                    <a href="details_promotions.php"><h2>La Residence du lac - Saint Prex</h2></a>
                                     <span class="properties_amount">1 propriétés</span>
                                     <ul class="social_networks">
                                         <li><a href="#"><i class="icn icon-twitter"></i></a></li>
@@ -220,7 +220,7 @@
                             </div>
                             <div class="info_block">
                                 <div class="title_container">
-                                    <a href="#"><h2>1 Gevray</h2></a>
+                                    <a href="details_promotions.php"><h2>1 Gevray</h2></a>
                                     <span class="properties_amount">1 propriétés</span>
                                     <ul class="social_networks">
                                         <li><a href="#"><i class="icn icon-twitter"></i></a></li>
@@ -253,7 +253,7 @@
                             </div>
                             <div class="info_block">
                                 <div class="title_container">
-                                    <a href="#"><h2>LE SPORT CLUB RÉSIDENCES : CRANS-MONTANA</h2></a>
+                                    <a href="details_promotions.php"><h2>LE SPORT CLUB RÉSIDENCES : CRANS-MONTANA</h2></a>
                                     <span class="properties_amount">1 propriétés</span>
                                     <ul class="social_networks">
                                         <li><a href="#"><i class="icn icon-twitter"></i></a></li>
@@ -286,7 +286,7 @@
                             </div>
                             <div class="info_block">
                                 <div class="title_container">
-                                    <a href="#"><h2>'BELLES DRIZE' À TROINEX</h2></a>
+                                    <a href="details_promotions.php"><h2>'BELLES DRIZE' À TROINEX</h2></a>
                                     <span class="properties_amount">1 propriétés</span>
                                     <ul class="social_networks">
                                         <li><a href="#"><i class="icn icon-twitter"></i></a></li>
@@ -319,7 +319,7 @@
                             </div>
                             <div class="info_block">
                                 <div class="title_container">
-                                    <a href="#"><h2>LES VILLAS DE LA GENÉVRIÈRE</h2></a>
+                                    <a href="details_promotions.php"><h2>LES VILLAS DE LA GENÉVRIÈRE</h2></a>
                                     <span class="properties_amount">1 propriétés</span>
                                     <ul class="social_networks">
                                         <li><a href="#"><i class="icn icon-twitter"></i></a></li>
@@ -352,7 +352,7 @@
                             </div>
                             <div class="info_block">
                                 <div class="title_container">
-                                    <a href="#"><h2>COEUR ANIÈRES</h2></a>
+                                    <a href="details_promotions.php"><h2>COEUR ANIÈRES</h2></a>
                                     <span class="properties_amount">1 propriétés</span>
                                     <ul class="social_networks">
                                         <li><a href="#"><i class="icn icon-twitter"></i></a></li>

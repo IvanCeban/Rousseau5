@@ -289,6 +289,46 @@ ul.nav.nav-tabs {
       color: #ffffff;
       font-family: lato_light, Raleway, sans-serif; }
 
+/*Accordion styles START*/
+.accordion .card {
+  border: none;
+  border-top: 1px solid #cccccc;
+  border-radius: 0;
+  margin: 0; }
+  .accordion .card .card-header {
+    background: transparent;
+    padding: 0;
+    border: none;
+    border-radius: 0; }
+    .accordion .card .card-header a {
+      padding: 0 0 0 50px;
+      display: table;
+      width: 100%; }
+      .accordion .card .card-header a i.icn {
+        position: absolute;
+        left: 20px;
+        top: 18px;
+        font-size: 0.875rem; }
+      .accordion .card .card-header a[aria-expanded=true] i.icn::before {
+        content: "\e903"; }
+      .accordion .card .card-header a:focus, .accordion .card .card-header a:hover, .accordion .card .card-header a:visited {
+        color: #888888 !important; }
+      .accordion .card .card-header a ul li {
+        float: left;
+        width: 14.28%;
+        text-align: center;
+        text-transform: uppercase;
+        font: 1.125rem lato_regular;
+        line-height: 50px; }
+        .accordion .card .card-header a ul li span {
+          text-transform: lowercase; }
+  .accordion .card .card-block {
+    padding: 30px;
+    border-top: 1px solid #cccccc; }
+  .accordion .card.reserved .card-header {
+    background: #e5e5e5; }
+
+/*Accordion styles END*/
 /*Select2 styles START*/
 .select2 {
   width: 100% !important;
@@ -399,6 +439,7 @@ ul.nav.nav-tabs {
   .multiselect-native-select .btn-group .multiselect.dropdown-toggle {
     padding: 0 30px 0 10px;
     font-size: 1rem;
+    font-family: inherit;
     text-transform: initial;
     color: #888888;
     border: 1px solid #cccccc;
@@ -812,9 +853,9 @@ header {
     background-color: #2c314f;
     padding: 25px 40px 20px; }
 
-.gallery_section .gallery_container .gallery_view {
+.gallery_container .gallery_view {
   position: relative; }
-  .gallery_section .gallery_container .gallery_view .gallery.slick-slider .slick-arrow {
+  .gallery_container .gallery_view .gallery.slick-slider .slick-arrow {
     position: absolute;
     top: 50%;
     margin-top: -27px;
@@ -823,46 +864,45 @@ header {
     background: transparent;
     border: none;
     z-index: 99; }
-    .gallery_section .gallery_container .gallery_view .gallery.slick-slider .slick-arrow.slick-prev {
+    .gallery_container .gallery_view .gallery.slick-slider .slick-arrow.slick-prev {
       left: 50px; }
-    .gallery_section .gallery_container .gallery_view .gallery.slick-slider .slick-arrow.slick-next {
+    .gallery_container .gallery_view .gallery.slick-slider .slick-arrow.slick-next {
       right: 50px; }
-  .gallery_section .gallery_container .gallery_view .gallery.slick-slider .slick-list .slick-track .slick-slide {
+  .gallery_container .gallery_view .gallery.slick-slider .slick-list .slick-track .slick-slide {
     max-height: 620px;
     overflow: hidden; }
-    .gallery_section .gallery_container .gallery_view .gallery.slick-slider .slick-list .slick-track .slick-slide img {
+    .gallery_container .gallery_view .gallery.slick-slider .slick-list .slick-track .slick-slide img {
       width: 100%; }
-  .gallery_section .gallery_container .gallery_view .object_title {
+  .gallery_container .gallery_view .object_title {
     position: absolute;
     bottom: 15px;
     width: 100%;
     color: white;
     text-transform: uppercase;
     z-index: 1; }
-    .gallery_section .gallery_container .gallery_view .object_title h2 {
-      font: 3.125rem lato_regular;
-      margin-top: 50px; }
-    .gallery_section .gallery_container .gallery_view .object_title h3 {
+    .gallery_container .gallery_view .object_title h2 {
+      font: 3.125rem lato_regular; }
+    .gallery_container .gallery_view .object_title h3 {
       font: 1.375rem lato_regular; }
-    .gallery_section .gallery_container .gallery_view .object_title .object_price_label {
+    .gallery_container .gallery_view .object_title .object_price_label {
       text-align: center;
       display: block;
       margin-bottom: 10px;
       margin-top: 15px;
       text-transform: none;
       font-size: 1.125rem; }
-    .gallery_section .gallery_container .gallery_view .object_title .object_price {
+    .gallery_container .gallery_view .object_title .object_price {
       background: #d3c070;
       color: white;
       font: 1.563rem lato_regular;
       text-align: center;
       padding: 13px 5px 12px; }
-.gallery_section .gallery_container .gallery_nav .gallery_thumbnails.slick-slider {
+.gallery_container .gallery_nav .gallery_thumbnails.slick-slider {
   margin-top: 20px; }
-  .gallery_section .gallery_container .gallery_nav .gallery_thumbnails.slick-slider .slick-list .slick-track .slick-slide {
+  .gallery_container .gallery_nav .gallery_thumbnails.slick-slider .slick-list .slick-track .slick-slide {
     padding: 0 10px;
     cursor: pointer; }
-    .gallery_section .gallery_container .gallery_nav .gallery_thumbnails.slick-slider .slick-list .slick-track .slick-slide img {
+    .gallery_container .gallery_nav .gallery_thumbnails.slick-slider .slick-list .slick-track .slick-slide img {
       width: 100%;
       -webkit-box-shadow: inset 10px 10px 300px 200px rgba(44, 49, 79, 0.5);
       -moz-box-shadow: inset 10px 10px 300px 200px rgba(44, 49, 79, 0.5);
@@ -870,52 +910,6 @@ header {
 
 #details_commercial .gallery_section .gallery_container .gallery_view .object_title h2 {
   margin-top: 50px; }
-
-.card {
-  border: none;
-  border-radius: 0;
-  margin: 0; }
-  .card .card-header {
-    background: transparent;
-    text-align: center;
-    text-transform: uppercase;
-    border: none;
-    margin: 0;
-    padding: 0; }
-    .card .card-header .card-title {
-      margin: 30px 0 0; }
-      .card .card-header .card-title a {
-        border-bottom: 1px solid #2c314f;
-        padding: 0 10px 10px;
-        font: 1rem lato_regular;
-        text-decoration: none;
-        color: #2c314f;
-        display: table;
-        width: 100%;
-        margin: 0 auto; }
-        .card .card-header .card-title a:visited, .card .card-header .card-title a:focus {
-          text-decoration: none;
-          border-color: #2c314f !important; }
-        .card .card-header .card-title a i {
-          font-size: 8px;
-          margin-left: 5px;
-          position: relative;
-          top: -2px; }
-        .card .card-header .card-title a.collapsed {
-          width: auto; }
-          .card .card-header .card-title a.collapsed i:before {
-            content: "\e906"; }
-  .card .collapse .card-block,
-  .card .collapsing .card-block {
-    padding: 15px 0 0; }
-    .card .collapse .card-block p,
-    .card .collapsing .card-block p {
-      margin-bottom: 20px; }
-    .card .collapse .card-block h6,
-    .card .collapsing .card-block h6 {
-      color: #2c314f;
-      margin-bottom: 15px;
-      font: 1rem lato_regular; }
 
 .contact_form_section form {
   padding: 30px 30px 10px 30px;
@@ -1114,6 +1108,51 @@ header {
   border: 1px solid #cccccc; }
   #commercial .comercial_info_section .comercial_info_block h1 {
     margin-bottom: 30px; }
+  #commercial .comercial_info_section .comercial_info_block .accordion .card {
+    border: none;
+    border-radius: 0;
+    margin: 0; }
+    #commercial .comercial_info_section .comercial_info_block .accordion .card .card-header {
+      background: transparent;
+      text-align: center;
+      text-transform: uppercase;
+      border: none;
+      margin: 0;
+      padding: 0; }
+      #commercial .comercial_info_section .comercial_info_block .accordion .card .card-header .card-title {
+        margin: 30px 0 0; }
+        #commercial .comercial_info_section .comercial_info_block .accordion .card .card-header .card-title a {
+          border-bottom: 1px solid #2c314f;
+          padding: 0 10px 10px;
+          font: 1rem lato_regular;
+          text-decoration: none;
+          color: #2c314f;
+          display: table;
+          width: 100%;
+          margin: 0 auto; }
+          #commercial .comercial_info_section .comercial_info_block .accordion .card .card-header .card-title a:visited, #commercial .comercial_info_section .comercial_info_block .accordion .card .card-header .card-title a:focus {
+            text-decoration: none;
+            border-color: #2c314f !important; }
+          #commercial .comercial_info_section .comercial_info_block .accordion .card .card-header .card-title a i {
+            font-size: 8px;
+            margin-left: 5px;
+            position: relative;
+            top: -2px; }
+          #commercial .comercial_info_section .comercial_info_block .accordion .card .card-header .card-title a.collapsed {
+            width: auto; }
+            #commercial .comercial_info_section .comercial_info_block .accordion .card .card-header .card-title a.collapsed i:before {
+              content: "\e906"; }
+    #commercial .comercial_info_section .comercial_info_block .accordion .card .collapse .card-block,
+    #commercial .comercial_info_section .comercial_info_block .accordion .card .collapsing .card-block {
+      padding: 15px 0 0; }
+      #commercial .comercial_info_section .comercial_info_block .accordion .card .collapse .card-block p,
+      #commercial .comercial_info_section .comercial_info_block .accordion .card .collapsing .card-block p {
+        margin-bottom: 20px; }
+      #commercial .comercial_info_section .comercial_info_block .accordion .card .collapse .card-block h6,
+      #commercial .comercial_info_section .comercial_info_block .accordion .card .collapsing .card-block h6 {
+        color: #2c314f;
+        margin-bottom: 15px;
+        font: 1rem lato_regular; }
 
 #team h1 {
   text-align: left;
@@ -1314,10 +1353,20 @@ footer .footer_top_section {
     margin-bottom: 15px; }
 footer .footer_bottom_section {
   padding: 60px 0 50px;
-  background: #2c314f url(../img/logo_footer_transparent.svg) center bottom no-repeat;
-  background-size: 90%;
+  background: #2c314f;
   color: #e5e5e5;
   position: relative; }
+  footer .footer_bottom_section::after {
+    content: "";
+    background: url(../img/logo_footer.svg) center bottom no-repeat;
+    background-size: 90%;
+    opacity: 0.03;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 0; }
   footer .footer_bottom_section img {
     width: 100%; }
   footer .footer_bottom_section p {

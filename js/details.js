@@ -17,18 +17,39 @@ $(document).ready(function(){
         });
     }
 
-    $('.gallery').slick({
+    $('.details_gallery').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         fade: true,
-        asNavFor: '.gallery_thumbnails',
+        speed: 200,
+        asNavFor: '.details_gallery_thumbnails',
         prevArrow: '<button type="button" class="slick-prev"><i class="icn icon-arrow_big_left"></i></button>',
         nextArrow: '<button type="button" class="slick-next"><i class="icn icon-arrow_big_right"></i></button>'
     });
-    $('.gallery_thumbnails').slick({
+    $('.details_gallery_thumbnails').slick({
         slidesToShow: 6,
         slidesToScroll: 1,
-        asNavFor: '.gallery',
+        speed: 200,
+        asNavFor: '.details_gallery',
+        dots: false,
+        arrows: false,
+        focusOnSelect: true
+    });
+
+    $('.promotion_gallery').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        fade: true,
+        speed: 100,
+        asNavFor: '.promotion_gallery_thumbnails',
+        prevArrow: '<button type="button" class="slick-prev"><i class="icn icon-arrow_big_left"></i></button>',
+        nextArrow: '<button type="button" class="slick-next"><i class="icn icon-arrow_big_right"></i></button>'
+    });
+    $('.promotion_gallery_thumbnails').slick({
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        speed: 100,
+        asNavFor: '.promotion_gallery',
         dots: false,
         arrows: false,
         focusOnSelect: true

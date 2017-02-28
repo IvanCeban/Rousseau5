@@ -10,7 +10,7 @@ $(document).ready(function(){
         delay: 100,
         theme: 'tooltipster-punk'
     });
-
+    
 /*Navigation responsiveness START*/
     var $nav = $('.navbar');
     var $btn = $('.navbar button');

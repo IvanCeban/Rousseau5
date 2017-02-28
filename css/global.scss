@@ -282,7 +282,7 @@ header {
   }
 }
 
-.gallery_section {
+//.gallery_section {
   .gallery_container {
     .gallery_view {
       position: relative;
@@ -324,7 +324,6 @@ header {
         z-index: 1;
         h2 {
           font: 3.125rem lato_regular;
-          margin-top: 50px;
         }
         h3 {
           font: 1.375rem lato_regular;
@@ -365,7 +364,7 @@ header {
       }
     }
   }
-}
+//}
 
 #details_commercial {
   .gallery_section {
@@ -376,64 +375,6 @@ header {
             margin-top: 50px;
           }
         }
-      }
-    }
-  }
-}
-
-.card {
-  border: none;
-  border-radius: 0;
-  margin: 0;
-  .card-header {
-    background: transparent;
-    text-align: center;
-    text-transform: uppercase;
-    border: none;
-    margin: 0;
-    padding: 0;
-    .card-title {
-      margin: 30px 0 0;
-      a {
-        border-bottom: 1px solid $main_blue;
-        padding: 0 10px 10px;
-        font: 1rem lato_regular;
-        text-decoration: none;
-        color: $main_blue;
-        display: table;
-        width: 100%;
-        margin: 0 auto;
-        &:visited,
-        &:focus {
-          text-decoration: none;
-          border-color: $main_blue !important;
-        }
-        i {
-          font-size: 8px;
-          margin-left: 5px;
-          position: relative;
-          top: -2px;
-        }
-        &.collapsed {
-          width: auto;
-          i:before {
-            content: "\e906";
-          }
-        }
-      }
-    }
-  }
-  .collapse,
-  .collapsing {
-    .card-block {
-      padding: 15px 0 0;
-      p {
-        margin-bottom: 20px;
-      }
-      h6 {
-        color: $main_blue;
-        margin-bottom: 15px;
-        font: 1rem lato_regular;
       }
     }
   }
@@ -658,6 +599,65 @@ header {
       border: 1px solid $border_color;
       h1 {
         margin-bottom: 30px;
+      }
+      .accordion {
+        .card {
+          border: none;
+          border-radius: 0;
+          margin: 0;
+          .card-header {
+            background: transparent;
+            text-align: center;
+            text-transform: uppercase;
+            border: none;
+            margin: 0;
+            padding: 0;
+            .card-title {
+              margin: 30px 0 0;
+              a {
+                border-bottom: 1px solid $main_blue;
+                padding: 0 10px 10px;
+                font: 1rem lato_regular;
+                text-decoration: none;
+                color: $main_blue;
+                display: table;
+                width: 100%;
+                margin: 0 auto;
+                &:visited,
+                &:focus {
+                  text-decoration: none;
+                  border-color: $main_blue !important;
+                }
+                i {
+                  font-size: 8px;
+                  margin-left: 5px;
+                  position: relative;
+                  top: -2px;
+                }
+                &.collapsed {
+                  width: auto;
+                  i:before {
+                    content: "\e906";
+                  }
+                }
+              }
+            }
+          }
+          .collapse,
+          .collapsing {
+            .card-block {
+              padding: 15px 0 0;
+              p {
+                margin-bottom: 20px;
+              }
+              h6 {
+                color: $main_blue;
+                margin-bottom: 15px;
+                font: 1rem lato_regular;
+              }
+            }
+          }
+        }
       }
     }
   }
@@ -907,10 +907,21 @@ footer {
   }
   .footer_bottom_section {
     padding: 60px 0 50px;
-    background: $main_blue url(../img/logo_footer_transparent.svg) center bottom no-repeat;
-    background-size: 90%;
+    background: $main_blue;
     color: $text_light_gray;
     position: relative;
+    &::after {
+      content: "";
+      background: url(../img/logo_footer.svg) center bottom no-repeat;
+      background-size: 90%;
+      opacity: 0.03;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      position: absolute;
+      z-index: 0;
+    }
     img {
       width: 100%;
     }

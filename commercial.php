@@ -190,67 +190,67 @@
                 <p>Vous désirez acquérir, vendre un fond de commerce ou investir dans la pierre pour vous garantir une rente régulière et sécurisée ? « ROUSSEAU N°5, L’agence immobilière » est là pour vous accompagner tout au long de votre démarche et vous aider à réaliser vos projets.</p>
                 <br>
                 <p>Nos conseillers spécialisés se feront un plaisir de vous recevoir et de vous faire partager leurs expériences et savoir-faire dans les domaines suivants :</p>
-
-                <div class="card">
-                    <div class="card-header" role="tab" id="comercial_rule_1_title">
-                        <h5 class="card-title">
-                            <a class="collapsed" data-toggle="collapse" href="#comercial_rule_1_info" aria-expanded="false" aria-controls="answerOne">
-                                <span>Transmission de fonds de commerce</span>
-                                <i class="icn icon-arrow_dropdown_down"></i>
-                            </a>
-                        </h5>
-                    </div>
-                    <div id="comercial_rule_1_info" class="collapse" role="tabcard" aria-labelledby="comercial_rule_1_title">
-                        <div class="card-block">
-                            <p>Les activités des agents en fonds de commerce sur le canton de Genève sont régulées et soumises à autorisation par le Conseil d’Etat. Seules les agences agrées sont autorisées à exercer le métier et réaliser les transactions, ce qui est le cas de Rousseau N°5.</p>
-                            <p>Rousseau N°5 propose ses services de transmissions de fonds de commerce à toute personne souhaitant remettre ou acquérir un établissement ou commerce quel que soit son domaine d’activité. La formation, l’expérience et la connaissance du marché de nos courtiers leur permettent d’appréhender tout type de transaction.</p>
-                            <p>Chaque transaction est spécifique, de même que chaque repreneur ou vendeur. C’est la raison pour laquelle, sa transmission doit être un acte réfléchi et structuré. Pour éviter les écueils, il est indispensable de s’entourer de professionnels en la matière, qui sont de véritables guides. Ces derniers permettront de trouver la solution idéale dans l’intérêt de toutes les parties.<br>
-                                Selon le cas, nous vous proposons un mandat simple (sans exclusivité) qui vous permet également de vendre votre bien indépendamment des actions de notre agence ou mandat exclusif d’agence qui vous garantit un travail en profondeur d’un agent attitré au sein de notre structure et un effort promotionnel accru pouvant grandement raccourcir le temps nécessaire pour trouver un acheteur qualifié.</p>
-                            <p>Afin de compléter notre expertise, nous travaillons également en partenariat avec des acteurs reconnus de la place, tels que des notaires, avocats, agents d’affaire et juristes ainsi que d’autres professionnels de la branche pour que la transaction se fasse dans des conditions optimales.</p>
+                <div id="comercial_info_accordion" class="accordion" role="tablist" aria-multiselectable="true">
+                    <div class="card panel">
+                        <div class="card-header" role="tab" id="comercial_rule_1_title">
+                            <h5 class="card-title">
+                                <a class="collapsed" data-parent="#comercial_info_accordion" data-toggle="collapse" href="#comercial_rule_1_info" aria-expanded="false" aria-controls="answerOne">
+                                    <span>Transmission de fonds de commerce</span>
+                                    <i class="icn icon-arrow_dropdown_down"></i>
+                                </a>
+                            </h5>
+                        </div>
+                        <div id="comercial_rule_1_info" class="collapse" role="tabcard" aria-labelledby="comercial_rule_1_title">
+                            <div class="card-block">
+                                <p>Les activités des agents en fonds de commerce sur le canton de Genève sont régulées et soumises à autorisation par le Conseil d’Etat. Seules les agences agrées sont autorisées à exercer le métier et réaliser les transactions, ce qui est le cas de Rousseau N°5.</p>
+                                <p>Rousseau N°5 propose ses services de transmissions de fonds de commerce à toute personne souhaitant remettre ou acquérir un établissement ou commerce quel que soit son domaine d’activité. La formation, l’expérience et la connaissance du marché de nos courtiers leur permettent d’appréhender tout type de transaction.</p>
+                                <p>Chaque transaction est spécifique, de même que chaque repreneur ou vendeur. C’est la raison pour laquelle, sa transmission doit être un acte réfléchi et structuré. Pour éviter les écueils, il est indispensable de s’entourer de professionnels en la matière, qui sont de véritables guides. Ces derniers permettront de trouver la solution idéale dans l’intérêt de toutes les parties.<br>
+                                    Selon le cas, nous vous proposons un mandat simple (sans exclusivité) qui vous permet également de vendre votre bien indépendamment des actions de notre agence ou mandat exclusif d’agence qui vous garantit un travail en profondeur d’un agent attitré au sein de notre structure et un effort promotionnel accru pouvant grandement raccourcir le temps nécessaire pour trouver un acheteur qualifié.</p>
+                                <p>Afin de compléter notre expertise, nous travaillons également en partenariat avec des acteurs reconnus de la place, tels que des notaires, avocats, agents d’affaire et juristes ainsi que d’autres professionnels de la branche pour que la transaction se fasse dans des conditions optimales.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-header" role="tab" id="comercial_rule_2_title">
-                        <h5 class="card-title">
-                            <a class="collapsed" data-toggle="collapse" href="#comercial_rule_2_info" aria-expanded="false" aria-controls="answerOne">
-                                <span>TRANSIMISSION D’UN COMMERCE : FONDS OU PARTS ?</span>
-                                <i class="icn icon-arrow_dropdown_down"></i>
-                            </a>
-                        </h5>
-                    </div>
-                    <div id="comercial_rule_2_info" class="collapse" role="tabcard" aria-labelledby="comercial_rule_2_title">
-                        <div class="card-block">
-                            <p>Les possibilités de transmission d’un commerce sont différentes et dépendent de la forme juridique de l’entreprise. En entreprise individuelle, le vendeur peut céder le fond de commerce. Ce dernier est constitué des éléments incorporels comme la clientèle, le droit au bail, la propriété commerciale, l’enseigne, le nom commercial et des éléments corporels tels que les matériels, les outillages, les agencements, les installations, etc. En ce qui concerne le stock, il est cédé de manière séparée après l’inventaire contradictoire entre les parties.</p>
-                            <p>Par contre en société, le ou les associés peuvent vendre leurs parts sociales ou actions à un autre. Le repreneur dispose alors du patrimoine, c’est-à-dire l’actif et le passif.</p>
+    
+                    <div class="card panel">
+                        <div class="card-header" role="tab" id="comercial_rule_2_title">
+                            <h5 class="card-title">
+                                <a class="collapsed" data-parent="#comercial_info_accordion" data-toggle="collapse" href="#comercial_rule_2_info" aria-expanded="false" aria-controls="answerOne">
+                                    <span>TRANSIMISSION D’UN COMMERCE : FONDS OU PARTS ?</span>
+                                    <i class="icn icon-arrow_dropdown_down"></i>
+                                </a>
+                            </h5>
+                        </div>
+                        <div id="comercial_rule_2_info" class="collapse" role="tabcard" aria-labelledby="comercial_rule_2_title">
+                            <div class="card-block">
+                                <p>Les possibilités de transmission d’un commerce sont différentes et dépendent de la forme juridique de l’entreprise. En entreprise individuelle, le vendeur peut céder le fond de commerce. Ce dernier est constitué des éléments incorporels comme la clientèle, le droit au bail, la propriété commerciale, l’enseigne, le nom commercial et des éléments corporels tels que les matériels, les outillages, les agencements, les installations, etc. En ce qui concerne le stock, il est cédé de manière séparée après l’inventaire contradictoire entre les parties.</p>
+                                <p>Par contre en société, le ou les associés peuvent vendre leurs parts sociales ou actions à un autre. Le repreneur dispose alors du patrimoine, c’est-à-dire l’actif et le passif.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-header" role="tab" id="comercial_rule_3_title">
-                        <h5 class="card-title">
-                            <a class="collapsed" data-toggle="collapse" href="#comercial_rule_3_info" aria-expanded="false" aria-controls="answerOne">
-                                <span>L’ EVALUATION DU PRIX</span>
-                                <i class="icn icon-arrow_dropdown_down"></i>
-                            </a>
-                        </h5>
-                    </div>
-                    <div id="comercial_rule_3_info" class="collapse" role="tabcard" aria-labelledby="comercial_rule_3_title">
-                        <div class="card-block">
-                            <p>Il existe plusieurs manières pour évaluer le prix d’un fond de commerce.</p>
-                            <p>On peut néanmoins regrouper les différentes techniques d’évaluation en deux grandes catégories, celles fondées sur le chiffre d’affaires taxes comprises et sur la rentabilité (excédent brut d’exploitation).</p>
-                            <p>La deuxième méthode est basée sur une évaluation plus empirique. Il s’agit de la qualité et la conformité de l’outil de travail, la qualification, l’autonomie, et l’ancienneté du personnel, la clientèle et le marché, la situation géographique, les chiffres de l’entreprise, etc.</p>
-                            <p>C’est la combinaison de tous ces facteurs qui permet de déterminer une valeur cohérente du commerce à transmettre.</p>
+    
+                    <div class="card panel">
+                        <div class="card-header" role="tab" id="comercial_rule_3_title">
+                            <h5 class="card-title">
+                                <a class="collapsed" data-parent="#comercial_info_accordion" data-toggle="collapse" href="#comercial_rule_3_info" aria-expanded="false" aria-controls="answerOne">
+                                    <span>L’ EVALUATION DU PRIX</span>
+                                    <i class="icn icon-arrow_dropdown_down"></i>
+                                </a>
+                            </h5>
+                        </div>
+                        <div id="comercial_rule_3_info" class="collapse" role="tabcard" aria-labelledby="comercial_rule_3_title">
+                            <div class="card-block">
+                                <p>Il existe plusieurs manières pour évaluer le prix d’un fond de commerce.</p>
+                                <p>On peut néanmoins regrouper les différentes techniques d’évaluation en deux grandes catégories, celles fondées sur le chiffre d’affaires taxes comprises et sur la rentabilité (excédent brut d’exploitation).</p>
+                                <p>La deuxième méthode est basée sur une évaluation plus empirique. Il s’agit de la qualité et la conformité de l’outil de travail, la qualification, l’autonomie, et l’ancienneté du personnel, la clientèle et le marché, la situation géographique, les chiffres de l’entreprise, etc.</p>
+                                <p>C’est la combinaison de tous ces facteurs qui permet de déterminer une valeur cohérente du commerce à transmettre.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="card">
+    
+                    <div class="card panel">
                     <div class="card-header" role="tab" id="comercial_rule_4_title">
                         <h5 class="card-title">
-                            <a class="collapsed" data-toggle="collapse" href="#comercial_rule_4_info" aria-expanded="false" aria-controls="answerOne">
+                            <a class="collapsed" data-parent="#comercial_info_accordion" data-toggle="collapse" href="#comercial_rule_4_info" aria-expanded="false" aria-controls="answerOne">
                                 <span>LES MODALITES DE TRANSMISSION D’UN FONDS DE COMMERCE</span>
                                 <i class="icn icon-arrow_dropdown_down"></i>
                             </a>
@@ -278,6 +278,7 @@
                             </div>
                         </div>
                     </div>
+                </div>
                 </div>
             </div>
         </div>

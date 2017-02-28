@@ -92,7 +92,7 @@
       .carousel_section .carousel .flickity-prev-next-button.next {
         right: 40%; }
 
-.articles_section .article_block {
+.articles_section {
   margin-top: 40px; }
   .articles_section .article_block img {
     max-width: 50%;
@@ -111,7 +111,7 @@
     text-align: justify; }
     .articles_section .article_block p:last-of-type {
       margin: 0; }
-.articles_section .article_block:last-child {
-  text-align: right; }
+  .articles_section .article_block:last-child {
+    text-align: right; }
 
 /*# sourceMappingURL=index.css.map */

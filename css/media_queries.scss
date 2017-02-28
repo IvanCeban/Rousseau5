@@ -29,6 +29,9 @@
       top: 0;
     }
   }
+  footer .footer_bottom_section::after {
+    background-size: 80%;
+  }
 }
 
 
