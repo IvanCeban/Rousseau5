@@ -272,15 +272,21 @@ section {
     .object_info_container {
       padding: 30px 0 0;
       ul.properties {
-        padding-left: 50px;
+        &.general_properties {
+          padding-left: 50px;
+        }
         li {
           width: 14.28%;
+          i.icn {
+            font-size: 4rem;
+          }
         }
       }
       .accordion {
         .card {
           .card-block {
             .gallery_container {
+              margin-bottom: 50px;
               .gallery_view {
                 .object_title {
                   h2 {
@@ -307,6 +313,7 @@ section {
           }
         }
       }
+
     }
   }
 }
