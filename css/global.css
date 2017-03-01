@@ -899,7 +899,7 @@ header {
       text-align: center;
       padding: 13px 5px 12px; }
 .gallery_container .gallery_nav .gallery_thumbnails.slick-slider {
-  margin-top: 20px; }
+  margin: 20px -9px 0; }
   .gallery_container .gallery_nav .gallery_thumbnails.slick-slider .slick-list .slick-track .slick-slide {
     padding: 0 10px;
     cursor: pointer; }

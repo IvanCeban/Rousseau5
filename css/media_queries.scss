@@ -786,8 +786,11 @@
 
     .gallery_section {
       .gallery_container {
-        .gallery_nav .gallery_thumbnails.slick-slider .slick-list .slick-track .slick-slide {
-          padding: 0 3px;
+        .gallery_nav .gallery_thumbnails.slick-slider {
+          margin: 6px 0 0;
+          .slick-list .slick-track .slick-slide {
+            padding: 0 3px;
+          }
         }
         .gallery_view .gallery.slick-slider .slick-arrow {
           top: 30%;
