@@ -36,7 +36,7 @@
     <section class="gallery_section">
         <div class="gallery_container">
             <div class="gallery_view">
-                <ul class="gallery">
+                <ul class="gallery details_gallery">
                     <li><img src="img/commercial/details/details1.jpg" alt=""></li>
                     <li><img src="img/commercial/details/details2.jpg" alt=""></li>
                     <li><img src="img/commercial/details/details3.jpg" alt=""></li>
@@ -64,7 +64,7 @@
             </div>
             <div class="gallery_nav">
                 <div class="container-fluid">
-                    <ul class="gallery_thumbnails">
+                    <ul class="gallery_thumbnails details_gallery_thumbnails">
                         <li><img src="img/commercial/details/details1.jpg" alt=""></li>
                         <li><img src="img/commercial/details/details2.jpg" alt=""></li>
                         <li><img src="img/commercial/details/details3.jpg" alt=""></li>

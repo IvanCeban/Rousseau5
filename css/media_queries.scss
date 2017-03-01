@@ -97,6 +97,21 @@
       }
     }
   }
+
+  #contact {
+    .representatives_section {
+      .object_block_container {
+        .representatives_block {
+          margin-top: 15px;
+        }
+        &:first-child {
+          .representatives_block {
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
 }
 
 @media screen and ( min-width: 992px) and (max-width: 1199px) {
@@ -296,6 +311,9 @@
     padding: 25px 30px;
   }
   main {
+    h1 {
+      font-size: 1.125rem;
+    }
     .top_image_section {
       height: 500px;
       padding-top: 180px;
@@ -574,6 +592,7 @@
       }
     }
   }
+
   .gallery_section {
     .gallery_container {
       .gallery_view .object_title {
@@ -848,9 +867,11 @@
 
     .object_info_section,
     .location_section,
-    .contact_form_section {
+    .contact_form_section,
+    .representatives_section {
       h1 {
         font-size: 1rem;
+        margin: 25px 0 10px;
       }
     }
 
@@ -920,15 +941,25 @@
   }
 
   #contact {
+    h1 {
+      margin: 25px 0 10px;
+    }
     .representatives_section {
-      .representatives_block {
-        .representative_container {
-          .representative {
-            .img_block,
-            .contact_block {
-              float: none;
-              width: 100%;
-              padding: 0;
+      .object_block_container {
+        .representatives_block {
+          h2 {
+            font-size: 1rem;
+            padding: 10px 5px;
+            margin: 0 0 15px;
+          }
+          .representative_container {
+            .representative {
+              .img_block,
+              .contact_block {
+                float: none;
+                width: 100%;
+                padding: 0;
+              }
             }
           }
         }

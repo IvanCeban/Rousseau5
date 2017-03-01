@@ -762,7 +762,7 @@ header {
 
 #contact {
   h1 {
-    margin: 50px 0 0;
+    margin: 50px 0 15px;
     text-align: left;
   }
   .contact_form_section {
@@ -772,108 +772,110 @@ header {
     }
   }
   .representatives_section {
-    .representatives_block {
-      padding: 10px;
-      margin-top: 15px;
-      border: 1px solid $border_color;
-      display: table;
-      background: white;
-      h2 {
-        padding: 20px 10px;
-        margin: 25px;
-        text-align: center;
-        color: white;
-        font-size: 1.25rem;
-        text-transform: uppercase;
-        background: $main_yellow;
-      }
-      .representative_container {
-        margin-bottom: 30px;
-        &:last-child {
-          margin-bottom: 0;
+    .object_block_container {
+      .representatives_block {
+        padding: 10px;
+        border: 1px solid $border_color;
+        display: table;
+        background: white;
+        h2 {
+          padding: 20px 10px;
+          margin: 25px;
+          text-align: center;
+          color: white;
+          font-size: 1.25rem;
+          text-transform: uppercase;
+          background: $main_yellow;
         }
-        .representative {
-          display: table;
-          .img_block {
-            float: left;
-            width: 55%;
-            position: relative;
-            img {
-              width: 100%;
-              display: block;
-            }
-            .gradient_bottom {
-              height: 50%;
-              @include my_gradient_bg(rgba($main_blue, 0.9));
-            }
+        .representative_container {
+          margin-bottom: 30px;
+          &:last-child {
+            margin-bottom: 0;
           }
-          .contact_block {
-            float: left;
-            width: 45%;
-            padding-left: 10px;
-            text-align: center;
-            color: $main_blue;
-            .contact_info {
-              padding: 20px 0;
-              margin-bottom: 20px;
-              border-top: 1px solid $main_blue;
-              border-bottom: 1px solid $main_blue;
-              h3 {
-                font-size: 1.25rem;
-                margin-bottom: 20px;
-              }
-              span {
+          .representative {
+            display: table;
+            .img_block {
+              float: left;
+              width: 55%;
+              position: relative;
+              img {
+                width: 100%;
                 display: block;
               }
-              span:first-of-type {
-                margin-bottom: 5px;
+              .gradient_bottom {
+                height: 50%;
+                @include my_gradient_bg(rgba($main_blue, 0.9));
               }
             }
-            button {
-              width: 100%;
-              padding: 0 10px;
-              text-transform: capitalize;
+            .contact_block {
+              float: left;
+              width: 45%;
+              padding-left: 10px;
+              text-align: center;
+              color: $main_blue;
+              .contact_info {
+                padding: 20px 0;
+                margin-bottom: 20px;
+                border-top: 1px solid $main_blue;
+                border-bottom: 1px solid $main_blue;
+                h3 {
+                  font-size: 1.25rem;
+                  margin-bottom: 20px;
+                }
+                span {
+                  display: block;
+                }
+                span:first-of-type {
+                  margin-bottom: 5px;
+                }
+              }
+              button {
+                width: 100%;
+                padding: 0 10px;
+                text-transform: capitalize;
+              }
+            }
+            form.contact_form {
+              display: none;
+              textarea {
+                height: 90px;
+              }
             }
           }
-          form.contact_form {
-            display: none;
-            textarea {
-              height: 90px;
+          &.opened {
+            margin-bottom: 0;
+            form.contact_form {
+              display: block;
             }
           }
         }
-        &.opened {
-          margin-bottom: 0;
-          form.contact_form {
+        .close_btn {
+          display: none;
+          position: absolute;
+          right: 0;
+          top: -70px;
+          z-index: 12;
+          border: 1px solid white;
+          border-radius: 50%;
+          width: 50px;
+          height: 50px;
+          text-align: center;
+          padding: 14px;
+          font-size: 1.275rem;
+          color: white;
+          background: transparent;
+        }
+        &.active {
+          position: absolute;
+          z-index: 12;
+          width: calc(100% - 30px);
+          .close_btn {
             display: block;
           }
         }
       }
-      .close_btn {
-        display: none;
-        position: absolute;
-        right: 0;
-        top: -70px;
-        z-index: 12;
-        border: 1px solid white;
-        border-radius: 50%;
-        width: 50px;
-        height: 50px;
-        text-align: center;
-        padding: 14px;
-        font-size: 1.275rem;
-        color: white;
-        background: transparent;
-      }
-      &.active {
-        position: absolute;
-        z-index: 12;
-        width: calc(100% - 30px);
-        .close_btn {
-          display: block;
-        }
-      }
     }
+
   }
   .item_active_background {
     display: none;

@@ -2,7 +2,44 @@ $(document).ready(function(){
 
     initObjectMap();
 
-    promoGalleryInit();
+
+    $('.details_gallery').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        fade: true,
+        speed: 200,
+        asNavFor: '.details_gallery_thumbnails',
+        prevArrow: '<button type="button" class="slick-prev"><i class="icn icon-arrow_big_left"></i></button>',
+        nextArrow: '<button type="button" class="slick-next"><i class="icn icon-arrow_big_right"></i></button>'
+    });
+    $('.details_gallery_thumbnails').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        speed: 200,
+        asNavFor: '.details_gallery',
+        dots: false,
+        arrows: false,
+        focusOnSelect: true
+    });
+
+    $('.promotion_gallery').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        fade: true,
+        speed: 100,
+        asNavFor: '.promotion_gallery_thumbnails',
+        prevArrow: '<button type="button" class="slick-prev"><i class="icn icon-arrow_big_left"></i></button>',
+        nextArrow: '<button type="button" class="slick-next"><i class="icn icon-arrow_big_right"></i></button>'
+    });
+    $('.promotion_gallery_thumbnails').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        speed: 100,
+        asNavFor: '.promotion_gallery',
+        dots: false,
+        arrows: false,
+        focusOnSelect: true
+    });
 
     function initObjectMap() {
         var latlong = {lat: 46.207389, lng: 6.155903};
@@ -30,47 +67,7 @@ $(document).ready(function(){
         });
     }
 
-    $('.details_gallery').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        fade: true,
-        speed: 200,
-        asNavFor: '.details_gallery_thumbnails',
-        prevArrow: '<button type="button" class="slick-prev"><i class="icn icon-arrow_big_left"></i></button>',
-        nextArrow: '<button type="button" class="slick-next"><i class="icn icon-arrow_big_right"></i></button>'
-    });
-    $('.details_gallery_thumbnails').slick({
-        slidesToShow: 6,
-        slidesToScroll: 1,
-        speed: 200,
-        asNavFor: '.details_gallery',
-        dots: false,
-        arrows: false,
-        focusOnSelect: true
-    });
 
-
-
-    function promoGalleryInit() {
-        $('.promotion_gallery').slick({
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            fade: true,
-            speed: 100,
-            asNavFor: '.promotion_gallery_thumbnails',
-            prevArrow: '<button type="button" class="slick-prev"><i class="icn icon-arrow_big_left"></i></button>',
-            nextArrow: '<button type="button" class="slick-next"><i class="icn icon-arrow_big_right"></i></button>'
-        });
-        $('.promotion_gallery_thumbnails').slick({
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            speed: 100,
-            asNavFor: '.promotion_gallery',
-            dots: false,
-            arrows: false,
-            focusOnSelect: true
-        });
-    }
     $('#promotions_accordion').on('shown.bs.collapse', function () {
         // promoGalleryInit();
     })

@@ -1243,18 +1243,17 @@ header {
         opacity: 1; }
 
 #contact h1 {
-  margin: 50px 0 0;
+  margin: 50px 0 15px;
   text-align: left; }
 #contact .contact_form_section p {
   margin-top: 20px;
   text-align: center; }
-#contact .representatives_section .representatives_block {
+#contact .representatives_section .object_block_container .representatives_block {
   padding: 10px;
-  margin-top: 15px;
   border: 1px solid #cccccc;
   display: table;
   background: white; }
-  #contact .representatives_section .representatives_block h2 {
+  #contact .representatives_section .object_block_container .representatives_block h2 {
     padding: 20px 10px;
     margin: 25px;
     text-align: center;
@@ -1262,56 +1261,56 @@ header {
     font-size: 1.25rem;
     text-transform: uppercase;
     background: #d3c070; }
-  #contact .representatives_section .representatives_block .representative_container {
+  #contact .representatives_section .object_block_container .representatives_block .representative_container {
     margin-bottom: 30px; }
-    #contact .representatives_section .representatives_block .representative_container:last-child {
+    #contact .representatives_section .object_block_container .representatives_block .representative_container:last-child {
       margin-bottom: 0; }
-    #contact .representatives_section .representatives_block .representative_container .representative {
+    #contact .representatives_section .object_block_container .representatives_block .representative_container .representative {
       display: table; }
-      #contact .representatives_section .representatives_block .representative_container .representative .img_block {
+      #contact .representatives_section .object_block_container .representatives_block .representative_container .representative .img_block {
         float: left;
         width: 55%;
         position: relative; }
-        #contact .representatives_section .representatives_block .representative_container .representative .img_block img {
+        #contact .representatives_section .object_block_container .representatives_block .representative_container .representative .img_block img {
           width: 100%;
           display: block; }
-        #contact .representatives_section .representatives_block .representative_container .representative .img_block .gradient_bottom {
+        #contact .representatives_section .object_block_container .representatives_block .representative_container .representative .img_block .gradient_bottom {
           height: 50%;
           background: -webkit-linear-gradient(transparent, rgba(44, 49, 79, 0.9));
           background: -moz-linear-gradient(transparent, rgba(44, 49, 79, 0.9));
           background: -o-linear-gradient(transparent, rgba(44, 49, 79, 0.9));
           background: linear-gradient(transparent, rgba(44, 49, 79, 0.9)); }
-      #contact .representatives_section .representatives_block .representative_container .representative .contact_block {
+      #contact .representatives_section .object_block_container .representatives_block .representative_container .representative .contact_block {
         float: left;
         width: 45%;
         padding-left: 10px;
         text-align: center;
         color: #2c314f; }
-        #contact .representatives_section .representatives_block .representative_container .representative .contact_block .contact_info {
+        #contact .representatives_section .object_block_container .representatives_block .representative_container .representative .contact_block .contact_info {
           padding: 20px 0;
           margin-bottom: 20px;
           border-top: 1px solid #2c314f;
           border-bottom: 1px solid #2c314f; }
-          #contact .representatives_section .representatives_block .representative_container .representative .contact_block .contact_info h3 {
+          #contact .representatives_section .object_block_container .representatives_block .representative_container .representative .contact_block .contact_info h3 {
             font-size: 1.25rem;
             margin-bottom: 20px; }
-          #contact .representatives_section .representatives_block .representative_container .representative .contact_block .contact_info span {
+          #contact .representatives_section .object_block_container .representatives_block .representative_container .representative .contact_block .contact_info span {
             display: block; }
-          #contact .representatives_section .representatives_block .representative_container .representative .contact_block .contact_info span:first-of-type {
+          #contact .representatives_section .object_block_container .representatives_block .representative_container .representative .contact_block .contact_info span:first-of-type {
             margin-bottom: 5px; }
-        #contact .representatives_section .representatives_block .representative_container .representative .contact_block button {
+        #contact .representatives_section .object_block_container .representatives_block .representative_container .representative .contact_block button {
           width: 100%;
           padding: 0 10px;
           text-transform: capitalize; }
-      #contact .representatives_section .representatives_block .representative_container .representative form.contact_form {
+      #contact .representatives_section .object_block_container .representatives_block .representative_container .representative form.contact_form {
         display: none; }
-        #contact .representatives_section .representatives_block .representative_container .representative form.contact_form textarea {
+        #contact .representatives_section .object_block_container .representatives_block .representative_container .representative form.contact_form textarea {
           height: 90px; }
-    #contact .representatives_section .representatives_block .representative_container.opened {
+    #contact .representatives_section .object_block_container .representatives_block .representative_container.opened {
       margin-bottom: 0; }
-      #contact .representatives_section .representatives_block .representative_container.opened form.contact_form {
+      #contact .representatives_section .object_block_container .representatives_block .representative_container.opened form.contact_form {
         display: block; }
-  #contact .representatives_section .representatives_block .close_btn {
+  #contact .representatives_section .object_block_container .representatives_block .close_btn {
     display: none;
     position: absolute;
     right: 0;
@@ -1326,11 +1325,11 @@ header {
     font-size: 1.275rem;
     color: white;
     background: transparent; }
-  #contact .representatives_section .representatives_block.active {
+  #contact .representatives_section .object_block_container .representatives_block.active {
     position: absolute;
     z-index: 12;
     width: calc(100% - 30px); }
-    #contact .representatives_section .representatives_block.active .close_btn {
+    #contact .representatives_section .object_block_container .representatives_block.active .close_btn {
       display: block; }
 #contact .item_active_background {
   display: none;
