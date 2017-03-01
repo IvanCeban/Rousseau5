@@ -333,69 +333,69 @@
                         </div>
                         <div id="collapseTwo" class="collapse" role="tabpanel">
                             <div class="card-block">
-                                <div class="gallery_container">
-                                    <div class="row">
-                                        <div class="col-md-7 col-lg-8">
-                                            <div class="gallery_view">
-                                                <ul class="gallery promotion_gallery">
-                                                    <li><img src="img/for_sale/details/details1.jpg" alt=""></li>
-                                                    <li><img src="img/for_sale/details/details2.jpg" alt=""></li>
-                                                    <li><img src="img/for_sale/details/details3.jpg" alt=""></li>
-                                                    <li><img src="img/for_sale/details/details4.jpg" alt=""></li>
-                                                    <li><img src="img/for_sale/details/details5.jpg" alt=""></li>
-                                                    <li><img src="img/for_sale/details/details6.jpg" alt=""></li>
-                                                    <li><img src="img/for_sale/details/details7.jpg" alt=""></li>
-                                                    <li><img src="img/for_sale/details/details8.jpg" alt=""></li>
-                                                    <li><img src="img/for_sale/details/details9.jpg" alt=""></li>
-                                                </ul>
-                                                <div class="object_title">
-                                                    <div class="row">
-                                                        <div class="col-xs-4 push-xs-8 col-lg-3 push-lg-9">
-                                                            <div class="object_price">CHF 2'990'000</div>
-                                                        </div>
-                                                        <div class="col-xs-8 pull-xs-4 col-lg-9 pull-lg-3">
-                                                            <h2>Amazing apartment</h2>
-                                                            <h3>MAISON À VENDRE / <span class="gold">VÉSENAZ</span></h3>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="gradient_bottom"></div>
-                                                <div class="gradient_left"></div>
-                                                <div class="gradient_right"></div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-5 col-lg-4 sidebar">
-                                            <div class="agent_info_container">
-                                                <div class="object_info">
-                                                    <button class="btn dark">I'm interested</button>
-                                                    <p class="object_id">ID : GEGTVES2016</p>
-                                                </div>
-                                                <div class="agent_info">
-                                                    <p>Contact agent to visit</p>
-                                                    <p class="agent_name">Tordjman Gary</p>
-                                                    <ul>
-                                                        <li>022 732 80 00</li>
-                                                        <li><a href="mailto:Info@rousseau5.ch">Info@rousseau5.ch</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-
-                                            <div class="gallery_nav">
-                                                <ul class="gallery_thumbnails promotion_gallery_thumbnails">
-                                                    <li><img src="img/for_sale/details/details1.jpg" alt=""></li>
-                                                    <li><img src="img/for_sale/details/details2.jpg" alt=""></li>
-                                                    <li><img src="img/for_sale/details/details3.jpg" alt=""></li>
-                                                    <li><img src="img/for_sale/details/details4.jpg" alt=""></li>
-                                                    <li><img src="img/for_sale/details/details5.jpg" alt=""></li>
-                                                    <li><img src="img/for_sale/details/details6.jpg" alt=""></li>
-                                                    <li><img src="img/for_sale/details/details7.jpg" alt=""></li>
-                                                    <li><img src="img/for_sale/details/details8.jpg" alt=""></li>
-                                                    <li><img src="img/for_sale/details/details9.jpg" alt=""></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+<!--                                <div class="gallery_container">-->
+<!--                                    <div class="row">-->
+<!--                                        <div class="col-md-7 col-lg-8">-->
+<!--                                            <div class="gallery_view">-->
+<!--                                                <ul class="gallery promotion_gallery">-->
+<!--                                                    <li><img src="img/for_sale/details/details1.jpg" alt=""></li>-->
+<!--                                                    <li><img src="img/for_sale/details/details2.jpg" alt=""></li>-->
+<!--                                                    <li><img src="img/for_sale/details/details3.jpg" alt=""></li>-->
+<!--                                                    <li><img src="img/for_sale/details/details4.jpg" alt=""></li>-->
+<!--                                                    <li><img src="img/for_sale/details/details5.jpg" alt=""></li>-->
+<!--                                                    <li><img src="img/for_sale/details/details6.jpg" alt=""></li>-->
+<!--                                                    <li><img src="img/for_sale/details/details7.jpg" alt=""></li>-->
+<!--                                                    <li><img src="img/for_sale/details/details8.jpg" alt=""></li>-->
+<!--                                                    <li><img src="img/for_sale/details/details9.jpg" alt=""></li>-->
+<!--                                                </ul>-->
+<!--                                                <div class="object_title">-->
+<!--                                                    <div class="row">-->
+<!--                                                        <div class="col-xs-4 push-xs-8 col-lg-3 push-lg-9">-->
+<!--                                                            <div class="object_price">CHF 2'990'000</div>-->
+<!--                                                        </div>-->
+<!--                                                        <div class="col-xs-8 pull-xs-4 col-lg-9 pull-lg-3">-->
+<!--                                                            <h2>Amazing apartment</h2>-->
+<!--                                                            <h3>MAISON À VENDRE / <span class="gold">VÉSENAZ</span></h3>-->
+<!--                                                        </div>-->
+<!--                                                    </div>-->
+<!--                                                </div>-->
+<!--                                                <div class="gradient_bottom"></div>-->
+<!--                                                <div class="gradient_left"></div>-->
+<!--                                                <div class="gradient_right"></div>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        <div class="col-md-5 col-lg-4 sidebar">-->
+<!--                                            <div class="agent_info_container">-->
+<!--                                                <div class="object_info">-->
+<!--                                                    <button class="btn dark">I'm interested</button>-->
+<!--                                                    <p class="object_id">ID : GEGTVES2016</p>-->
+<!--                                                </div>-->
+<!--                                                <div class="agent_info">-->
+<!--                                                    <p>Contact agent to visit</p>-->
+<!--                                                    <p class="agent_name">Tordjman Gary</p>-->
+<!--                                                    <ul>-->
+<!--                                                        <li>022 732 80 00</li>-->
+<!--                                                        <li><a href="mailto:Info@rousseau5.ch">Info@rousseau5.ch</a></li>-->
+<!--                                                    </ul>-->
+<!--                                                </div>-->
+<!--                                            </div>-->
+<!---->
+<!--                                            <div class="gallery_nav">-->
+<!--                                                <ul class="gallery_thumbnails promotion_gallery_thumbnails">-->
+<!--                                                    <li><img src="img/for_sale/details/details1.jpg" alt=""></li>-->
+<!--                                                    <li><img src="img/for_sale/details/details2.jpg" alt=""></li>-->
+<!--                                                    <li><img src="img/for_sale/details/details3.jpg" alt=""></li>-->
+<!--                                                    <li><img src="img/for_sale/details/details4.jpg" alt=""></li>-->
+<!--                                                    <li><img src="img/for_sale/details/details5.jpg" alt=""></li>-->
+<!--                                                    <li><img src="img/for_sale/details/details6.jpg" alt=""></li>-->
+<!--                                                    <li><img src="img/for_sale/details/details7.jpg" alt=""></li>-->
+<!--                                                    <li><img src="img/for_sale/details/details8.jpg" alt=""></li>-->
+<!--                                                    <li><img src="img/for_sale/details/details9.jpg" alt=""></li>-->
+<!--                                                </ul>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
                                 <ul class="properties">
                                     <li><i class="icn icon-floor"></i><span class="prop_val">(Floors) <span>4</span></span></li>
                                     <li><i class="icn icon-bedroom"></i><span class="prop_val">(Bedrooms) <span>4</span></span></li>
@@ -465,69 +465,69 @@
                         </div>
                         <div id="collapseThree" class="collapse" role="tabpanel">
                             <div class="card-block">
-                                <div class="gallery_container">
-                                    <div class="row">
-                                        <div class="col-md-7 col-lg-8">
-                                            <div class="gallery_view">
-                                                <ul class="gallery promotion_gallery">
-                                                    <li><img src="img/for_sale/details/details1.jpg" alt=""></li>
-                                                    <li><img src="img/for_sale/details/details2.jpg" alt=""></li>
-                                                    <li><img src="img/for_sale/details/details3.jpg" alt=""></li>
-                                                    <li><img src="img/for_sale/details/details4.jpg" alt=""></li>
-                                                    <li><img src="img/for_sale/details/details5.jpg" alt=""></li>
-                                                    <li><img src="img/for_sale/details/details6.jpg" alt=""></li>
-                                                    <li><img src="img/for_sale/details/details7.jpg" alt=""></li>
-                                                    <li><img src="img/for_sale/details/details8.jpg" alt=""></li>
-                                                    <li><img src="img/for_sale/details/details9.jpg" alt=""></li>
-                                                </ul>
-                                                <div class="object_title">
-                                                    <div class="row">
-                                                        <div class="col-xs-4 push-xs-8 col-lg-3 push-lg-9">
-                                                            <div class="object_price">CHF 2'990'000</div>
-                                                        </div>
-                                                        <div class="col-xs-8 pull-xs-4 col-lg-9 pull-lg-3">
-                                                            <h2>Amazing apartment</h2>
-                                                            <h3>MAISON À VENDRE / <span class="gold">VÉSENAZ</span></h3>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="gradient_bottom"></div>
-                                                <div class="gradient_left"></div>
-                                                <div class="gradient_right"></div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-5 col-lg-4 sidebar">
-                                            <div class="agent_info_container">
-                                                <div class="object_info">
-                                                    <button class="btn dark">I'm interested</button>
-                                                    <p class="object_id">ID : GEGTVES2016</p>
-                                                </div>
-                                                <div class="agent_info">
-                                                    <p>Contact agent to visit</p>
-                                                    <p class="agent_name">Tordjman Gary</p>
-                                                    <ul>
-                                                        <li>022 732 80 00</li>
-                                                        <li><a href="mailto:Info@rousseau5.ch">Info@rousseau5.ch</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-
-                                            <div class="gallery_nav">
-                                                <ul class="gallery_thumbnails promotion_gallery_thumbnails">
-                                                    <li><img src="img/for_sale/details/details1.jpg" alt=""></li>
-                                                    <li><img src="img/for_sale/details/details2.jpg" alt=""></li>
-                                                    <li><img src="img/for_sale/details/details3.jpg" alt=""></li>
-                                                    <li><img src="img/for_sale/details/details4.jpg" alt=""></li>
-                                                    <li><img src="img/for_sale/details/details5.jpg" alt=""></li>
-                                                    <li><img src="img/for_sale/details/details6.jpg" alt=""></li>
-                                                    <li><img src="img/for_sale/details/details7.jpg" alt=""></li>
-                                                    <li><img src="img/for_sale/details/details8.jpg" alt=""></li>
-                                                    <li><img src="img/for_sale/details/details9.jpg" alt=""></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+<!--                                <div class="gallery_container">-->
+<!--                                    <div class="row">-->
+<!--                                        <div class="col-md-7 col-lg-8">-->
+<!--                                            <div class="gallery_view">-->
+<!--                                                <ul class="gallery promotion_gallery">-->
+<!--                                                    <li><img src="img/for_sale/details/details1.jpg" alt=""></li>-->
+<!--                                                    <li><img src="img/for_sale/details/details2.jpg" alt=""></li>-->
+<!--                                                    <li><img src="img/for_sale/details/details3.jpg" alt=""></li>-->
+<!--                                                    <li><img src="img/for_sale/details/details4.jpg" alt=""></li>-->
+<!--                                                    <li><img src="img/for_sale/details/details5.jpg" alt=""></li>-->
+<!--                                                    <li><img src="img/for_sale/details/details6.jpg" alt=""></li>-->
+<!--                                                    <li><img src="img/for_sale/details/details7.jpg" alt=""></li>-->
+<!--                                                    <li><img src="img/for_sale/details/details8.jpg" alt=""></li>-->
+<!--                                                    <li><img src="img/for_sale/details/details9.jpg" alt=""></li>-->
+<!--                                                </ul>-->
+<!--                                                <div class="object_title">-->
+<!--                                                    <div class="row">-->
+<!--                                                        <div class="col-xs-4 push-xs-8 col-lg-3 push-lg-9">-->
+<!--                                                            <div class="object_price">CHF 2'990'000</div>-->
+<!--                                                        </div>-->
+<!--                                                        <div class="col-xs-8 pull-xs-4 col-lg-9 pull-lg-3">-->
+<!--                                                            <h2>Amazing apartment</h2>-->
+<!--                                                            <h3>MAISON À VENDRE / <span class="gold">VÉSENAZ</span></h3>-->
+<!--                                                        </div>-->
+<!--                                                    </div>-->
+<!--                                                </div>-->
+<!--                                                <div class="gradient_bottom"></div>-->
+<!--                                                <div class="gradient_left"></div>-->
+<!--                                                <div class="gradient_right"></div>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                        <div class="col-md-5 col-lg-4 sidebar">-->
+<!--                                            <div class="agent_info_container">-->
+<!--                                                <div class="object_info">-->
+<!--                                                    <button class="btn dark">I'm interested</button>-->
+<!--                                                    <p class="object_id">ID : GEGTVES2016</p>-->
+<!--                                                </div>-->
+<!--                                                <div class="agent_info">-->
+<!--                                                    <p>Contact agent to visit</p>-->
+<!--                                                    <p class="agent_name">Tordjman Gary</p>-->
+<!--                                                    <ul>-->
+<!--                                                        <li>022 732 80 00</li>-->
+<!--                                                        <li><a href="mailto:Info@rousseau5.ch">Info@rousseau5.ch</a></li>-->
+<!--                                                    </ul>-->
+<!--                                                </div>-->
+<!--                                            </div>-->
+<!---->
+<!--                                            <div class="gallery_nav">-->
+<!--                                                <ul class="gallery_thumbnails promotion_gallery_thumbnails">-->
+<!--                                                    <li><img src="img/for_sale/details/details1.jpg" alt=""></li>-->
+<!--                                                    <li><img src="img/for_sale/details/details2.jpg" alt=""></li>-->
+<!--                                                    <li><img src="img/for_sale/details/details3.jpg" alt=""></li>-->
+<!--                                                    <li><img src="img/for_sale/details/details4.jpg" alt=""></li>-->
+<!--                                                    <li><img src="img/for_sale/details/details5.jpg" alt=""></li>-->
+<!--                                                    <li><img src="img/for_sale/details/details6.jpg" alt=""></li>-->
+<!--                                                    <li><img src="img/for_sale/details/details7.jpg" alt=""></li>-->
+<!--                                                    <li><img src="img/for_sale/details/details8.jpg" alt=""></li>-->
+<!--                                                    <li><img src="img/for_sale/details/details9.jpg" alt=""></li>-->
+<!--                                                </ul>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
                                 <ul class="properties">
                                     <li><i class="icn icon-floor"></i><span class="prop_val">(Floors) <span>4</span></span></li>
                                     <li><i class="icn icon-bedroom"></i><span class="prop_val">(Bedrooms) <span>4</span></span></li>
