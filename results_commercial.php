@@ -5,7 +5,7 @@
     <meta charset="utf-8">
 
     <title>Rousseau 5 - For sell</title>
-    <meta name="description" content="The HTML5 Herald">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="SitePoint">
 
     <link rel="stylesheet" href="css/libraries/bootstrap.css">
