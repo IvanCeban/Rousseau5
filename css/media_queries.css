@@ -52,7 +52,18 @@
     font-size: 1.75rem; }
   #commercial .object_block_container .object_block .info_block .properties_container p,
   #press_list .object_block_container .object_block .info_block .properties_container p {
-    margin: 10px 30px 60px; } }
+    margin: 10px 30px 60px; }
+
+  #details_promotions .object_info_section.promotions .object_info_container ul.properties.general_properties {
+    padding: 15px 0 5px 50px; }
+    #details_promotions .object_info_section.promotions .object_info_container ul.properties.general_properties li {
+      width: 20%;
+      margin-bottom: 10px; }
+  #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-header a ul {
+    padding: 10px 0 0; }
+    #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-header a ul li {
+      width: 20%;
+      margin-bottom: 10px; } }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   .search_block .row label.form_el_label {
     font-size: 0.813rem; } }
@@ -241,53 +252,53 @@
     padding: 15px;
     font-size: 0.875rem; }
 
-  #details_promotions .object_info_section.promotions .object_info_container {
-    padding: 15px 0 0; }
-    #details_promotions .object_info_section.promotions .object_info_container ul.properties {
-      margin-bottom: 5px; }
-      #details_promotions .object_info_section.promotions .object_info_container ul.properties li {
-        width: 33.333%;
-        text-align: left;
-        margin-bottom: 10px; }
-        #details_promotions .object_info_section.promotions .object_info_container ul.properties li i.icn {
-          font-size: 1rem;
-          display: initial;
-          margin-right: 5px; }
-      #details_promotions .object_info_section.promotions .object_info_container ul.properties.general_properties {
-        padding: 0 15px 0 30px; }
-        #details_promotions .object_info_section.promotions .object_info_container ul.properties.general_properties li {
-          width: 25%; }
-    #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-header a {
-      padding: 0 15px 0 30px; }
-      #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-header a i.icn {
-        left: 10px; }
-      #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-header a ul li {
-        width: 25%;
-        line-height: 25px;
-        font-size: 0.875rem;
-        text-align: left; }
-    #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block {
-      padding: 15px; }
-      #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .sidebar {
-        display: -webkit-box;
-        display: -moz-box;
-        display: box;
-        -webkit-box-orient: vertical;
-        -moz-box-orient: vertical;
-        box-orient: vertical; }
-        #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .sidebar .agent_info_container {
-          -webkit-box-ordinal-group: 2;
-          -moz-box-ordinal-group: 2;
-          box-ordinal-group: 2; }
-          #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .sidebar .agent_info_container .object_info {
-            width: 45%;
-            float: left;
-            margin-top: 20px;
-            padding-right: 15px; }
-          #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .sidebar .agent_info_container .agent_info {
-            width: 55%;
-            float: left;
-            margin-top: 20px; }
+  #details_promotions .object_info_section.promotions .object_info_container ul.properties {
+    margin-bottom: 5px; }
+    #details_promotions .object_info_section.promotions .object_info_container ul.properties li {
+      width: 33.333%;
+      text-align: left;
+      margin-bottom: 10px; }
+      #details_promotions .object_info_section.promotions .object_info_container ul.properties li i.icn {
+        font-size: 1rem;
+        display: initial;
+        margin-right: 5px; }
+    #details_promotions .object_info_section.promotions .object_info_container ul.properties.general_properties {
+      padding: 15px 15px 5px 30px; }
+      #details_promotions .object_info_section.promotions .object_info_container ul.properties.general_properties li {
+        width: 25%; }
+        #details_promotions .object_info_section.promotions .object_info_container ul.properties.general_properties li .prop_val {
+          font-size: 1rem; }
+  #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-header a {
+    padding: 0 15px 0 30px; }
+    #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-header a i.icn {
+      left: 9px;
+      top: 37px; }
+    #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-header a ul li {
+      width: 25%;
+      font-size: 0.875rem;
+      text-align: left; }
+  #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block {
+    padding: 15px; }
+    #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .sidebar {
+      display: -webkit-box;
+      display: -moz-box;
+      display: box;
+      -webkit-box-orient: vertical;
+      -moz-box-orient: vertical;
+      box-orient: vertical; }
+      #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .sidebar .agent_info_container {
+        -webkit-box-ordinal-group: 2;
+        -moz-box-ordinal-group: 2;
+        box-ordinal-group: 2; }
+        #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .sidebar .agent_info_container .object_info {
+          width: 45%;
+          float: left;
+          margin-top: 20px;
+          padding-right: 15px; }
+        #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .sidebar .agent_info_container .agent_info {
+          width: 55%;
+          float: left;
+          margin-top: 20px; }
 
   #contact .map_section .container-fluid .map_info_block {
     top: 15px;
@@ -524,7 +535,7 @@
   #details_promotions .object_info_section.promotions .object_info_container ul.properties.general_properties li {
     width: 50%; }
   #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-header a i.icn {
-    top: 43px; }
+    top: 64px; }
   #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-header a ul li {
     width: 50%; }
   #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .gallery_view .object_title {

@@ -313,15 +313,16 @@ ul.nav.nav-tabs {
         content: "\e903"; }
       .accordion .card .card-header a:focus, .accordion .card .card-header a:hover, .accordion .card .card-header a:visited {
         color: #888888 !important; }
-      .accordion .card .card-header a ul li {
-        float: left;
-        width: 14.28%;
-        text-align: center;
-        text-transform: uppercase;
-        font: 1.125rem lato_regular;
-        line-height: 50px; }
-        .accordion .card .card-header a ul li span {
-          text-transform: lowercase; }
+      .accordion .card .card-header a ul {
+        padding: 17px 0;
+        display: table;
+        width: 100%; }
+        .accordion .card .card-header a ul li {
+          float: left;
+          width: 10%;
+          text-align: center;
+          font: 1rem lato_regular;
+          line-height: 1rem; }
   .accordion .card .card-block {
     padding: 30px;
     border-top: 1px solid #cccccc; }

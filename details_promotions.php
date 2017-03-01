@@ -148,14 +148,26 @@
         <div class="container-fluid">
             <h1>TOUS LES LOTS DE LA PROMOTION</h1>
             <div class="object_info_container">
+<!--                <ul class="properties general_properties">-->
+<!--                    <li><i class="icn icon-building_o"></i><span class="prop_val">(Building)</span></li>-->
+<!--                    <li><i class="icn icon-bedroom"></i><span class="prop_val">(Bedrooms)</span></li>-->
+<!--                    <li><i class="icn icon-orientation"></i><span class="prop_val">(Orientation)</span></li>-->
+<!--                    <li><i class="icn icon-living_area"></i><span class="prop_val">(Living)</span></li>-->
+<!--                    <li><i class="icn icon-usable_area"></i><span class="prop_val">(Usable)</span></li>-->
+<!--                    <li><i class="icn icon-object_price"></i><span class="prop_val">(Price)</span></li>-->
+<!--                    <li><i class="icn icon-sale"></i><span class="prop_val">(Status)</span></li>-->
+<!--                </ul>-->
                 <ul class="properties general_properties">
-                    <li><i class="icn icon-building_o"></i><span class="prop_val">(Building)</span></li>
-                    <li><i class="icn icon-bedroom"></i><span class="prop_val">(Bedrooms)</span></li>
-                    <li><i class="icn icon-orientation"></i><span class="prop_val">(Orientation)</span></li>
-                    <li><i class="icn icon-living_area"></i><span class="prop_val">(Living)</span></li>
-                    <li><i class="icn icon-usable_area"></i><span class="prop_val">(Usable)</span></li>
-                    <li><i class="icn icon-object_price"></i><span class="prop_val">(Price)</span></li>
-                    <li><i class="icn icon-sale"></i><span class="prop_val">(Status)</span></li>
+                    <li><span class="prop_val">Référence</span></li>
+                    <li><span class="prop_val">Etage</span></li>
+                    <li><span class="prop_val">Pieces</span></li>
+                    <li><span class="prop_val">Appartement</span></li>
+                    <li><span class="prop_val">Terrase</span></li>
+                    <li><span class="prop_val">Jardin</span></li>
+                    <li><span class="prop_val">Surface PPE</span></li>
+                    <li><span class="prop_val">Parkings</span></li>
+                    <li><span class="prop_val">Prix total</span></li>
+                    <li><span class="prop_val">Etat</span></li>
                 </ul>
 
                 <div id="promotions_accordion" class="accordion" role="tablist" aria-multiselectable="true">
@@ -163,12 +175,24 @@
                         <div class="card-header" role="tab">
                             <a data-toggle="collapse" data-parent="#promotions_accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                 <i class="icn icon-arrow_right"></i>
+<!--                                <ul>-->
+<!--                                    <li>1008739</li>-->
+<!--                                    <li>6</li>-->
+<!--                                    <li>South</li>-->
+<!--                                    <li>226 <span>m<sup>2</sup></span></li>-->
+<!--                                    <li>336 <span>m<sup>2</sup></span></li>-->
+<!--                                    <li>CHF 499’000</li>-->
+<!--                                    <li>Sale</li>-->
+<!--                                </ul>-->
                                 <ul>
-                                    <li>1008739</li>
-                                    <li>6</li>
-                                    <li>South</li>
-                                    <li>226 <span>m<sup>2</sup></span></li>
-                                    <li>336 <span>m<sup>2</sup></span></li>
+                                    <li>Appt. A2.1</li>
+                                    <li>1er</li>
+                                    <li>5</li>
+                                    <li>116 <span>m<sup>2</sup></span></li>
+                                    <li>24 <span>m<sup>2</sup></span></li>
+                                    <li>86 <span>m<sup>2</sup></span></li>
+                                    <li>158 <span>m<sup>2</sup></span></li>
+                                    <li>2 placen int.</li>
                                     <li>CHF 499’000</li>
                                     <li>Sale</li>
                                 </ul>
@@ -294,11 +318,14 @@
                             <a data-toggle="collapse" data-parent="#promotions_accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                 <i class="icn icon-arrow_right"></i>
                                 <ul>
-                                    <li>1008739</li>
-                                    <li>6</li>
-                                    <li>South</li>
-                                    <li>226 <span>m<sup>2</sup></span></li>
-                                    <li>336 <span>m<sup>2</sup></span></li>
+                                    <li>Appt. A2.1</li>
+                                    <li>1er</li>
+                                    <li>5</li>
+                                    <li>116 <span>m<sup>2</sup></span></li>
+                                    <li>24 <span>m<sup>2</sup></span></li>
+                                    <li>86 <span>m<sup>2</sup></span></li>
+                                    <li>158 <span>m<sup>2</sup></span></li>
+                                    <li>2 placen int.</li>
                                     <li>CHF 499’000</li>
                                     <li>Sale</li>
                                 </ul>
@@ -423,11 +450,14 @@
                             <a data-toggle="collapse" data-parent="#promotions_accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                 <i class="icn icon-arrow_right"></i>
                                 <ul>
-                                    <li>1008739</li>
-                                    <li>6</li>
-                                    <li>South</li>
-                                    <li>226 <span>m<sup>2</sup></span></li>
-                                    <li>336 <span>m<sup>2</sup></span></li>
+                                    <li>Appt. A2.1</li>
+                                    <li>1er</li>
+                                    <li>5</li>
+                                    <li>116 <span>m<sup>2</sup></span></li>
+                                    <li>24 <span>m<sup>2</sup></span></li>
+                                    <li>86 <span>m<sup>2</sup></span></li>
+                                    <li>158 <span>m<sup>2</sup></span></li>
+                                    <li>2 placen int.</li>
                                     <li>-</li>
                                     <li>Reserved</li>
                                 </ul>
@@ -548,8 +578,6 @@
                         </div>
                     </div>
                 </div>
-
-
             </div>
         </div>
     </section>

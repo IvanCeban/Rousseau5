@@ -270,10 +270,19 @@ section {
 #details_promotions {
   .object_info_section.promotions {
     .object_info_container {
-      padding: 30px 0 0;
+      padding: 0;
       ul.properties {
         &.general_properties {
-          padding-left: 50px;
+          background: $main_blue;
+          margin: 0;
+          padding: 30px 0 30px 50px;
+          li {
+            width: 10%;
+            color: white;
+            .prop_val {
+              font-size: 1.125rem;
+            }
+          }
         }
         li {
           width: 14.28%;

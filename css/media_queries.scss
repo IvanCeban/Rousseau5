@@ -76,6 +76,27 @@
       }
     }
   }
+
+  #details_promotions {
+    .object_info_section.promotions .object_info_container {
+      ul.properties {
+        &.general_properties {
+          padding: 15px 0 5px 50px;
+          li {
+            width: 20%;
+            margin-bottom: 10px;
+          }
+        }
+      }
+      .accordion .card .card-header a ul {
+        padding: 10px 0 0;
+        li {
+          width: 20%;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
 }
 
 @media screen and ( min-width: 992px) and (max-width: 1199px) {
@@ -456,13 +477,13 @@
 
   #details_promotions {
     .object_info_section.promotions .object_info_container {
-      padding: 15px 0 0;
       ul.properties {
         margin-bottom: 5px;
         li {
           width: 33.333%;
           text-align: left;
           margin-bottom: 10px;
+
           i.icn {
             font-size: 1rem;
             display: initial;
@@ -470,9 +491,12 @@
           }
         }
         &.general_properties {
-          padding: 0 15px 0 30px;
+          padding: 15px 15px 5px 30px;
           li {
             width: 25%;
+            .prop_val {
+              font-size: 1rem;
+            }
           }
         }
       }
@@ -481,11 +505,11 @@
           .card-header a {
             padding: 0 15px 0 30px;
             i.icn {
-              left: 10px;
+              left: 9px;
+              top: 37px;
             }
             ul li {
               width: 25%;
-              line-height: 25px;
               font-size: 0.875rem;
               text-align: left;
             }
@@ -948,7 +972,7 @@
         .card {
           .card-header a {
             i.icn {
-              top: 43px;
+              top: 64px;
             }
             ul li {
               width: 50%;

@@ -17,8 +17,6 @@ $(document).ready(function(){
             streetViewControlOptions: {
                 position: google.maps.ControlPosition.LEFT_BOTTOM
             }
-
-
         });
         var markerImage = new google.maps.MarkerImage('img/map_pin.svg',
             new google.maps.Size(63, 77),

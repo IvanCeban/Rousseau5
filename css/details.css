@@ -193,9 +193,16 @@ section {
     width: 33.3333%; }
 
 #details_promotions .object_info_section.promotions .object_info_container {
-  padding: 30px 0 0; }
+  padding: 0; }
   #details_promotions .object_info_section.promotions .object_info_container ul.properties.general_properties {
-    padding-left: 50px; }
+    background: #2c314f;
+    margin: 0;
+    padding: 30px 0 30px 50px; }
+    #details_promotions .object_info_section.promotions .object_info_container ul.properties.general_properties li {
+      width: 10%;
+      color: white; }
+      #details_promotions .object_info_section.promotions .object_info_container ul.properties.general_properties li .prop_val {
+        font-size: 1.125rem; }
   #details_promotions .object_info_section.promotions .object_info_container ul.properties li {
     width: 14.28%; }
     #details_promotions .object_info_section.promotions .object_info_container ul.properties li i.icn {
