@@ -208,7 +208,22 @@
                                                 <div class="gradient_right"></div>
                                             </div>
                                         </div>
-                                        <div class="col-md-5 col-lg-4">
+                                        <div class="col-md-5 col-lg-4 sidebar">
+                                            <div class="agent_info_container">
+                                                <div class="object_info">
+                                                    <button class="btn dark">I'm interested</button>
+                                                    <p class="object_id">ID : GEGTVES2016</p>
+                                                </div>
+                                                <div class="agent_info">
+                                                    <p>Contact agent to visit</p>
+                                                    <p class="agent_name">Tordjman Gary</p>
+                                                    <ul>
+                                                        <li>022 732 80 00</li>
+                                                        <li><a href="mailto:Info@rousseau5.ch">Info@rousseau5.ch</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+
                                             <div class="gallery_nav">
                                                 <ul class="gallery_thumbnails promotion_gallery_thumbnails">
                                                     <li><img src="img/for_sale/details/details1.jpg" alt=""></li>

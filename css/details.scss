@@ -310,6 +310,50 @@ section {
                   }
                 }
               }
+              .agent_info_container {
+                .object_info {
+                  button.btn {
+                    width: 100%;
+                    line-height: 60px;
+                    height: 60px;
+                  }
+                  p.object_id {
+                    margin-top: 10px;
+                    font: 0.938rem lato_regular;
+                    color: $main_blue;
+                  }
+                }
+                .agent_info {
+                  margin-top: 23px;
+                  padding: 30px;
+                  border: 1px solid $border_color;
+                  p {
+                    font-size: 1.125rem;
+                    &.agent_name {
+                      font: 1.375rem lato_regular;
+                      color: $main_blue;
+                      text-transform: uppercase;
+                      margin-top: 10px;
+                    }
+                  }
+                  ul {
+                    margin-top: 10px;
+                    li {
+                      color: $main_blue;
+                      font: 1.375rem lato_regular;
+                      line-height: 1.375rem;
+                      margin-bottom: 10px;
+                      text-transform: uppercase;
+                      &:last-of-type {
+                        margin-bottom: 0;
+                      }
+                      a {
+                        color: $main_blue;
+                      }
+                    }
+                  }
+                }
+              }
               .gallery_nav {
                 margin: 0 -10px;
               }

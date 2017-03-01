@@ -211,17 +211,35 @@
             }
           }
           .card-block {
-            .gallery_container .gallery_view {
-              .object_title {
-                .object_price {
-                  font-size: 0.75rem;
-                  padding: 10px 5px;
+            .gallery_container {
+              .gallery_view {
+                .object_title {
+                  .object_price {
+                    font-size: 0.75rem;
+                    padding: 10px 5px;
+                  }
+                  h2 {
+                    font-size: 1rem;
+                  }
+                  h3 {
+                    font-size: 0.875rem;
+                  }
                 }
-                h2 {
-                  font-size: 1rem;
-                }
-                h3 {
-                  font-size: 0.875rem;
+              }
+              .agent_info_container {
+                .agent_info {
+                  padding: 15px;
+                  p {
+                    font-size: 1rem;
+                    &.agent_name {
+                      font-size: 1.125rem;
+                    }
+                  }
+                  ul {
+                    li {
+                      font-size: 1.125rem;
+                    }
+                  }
                 }
               }
             }
@@ -474,6 +492,33 @@
           }
           .card-block {
             padding: 15px;
+            .gallery_container {
+              .sidebar {
+                display: -webkit-box;
+                display: -moz-box;
+                display: box;
+
+                -webkit-box-orient: vertical;
+                -moz-box-orient: vertical;
+                box-orient: vertical;
+                .agent_info_container {
+                  -webkit-box-ordinal-group: 2;
+                  -moz-box-ordinal-group: 2;
+                  box-ordinal-group: 2;
+                  .object_info {
+                    width: 45%;
+                    float: left;
+                    margin-top: 20px;
+                    padding-right: 15px;
+                  }
+                  .agent_info {
+                    width: 55%;
+                    float: left;
+                    margin-top: 20px;
+                  }
+                }
+              }
+            }
           }
         }
       }
@@ -926,11 +971,38 @@
                   }
                 }
               }
+              .sidebar {
+                .agent_info_container {
+                  .object_info {
+                    width: 100%;
+                    float: none;
+                    padding-right: 0;
+                    button.btn {
+                      height: 40px;
+                      line-height: 40px;
+                    }
+                  }
+                  .agent_info {
+                    width: 100%;
+                    float: none;
+                    p {
+                      font-size: 1rem;
+                    }
+                    ul li {
+                      font-size: 1rem;
+                    }
+                  }
+                }
+              }
               .gallery_nav {
                 margin: 0 -5px;
-                ul li {
-                  padding: 0 5px;
+                .gallery_thumbnails.slick-slider {
+                  margin-top: 10px;
+                  .slick-list .slick-track .slick-slide {
+                    padding: 0 5px;
+                  }
                 }
+
               }
             }
           }
