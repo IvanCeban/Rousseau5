@@ -543,6 +543,10 @@
                 }
               }
             }
+            .tab-content ul.object_prop_list li {
+              font-size: 1rem;
+              padding-right: 5px;
+            }
           }
         }
       }
@@ -972,14 +976,19 @@
         .card {
           .card-header a {
             i.icn {
-              top: 64px;
+              top: 55px;
             }
-            ul li {
-              width: 50%;
+            ul {
+              padding-bottom: 5px;
+              li {
+                width: 50%;
+                margin-bottom: 5px;
+              }
             }
           }
           .card-block {
             .gallery_container {
+              margin-bottom: 30px;
               .gallery_view {
                 .object_title {
                   padding: 0 5px;
@@ -1028,6 +1037,12 @@
                 }
 
               }
+            }
+            .tab-content ul.object_prop_list li {
+              font-size: 0.875rem;
+            }
+            ul.nav {
+              margin: 20px auto;
             }
           }
         }

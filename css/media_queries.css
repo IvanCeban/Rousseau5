@@ -299,6 +299,9 @@
           width: 55%;
           float: left;
           margin-top: 20px; }
+    #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .tab-content ul.object_prop_list li {
+      font-size: 1rem;
+      padding-right: 5px; }
 
   #contact .map_section .container-fluid .map_info_block {
     top: 15px;
@@ -535,37 +538,46 @@
   #details_promotions .object_info_section.promotions .object_info_container ul.properties.general_properties li {
     width: 50%; }
   #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-header a i.icn {
-    top: 64px; }
-  #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-header a ul li {
-    width: 50%; }
-  #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .gallery_view .object_title {
-    padding: 0 5px; }
-    #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .gallery_view .object_title .object_price {
-      font-size: 0.5rem;
-      padding: 5px 5px; }
-    #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .gallery_view .object_title h2 {
-      font-size: 0.875rem; }
-    #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .gallery_view .object_title h3 {
-      font-size: 0.5rem; }
-  #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .sidebar .agent_info_container .object_info {
-    width: 100%;
-    float: none;
-    padding-right: 0; }
-    #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .sidebar .agent_info_container .object_info button.btn {
-      height: 40px;
-      line-height: 40px; }
-  #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .sidebar .agent_info_container .agent_info {
-    width: 100%;
-    float: none; }
-    #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .sidebar .agent_info_container .agent_info p {
-      font-size: 1rem; }
-    #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .sidebar .agent_info_container .agent_info ul li {
-      font-size: 1rem; }
-  #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .gallery_nav {
-    margin: 0 -5px; }
-    #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .gallery_nav .gallery_thumbnails.slick-slider {
-      margin-top: 10px; }
-      #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .gallery_nav .gallery_thumbnails.slick-slider .slick-list .slick-track .slick-slide {
-        padding: 0 5px; } }
+    top: 55px; }
+  #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-header a ul {
+    padding-bottom: 5px; }
+    #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-header a ul li {
+      width: 50%;
+      margin-bottom: 5px; }
+  #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container {
+    margin-bottom: 30px; }
+    #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .gallery_view .object_title {
+      padding: 0 5px; }
+      #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .gallery_view .object_title .object_price {
+        font-size: 0.5rem;
+        padding: 5px 5px; }
+      #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .gallery_view .object_title h2 {
+        font-size: 0.875rem; }
+      #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .gallery_view .object_title h3 {
+        font-size: 0.5rem; }
+    #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .sidebar .agent_info_container .object_info {
+      width: 100%;
+      float: none;
+      padding-right: 0; }
+      #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .sidebar .agent_info_container .object_info button.btn {
+        height: 40px;
+        line-height: 40px; }
+    #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .sidebar .agent_info_container .agent_info {
+      width: 100%;
+      float: none; }
+      #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .sidebar .agent_info_container .agent_info p {
+        font-size: 1rem; }
+      #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .sidebar .agent_info_container .agent_info ul li {
+        font-size: 1rem; }
+    #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .gallery_nav {
+      margin: 0 -5px; }
+      #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .gallery_nav .gallery_thumbnails.slick-slider {
+        margin-top: 10px; }
+        #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .gallery_nav .gallery_thumbnails.slick-slider .slick-list .slick-track .slick-slide {
+          padding: 0 5px; }
+  #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .tab-content ul.object_prop_list li {
+    font-size: 0.875rem; }
+  #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block ul.nav {
+    margin: 20px auto; } }
 
 /*# sourceMappingURL=media_queries.css.map */
