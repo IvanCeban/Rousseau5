@@ -202,18 +202,22 @@ section {
       font-size: 4rem; }
   #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container {
     margin-bottom: 50px; }
-    #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .gallery_view .object_title h2 {
-      font-size: 1.875rem; }
-    #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .gallery_view .object_title h3 {
-      font-size: 1rem; }
-    #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .gallery_view .object_title .object_price {
-      font-size: 1.125rem; }
+    #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .gallery_view .object_title {
+      padding: 0 15px; }
+      #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .gallery_view .object_title h2 {
+        font-size: 1.875rem; }
+      #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .gallery_view .object_title h3 {
+        font-size: 1rem; }
+      #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .gallery_view .object_title .object_price {
+        font-size: 1.125rem; }
     #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .gallery_view .gallery.slick-slider .slick-arrow {
       font-size: 1.875rem; }
       #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .gallery_view .gallery.slick-slider .slick-arrow.slick-prev {
         left: 20px; }
       #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .gallery_view .gallery.slick-slider .slick-arrow.slick-next {
         right: 20px; }
+    #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .gallery_nav {
+      margin: 0 -10px; }
 
 footer section {
   margin: 0; }

@@ -152,8 +152,8 @@
                     <li><i class="icn icon-building_o"></i><span class="prop_val">(Building)</span></li>
                     <li><i class="icn icon-bedroom"></i><span class="prop_val">(Bedrooms)</span></li>
                     <li><i class="icn icon-orientation"></i><span class="prop_val">(Orientation)</span></li>
-                    <li><i class="icn icon-living_area"></i><span class="prop_val">(living)</span></li>
-                    <li><i class="icn icon-usable_area"></i><span class="prop_val">(usable)</span></li>
+                    <li><i class="icn icon-living_area"></i><span class="prop_val">(Living)</span></li>
+                    <li><i class="icn icon-usable_area"></i><span class="prop_val">(Usable)</span></li>
                     <li><i class="icn icon-object_price"></i><span class="prop_val">(Price)</span></li>
                     <li><i class="icn icon-sale"></i><span class="prop_val">(Status)</span></li>
                 </ul>
@@ -179,7 +179,7 @@
                             <div class="card-block">
                                 <div class="gallery_container">
                                     <div class="row">
-                                        <div class="col-xs-8">
+                                        <div class="col-md-7 col-lg-8">
                                             <div class="gallery_view">
                                                 <ul class="gallery promotion_gallery">
                                                     <li><img src="img/for_sale/details/details1.jpg" alt=""></li>
@@ -193,15 +193,13 @@
                                                     <li><img src="img/for_sale/details/details9.jpg" alt=""></li>
                                                 </ul>
                                                 <div class="object_title">
-                                                    <div class="container-fluid">
-                                                        <div class="row">
-                                                            <div class="col-xs-12 col-sm-4 push-sm-8 col-lg-3 push-lg-9">
-                                                                <div class="object_price">CHF 2'990'000</div>
-                                                            </div>
-                                                            <div class="col-xs-12 col-sm-8 pull-sm-4 col-lg-9 pull-lg-3">
-                                                                <h2>Amazing apartment</h2>
-                                                                <h3>MAISON À VENDRE / <span class="gold">VÉSENAZ</span></h3>
-                                                            </div>
+                                                    <div class="row">
+                                                        <div class="col-xs-4 push-xs-8 col-lg-3 push-lg-9">
+                                                            <div class="object_price">CHF 2'990'000</div>
+                                                        </div>
+                                                        <div class="col-xs-8 pull-xs-4 col-lg-9 pull-lg-3">
+                                                            <h2>Amazing apartment</h2>
+                                                            <h3>MAISON À VENDRE / <span class="gold">VÉSENAZ</span></h3>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -210,21 +208,19 @@
                                                 <div class="gradient_right"></div>
                                             </div>
                                         </div>
-                                        <div class="col-xs-4">
+                                        <div class="col-md-5 col-lg-4">
                                             <div class="gallery_nav">
-                                                <div class="container-fluid">
-                                                    <ul class="gallery_thumbnails promotion_gallery_thumbnails">
-                                                        <li><img src="img/for_sale/details/details1.jpg" alt=""></li>
-                                                        <li><img src="img/for_sale/details/details2.jpg" alt=""></li>
-                                                        <li><img src="img/for_sale/details/details3.jpg" alt=""></li>
-                                                        <li><img src="img/for_sale/details/details4.jpg" alt=""></li>
-                                                        <li><img src="img/for_sale/details/details5.jpg" alt=""></li>
-                                                        <li><img src="img/for_sale/details/details6.jpg" alt=""></li>
-                                                        <li><img src="img/for_sale/details/details7.jpg" alt=""></li>
-                                                        <li><img src="img/for_sale/details/details8.jpg" alt=""></li>
-                                                        <li><img src="img/for_sale/details/details9.jpg" alt=""></li>
-                                                    </ul>
-                                                </div>
+                                                <ul class="gallery_thumbnails promotion_gallery_thumbnails">
+                                                    <li><img src="img/for_sale/details/details1.jpg" alt=""></li>
+                                                    <li><img src="img/for_sale/details/details2.jpg" alt=""></li>
+                                                    <li><img src="img/for_sale/details/details3.jpg" alt=""></li>
+                                                    <li><img src="img/for_sale/details/details4.jpg" alt=""></li>
+                                                    <li><img src="img/for_sale/details/details5.jpg" alt=""></li>
+                                                    <li><img src="img/for_sale/details/details6.jpg" alt=""></li>
+                                                    <li><img src="img/for_sale/details/details7.jpg" alt=""></li>
+                                                    <li><img src="img/for_sale/details/details8.jpg" alt=""></li>
+                                                    <li><img src="img/for_sale/details/details9.jpg" alt=""></li>
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>

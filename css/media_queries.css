@@ -26,7 +26,7 @@
     top: 0; }
 
   footer .footer_bottom_section::after {
-    background-size: 90%; } }
+    background-size: 80%; } }
 @media screen and (max-width: 1199px) {
   .results_section .results_container.grid_view .container-fluid .object_block_container .object_block,
   .results_section .results_container.map_view .container-fluid .object_block_container .object_block {
@@ -113,7 +113,19 @@
 
   #results_promotions .results_container.grid_view .container-fluid > .row .object_block_container .object_block .info_block .title_container span.properties_amount,
   #results_promotions .results_container.map_view .container-fluid > .row .object_block_container .object_block .info_block .title_container span.properties_amount {
-    font-size: 1.125rem; } }
+    font-size: 1.125rem; }
+
+  #details_promotions .object_info_section.promotions .object_info_container ul.properties li i.icn {
+    font-size: 3rem; }
+  #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-header a ul li {
+    font-size: 1rem; }
+  #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .gallery_view .object_title .object_price {
+    font-size: 0.75rem;
+    padding: 10px 5px; }
+  #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .gallery_view .object_title h2 {
+    font-size: 1rem; }
+  #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .gallery_view .object_title h3 {
+    font-size: 0.875rem; } }
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .navbar ul.nav li.nav-item .dropdown-menu {
     right: 0;
@@ -216,6 +228,34 @@
     padding: 15px;
     font-size: 0.875rem; }
 
+  #details_promotions .object_info_section.promotions .object_info_container {
+    padding: 15px 0 0; }
+    #details_promotions .object_info_section.promotions .object_info_container ul.properties {
+      margin-bottom: 5px; }
+      #details_promotions .object_info_section.promotions .object_info_container ul.properties li {
+        width: 33.333%;
+        text-align: left;
+        margin-bottom: 10px; }
+        #details_promotions .object_info_section.promotions .object_info_container ul.properties li i.icn {
+          font-size: 1rem;
+          display: initial;
+          margin-right: 5px; }
+      #details_promotions .object_info_section.promotions .object_info_container ul.properties.general_properties {
+        padding: 0 15px 0 30px; }
+        #details_promotions .object_info_section.promotions .object_info_container ul.properties.general_properties li {
+          width: 25%; }
+    #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-header a {
+      padding: 0 15px 0 30px; }
+      #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-header a i.icn {
+        left: 10px; }
+      #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-header a ul li {
+        width: 25%;
+        line-height: 25px;
+        font-size: 0.875rem;
+        text-align: left; }
+    #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block {
+      padding: 15px; }
+
   .gallery_section .gallery_container .gallery_view .object_title h2 {
     font-size: 2rem; }
   .gallery_section .gallery_container .gallery_view .object_title h3 {
@@ -267,8 +307,8 @@
   #results_promotions .results_container.map_view .container-fluid > .row .object_block_container .object_block .info_block .title_container a {
     float: none;
     width: 100%;
-    margin-bottom: 10px; } }
-@media screen and (min-width: 544px) and (max-width: 767px) {
+    margin-bottom: 10px; }
+
   .results_section .results_container.grid_view .container-fluid .object_block_container .object_block,
   .results_section .results_container.map_view .container-fluid .object_block_container .object_block {
     padding-bottom: 63px; }
@@ -418,6 +458,30 @@
   #contact .representatives_section .representatives_block .representative_container .representative .contact_block {
     float: none;
     width: 100%;
-    padding: 0; } }
+    padding: 0; }
+
+  #details_promotions .object_info_section.promotions .object_info_container ul.properties li {
+    width: 50%; }
+    #details_promotions .object_info_section.promotions .object_info_container ul.properties li .prop_val {
+      font-size: 0.875rem; }
+  #details_promotions .object_info_section.promotions .object_info_container ul.properties.general_properties li {
+    width: 50%; }
+  #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-header a i.icn {
+    top: 43px; }
+  #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-header a ul li {
+    width: 50%; }
+  #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .gallery_view .object_title {
+    padding: 0 5px; }
+    #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .gallery_view .object_title .object_price {
+      font-size: 0.5rem;
+      padding: 5px 5px; }
+    #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .gallery_view .object_title h2 {
+      font-size: 0.875rem; }
+    #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .gallery_view .object_title h3 {
+      font-size: 0.5rem; }
+  #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .gallery_nav {
+    margin: 0 -5px; }
+    #details_promotions .object_info_section.promotions .object_info_container .accordion .card .card-block .gallery_container .gallery_nav ul li {
+      padding: 0 5px; } }
 
 /*# sourceMappingURL=media_queries.css.map */

@@ -289,6 +289,7 @@ section {
               margin-bottom: 50px;
               .gallery_view {
                 .object_title {
+                  padding: 0 15px;
                   h2 {
                     font-size: 1.875rem;
                   }
@@ -308,6 +309,9 @@ section {
                     right: 20px;
                   }
                 }
+              }
+              .gallery_nav {
+                margin: 0 -10px;
               }
             }
           }

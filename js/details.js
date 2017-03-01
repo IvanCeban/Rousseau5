@@ -46,7 +46,7 @@ $(document).ready(function(){
         nextArrow: '<button type="button" class="slick-next"><i class="icn icon-arrow_big_right"></i></button>'
     });
     $('.promotion_gallery_thumbnails').slick({
-        slidesToShow: 2,
+        slidesToShow: 3,
         slidesToScroll: 1,
         speed: 100,
         asNavFor: '.promotion_gallery',
