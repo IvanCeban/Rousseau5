@@ -358,6 +358,27 @@ section {
                 margin: 0 -10px;
               }
             }
+            ul.nav.nav-tabs .nav-item {
+              width: 50%;
+              &:nth-child(2) {
+                border-right: 2px solid #2c314f;
+              }
+            }
+            .tab-content {
+              ul.object_prop_list li {
+                margin-bottom: 15px;
+                font-size: 1.125rem;
+                color: $text_main_gray;
+                &::before {
+                  display: none;
+                }
+              }
+              .object_description {
+                p {
+                  margin-bottom: 10px;
+                }
+              }
+            }
           }
         }
       }

@@ -2,12 +2,13 @@ $(document).ready(function(){
 
     initObjectMap();
 
+    promoGalleryInit();
 
     function initObjectMap() {
-        var latlong = {lat: 40.712784, lng: -74.005941};
+        var latlong = {lat: 46.207389, lng: 6.155903};
 
         var map = new google.maps.Map(document.getElementById('object_map'), {
-            zoom: 20,
+            zoom: 13,
             center: latlong,
             scrollwheel: false,
             zoomControlOptions: {
@@ -50,22 +51,29 @@ $(document).ready(function(){
         focusOnSelect: true
     });
 
-    $('.promotion_gallery').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        fade: true,
-        speed: 100,
-        asNavFor: '.promotion_gallery_thumbnails',
-        prevArrow: '<button type="button" class="slick-prev"><i class="icn icon-arrow_big_left"></i></button>',
-        nextArrow: '<button type="button" class="slick-next"><i class="icn icon-arrow_big_right"></i></button>'
-    });
-    $('.promotion_gallery_thumbnails').slick({
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        speed: 100,
-        asNavFor: '.promotion_gallery',
-        dots: false,
-        arrows: false,
-        focusOnSelect: true
-    });
+
+
+    function promoGalleryInit() {
+        $('.promotion_gallery').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            fade: true,
+            speed: 100,
+            asNavFor: '.promotion_gallery_thumbnails',
+            prevArrow: '<button type="button" class="slick-prev"><i class="icn icon-arrow_big_left"></i></button>',
+            nextArrow: '<button type="button" class="slick-next"><i class="icn icon-arrow_big_right"></i></button>'
+        });
+        $('.promotion_gallery_thumbnails').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            speed: 100,
+            asNavFor: '.promotion_gallery',
+            dots: false,
+            arrows: false,
+            focusOnSelect: true
+        });
+    }
+    $('#promotions_accordion').on('shown.bs.collapse', function () {
+        // promoGalleryInit();
+    })
 });

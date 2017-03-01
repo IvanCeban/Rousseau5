@@ -33,7 +33,7 @@ $(document).ready(function(){
         var latlong = {lat: 46.207389, lng: 6.155903};
 
         var map = new google.maps.Map(document.getElementById('results_map'), {
-            zoom: 4,
+            zoom: 13,
             center: latlong,
             scrollwheel: false
         });
