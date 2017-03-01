@@ -1430,7 +1430,8 @@ footer .footer_bottom_section {
   footer .footer_bottom_section ul.social_networks {
     position: absolute;
     bottom: 0;
-    right: 0; }
+    right: 0;
+    z-index: 1; }
     footer .footer_bottom_section ul.social_networks li {
       float: left;
       margin: 0; }
