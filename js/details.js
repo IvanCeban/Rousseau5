@@ -4,16 +4,30 @@ $(document).ready(function(){
 
 
     function initObjectMap() {
-        var latlong = {lat: -25.363, lng: 131.044};
+        var latlong = {lat: 40.712784, lng: -74.005941};
 
         var map = new google.maps.Map(document.getElementById('object_map'), {
-            zoom: 4,
+            zoom: 20,
             center: latlong,
-            scrollwheel: false
+            scrollwheel: false,
+            zoomControlOptions: {
+                position: google.maps.ControlPosition.LEFT_BOTTOM
+            },
+            streetViewControlOptions: {
+                position: google.maps.ControlPosition.LEFT_BOTTOM
+            }
+
+
         });
+        var markerImage = new google.maps.MarkerImage('img/map_pin.svg',
+            new google.maps.Size(63, 77),
+            new google.maps.Point(0, 0),
+            new google.maps.Point(33, 55));
+
         var marker = new google.maps.Marker({
             position: latlong,
-            map: map
+            map: map,
+            icon: markerImage
         });
     }
 

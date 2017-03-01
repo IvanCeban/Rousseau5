@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+    initContactMap();
+
     if ($(window).width() > 1199) {
         contactBlocksHeight();
     }
@@ -50,6 +52,30 @@ $(document).ready(function(){
         $('.representatives_section .representatives_block').each(function() {
             max_height = max_height > $(this).height() ? max_height : $(this).height();
             $(this).height(max_height);
+        });
+    }
+
+    function initContactMap() {
+        var latlong = {lat: 46.206979, lng: 6.143669};
+
+        var map = new google.maps.Map(document.getElementById('contact_map'), {
+            zoom: 18,
+            center: latlong,
+            scrollwheel: false,
+            mapTypeControlOptions: {
+                style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
+                position: google.maps.ControlPosition.TOP_RIGHT
+            }
+        });
+        var markerImage = new google.maps.MarkerImage('img/map_pin.svg',
+            new google.maps.Size(63, 77),
+            new google.maps.Point(0, 0),
+            new google.maps.Point(33, 55));
+
+        var marker = new google.maps.Marker({
+            position: latlong,
+            map: map,
+            icon: markerImage
         });
     }
 });

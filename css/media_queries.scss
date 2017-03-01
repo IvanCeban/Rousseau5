@@ -231,6 +231,17 @@
     }
   }
 
+  #contact {
+    .map_section {
+      .container-fluid {
+        .map_info_block {
+          top: 30px;
+          left: 45px;
+          padding: 30px;
+        }
+      }
+    }
+  }
 }
 
 @media screen and ( min-width: 768px ) and ( max-width: 991px ) {
@@ -463,6 +474,28 @@
           }
           .card-block {
             padding: 15px;
+          }
+        }
+      }
+    }
+  }
+
+  #contact {
+    .map_section {
+      .container-fluid {
+        .map_info_block {
+          top: 15px;
+          left: 30px;
+          padding: 15px;
+          span {
+            font-size: 1.125rem;
+          }
+          ul {
+            margin-top: 15px;
+            li {
+              font-size: 1rem;
+              margin-bottom: 5px;
+            }
           }
         }
       }
@@ -823,6 +856,27 @@
               float: none;
               width: 100%;
               padding: 0;
+            }
+          }
+        }
+      }
+    }
+    .map_section {
+      .container-fluid {
+        #contact_map {
+          height: 400px;
+        }
+        .map_info_block {
+          top: 10px;
+          left: 25px;
+          padding: 10px;
+          span {
+            font-size: 1rem;
+          }
+          ul {
+            margin-top: 10px;
+            li {
+              font-size: 0.875rem;
             }
           }
         }

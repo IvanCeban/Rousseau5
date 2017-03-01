@@ -27,7 +27,7 @@
 
 <body>
 
-<?php $current_page = 'details_for_sale' ?>
+<?php $current_page = 'details_promotions' ?>
 
 <?php include 'includes/header.php'?>
 <?php include 'includes/main_nav.php'?>

@@ -264,6 +264,22 @@
         </div>
     </section>
 
+    <section class="map_section">
+        <div class="container-fluid">
+            <div id="contact_map"></div>
+            <div class="map_info_block">
+                <span>Rousseau N°5</span>
+                <ul>
+                    <li>Rue Rousseau 5</li>
+                    <li>1201 Genève</li>
+                    <li>Suisse</li>
+                    <li><a href="mailto:contact@rousseau5.ch">contact@rousseau5.ch</a></li>
+                    <li>Tel: +41 22 732 8000</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
     <section class="categories_section">
         <div class="container-fluid">
             <div class="row">

@@ -30,16 +30,22 @@ $(document).ready(function(){
     }
 
     function initResultsMap() {
-        var latlong = {lat: -25.363, lng: 131.044};
+        var latlong = {lat: 46.207389, lng: 6.155903};
 
         var map = new google.maps.Map(document.getElementById('results_map'), {
             zoom: 4,
             center: latlong,
             scrollwheel: false
         });
+        var markerImage = new google.maps.MarkerImage('img/map_pin.svg',
+            new google.maps.Size(63, 77),
+            new google.maps.Point(0, 0),
+            new google.maps.Point(33, 55));
+
         var marker = new google.maps.Marker({
             position: latlong,
-            map: map
+            map: map,
+            icon: markerImage
         });
     }
 

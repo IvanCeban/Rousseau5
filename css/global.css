@@ -1338,6 +1338,34 @@ header {
   width: 100%;
   height: 100%;
   z-index: 10; }
+#contact .map_section {
+  margin-top: 50px; }
+  #contact .map_section .container-fluid {
+    position: relative; }
+    #contact .map_section .container-fluid #contact_map {
+      height: 385px; }
+    #contact .map_section .container-fluid .map_info_block {
+      display: table;
+      position: absolute;
+      top: 50px;
+      left: 65px;
+      background: white;
+      z-index: 1;
+      padding: 50px; }
+      #contact .map_section .container-fluid .map_info_block span {
+        font: 1.375rem lato_regular;
+        color: #2c314f;
+        text-transform: uppercase; }
+      #contact .map_section .container-fluid .map_info_block ul {
+        margin-top: 25px; }
+        #contact .map_section .container-fluid .map_info_block ul li {
+          font-size: 1.125rem;
+          color: #2c314f;
+          margin-bottom: 10px; }
+          #contact .map_section .container-fluid .map_info_block ul li:last-of-type {
+            margin-bottom: 0; }
+          #contact .map_section .container-fluid .map_info_block ul li a {
+            color: #2c314f; }
 
 footer .footer_links_list li {
   margin-bottom: 15px; }
