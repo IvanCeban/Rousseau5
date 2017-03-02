@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -1366,6 +1367,46 @@ header {
             margin-bottom: 0; }
           #contact .map_section .container-fluid .map_info_block ul li a {
             color: #2c314f; }
+
+#agency .agency_img_section {
+  margin-top: 60px; }
+  #agency .agency_img_section .agency_img_container {
+    position: relative; }
+    #agency .agency_img_section .agency_img_container img {
+      width: 100%; }
+    #agency .agency_img_section .agency_img_container .gradient_bottom {
+      height: 50%;
+      background: -webkit-linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+      background: -moz-linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+      background: -o-linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+      background: linear-gradient(transparent, rgba(0, 0, 0, 0.7)); }
+#agency .agency_info_section {
+  margin-top: 20px; }
+  #agency .agency_info_section .agency_info_container {
+    border: 1px solid #cccccc;
+    padding: 30px; }
+    #agency .agency_info_section .agency_info_container h1 {
+      margin-bottom: 30px; }
+    #agency .agency_info_section .agency_info_container h2 {
+      text-transform: uppercase;
+      color: #2c314f;
+      margin-bottom: 20px;
+      font-size: 1rem; }
+    #agency .agency_info_section .agency_info_container p {
+      margin-bottom: 20px; }
+    #agency .agency_info_section .agency_info_container ul {
+      margin-bottom: 20px;
+      padding-left: 30px; }
+      #agency .agency_info_section .agency_info_container ul li {
+        margin-bottom: 10px;
+        position: relative; }
+        #agency .agency_info_section .agency_info_container ul li::before {
+          content: "•";
+          color: #2c314f;
+          position: absolute;
+          left: -15px;
+          top: -2px;
+          font-size: 18px; }
 
 footer .footer_links_list li {
   margin-bottom: 15px; }

@@ -926,6 +926,56 @@ header {
 }
 //pages END
 
+#agency {
+  .agency_img_section {
+    margin-top: 60px;
+    .agency_img_container {
+      position: relative;
+      img {
+        width: 100%;
+      }
+      .gradient_bottom {
+        height: 50%;
+        @include my_gradient_bg(rgba(#000000, 0.7))
+      }
+    }
+  }
+  .agency_info_section {
+    margin-top: 20px;
+    .agency_info_container {
+      border: 1px solid $border_color;
+      padding: 30px;
+      h1 {
+        margin-bottom: 30px;
+      }
+      h2 {
+        text-transform: uppercase;
+        color: $main_blue;
+        margin-bottom: 20px;
+        font-size: 1rem;
+      }
+      p {
+        margin-bottom: 20px;
+      }
+      ul {
+        margin-bottom: 20px;
+        padding-left: 30px;
+        li {
+          margin-bottom: 10px;
+          position: relative;
+          &::before {
+            content: "•";
+            color: $main_blue;
+            position: absolute;
+            left: -15px;
+            top: -2px;
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}
 footer {
   .footer_links_list {
     li {
