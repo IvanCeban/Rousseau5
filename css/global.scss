@@ -976,6 +976,7 @@ header {
     }
   }
 }
+
 footer {
   .footer_links_list {
     li {
@@ -1000,6 +1001,7 @@ footer {
     background: $main_blue;
     color: $text_light_gray;
     position: relative;
+    z-index: 1;
     &::after {
       content: "";
       background: url(../img/logo_footer.svg) center bottom no-repeat;
@@ -1007,10 +1009,10 @@ footer {
       opacity: 0.03;
       top: 0;
       left: 0;
-      bottom: 0;
+      bottom: 10px;
       right: 0;
       position: absolute;
-      z-index: 0;
+      z-index: -1;
     }
     img {
       width: 100%;

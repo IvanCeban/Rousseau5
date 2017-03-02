@@ -1424,7 +1424,8 @@ footer .footer_bottom_section {
   padding: 60px 0 50px;
   background: #2c314f;
   color: #e5e5e5;
-  position: relative; }
+  position: relative;
+  z-index: 1; }
   footer .footer_bottom_section::after {
     content: "";
     background: url(../img/logo_footer.svg) center bottom no-repeat;
@@ -1432,10 +1433,10 @@ footer .footer_bottom_section {
     opacity: 0.03;
     top: 0;
     left: 0;
-    bottom: 0;
+    bottom: 10px;
     right: 0;
     position: absolute;
-    z-index: 0; }
+    z-index: -1; }
   footer .footer_bottom_section img {
     width: 100%; }
   footer .footer_bottom_section p {
