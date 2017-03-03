@@ -348,7 +348,12 @@ header {
     }
     .gallery_nav {
       .gallery_thumbnails.slick-slider {
-        margin: 20px -9px 0;
+        &.details_gallery_thumbnails {
+          margin: 20px -9px 0;
+        }
+        &.promotion_gallery_thumbnails {
+          margin: 20px 0 0;
+        }
         .slick-list {
           .slick-track {
             .slick-slide {
