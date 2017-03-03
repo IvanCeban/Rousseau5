@@ -70,5 +70,10 @@ $(document).ready(function(){
 
     $('#promotions_accordion').on('shown.bs.collapse', function () {
         // promoGalleryInit();
+        var this_header_link = $(this).find('.card .card-header a[aria-expanded="true"]');
+        console.log(this);
+        $('html, body').animate({
+            scrollTop: $(this_header_link).offset().top - 60
+        }, 250);
     })
 });
