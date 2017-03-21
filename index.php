@@ -177,7 +177,7 @@
                                     </select>
                                 </div>
                                 <div class="col-xs-12 col-sm-4 col-md-12 col-lg-4 margin_top_15">
-                                    <label class="form_el_label dark"><i class="icn icon-bedroom"></i><span>Projects Neufs</span></label>
+                                    <label class="form_el_label dark"><i class="icn icon-new_projects"></i><span>Projects Neufs</span></label>
                                     <select multiple="multiple" name="object_subtype">
                                         <option value="Bastide">Bastide</option>
                                         <option value="Bungalow">Bungalow</option>

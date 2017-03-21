@@ -45,7 +45,6 @@
                         <label class="form_el_label light"><i class="icn icon-building"></i><span>Type de bien</span></label>
                         <div class="min_select_container margin_bottom_10">
                             <select multiple="multiple" name="object_type">
-                                <option value="">Tout</option>
                                 <option value="">House</option>
                                 <option value="">Apartment</option>
                                 <option value="">Building plot</option>
@@ -58,7 +57,6 @@
                         <label class="form_el_label light"><i class="icn icon-building2"></i><span>Sous-categorie</span></label>
                         <div class="min_select_container margin_bottom_10">
                             <select multiple="multiple" name="object_subtype">
-                                <option value="">Tout</option>
                                 <option value="">Bastide</option>
                                 <option value="">Bungalow</option>
                                 <option value="">Chalet</option>
@@ -69,7 +67,6 @@
                         <label class="form_el_label light"><i class="icn icon-country"></i><span>Lieu</span></label>
                         <div class="min_select_container margin_bottom_10">
                             <select multiple="multiple" name="object_place">
-                                <option value="">Tout</option>
                                 <option value="">Geneva</option>
                                 <option value="">Bern</option>
                                 <option value="">Zurich</option>
@@ -78,7 +75,7 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2 margin_bottom_10">
-                        <label class="form_el_label light"><i class="icn icon-projects_neufs"></i><span>Projects neufs</span></label>
+                        <label class="form_el_label light"><i class="icn icon-new_projects"></i><span>Projects neufs</span></label>
                         <div class="min_select_container margin_bottom_10">
                             <select multiple="multiple" name="object_rooms_number">
                                 <option value="">1</option>
