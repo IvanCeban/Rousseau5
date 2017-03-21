@@ -11,11 +11,13 @@ $(document).ready(function(){
         if($(this).hasClass('map_view_btn')){
             initResultsMap();
             resultsCarouselInit();
+            $(this).closest('.row').find('.multiselect-native-select').hide();
         }
         else {
             if($('.carousel').hasClass('flickity-enabled')){
                 $('.carousel').flickity('destroy');
             }
+            $(this).closest('.row').find('.multiselect-native-select').show();
         }
     });
     
