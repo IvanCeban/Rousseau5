@@ -48,7 +48,8 @@
               position: absolute;
               padding: 9px 20px;
               font-size: 22px;
-              text-transform: uppercase; }
+              text-transform: uppercase;
+              z-index: 1; }
             .results_section .results_container .container-fluid > .row .object_block_container .object_block .img_block .activity_label {
               top: 20px;
               background: rgba(255, 255, 255, 0.6);
@@ -126,6 +127,22 @@
         float: left;
         height: 100%;
         min-width: 100%; }
+      .results_section .results_container.list_view .container-fluid .object_block_container .object_block .img_block .gallery.slick-slider .slick-arrow {
+        position: absolute;
+        top: 50%;
+        margin-top: -16px;
+        color: white;
+        font-size: 30px;
+        background: transparent;
+        border: none;
+        z-index: 99; }
+        .results_section .results_container.list_view .container-fluid .object_block_container .object_block .img_block .gallery.slick-slider .slick-arrow.slick-prev {
+          left: 0; }
+        .results_section .results_container.list_view .container-fluid .object_block_container .object_block .img_block .gallery.slick-slider .slick-arrow.slick-next {
+          right: 0; }
+      .results_section .results_container.list_view .container-fluid .object_block_container .object_block .img_block .gallery.slick-slider .slick-list .slick-track .slick-slide {
+        max-height: 100%;
+        overflow: hidden; }
     .results_section .results_container.list_view .container-fluid .object_block_container .object_block .info_block {
       float: left;
       width: 67%;
@@ -170,6 +187,9 @@
     .results_section .results_container.grid_view .container-fluid .object_block_container .object_block .img_block img,
     .results_section .results_container.map_view .container-fluid .object_block_container .object_block .img_block img {
       width: 100%; }
+    .results_section .results_container.grid_view .container-fluid .object_block_container .object_block .img_block .gallery_view .result_preview_gallery li:not(:first-child),
+    .results_section .results_container.map_view .container-fluid .object_block_container .object_block .img_block .gallery_view .result_preview_gallery li:not(:first-child) {
+      display: none; }
     .results_section .results_container.grid_view .container-fluid .object_block_container .object_block .info_block,
     .results_section .results_container.map_view .container-fluid .object_block_container .object_block .info_block {
       position: absolute;
