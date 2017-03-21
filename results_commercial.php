@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/libraries/bootstrap.css">
     <link rel="stylesheet" href="css/libraries/bootstrap-multiselect.css">
     <link rel="stylesheet" href="css/libraries/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/libraries/slick.css">
     <link rel="stylesheet" href="css/custom_icons/style.css">
     <link rel="stylesheet" href="css/libraries/flickity_carousel.css">
     <link rel="stylesheet" href="css/libraries/simplebar.css">
@@ -183,7 +184,14 @@
                             <div class="img_block">
                                 <div class="activity_label">Loué</div>
                                 <div class="exclusive_label">Exclusif</div>
-                                <img src="img/commercial/results/commercial_1.jpg" alt="object name">
+                                <div class="gallery_view">
+                                    <ul class="gallery result_preview_gallery">
+                                        <li><img src="img/commercial/results/commercial_1.jpg" alt=""></li>
+                                        <li><img src="img/commercial/results/commercial_2.jpg" alt=""></li>
+                                        <li><img src="img/commercial/results/commercial_3.jpg" alt=""></li>
+                                        <li><img src="img/commercial/results/commercial_4.jpg" alt=""></li>
+                                    </ul>
+                                </div>
                             </div>
                             <div class="info_block">
                                 <div class="title_container">
@@ -217,7 +225,14 @@
                             <div class="img_block">
                                 <div class="activity_label">Loué</div>
                                 <div class="exclusive_label">Exclusif</div>
-                                <img src="img/commercial/results/commercial_2.jpg" alt="object name">
+                                <div class="gallery_view">
+                                    <ul class="gallery result_preview_gallery">
+                                        <li><img src="img/commercial/results/commercial_2.jpg" alt=""></li>
+                                        <li><img src="img/commercial/results/commercial_1.jpg" alt=""></li>
+                                        <li><img src="img/commercial/results/commercial_3.jpg" alt=""></li>
+                                        <li><img src="img/commercial/results/commercial_4.jpg" alt=""></li>
+                                    </ul>
+                                </div>
                             </div>
                             <div class="info_block">
                                 <div class="title_container">
@@ -251,7 +266,14 @@
                             <div class="img_block">
                                 <div class="activity_label">Loué</div>
                                 <div class="exclusive_label">Exclusif</div>
-                                <img src="img/commercial/results/commercial_3.jpg" alt="object name">
+                                <div class="gallery_view">
+                                    <ul class="gallery result_preview_gallery">
+                                        <li><img src="img/commercial/results/commercial_3.jpg" alt=""></li>
+                                        <li><img src="img/commercial/results/commercial_1.jpg" alt=""></li>
+                                        <li><img src="img/commercial/results/commercial_2.jpg" alt=""></li>
+                                        <li><img src="img/commercial/results/commercial_4.jpg" alt=""></li>
+                                    </ul>
+                                </div>
                             </div>
                             <div class="info_block">
                                 <div class="title_container">
@@ -285,7 +307,14 @@
                             <div class="img_block">
                                 <div class="activity_label">Loué</div>
                                 <div class="exclusive_label">Exclusif</div>
-                                <img src="img/commercial/results/commercial_4.jpg" alt="object name">
+                                <div class="gallery_view">
+                                    <ul class="gallery result_preview_gallery">
+                                        <li><img src="img/commercial/results/commercial_4.jpg" alt=""></li>
+                                        <li><img src="img/commercial/results/commercial_1.jpg" alt=""></li>
+                                        <li><img src="img/commercial/results/commercial_2.jpg" alt=""></li>
+                                        <li><img src="img/commercial/results/commercial_3.jpg" alt=""></li>
+                                    </ul>
+                                </div>
                             </div>
                             <div class="info_block">
                                 <div class="title_container">
@@ -319,7 +348,14 @@
                             <div class="img_block">
                                 <div class="activity_label">Loué</div>
                                 <div class="exclusive_label">Exclusif</div>
-                                <img src="img/commercial/results/commercial_1.jpg" alt="object name">
+                                <div class="gallery_view">
+                                    <ul class="gallery result_preview_gallery">
+                                        <li><img src="img/commercial/results/commercial_1.jpg" alt=""></li>
+                                        <li><img src="img/commercial/results/commercial_4.jpg" alt=""></li>
+                                        <li><img src="img/commercial/results/commercial_2.jpg" alt=""></li>
+                                        <li><img src="img/commercial/results/commercial_3.jpg" alt=""></li>
+                                    </ul>
+                                </div>
                             </div>
                             <div class="info_block">
                                 <div class="title_container">
@@ -353,7 +389,14 @@
                             <div class="img_block">
                                 <div class="activity_label">Loué</div>
                                 <div class="exclusive_label">Exclusif</div>
-                                <img src="img/commercial/results/commercial_2.jpg" alt="object name">
+                                <div class="gallery_view">
+                                    <ul class="gallery result_preview_gallery">
+                                        <li><img src="img/commercial/results/commercial_2.jpg" alt=""></li>
+                                        <li><img src="img/commercial/results/commercial_4.jpg" alt=""></li>
+                                        <li><img src="img/commercial/results/commercial_1.jpg" alt=""></li>
+                                        <li><img src="img/commercial/results/commercial_3.jpg" alt=""></li>
+                                    </ul>
+                                </div>
                             </div>
                             <div class="info_block">
                                 <div class="title_container">
@@ -413,6 +456,7 @@
 <script src="js/libraries/jquery-ui.min.js"></script>
 <script src="js/libraries/bootstrap.min.js"></script>
 <script src="js/libraries/bootstrap-multiselect.js"></script>
+<script src="js/libraries/slick.min.js"></script>
 <script src="js/libraries/flickity_carousel.min.js"></script>
 <script src="js/libraries/simplebar.js"></script>
 <script src="js/libraries/tooltipster.bundle.min.js"></script>

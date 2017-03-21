@@ -110,7 +110,7 @@
               font: 20px lato_regular;
               text-align: center;
               float: right;
-              padding: 10px 5px 9px; }
+              padding: 9px 5px 8px; }
     .results_section .results_container #results_map {
       visibility: hidden; }
   .results_section .results_container.list_view .container-fluid .object_block_container {
@@ -171,7 +171,7 @@
         float: right; }
       .results_section .results_container.list_view .container-fluid .object_block_container .object_block .info_block .description_container .object_price {
         margin-top: 15px;
-        padding: 10px 15px 9px; }
+        padding: 9px 15px 8px; }
       .results_section .results_container.list_view .container-fluid .object_block_container .object_block .info_block .properties_container {
         border-top: 1px solid #2c314f;
         margin-top: 10px;

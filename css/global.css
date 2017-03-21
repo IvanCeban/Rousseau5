@@ -78,7 +78,7 @@ table {
   font-style: normal; }
 /*Buttons style START*/
 .btn:not(.dropdown-toggle) {
-  height: 40px;
+  height: 42px;
   padding: 0 45px;
   font: 20px lato_regular;
   line-height: 40px;
@@ -152,8 +152,8 @@ table {
     position: absolute;
     top: 1px;
     right: 1px;
-    height: 38px;
-    width: 38px;
+    height: 40px;
+    width: 40px;
     border: none;
     background-color: white; }
   .input_container .input_label {
@@ -161,7 +161,7 @@ table {
     right: 1px;
     top: 1px;
     width: 60px;
-    line-height: 38px;
+    line-height: 40px;
     text-align: center;
     text-transform: uppercase; }
 
@@ -179,7 +179,8 @@ table {
 .input_container.light .input_label {
   color: #2c314f;
   background-color: white;
-  border-left: 1px solid #cccccc; }
+  border-left: 1px solid #cccccc;
+  font-family: lato_regular; }
 
 input,
 textarea {
@@ -190,7 +191,7 @@ textarea {
   color: #888888; }
 
 input {
-  height: 40px; }
+  height: 42px; }
 
 textarea {
   height: 150px;
@@ -448,7 +449,7 @@ ul.nav.nav-tabs {
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
-    line-height: 38px;
+    line-height: 40px;
     background-color: white;
     outline-offset: 0;
     width: 100%;
