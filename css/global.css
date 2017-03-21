@@ -966,19 +966,19 @@ header {
   .categories_section a:hover .gradient_bottom {
     height: 80%; }
   .categories_section a.sell_category {
-    background-image: url("../img/category1.jpg"); }
+    background-image: url("../img/category1.png"); }
   .categories_section a.rent_category {
-    background-image: url("../img/category2.jpg");
+    background-image: url("../img/category2.png");
     margin-top: 30px; }
   .categories_section a.agency_category {
-    background-image: url("../img/category5.jpg");
+    background-image: url("../img/category5.png");
     height: 400px; }
     .categories_section a.agency_category .category_title {
       height: 400px; }
   .categories_section a.commercial_category {
-    background-image: url("../img/category3.jpg"); }
+    background-image: url("../img/category3.png"); }
   .categories_section a.promo_category {
-    background-image: url("../img/category4.jpg");
+    background-image: url("../img/category4.png");
     margin-top: 30px; }
 
 .gradient_bottom,
@@ -1158,10 +1158,10 @@ header {
         margin-bottom: 15px;
         font: 1rem lato_regular; }
 
-#team h1 {
+#team .team_section h1 {
   text-align: left;
   margin: 30px 0 20px; }
-#team .object_block_container .object_block {
+#team .team_section .object_block_container .object_block {
   position: relative;
   margin-top: 30px;
   cursor: pointer;
@@ -1169,28 +1169,28 @@ header {
   -moz-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
-  #team .object_block_container .object_block .img_block {
+  #team .team_section .object_block_container .object_block .img_block {
     z-index: 3;
     cursor: pointer; }
-    #team .object_block_container .object_block .img_block.absolute {
+    #team .team_section .object_block_container .object_block .img_block.absolute {
       position: absolute; }
-    #team .object_block_container .object_block .img_block img {
+    #team .team_section .object_block_container .object_block .img_block img {
       width: 100%; }
-    #team .object_block_container .object_block .img_block h2 {
+    #team .team_section .object_block_container .object_block .img_block h2 {
       position: absolute;
       width: 100%;
       text-align: center;
       color: white; }
-    #team .object_block_container .object_block .img_block h2 {
+    #team .team_section .object_block_container .object_block .img_block h2 {
       bottom: 30px;
       font-size: 1.875rem; }
-    #team .object_block_container .object_block .img_block .gradient_bottom {
+    #team .team_section .object_block_container .object_block .img_block .gradient_bottom {
       background: -webkit-linear-gradient(transparent, #2c314f);
       background: -moz-linear-gradient(transparent, #2c314f);
       background: -o-linear-gradient(transparent, #2c314f);
       background: linear-gradient(transparent, #2c314f);
       height: 50%; }
-  #team .object_block_container .object_block .info_block {
+  #team .team_section .object_block_container .object_block .info_block {
     position: absolute;
     top: 0;
     width: 100%;
@@ -1206,25 +1206,25 @@ header {
     -moz-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s; }
-    #team .object_block_container .object_block .info_block .properties_container {
+    #team .team_section .object_block_container .object_block .info_block .properties_container {
       padding: 30px 10px;
       margin-bottom: 30px;
       border-top: 1px solid white;
       border-bottom: 1px solid white; }
-      #team .object_block_container .object_block .info_block .properties_container ul {
+      #team .team_section .object_block_container .object_block .info_block .properties_container ul {
         -webkit-transition: 1s;
         -moz-transition: 1s;
         -o-transition: 1s;
         transition: 1s;
         opacity: 0;
         margin-top: 35px; }
-        #team .object_block_container .object_block .info_block .properties_container ul li {
+        #team .team_section .object_block_container .object_block .info_block .properties_container ul li {
           margin-bottom: 15px; }
-          #team .object_block_container .object_block .info_block .properties_container ul li:last-of-type {
+          #team .team_section .object_block_container .object_block .info_block .properties_container ul li:last-of-type {
             margin-bottom: 0; }
-          #team .object_block_container .object_block .info_block .properties_container ul li a {
+          #team .team_section .object_block_container .object_block .info_block .properties_container ul li a {
             color: white; }
-      #team .object_block_container .object_block .info_block .properties_container p {
+      #team .team_section .object_block_container .object_block .info_block .properties_container p {
         -webkit-transition: 1s;
         -moz-transition: 1s;
         -o-transition: 1s;
@@ -1234,15 +1234,15 @@ header {
         color: #cccccc;
         font-size: 1.375rem;
         line-height: 1.375rem; }
-  #team .object_block_container .object_block.opened {
+  #team .team_section .object_block_container .object_block.opened {
     cursor: default; }
-    #team .object_block_container .object_block.opened .info_block {
+    #team .team_section .object_block_container .object_block.opened .info_block {
       top: 100%;
       opacity: 1;
       z-index: 3; }
-      #team .object_block_container .object_block.opened .info_block ul {
+      #team .team_section .object_block_container .object_block.opened .info_block ul {
         opacity: 1; }
-      #team .object_block_container .object_block.opened .info_block p {
+      #team .team_section .object_block_container .object_block.opened .info_block p {
         opacity: 1; }
 
 #contact h1 {
@@ -1468,7 +1468,7 @@ footer .footer_bottom_section {
       background: #d3c070;
       color: white; }
   footer .footer_bottom_section .copyright {
-    font-size: 15px;
+    font-size: 0.75rem;
     text-transform: uppercase; }
   footer .footer_bottom_section ul.social_networks {
     position: absolute;
@@ -1485,16 +1485,23 @@ footer .footer_bottom_section {
         display: block;
         width: 50px;
         line-height: 40px;
-        text-align: center; }
+        text-align: center;
+        font-size: 1rem; }
     footer .footer_bottom_section ul.social_networks li:hover a {
       color: #ffffff;
-      font-size: 20px; }
+      font-size: 1.25rem; }
     footer .footer_bottom_section ul.social_networks li.twitter {
       background-color: #21aaf4; }
     footer .footer_bottom_section ul.social_networks li.facebook {
       background-color: #4464a2; }
     footer .footer_bottom_section ul.social_networks li.linkedin {
       background-color: #037cb6; }
+    footer .footer_bottom_section ul.social_networks li.youtube {
+      background-color: #cd1f22; }
+      footer .footer_bottom_section ul.social_networks li.youtube a {
+        font-size: 1.25rem; }
+      footer .footer_bottom_section ul.social_networks li.youtube:hover a {
+        font-size: 1.5rem; }
     footer .footer_bottom_section ul.social_networks li.scroll_to_top {
       background-color: #424661; }
 

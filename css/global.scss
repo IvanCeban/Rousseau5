@@ -444,24 +444,24 @@ header {
     }
   }
   a.sell_category {
-    background-image: url("../img/category1.jpg");
+    background-image: url("../img/category1.png");
   }
   a.rent_category {
-    background-image: url("../img/category2.jpg");
+    background-image: url("../img/category2.png");
     margin-top: 30px;
   }
   a.agency_category {
-    background-image: url("../img/category5.jpg");
+    background-image: url("../img/category5.png");
     height: 400px;
     .category_title {
       height: 400px;
     }
   }
   a.commercial_category {
-    background-image: url("../img/category3.jpg");
+    background-image: url("../img/category3.png");
   }
   a.promo_category {
-    background-image: url("../img/category4.jpg");
+    background-image: url("../img/category4.png");
     margin-top: 30px;
   }
 }
@@ -669,95 +669,97 @@ header {
 }
 
 #team {
-  h1 {
-    text-align: left;
-    margin: 30px 0 20px;
-  }
-  .object_block_container {
-    .object_block {
-      position: relative;
-      margin-top: 30px;
-      cursor: pointer;
-      @include my_transition(0.5s);
-      .img_block {
-        z-index: 3;
+  .team_section {
+    h1 {
+      text-align: left;
+      margin: 30px 0 20px;
+    }
+    .object_block_container {
+      .object_block {
+        position: relative;
+        margin-top: 30px;
         cursor: pointer;
-        &.absolute {
-          position: absolute;
-        }
-        img {
-          width: 100%;
-        }
-        h2 {
-          position: absolute;
-          width: 100%;
-          text-align: center;
-          color: white;
-        }
-        h2 {
-          bottom: 30px;
-          font-size: 1.875rem;
-        }
-        .gradient_bottom {
-          @include my_gradient_bg($main_blue);
-          height: 50%;
-        }
-      }
-      .info_block {
-        position: absolute;
-        top: 0;
-        width: 100%;
-        z-index: -1;
-        text-align: center;
-        background-color: $main_blue;
-        color: white;
-        padding: 15px 25px 30px;
-        opacity: 0;
-        line-height: 1rem;
-        font-size: 1rem;
         @include my_transition(0.5s);
-        .properties_container {
-          padding: 30px 10px;
-          margin-bottom: 30px;
-          border-top: 1px solid white;
-          border-bottom: 1px solid white;
-          ul {
-            @include my_transition(1s);
-            opacity: 0;
-            margin-top: 35px;
-            li {
-              margin-bottom: 15px;
-              &:last-of-type {
-                margin-bottom: 0;
-              }
-              a {
-                color: white;
+        .img_block {
+          z-index: 3;
+          cursor: pointer;
+          &.absolute {
+            position: absolute;
+          }
+          img {
+            width: 100%;
+          }
+          h2 {
+            position: absolute;
+            width: 100%;
+            text-align: center;
+            color: white;
+          }
+          h2 {
+            bottom: 30px;
+            font-size: 1.875rem;
+          }
+          .gradient_bottom {
+            @include my_gradient_bg($main_blue);
+            height: 50%;
+          }
+        }
+        .info_block {
+          position: absolute;
+          top: 0;
+          width: 100%;
+          z-index: -1;
+          text-align: center;
+          background-color: $main_blue;
+          color: white;
+          padding: 15px 25px 30px;
+          opacity: 0;
+          line-height: 1rem;
+          font-size: 1rem;
+          @include my_transition(0.5s);
+          .properties_container {
+            padding: 30px 10px;
+            margin-bottom: 30px;
+            border-top: 1px solid white;
+            border-bottom: 1px solid white;
+            ul {
+              @include my_transition(1s);
+              opacity: 0;
+              margin-top: 35px;
+              li {
+                margin-bottom: 15px;
+                &:last-of-type {
+                  margin-bottom: 0;
+                }
+                a {
+                  color: white;
+                }
               }
             }
+            p {
+              @include my_transition(1s);
+              opacity: 0;
+              margin: 0 0 20px;
+              color: $border_color;
+              font-size: 1.375rem;
+              line-height: 1.375rem;
+            }
           }
-          p {
-            @include my_transition(1s);
-            opacity: 0;
-            margin: 0 0 20px;
-            color: $border_color;
-            font-size: 1.375rem;
-            line-height: 1.375rem;
-          }
-        }
 
-      }
-      &.opened {
-        //margin-bottom: 450px;
-        cursor: default;
-        .info_block {
-          top: 100%;
-          opacity: 1;
-          z-index: 3;
-          ul {
+        }
+        &.opened {
+          //margin-bottom: 450px;
+          cursor: default;
+          .info_block {
+            top: 100%;
             opacity: 1;
-          }
-          p {
-            opacity: 1;
+            z-index: 3;
+            ul {
+              opacity: 1;
+            }
+            p {
+              opacity: 1;
+            }
           }
         }
       }
@@ -1060,7 +1062,7 @@ footer {
     }
 
     .copyright {
-      font-size: 15px;
+      font-size: 0.75rem;
       text-transform: uppercase;
     }
     ul.social_networks {
@@ -1079,12 +1081,13 @@ footer {
           width: 50px;
           line-height: 40px;
           text-align: center;
+          font-size: 1rem;
         }
       }
       li:hover {
         a {
           color: #ffffff;
-          font-size: 20px;
+          font-size: 1.25rem;
         }
       }
       li.twitter {
@@ -1095,6 +1098,17 @@ footer {
       }
       li.linkedin {
         background-color: #037cb6;
+      }
+      li.youtube {
+        background-color: #cd1f22;
+        a {
+          font-size: 1.25rem;
+        }
+        &:hover {
+          a {
+            font-size: 1.5rem;
+          }
+        }
       }
       li.scroll_to_top {
         background-color: #424661;

@@ -63,58 +63,17 @@
     <section class="footer_bottom_section">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-xs-6 col-sm-3 col-md-2">
-                    <ul class="footer_links_list">
-                        <li><a href="#">Arcade à transmettre</a></li>
-                        <li><a href="#">Bontique à transmettre</a></li>
-                        <li><a href="#">Bureau à louer</a></li>
-                        <li><a href="#">Tea-Room à transmettre</a></li>
-                        <li><a href="#">Institut Beauté à transmettre</a></li>
-                        <li><a href="#">Cabaret à transmettre</a></li>
-                        <li><a href="#">Wellness à transmettre</a></li>
-                    </ul>
-                </div>
-                <div class="col-xs-6 col-sm-3 col-md-2">
-                    <ul class="footer_links_list">
-                        <li><a href="#">Bureau à vendre</a></li>
-                        <li><a href="#">Garage à vendre</a></li>
-                        <li><a href="#">Bâtiment mixte à vendre</a></li>
-                        <li><a href="#">Divers à transmettre</a></li>
-                        <li><a href="#">Immeuble à louer</a></li>
-                        <li><a href="#">Bar à transmettre</a></li>
-                        <li><a href="#">Entreprise à transmettre</a></li>
-                    </ul>
-                </div>
-                <div class="col-xs-6 col-sm-3 col-md-2">
-                    <ul class="footer_links_list">
-                        <li><a href="#">Arcade à transmettre</a></li>
-                        <li><a href="#">Bontique à transmettre</a></li>
-                        <li><a href="#">Bureau à louer</a></li>
-                        <li><a href="#">Tea-Room à transmettre</a></li>
-                        <li><a href="#">Institut Beauté à transmettre</a></li>
-                        <li><a href="#">Cabaret à transmettre</a></li>
-                        <li><a href="#">Wellness à transmettre</a></li>
-                    </ul>
-                </div>
-                <div class="col-xs-6 col-sm-3 col-md-2">
-                    <ul class="footer_links_list">
-                        <li><a href="#">Bureau à vendre</a></li>
-                        <li><a href="#">Garage à vendre</a></li>
-                        <li><a href="#">Bâtiment mixte à vendre</a></li>
-                        <li><a href="#">Divers à transmettre</a></li>
-                        <li><a href="#">Immeuble à louer</a></li>
-                        <li><a href="#">Bar à transmettre</a></li>
-                        <li><a href="#">Entreprise à transmettre</a></li>
-                    </ul>
-                </div>
-                <div class="col-xs-12 col-sm-8 col-md-4">
+                <div class="col-xs-12 col-sm-6 col-lg-4 offset-lg-2">
                     <ul class="address_block">
-                        <li><a href="tel:+41 00 732 80 00"><i class="fa fa-phone" aria-hidden="true"></i><span>+41 00 732 80 00</span></a></li>
-                        <li><a href="tel:+41 76 386 61 85"><i class="fa fa-mobile" aria-hidden="true"></i><span>+41 76 386 61 85</span></a></li>
+                        <li><a href="tel:+41 00 732 80 00"><i class="fa fa-phone" aria-hidden="true"></i><span>+41 22 732 80 00</span></a></li>
+                        <!--                        <li><a href="tel:+41 76 386 61 85"><i class="fa fa-mobile" aria-hidden="true"></i><span>+41 76 386 61 85</span></a></li>-->
                         <li><i class="fa fa-map-marker" aria-hidden="true"></i><span>Rue Rousseau 5 - 1201 Genève</span></li>
                         <li><a href="mailto:mb@rousseau5.ch"><i class="fa fa-envelope" aria-hidden="true"></i><span>mb@rousseau5.ch</span></a></li>
                     </ul>
-                    <div class="input_container light">
+                </div>
+                <div class="col-xs-12 col-sm-6 col-lg-4">
+                    <a href="/team.php" class="btn light">L’equipe</a>
+                    <div class="input_container light margin_top_10">
                         <input type="text" placeholder="Inscrivez-vous à notre newsletter">
                         <button type="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
                     </div>
@@ -137,6 +96,7 @@
             <li class="twitter"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
             <li class="linkedin"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
             <li class="facebook"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li class="youtube"><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
             <li class="scroll_to_top"><a href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i></a></li>
         </ul>
     </section>

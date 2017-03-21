@@ -364,10 +364,7 @@
         display: none; }
 
   .contact_form_section form {
-    padding: 20px 15px 0 15px; }
-
-  footer .footer_bottom_section .address_block {
-    margin-top: 25px; } }
+    padding: 20px 15px 0 15px; } }
 @media screen and (min-width: 544px) and (max-width: 767px) {
   #results_promotions .results_container.grid_view .container-fluid > .row .object_block_container .object_block .info_block .title_container a,
   #results_promotions .results_container.map_view .container-fluid > .row .object_block_container .object_block .info_block .title_container a {
@@ -604,6 +601,9 @@
   #agency .agency_info_section .agency_info_container {
     padding: 15px; }
     #agency .agency_info_section .agency_info_container h1, #agency .agency_info_section .agency_info_container h2, #agency .agency_info_section .agency_info_container p, #agency .agency_info_section .agency_info_container ul {
-      margin-bottom: 15px; } }
+      margin-bottom: 15px; }
+
+  footer .footer_bottom_section {
+    padding-top: 30px; } }
 
 /*# sourceMappingURL=media_queries.css.map */

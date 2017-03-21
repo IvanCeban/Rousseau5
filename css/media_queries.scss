@@ -672,12 +672,6 @@
   .contact_form_section form {
     padding: 20px 15px 0 15px;
   }
-
-  footer {
-    .footer_bottom_section .address_block {
-      margin-top: 25px;
-    }
-  }
 }
 
 @media screen and ( min-width: 544px) and (max-width: 767px) {
@@ -1096,6 +1090,12 @@
           margin-bottom: 15px;
         }
       }
+    }
+  }
+
+  footer {
+    .footer_bottom_section {
+      padding-top: 30px;
     }
   }
 }
