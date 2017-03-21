@@ -413,8 +413,8 @@
                     <div class="row">
                         <div class="col-xs-12">
                             <a href="#" class="category sell_category">
-                                <!--<img src="img/category1.jpg" alt="Acat Residentiel">-->
-                                <div class="category_title"><span>Acat Residentiel</span></div>
+                                <!--<img src="img/category1.jpg" alt="Achat Residentiel">-->
+                                <div class="category_title"><span>Achat Residentiel</span></div>
                                 <div class="gradient_bottom"></div>
                             </a>
                         </div>
