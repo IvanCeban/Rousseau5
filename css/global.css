@@ -1424,7 +1424,7 @@ footer .footer_top_section {
     color: white;
     margin-bottom: 15px; }
 footer .footer_bottom_section {
-  padding: 60px 0 50px;
+  padding: 30px 0 50px;
   background: #2c314f;
   color: #e5e5e5;
   position: relative;
@@ -1451,7 +1451,7 @@ footer .footer_bottom_section {
       margin-bottom: 15px; }
       footer .footer_bottom_section .address_block li a {
         color: #e5e5e5; }
-      footer .footer_bottom_section .address_block li i.fa {
+      footer .footer_bottom_section .address_block li i {
         margin-right: 5px;
         font-size: 20px;
         color: #d3c070;
@@ -1474,7 +1474,7 @@ footer .footer_bottom_section {
   footer .footer_bottom_section ul.social_networks {
     position: absolute;
     bottom: 0;
-    right: 0;
+    right: 50px;
     z-index: 1; }
     footer .footer_bottom_section ul.social_networks li {
       float: left;
@@ -1487,24 +1487,47 @@ footer .footer_bottom_section {
         width: 50px;
         line-height: 40px;
         text-align: center;
-        font-size: 1rem; }
-    footer .footer_bottom_section ul.social_networks li:hover a {
-      color: #ffffff;
-      font-size: 1.25rem; }
-    footer .footer_bottom_section ul.social_networks li.twitter {
-      background-color: #21aaf4; }
-    footer .footer_bottom_section ul.social_networks li.facebook {
-      background-color: #4464a2; }
-    footer .footer_bottom_section ul.social_networks li.linkedin {
-      background-color: #037cb6; }
-    footer .footer_bottom_section ul.social_networks li.youtube {
-      background-color: #cd1f22; }
-      footer .footer_bottom_section ul.social_networks li.youtube a {
-        font-size: 1.25rem; }
-      footer .footer_bottom_section ul.social_networks li.youtube:hover a {
+        font-size: 1.25rem;
+        text-decoration: none; }
+        footer .footer_bottom_section ul.social_networks li a i.icn,
+        footer .footer_bottom_section ul.social_networks li a:visited i.icn,
+        footer .footer_bottom_section ul.social_networks li a:focus i.icn {
+          position: relative;
+          top: 2px; }
+      footer .footer_bottom_section ul.social_networks li:hover a {
+        color: #ffffff;
         font-size: 1.5rem; }
-    footer .footer_bottom_section ul.social_networks li.scroll_to_top {
-      background-color: #424661; }
+      footer .footer_bottom_section ul.social_networks li.twitter {
+        background-color: #21aaf4; }
+      footer .footer_bottom_section ul.social_networks li.facebook {
+        background-color: #4464a2; }
+      footer .footer_bottom_section ul.social_networks li.linkedin {
+        background-color: #037cb6; }
+      footer .footer_bottom_section ul.social_networks li.youtube {
+        background-color: #40344d; }
+  footer .footer_bottom_section .scroll_to_top {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: #424661; }
+    footer .footer_bottom_section .scroll_to_top a,
+    footer .footer_bottom_section .scroll_to_top a:visited,
+    footer .footer_bottom_section .scroll_to_top a:focus {
+      color: #e5e5e5;
+      display: block;
+      width: 50px;
+      line-height: 40px;
+      text-align: center;
+      font-size: 1.25rem;
+      text-decoration: none; }
+      footer .footer_bottom_section .scroll_to_top a i.icn,
+      footer .footer_bottom_section .scroll_to_top a:visited i.icn,
+      footer .footer_bottom_section .scroll_to_top a:focus i.icn {
+        position: relative;
+        top: 2px; }
+    footer .footer_bottom_section .scroll_to_top:hover a {
+      color: #ffffff;
+      font-size: 1.5rem; }
 
 .tooltipster-sidetip .tooltipster-box {
   background: #2c314f;

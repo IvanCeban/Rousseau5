@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?rdvyqk');
-  src:  url('fonts/icomoon.eot?rdvyqk#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?rdvyqk') format('truetype'),
-    url('fonts/icomoon.woff?rdvyqk') format('woff'),
-    url('fonts/icomoon.svg?rdvyqk#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?apnarh');
+  src:  url('fonts/icomoon.eot?apnarh#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?apnarh') format('truetype'),
+    url('fonts/icomoon.woff?apnarh') format('woff'),
+    url('fonts/icomoon.svg?apnarh#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -205,5 +205,11 @@
 }
 .icon-cancel:before {
   content: "\e925";
+}
+.icon-youtube:before {
+  content: "\e93a";
+}
+.icon-team:before {
+  content: "\e93b";
 }
 

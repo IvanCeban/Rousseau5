@@ -63,27 +63,23 @@
     <section class="footer_bottom_section">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-xs-12 col-sm-6 col-lg-4 offset-lg-2">
+                <div class="col-xs-12 col-md-6 col-lg-7 col-xl-8">
+                    <p>Achat/vente immobilier de prestige suisse : genève, vaud, lac léman, genève centre, valais, genève centre rive droite, genève centre rive gauche, genève rive droite, crans-montana, saint-prex, rhône-arve, vaud la côte.</p>
+                    <p class="margin_top_15">Achat/location de biens immobiliers de prestige à vendre en suisse : vente appartements de lux suisse, maison en vente de luxe suisse, vente chalets de luxe suisse, vente propriété suisse, vente villas de luxe suisse, vente terrain suisse, vente derniers étages suisse, vente attique suisse. Location biens immobiliers de prestige à louer en Suisse, location appartement, location villas, location maison, relocation, Family service.</p>
+                    <p class="margin_top_15 margin_bottom_15">Agence immobilière de prestige en Suisse, agence immobilière Genève GE, agence immobilière Morges, agence immobilière Crans-Montana, Agence immoiblière Vaud. Service immobiliers en suisse, service immoiblier sur mesure, service immoibliers de prestige en suisse, achat/vente immobilier de luxe en Suisse, location immobilier en Suisse, location immobilier Genève, relocation immobilier Genève, Family service Genève.</p>
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-6 col-lg-5 col-xl-4">
                     <ul class="address_block">
                         <li><a href="tel:+41 00 732 80 00"><i class="fa fa-phone" aria-hidden="true"></i><span>+41 22 732 80 00</span></a></li>
                         <!--                        <li><a href="tel:+41 76 386 61 85"><i class="fa fa-mobile" aria-hidden="true"></i><span>+41 76 386 61 85</span></a></li>-->
                         <li><i class="fa fa-map-marker" aria-hidden="true"></i><span>Rue Rousseau 5 - 1201 Genève</span></li>
                         <li><a href="mailto:mb@rousseau5.ch"><i class="fa fa-envelope" aria-hidden="true"></i><span>mb@rousseau5.ch</span></a></li>
+                        <li><a href="/team.php"><i class="icn icon-team"></i><span>See team page</span></a></li>
                     </ul>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-lg-4">
-                    <a href="/team.php" class="btn light">L’equipe</a>
                     <div class="input_container light margin_top_10">
                         <input type="text" placeholder="Inscrivez-vous à notre newsletter">
                         <button type="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
                     </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-12">
-                    <p class="margin_top_15">Achat/vente immobilier de prestige suisse : genève, vaud, lac léman, genève centre, valais, genève centre rive droite, genève centre rive gauche, genève rive droite, crans-montana, saint-prex, rhône-arve, vaud la côte.</p>
-                    <p class="margin_top_15">Achat/location de biens immobiliers de prestige à vendre en suisse : vente appartements de lux suisse, maison en vente de luxe suisse, vente chalets de luxe suisse, vente propriété suisse, vente villas de luxe suisse, vente terrain suisse, vente derniers étages suisse, vente attique suisse. Location biens immobiliers de prestige à louer en Suisse, location appartement, location villas, location maison, relocation, Family service.</p>
-                    <p class="margin_top_15">Agence immobilière de prestige en Suisse, agence immobilière Genève GE, agence immobilière Morges, agence immobilière Crans-Montana, Agence immoiblière Vaud. Service immobiliers en suisse, service immoiblier sur mesure, service immoibliers de prestige en suisse, achat/vente immobilier de luxe en Suisse, location immobilier en Suisse, location immobilier Genève, relocation immobilier Genève, Family service Genève.</p>
                 </div>
             </div>
             <div class="row">
@@ -93,11 +89,11 @@
             </div>
         </div>
         <ul class="social_networks">
+            <li class="youtube"><a href="#"><i class="icn icon-youtube"></i></a></li>
             <li class="twitter"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
             <li class="linkedin"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
             <li class="facebook"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-            <li class="youtube"><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
-            <li class="scroll_to_top"><a href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i></a></li>
         </ul>
+        <div class="scroll_to_top"><a href="#"><i class="icn icon-up_page"></i></a></div>
     </section>
 </footer>

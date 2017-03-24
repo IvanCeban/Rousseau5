@@ -1004,7 +1004,7 @@ footer {
     }
   }
   .footer_bottom_section {
-    padding: 60px 0 50px;
+    padding: 30px 0 50px;
     background: $main_blue;
     color: $text_light_gray;
     position: relative;
@@ -1035,7 +1035,7 @@ footer {
         a {
           color: $text_light_gray;
         }
-        i.fa {
+        i {
           margin-right: 5px;
           font-size: 20px;
           color: $main_yellow;
@@ -1068,7 +1068,7 @@ footer {
     ul.social_networks {
       position: absolute;
       bottom: 0;
-      right: 0;
+      right: 50px;
       z-index: 1;
       li {
         float: left;
@@ -1081,37 +1081,60 @@ footer {
           width: 50px;
           line-height: 40px;
           text-align: center;
-          font-size: 1rem;
-        }
-      }
-      li:hover {
-        a {
-          color: #ffffff;
           font-size: 1.25rem;
-        }
-      }
-      li.twitter {
-        background-color: #21aaf4;
-      }
-      li.facebook {
-        background-color: #4464a2;
-      }
-      li.linkedin {
-        background-color: #037cb6;
-      }
-      li.youtube {
-        background-color: #cd1f22;
-        a {
-          font-size: 1.25rem;
+          text-decoration: none;
+          i.icn {
+            position: relative;
+            top: 2px;
+          }
         }
         &:hover {
           a {
+            color: #ffffff;
             font-size: 1.5rem;
           }
         }
+        &.twitter {
+          background-color: #21aaf4;
+        }
+        &.facebook {
+          background-color: #4464a2;
+        }
+        &.linkedin {
+          background-color: #037cb6;
+        }
+        &.youtube {
+          background-color: #40344d;
+        }
       }
-      li.scroll_to_top {
-        background-color: #424661;
+
+
+    }
+    .scroll_to_top {
+      position: fixed;
+      bottom: 0;
+      right: 0;
+      background-color: #424661;
+      a,
+      a:visited,
+      a:focus {
+        color: $text_light_gray;
+        display: block;
+        width: 50px;
+        line-height: 40px;
+        text-align: center;
+        font-size: 1.25rem;
+        text-decoration: none;
+        i.icn {
+          position: relative;
+          top: 2px;
+        }
+      }
+      &:hover {
+        a {
+          color: #ffffff;
+          font-size: 1.5rem;
+        }
       }
     }
   }

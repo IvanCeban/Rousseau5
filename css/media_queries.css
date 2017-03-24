@@ -601,9 +601,6 @@
   #agency .agency_info_section .agency_info_container {
     padding: 15px; }
     #agency .agency_info_section .agency_info_container h1, #agency .agency_info_section .agency_info_container h2, #agency .agency_info_section .agency_info_container p, #agency .agency_info_section .agency_info_container ul {
-      margin-bottom: 15px; }
-
-  footer .footer_bottom_section {
-    padding-top: 30px; } }
+      margin-bottom: 15px; } }
 
 /*# sourceMappingURL=media_queries.css.map */
